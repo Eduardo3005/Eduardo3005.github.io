@@ -1,0 +1,29 @@
+@import "../../../assets/style/fonts/fonts-declarations.scss";
+@import "../../../assets/style/colors.scss";
+
+.navbar-toggler{
+ margin-right: 15px !important;
+}
+
+.navbar{
+  font-size: small;
+  font-weight: bold;
+}
+.navbar-brand{
+  font-size: xx-large;
+}
+
+.nav-link {
+  color: $grey-dark;
+  font-family: 'Sarabu-Regular', sans-serif;
+  font-weight: 300;
+  letter-spacing: 2px;
+}
+
+.dropdown-menu {
+  min-width: 0rem;
+}
+
+li {
+  padding: 15px;
+}

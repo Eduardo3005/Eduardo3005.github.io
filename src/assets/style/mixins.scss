@@ -1,0 +1,44 @@
+@import "fonts/fonts-declarations.scss";
+@import "colors.scss";
+
+.card-body{
+  background-color: #ffffff;
+
+  .card-title{
+    margin-top: 96px;
+    padding-bottom: 16px;
+  }
+
+  .text {
+    color: $grey-light;
+    font-family: "SourceSerifPro-Regular", serif;
+    padding-bottom: 16px;
+    width:55%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin:auto;
+
+    @media (max-width: 768px) {
+      width:80%;
+    }
+
+    &.description {
+      width:75%;
+      padding: 8px;
+      margin:8px auto;
+    }
+  }
+
+  .link-button {
+    color: #606060;
+    font-family: "Sarabun-Regular", sans-serif;
+    padding: 8px;
+  }
+}
+
+.yellow-background{
+  background-color: $yellow;
+  padding: 8px;
+  margin-bottom: 16px;
+}

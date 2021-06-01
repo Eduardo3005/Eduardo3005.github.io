@@ -1,0 +1,108 @@
+<div id="mainSlideShow" class="carousel slide house-carousel" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li *ngFor="let slide of mainSlideShow; let i = index" data-target="#mainSlideShow" [attr.data-slide-to]="i" [class.active]="i == 0"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item" *ngFor="let slide of mainSlideShow; let i = index" [class.active]="i == 0" >
+      <svg class="bd-placeholder-img" width="100%" height="100%"> <rect width="100%" height="100%" fill="#777" /> <text x="50%" y="50%" fill="#777" dy=".3em"></text></svg>
+      <div class="container"></div>
+      <div class="carousel-caption">
+        <h1>{{ slide.Title }}</h1>
+        <p>{{ slide.Tooltip }}</p>
+      </div>
+    </div>
+  </div>
+
+  <a class="carousel-control-prev" href="#mainSlideShow" role="button" data-slide="prev" >
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#mainSlideShow" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+<div class="card text-center">
+  <div class="card-body">
+    <h1 class="card-title">{{"Home.Resume.Title" | translate}}</h1>
+    <div class="text">
+      {{"Home.Resume.P1" | translate}}
+    </div>
+    <div class="text">
+      {{"Home.Resume.P2" | translate}}
+    </div>
+    <div class="text">
+      {{"Home.Resume.P3" | translate}}
+    </div>
+    <div class="text">
+      {{"Home.Resume.P4" | translate}}
+    </div>
+    <a href="#" class="btn btn-outline-secondary link-button">{{"Home.Resume.Link" | translate}}</a>
+  </div>
+</div>
+
+<div class="card text-center">
+  <div class="card-body video-card">
+    <h1 class="card-title">VIDEO</h1>
+  </div>
+</div>
+
+<div class="card text-center">
+  <div class="card-body houses-header-card-body">
+    <h1 class="card-title">{{"Home.HousesHeader.Title" | translate}}</h1>
+  </div>
+
+  <div class="card mb-3 card-house" *ngFor="let house of houses; let i = index">
+    <div class="row no-gutters">
+      <div class="col-md-4" [ngClass]="i%2 !== 0 ? 'order-md-1' : 'order-md-2'" >
+        <div class="card-body house-card-body">
+          <h1 class = "yellow-background">{{house.Tipology}}</h1>
+          <h1>{{house.Name}}</h1>
+          <div class="text description">{{house.Description}}</div>
+          <a href="#" class="btn btn-outline-secondary link-button">{{"Common.SeeMoreButton" | translate}}</a>
+        </div>
+      </div>
+      <div class="col-md-8" [ngClass]="i%2 !== 0 ? 'order-md-2' : 'order-md-1'">
+        <div id="{{house.Tipology}}" class="carousel slide house-carousel" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li *ngFor="let slide of house.SlideShow; let i = index" [attr.data-target]="'#' + house.Tipology" [attr.data-slide-to]="i" [class.active]="i == 0" ></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item house-carousel-item" *ngFor="let slide of mainSlideShow; let i = index" [class.active]="i == 0">
+              <svg class="bd-placeholder-img" width="100%" height="100%"> <rect width="100%" height="100%" fill="#777" /> <text x="50%" y="50%" fill="#777" dy=".3em"></text></svg>
+              <div class="container"></div>
+              <div class="carousel-caption">
+                <h1>{{ slide.Title }}</h1>
+                <p>{{ slide.Tooltip }}</p>
+              </div>
+            </div>
+          </div>
+
+          <a class="carousel-control-prev" [attr.href]="'#' + house.Tipology" role="button" data-slide="prev" >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" [attr.href]="'#' + house.Tipology" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  <div class="row no-gutters" *ngFor="let place of places; let i = index">
+    <div class="col-md-4">
+      <div class="text">
+       {{ place.ImagePath}}
+      </div>
+      <h3> {{ place.Title}}</h3>
+
+      <div class="text">
+        {{ place.Tooltip}}
+      </div>
+    </div>
+
+  </div>
+

@@ -1,0 +1,11 @@
+/* Application-wide Styles */
+
+  body {
+    margin: 0 !important;
+    padding: 0 !important;
+
+    position: relative;
+    margin: 0;
+    padding-bottom: 15rem;
+    min-height: 100%;
+  }

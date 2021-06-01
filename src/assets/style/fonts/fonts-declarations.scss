@@ -1,0 +1,40 @@
+//	FACE
+@font-face {
+  font-family: "Sarabun-Regular";
+  src: url("/assets/style/fonts/sarabun/Sarabun-Regular.ttf")
+      format("truetype");
+  font-style: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  text-rendering: optimizeLegibility;
+}
+
+@font-face {
+  font-family: "Sarabun-Medium";
+  src: url("/assets/style/fonts/sarabun/Sarabun-Medium.ttf")
+      format("truetype");
+  font-style: 28px;
+  font-weight: 700;
+  line-height: 40px;
+  text-rendering: optimizeLegibility;
+}
+
+@font-face {
+  font-family: "Sarabun-Bold";
+  src: url("/assets/style/fonts/sarabun/Sarabun-Bold.ttf")
+      format("truetype");
+  font-style: 40px;
+  font-weight: 700;
+  line-height: 55px;
+  text-rendering: optimizeLegibility;
+}
+
+@font-face {
+  font-family: "SourceSerifPro-Regular";
+  src: url("/assets/style/fonts/source-serif-pro/SourceSerifPro-Regular.ttf")
+      format("truetype");
+  font-style: 16px;
+  font-weight: 400;
+  line-height: 27px;
+  text-rendering: optimizeLegibility;
+}

@@ -1,0 +1,31 @@
+{
+  "Home":{
+    "Title": "Home",
+    "Language": "ENG",
+    "EnglishLanguage" : "English",
+    "MainSlideShow": [
+      {
+        "ImagePath":"",
+        "Title": "Slide 1",
+        "Tooltip": "Description 1"
+      },
+      {
+        "ImagePath":"",
+        "Title": "Slide 2",
+        "Tooltip": "Description 2"
+      },
+      {
+        "ImagePath":"",
+        "Title": "Slide 3",
+        "Tooltip": "Description 3"
+      }
+    ]
+  },
+  "NavBar":{
+    "History": "HISTORY",
+    "Houses" : "HOUSES",
+    "Places": "PLACES TO DISCOVER",
+    "Contacts": "CONTACTS",
+    "Language": "LANGUAGE"
+  }
+}

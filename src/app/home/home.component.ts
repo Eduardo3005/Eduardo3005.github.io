@@ -2,9 +2,8 @@ import { Component, OnInit } from '@angular/core';
 import { select, Store } from '@ngrx/store';
 import {  TranslateService } from '@ngx-translate/core';
 import { AppState } from '../state/app-state';
-import { setLanguage } from '../state/language/language-actions';
 import { selectLanguage } from '../state/language/language-state';
-import { tap, take } from 'rxjs/operators';
+import { tap } from 'rxjs/operators';
 import { SlideShowElement } from '../models/slide-show-element';
 import { House } from '../models/house';
 import { Place } from '../models/place';
@@ -39,18 +38,12 @@ export class HomeComponent implements OnInit {
 				select(selectLanguage),
 				tap((language: string) => {
           this.translate.use(language)
-				}),
-				take(1)
+				})
 			).subscribe()
 
       this.getMainSlideShow();
       this.getHouses();
       this.getPlaces();
-  }
-
-  setLanguage(language: string) {
-    this.store.dispatch(setLanguage({ language }));
-    this.ngOnInit();
   }
 
   getMainSlideShow(){

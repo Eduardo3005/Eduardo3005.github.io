@@ -136,5 +136,8 @@
   "Common":{
     "ReadMoreButton": "LER MAIS",
     "SeeMoreButton": "VER MAIS"
+  },
+  "Footer": {
+    "Link": "FICHA TÉCNICA DO PROJECTO"
   }
 }

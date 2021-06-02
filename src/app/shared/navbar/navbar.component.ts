@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { select, Store } from '@ngrx/store';
 import { TranslateService } from "@ngx-translate/core";
-import { take, tap } from 'rxjs/operators';
+import { tap } from 'rxjs/operators';
 import { AppState } from 'src/app/state/app-state';
 import { setLanguage } from 'src/app/state/language/language-actions';
 import { selectLanguage } from 'src/app/state/language/language-state';
@@ -23,14 +23,12 @@ export class NavbarComponent implements OnInit {
       select(selectLanguage),
       tap((language: string) => {
         this.translate.use(language)
-      }),
-      take(1)
+      })
     ).subscribe()
   }
 
   setLanguage(language: string) {
     this.store.dispatch(setLanguage({ language }));
-    this.ngOnInit();
   }
 
 }

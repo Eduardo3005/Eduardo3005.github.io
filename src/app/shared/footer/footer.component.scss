@@ -8,6 +8,9 @@ footer {
   bottom: 0;
   width: 100%;
 
+  .row{
+    margin-left: 0;
+  }
 
   .item {
     padding: 20px;
@@ -19,15 +22,11 @@ footer {
   .second-item {
 
     padding: 20px;
-    height: 48px;
+    height: 96px ;
     width: 100%;
     background-color: $green-light;
 
   }
-}
-
-.push-right {
-  margin-left: auto;
 }
 
 a{

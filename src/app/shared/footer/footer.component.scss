@@ -1,0 +1,36 @@
+@import "../../../assets/style/fonts/fonts-declarations.scss";
+@import "../../../assets/style/colors.scss";
+
+footer {
+  margin-top: 50px;
+  color: #ffffff;
+  height: 100px;
+  bottom: 0;
+  width: 100%;
+
+
+  .item {
+    padding: 20px;
+    height: 248px;
+    width: 100%;
+    background-color: $green-dark;
+  }
+
+  .second-item {
+
+    padding: 20px;
+    height: 48px;
+    width: 100%;
+    background-color: $green-light;
+
+  }
+}
+
+.push-right {
+  margin-left: auto;
+}
+
+a{
+  text-decoration: none;
+  color: #ffffff;
+}

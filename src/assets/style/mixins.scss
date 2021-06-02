@@ -7,6 +7,7 @@
   .card-title{
     margin-top: 96px;
     padding-bottom: 16px;
+    text-align: center;
   }
 
   .text {
@@ -19,21 +20,41 @@
     flex-direction: column;
     margin:auto;
 
+    &.place-description{
+      width:100%;
+      text-align: left;
+    }
+
     @media (max-width: 768px) {
       width:80%;
     }
 
     &.description {
-      width:75%;
+      width:85%;
       padding: 8px;
       margin:8px auto;
     }
   }
 
-  .link-button {
-    color: #606060;
-    font-family: "Sarabun-Regular", sans-serif;
-    padding: 8px;
+  .btn-outline-secondary{
+    border-radius: 0;
+    width:fit-content;
+    margin: 0 auto;
+    margin-top: 16px;
+    display: flex;
+
+    .link-button {
+      text-align: center;
+      color: $grey-dark;
+      font-family: "Sarabun-Regular", sans-serif;
+      padding: 8px;
+      display: flex;
+      justify-content: center;
+      &:hover{
+        color: #ffffff;
+        background-color: $grey-dark;
+      }
+    }
   }
 }
 
@@ -42,3 +63,45 @@
   padding: 8px;
   margin-bottom: 16px;
 }
+
+
+body {
+  font-family: "Sarabun-Regular", sans-serif;
+}
+
+h1 {
+  color: $grey-dark;
+  font-family: "Sarabun-Bold", sans-serif;
+  letter-spacing: 8px;
+}
+
+h2 {
+  color: $grey-dark;
+  font-family: "Sarabun-Medium", sans-serif;
+  letter-spacing: 2px;
+}
+
+h3 {
+  color: $grey-dark;
+  font-family: "Sarabun-Regular", sans-serif;
+  letter-spacing: 1px;
+}
+
+.button {
+  color: $grey-dark;
+  font-family: "Sarabun-Regular", sans-serif;
+  letter-spacing: 1px;
+}
+
+.text {
+  color: $grey-light;
+  font-family: "SourceSerifPro-Regular", serif;
+  letter-spacing: 1px;
+
+  &.place-description{
+    width:100%;
+    text-align: left;
+  }
+}
+
+

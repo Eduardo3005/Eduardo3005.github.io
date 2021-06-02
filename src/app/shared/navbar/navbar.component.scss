@@ -22,8 +22,14 @@
 
 .dropdown-menu {
   min-width: 0rem;
+  background-color: #f8f9fa !important;
 }
 
 li {
   padding: 15px;
+}
+
+.dropdown-item{
+  text-decoration: none;
+
 }

@@ -1,12 +1,20 @@
 @import "fonts/fonts-declarations.scss";
 @import "colors.scss";
 
+
+.card {
+  border: none;
+  margin-top: 96px;
+
+  @media (max-width: 768px) {
+    margin-top: 24px;
+    margin-bottom: 24px;
+  }
+}
 .card-body{
   background-color: #ffffff;
 
   .card-title{
-    margin-top: 96px;
-    padding-bottom: 16px;
     text-align: center;
   }
 
@@ -14,11 +22,12 @@
     color: $grey-light;
     font-family: "SourceSerifPro-Regular", serif;
     padding-bottom: 16px;
-    width:55%;
+    width:65%;
     display: flex;
     justify-content: center;
     flex-direction: column;
     margin:auto;
+    margin-top:16px;
 
     &.place-description{
       width:100%;
@@ -105,3 +114,8 @@ h3 {
 }
 
 
+rect{
+  fill: $green-light;
+  width: 100%;
+  height: 100%;
+}

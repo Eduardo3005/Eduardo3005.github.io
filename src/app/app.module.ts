@@ -10,7 +10,6 @@ import { AppComponent } from './app.component';
 import { HistoryComponent } from './history/history.component';
 import { HomeComponent } from './home/home.component';
 import { HouseDetailComponent } from './house-detail/house-detail.component';
-import { HousesComponent } from './houses/houses.component';
 import { PlacesComponent } from './places/places.component';
 import { FooterComponent } from './shared/footer/footer.component';
 import { NavbarComponent } from './shared/navbar/navbar.component';
@@ -26,7 +25,6 @@ export function HttpLoaderFactory(http: HttpClient) {
 @NgModule({
   declarations: [
     AppComponent,
-    HousesComponent,
     HouseDetailComponent,
     HomeComponent,
     PlacesComponent,

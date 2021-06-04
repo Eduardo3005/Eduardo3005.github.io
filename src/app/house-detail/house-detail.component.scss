@@ -19,7 +19,6 @@
 .left-card {
   border-left: 2px solid $grey-light;
   width: 100%;
-
 }
 
 .card-body {
@@ -31,24 +30,21 @@
     }
   }
 
-  .left-card-text{
-    margin-top:16px;
+  .left-card-text {
+    margin-top: 16px;
     width: 100%;
 
-    h3{
+    h3 {
       margin-left: 16px;
     }
   }
 
   .text {
-    width:70%;
-
-
+    width: 70%;
 
     @media (max-width: 768px) {
-      width:90%;
+      width: 90%;
     }
-
   }
 
   .line {
@@ -78,18 +74,13 @@ ul {
   width: 80%;
 }
 
-  .card{
-
-    .card-body{
-
-      &.card-body-gallery{
-
-        background-color: $yellow;
-        width: 100%;
-        margin-right: 0 !important;
-        margin-left: 0 !important;
-
-      }
+.card {
+  .card-body {
+    &.card-body-gallery {
+      background-color: $yellow;
+      width: 100%;
+      margin-right: 0 !important;
+      margin-left: 0 !important;
     }
   }
-
+}

@@ -6,7 +6,7 @@
 }
 
 .carousel-item {
-  height: 97vh;
+  height: 98vh;
 
   @media (max-width: 768px) {
     margin-top: 0;
@@ -84,7 +84,7 @@
     align-items: center;
     justify-content: center;
     height: 500px;
-   border-bottom: 2px solid $grey-light;
+    border-bottom: 2px solid $grey-light;
     @media (max-width: 768px) {
       padding-bottom: 48px;
     }

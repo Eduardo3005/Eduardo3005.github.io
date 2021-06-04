@@ -1,5 +1,4 @@
-@import "../../../assets/style/fonts/fonts-declarations.scss";
-@import "../../../assets/style/colors.scss";
+@import "../../../assets/style/mixins.scss";
 
 footer {
   margin-top: 50px;
@@ -25,11 +24,19 @@ footer {
     height: 96px ;
     width: 100%;
     background-color: $green-light;
-
   }
 }
 
 a{
-  text-decoration: none;
   color: #ffffff;
+  &:hover{
+    color: $grey-dark;
+    background-color: #ffffff;
+  }
+}
+
+.right {
+  position: absolute;
+  margin: 0 auto;
+  right: 16px;
 }

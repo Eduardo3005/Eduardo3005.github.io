@@ -15,14 +15,14 @@ import { Place } from '../models/place';
 })
 export class HomeComponent implements OnInit {
 
-  public browserLang: string;
-  public title: string;
-  public mainSlideShow: Array<SlideShowElement>;
-  public houseT1SlideShow: Array<SlideShowElement>;
-  public houseT2SlideShow: Array<SlideShowElement>;
-  public houseT3SlideShow: Array<SlideShowElement>;
-  public houses: Array<House>;
-  public places: Array<Place>;
+  browserLang: string;
+  title: string;
+  mainSlideShow: Array<SlideShowElement>;
+  houseT1SlideShow: Array<SlideShowElement>;
+  houseT2SlideShow: Array<SlideShowElement>;
+  houseT3SlideShow: Array<SlideShowElement>;
+  houses: Array<House>;
+  places: Array<Place>;
 
   constructor(
     private readonly store: Store<AppState>,
@@ -54,7 +54,7 @@ export class HomeComponent implements OnInit {
   }
 
   getHouses(){
-    this.translate.get("Home.Houses").subscribe((res : Array<House>) => {
+    this.translate.get("Houses").subscribe((res : Array<House>) => {
       this.houses = res
     });
   }

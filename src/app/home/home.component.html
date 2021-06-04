@@ -1,8 +1,4 @@
-<div
-  id="mainSlideShow"
-  class="carousel slide house-carousel"
-  data-ride="carousel"
->
+<div id="mainSlideShow" class="carousel slide" data-ride="carousel">
   <ol class="carousel-indicators">
     <li
       *ngFor="let slide of mainSlideShow; let i = index"
@@ -18,7 +14,7 @@
       [class.active]="i == 0"
     >
       <svg class="bd-placeholder-img" width="100%" height="100%">
-        <rect  />
+        <rect />
         <text x="50%" y="50%" dy=".3em"></text>
       </svg>
       <div class="container"></div>
@@ -58,21 +54,15 @@
     <div class="text">
       {{ "Home.Resume.P2" | translate }}
     </div>
-    <div class="text">
-      {{ "Home.Resume.P3" | translate }}
-    </div>
-    <div class="text">
-      {{ "Home.Resume.P4" | translate }}
-    </div>
     <a href="#" class="btn btn-outline-secondary link-button">{{
-      "Home.Resume.Link" | translate
+      "Common.KnowMoreAboutUs" | translate
     }}</a>
   </div>
 </div>
 
 <div class="card text-center">
   <div class="card-body video-card">
-    <h1 class="card-title">VIDEO</h1>
+    <h1 class="card-title">video</h1>
   </div>
 </div>
 
@@ -81,7 +71,7 @@
     <h1 class="card-title">{{ "Home.HousesHeader.Title" | translate }}</h1>
   </div>
 
-  <div class="card mb-3 card-house" *ngFor="let house of houses; let i = index">
+  <div class="card  card-house" *ngFor="let house of houses; let i = index">
     <div class="row no-gutters">
       <div
         class="col-md-4"
@@ -89,10 +79,10 @@
       >
         <div class="card-body house-card-body">
           <h2 class="yellow-background">{{ house.Tipology }}</h2>
-          <h2>{{ house.Name }}</h2>
-          <div class="text description">{{ house.Description }}</div>
+          <h2 class="uppercase">{{ house.Name }}</h2>
+          <div class="text description ">{{ house.Description }}</div>
           <a href="#" class="btn btn-outline-secondary link-button">{{
-            "Common.SeeMoreButton" | translate
+            "Common.SeeMore" | translate
           }}</a>
         </div>
       </div>
@@ -102,7 +92,7 @@
       >
         <div
           id="{{ house.Tipology }}"
-          class="carousel slide house-carousel"
+          class="carousel slide "
           data-ride="carousel"
         >
           <ol class="carousel-indicators">
@@ -158,19 +148,19 @@
 <div class="card">
   <div class="card-body">
     <h1 class="card-title">{{ "Home.Places.Title" | translate }}</h1>
-    <div class="gallery" >
+    <div class="gallery">
       <div class="item" *ngFor="let place of places; let i = index">
         <div class="image">
-          <img src="{{place.ImagePath}}" alt="{{i}}">
+          <img src="{{ place.ImagePath }}" alt="{{ i }}" />
         </div>
-        <h3>{{ place.Title }}</h3>
+        <h3 class="uppercase">{{ place.Title }}</h3>
         <div class="place-description text">
           {{ place.Tooltip }}
         </div>
       </div>
-
+    </div>
+    <a href="#" class="btn btn-outline-secondary link-button uppercase">{{
+      "Common.KnowMoreAboutActivities" | translate
+    }}</a>
   </div>
-  <a href="#" class="btn btn-outline-secondary link-button">{{
-    "Home.Places.Link" | translate
-  }}</a>
 </div>

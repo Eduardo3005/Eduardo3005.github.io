@@ -1,0 +1,95 @@
+@import "../../assets/style/mixins.scss";
+
+.main-image {
+  height: 98vh;
+  background-color: $green-light;
+
+  @media (max-width: 768px) {
+    height: 50vh;
+  }
+}
+
+.house-description {
+  margin-top: 16px;
+  margin-bottom: 32px;
+  display: flex;
+  color: $grey-light;
+}
+
+.left-card {
+  border-left: 2px solid $grey-light;
+  width: 100%;
+
+}
+
+.card-body {
+  .card-title {
+    &.card-title-prices {
+      color: #ffffff;
+      margin-top: 16px;
+      margin-bottom: 16px;
+    }
+  }
+
+  .left-card-text{
+    margin-top:16px;
+    width: 100%;
+
+    h3{
+      margin-left: 16px;
+    }
+  }
+
+  .text {
+    width:70%;
+
+
+
+    @media (max-width: 768px) {
+      width:90%;
+    }
+
+  }
+
+  .line {
+    margin-top: 16px;
+    border-bottom: 1px solid #ffffff;
+  }
+
+  &.prices {
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 32px;
+    background-color: $green-light;
+    color: #ffffff;
+
+    .service {
+      font-family: "Sarabun-Regular", sans-serif;
+      font-size: 14px;
+      margin: 0 auto;
+      margin-left: 16px;
+      text-transform: uppercase;
+      line-height: 24px;
+    }
+  }
+}
+
+ul {
+  width: 80%;
+}
+
+  .card{
+
+    .card-body{
+
+      &.card-body-gallery{
+
+        background-color: $yellow;
+        width: 100%;
+        margin-right: 0 !important;
+        margin-left: 0 !important;
+
+      }
+    }
+  }
+

@@ -20,124 +20,266 @@
         "Tooltip": "Description 3"
       }
     ],
-    "Houses": [
-      {
-        "Tipology": "T1",
-        "Name": "CASA DOS VIDROS",
-        "Description" : "Assim chamada porque a porta de entrada era envidraçada. A sua ampla chaminé dava vida a enchido e torresmos, mas também a amenas cavaqueiras familiares enquanto se esperava a saída do último cliente. Foi transfroma num generoso e agradável T1.",
-        "SlideShow": [
-          {
-            "ImagePath": "",
-            "Title": "Slide 1",
-            "Tooltip": "Description 1"
-          },
-          {
-            "ImagePath": "",
-            "Title": "Slide 2",
-            "Tooltip": "Description 2"
-          },
-          {
-            "ImagePath": "",
-            "Title": "Slide 3",
-            "Tooltip": "Description 3"
-          }
-        ]
-      },
-      {
-        "Tipology": "T2",
-        "Name": "CASA DA VENDA",
-        "Description": "Era aqui que se situava a 'venda', onde se podiam encontrar produtos tão variados como as mercearias e os vinhos, a carne e o peixe, mas também os comprimidos para as dores e o petróleo para os candeeiros que alumiavam as longas e frias noites de inverno. Hoje tornou-se numa confortável habitação de tipologia T2.",
-        "SlideShow": [
-          {
-            "ImagePath": "",
-            "Title": "Slide 1",
-            "Tooltip": "Description 1"
-          },
-          {
-            "ImagePath": "",
-            "Title": "Slide 2",
-            "Tooltip": "Description 2"
-          },
-          {
-            "ImagePath": "",
-            "Title": "Slide 3",
-            "Tooltip": "Description 3"
-          }
-        ]
-      },
-      {
-        "Tipology": "T3",
-        "Name": "CASA DO PORTÃO",
-        "Description": "Teve muitas e variadas funções: de queijaria a matadouro, de loja a salão de baile, deu vida a trabalho e lazer da povoação, já que era aqui que alguns tinham o seu ganha-pão e muitos passavam os seus tempos livres à volta de um copo de tinto, de uma concertina ou de uma grafonola. Atualmente convertida num acolhedor T3, com um simpático e íntimo pátio interior.",
-        "SlideShow": [
-          {
-            "ImagePath": "",
-            "Title": "Slide 1",
-            "Tooltip": "Description 1"
-          },
-          {
-            "ImagePath": "",
-            "Title": "Slide 2",
-            "Tooltip": "Description 2"
-          },
-          {
-            "ImagePath": "",
-            "Title": "Slide 3",
-            "Tooltip": "Description 3"
-          }
-        ]
-      }
-    ],
     "HousesHeader": {
-      "Title": "ALUGAR NO PÁTEO LIMA"
+      "Title": "Alugar no páteo lima"
     },
     "Resume": {
-      "Title": "UM LUGAR COM HISTÓRIA",
+      "Title": "Um lugar com história",
       "P1": "Com localização privilegiada à entrada principal de Valverde e à ribeira com o mesmo nome, o Páteo Lima goza da proximidade da cidade património mundial de Évora, de importantes conjuntos megalíticos, ruínas romanas e medievais e até de uma quinta episcopal quinhentista, rodeada pela magnífica paisagem alentejana do sopé da serra de Monfurado.",
-      "P2": "Constituído por um conjunto de três casas de tipologia T1, T2 e T3, para além da habitação dos proprietários, que foram buscar os nomes à forma como eram habitualmente designadas pela família, esta unidade de Turismo Rural resulta da reconversão de um antigo ponto comercial que, na sua época áurea, chegou a contar com mercearia, retrosaria, sapataria, taberna, padaria, talho e queijaria, alimentados pela produção agropecuária da própria quinta.",
-      "P3": "A aquisição da propriedade pela família Lima remonta a 1874, por iniciativa do trisavô da promotora – Custódio Joaquim – que começou a dar forma a um negócio que se foi expandindo ao longo de sucessivas gerações nesta localidade, outrora designada por Valle Verde. Mas este não era um mero lugar de “venda”; ele era também um lugar de encontro de gentes, onde se tecia a vida da aldeia e se interagia com o mundo. O afastamento dos mais novos, à procura de uma vida melhor, e a evolução do mercado levou-o, pouco a pouco, ao declínio e ao encerramento.",
-      "P4": "O nascimento do Páteo Lima vem revitalizar o espaço e atribuir-lhe uma nova função, para que possa voltar a ser vivido, proporcionando novos momentos de partilha entre residentes e forasteiros. Tem como marca diferenciadora a acessibilidade integral a pessoas com mobilidade condicionada",
-      "Link": "SAIBA MAIS SOBRE NÓS"
+      "P2": "Constituído por um conjunto de três casas de tipologia T1, T2 e T3, para além da habitação dos proprietários, que foram buscar os nomes à forma como eram habitualmente designadas pela família, esta unidade de Turismo Rural resulta da reconversão de um antigo ponto comercial que, na sua época áurea, chegou a contar com mercearia, retrosaria, sapataria, taberna, padaria, talho e queijaria, alimentados pela produção agropecuária da própria quinta."
     },
-    "Places":{
-      "Title": "O QUE FAZER",
+    "Places": {
+      "Title": "O que fazer",
       "List": [
         {
-          "ImagePath":"",
-          "Title": "TURISMO DE CIDADE",
+          "ImagePath": "",
+          "Title": "Turismo de cidade",
           "Tooltip": "Évora a 10km."
         },
         {
-          "ImagePath":"",
-          "Title": "WORKSHOPS DE CULINÁRIA",
+          "ImagePath": "",
+          "Title": "Workshops de culinária",
           "Tooltip": "Aprenda os segredos da culinária Alentejana. Actividade organizada pela administração do Páteo Lima."
         },
         {
-          "ImagePath":"",
-          "Title": "ATIVIDADES NO EXTERIOR",
+          "ImagePath": "",
+          "Title": "Atividade de exterior",
           "Tooltip": "Para além das redondezas serem propícias a caminhadas pelo campo, pode participar das actividades da quinta."
         }
-      ],
-      "Link" : "SAIBA MAIS SOBRE AS NOSSAS ACTIVIDADES "
+      ]
     }
   },
   "History": {
     "Title": "Quem somos",
-    "Tooltip" : "Benedita Lima nasceu em Évora, em 1963, tendo vivido na quinta até aos 18 anos. Nessa altura rumou a Lisboa para se tornar Psicóloga, por onde foi ficando, mas o apelo da “terra” trouxe-a de novo às origens. Não veio sozinha; trouxe consigo uma nova geração dos Lima, disposta a dar continuidade ao sonho dos seus antepassados.Tendo dedicado a maior parte do tempo da sua vida profissional à promoção da inclusão social de pessoas em fragilidade social, em especial, de pessoas com deficiência, e defendendo o modelo da vida independente, que preconiza o direito à participação social ativa de todos os cidadãos, esforça-se por contribuir para o efeito em todos os projetos em que se envolve, ideia que também presidiu à criação desta unidade de turismo rural, que se pretende inclusiva."
+    "Tooltip": "Benedita Lima nasceu em Évora, em 1963, tendo vivido na quinta até aos 18 anos. Nessa altura rumou a Lisboa para se tornar Psicóloga, por onde foi ficando, mas o apelo da “terra” trouxe-a de novo às origens. Não veio sozinha; trouxe consigo uma nova geração dos Lima, disposta a dar continuidade ao sonho dos seus antepassados.Tendo dedicado a maior parte do tempo da sua vida profissional à promoção da inclusão social de pessoas em fragilidade social, em especial, de pessoas com deficiência, e defendendo o modelo da vida independente, que preconiza o direito à participação social ativa de todos os cidadãos, esforça-se por contribuir para o efeito em todos os projetos em que se envolve, ideia que também presidiu à criação desta unidade de turismo rural, que se pretende inclusiva."
   },
   "NavBar": {
-    "Title": "PÁTEO LIMA",
-    "History": "QUEM SOMOS",
-    "Houses": "CASAS",
-    "Places": "O QUE FAZER",
-    "Contacts": "CONTACTOS",
-    "Language": "IDIOMA"
+    "Title": "Páteo Lima",
+    "History": "Quem somos",
+    "Houses": "Casas",
+    "Places": "O que fazer",
+    "Contacts": "Contactos",
+    "Language": "Idioma"
   },
-  "Common":{
-    "ReadMoreButton": "LER MAIS",
-    "SeeMoreButton": "VER MAIS"
+  "Common": {
+    "ReadMore": "Ler mais",
+    "SeeMore": "Ver mais",
+    "KnowMoreAboutActivities": "Saiba mais sobre as nossas atividades",
+    "KnowMoreAboutActivities2": "Saiba mais sobre o que ver e fazer",
+    "KnowMoreAboutUs": "Saiba mais sobre nós",
+    "Prices": "Preços",
+    "PersonalizedServices" : "Serviços personalizados",
+    "WelfareActivities": "Actividades de bem estar psicológico",
+    "Accommondations": "Comodidades",
+    "Services": "Serviços",
+    "AdditionalServices": "Com custo adicional",
+    "Outside": "Exterior",
+    "PhotoGallery": "Galeria de fotos"
   },
   "Footer": {
-    "Link": "FICHA TÉCNICA DO PROJECTO"
-  }
+    "Link": "Ficha técnica do projecto"
+  },
+  "Houses": [
+    {
+      "Tipology": "T1",
+      "Name": "Casa dos vidros",
+      "Description": "Assim chamada porque a porta de entrada era envidraçada. A sua ampla chaminé dava vida a enchido e torresmos, mas também a amenas cavaqueiras familiares enquanto se esperava a saída do último cliente. Foi transfroma num generoso e agradável T1.",
+      "SlideShow": [
+        {
+          "ImagePath": "",
+          "Title": "Slide 1",
+          "Tooltip": "Description 1"
+        },
+        {
+          "ImagePath": "",
+          "Title": "Slide 2",
+          "Tooltip": "Description 2"
+        },
+        {
+          "ImagePath": "",
+          "Title": "Slide 3",
+          "Tooltip": "Description 3"
+        }
+      ]
+    },
+    {
+      "Tipology": "T2",
+      "Name": "Casa da venda",
+      "Description": "Era aqui que se situava a 'venda', onde se podiam encontrar produtos tão variados como as mercearias e os vinhos, a carne e o peixe, mas também os comprimidos para as dores e o petróleo para os candeeiros que alumiavam as longas e frias noites de inverno. Hoje tornou-se numa confortável habitação de tipologia T2.",
+      "SlideShow": [
+        {
+          "ImagePath": "",
+          "Title": "Slide 1",
+          "Tooltip": "Description 1"
+        },
+        {
+          "ImagePath": "",
+          "Title": "Slide 2",
+          "Tooltip": "Description 2"
+        },
+        {
+          "ImagePath": "",
+          "Title": "Slide 3",
+          "Tooltip": "Description 3"
+        }
+      ],
+      "FullDescription": "Sempre deu rosto à propriedade e à própria aldeia, pois está virada de frente para a ponte, sendo a primeira fachada que o olhar alcança quando se atravessa a ribeira; era aqui que se situava a “venda”, onde se podiam encontrar produtos tão variados como as mercearias e os vinhos, o pão e a roupa, mas também os comprimidos para as dores e o petróleo para os candeeiros que alumiavam as longas e frias noites de inverno. Hoje tornou-se numa confortável habitação de tipologia T2, solarenga e luminosa durante as manhãs e fresca nas tardes quentes de verão, pois todas as portas do antigo espaço comercial foram transformadas em generosas janelas de sacada viradas para o nascer do sol. Admite a lotação máxima de 6  pessoas, distribuídas por 2 quartos duplos e um sofá cama na sala. Dispõe de kitchenette equipada e wc acessível a cadeira de rodas. ",
+      "Options": [
+        {
+          "Name": "4 pessoas",
+          "Price": "185€ p/ noite"
+        },
+        {
+          "Name": "6 pessoas",
+          "Price": "250€ p/ noite"
+        }
+      ],
+      "Accommodations": [
+        {
+          "Name": "T2 com 2 quartos duplos"
+        },
+        {
+          "Name": "Lotação máxima: 6 pessoas"
+        },
+        {
+          "Name": "Quarto 1: 1 cama dupla"
+        },
+        {
+          "Name": "Quarto 2: 1 cama dupla"
+        }
+      ]
+    },
+    {
+      "Tipology": "T3",
+      "Name": "Casa do portão",
+      "Description": "Teve muitas e variadas funções: de queijaria a matadouro, de loja a salão de baile, deu vida a trabalho e lazer da povoação, já que era aqui que alguns tinham o seu ganha-pão e muitos passavam os seus tempos livres à volta de um copo de tinto, de uma concertina ou de uma grafonola. Atualmente convertida num acolhedor T3, com um simpático e íntimo pátio interior.",
+      "SlideShow": [
+        {
+          "ImagePath": "",
+          "Title": "Slide 1",
+          "Tooltip": "Description 1"
+        },
+        {
+          "ImagePath": "",
+          "Title": "Slide 2",
+          "Tooltip": "Description 2"
+        },
+        {
+          "ImagePath": "",
+          "Title": "Slide 3",
+          "Tooltip": "Description 3"
+        }
+      ]
+    }
+  ],
+  "Farm": {
+    "Title": "Na quinta",
+    "Description": "A quinta é um espaço comum que pode ser desfrutado por todos os hóspedes. Equipada com espreguiçadeiras, é um local para relaxar, ler um livro, apanhar sol ou participar nas tarefas habituais de alimentação dos animais, mediante de orientações, bem como em todas as atividades que vão decorrendo na horta, tais como, sementeira, rega, apanha de frutos e vegetais, que podem ser consumidos pelos próprios."
+  },
+  "PersonalizedServices": [
+    {
+      "Name": "Higiene Pessoal",
+      "Price": "165€"
+    },
+    {
+      "Name": "Confecção e apoio de 1 refeição",
+      "Price": "25€"
+    },
+    {
+      "Name": "Confecção e apoio de 2 refeições",
+      "Price": "40€"
+    },
+    {
+      "Name": "Acompanhamento personalizado 3 horas",
+      "Price": "25€"
+    },
+    {
+      "Name": "Acompanhamento personalizado 6 horas",
+      "Price": "42€"
+    },
+    {
+      "Name": "Acompanhamento personalizado 12 horas",
+      "Price": "75€"
+    }
+  ],
+  "WelfareActivities": [
+    {
+      "Name": "Apoio e aconselhamento individual",
+      "Price": "15€"
+    },
+    {
+      "Name": "Relaxamento individual",
+      "Price": "20€"
+    },
+    {
+      "Name": "Relaxamento 2 pessoas",
+      "Price": "35€"
+    },
+    {
+      "Name": "Relaxamento de grupo",
+      "Price": "50€"
+    }
+  ],
+  "Services": [
+    {
+      "Name": "Pequeno almoço: De tipo continental e com produtos da região, está incluído na diária e pode ser servido na própria casa ou tomado num dos cafés/restaurantes da aldeia"
+    },
+    {
+      "Name": "Higiene e limpeza: Diária; em estadias prolongadas as mudas de roupa de cama e atoalhadosocorrem a cada 3 dias e/ou a pedido dos hóspedes."
+    }
+  ],
+  "AdditionalServices": [
+    {
+      "Name": "Bicicletas"
+    },
+    {
+      "Name": "Canas de pesca"
+    },
+    {
+      "Name": "Tratamento de roupa"
+    },
+    {
+      "Name": "Serviços de apoio personalizado para quem necessitar de apoio na higiene, alimentação, confeção das refeições, etc."
+    }
+  ],
+  "OutdoorAccommodations": [
+    {
+      "Name": "Piscina e terraço acessíveis a quem não possua mobilidade condicionada"
+    },
+    {
+      "Name": "Espreguiçadeiras"
+    },
+    {
+      "Name": "Grelhador (mediante disponibilidade)"
+    },
+    {
+      "Name": "Estacionamento gratuito"
+    }
+  ],
+  "CommonAccommodations": [
+    {
+      "Name": "Sala com sofá-cama"
+    },
+    {
+      "Name": "Kitchenette equipa com placa, forno, combinado, máquina de lavar loiça, torradeira, chaleira, louça e talheres"
+    },
+    {
+      "Name": "Ferro de engomar"
+    },
+    {
+      "Name": "WC acessível a caderias de rodas, equipado com secador de cabelo e produtos para o banho"
+    },
+    {
+      "Name": "Ar condicionado nos quartos e sala"
+    },
+    {
+      "Name": "TV"
+    },
+    {
+      "Name": "Acesso Wi-Fi gratuito em toda a unidade"
+    },
+    {
+      "Name": "Animais permitidos no alojamento, mediante de inscrição"
+    }
+  ]
 }

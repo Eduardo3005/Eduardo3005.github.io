@@ -1,23 +1,36 @@
-@import "../../../assets/style/fonts/fonts-declarations.scss";
-@import "../../../assets/style/colors.scss";
+@import "../../../assets/style/mixins.scss";
+
 
 .navbar-toggler{
  margin-right: 15px !important;
 }
 
 .navbar{
-  font-size: small;
-  font-weight: bold;
+
+  height: 80px;
 }
 .navbar-brand{
   font-size: xx-large;
+  font-weight: bold;
 }
 
 .nav-link {
   color: $grey-dark;
   font-family: 'Sarabu-Regular', sans-serif;
+  font-size: 16px;
   font-weight: 300;
+  line-height: 24px;
   letter-spacing: 2px;
+
+
+}
+
+.nav-item{
+  padding-bottom: 0;
+  bottom: 0;
+  @media (max-width: 1000px) {
+    padding: 0;
+  }
 }
 
 .dropdown-menu {
@@ -27,6 +40,9 @@
 
 li {
   padding: 15px;
+  @media (max-width: 1200px) {
+    padding: 0;
+  }
 }
 
 .dropdown-item{

@@ -17,6 +17,12 @@ import {
 import { House, Accommodation, Option } from '../models/house';
 import { SlideShowElement } from '../models/slide-show-element';
 
+// core version + navigation, pagination modules:
+import SwiperCore, { Navigation, Pagination, Swiper } from 'swiper/core';
+
+// configure Swiper to use modules
+SwiperCore.use([Navigation, Pagination]);
+
 @Component({
   selector: 'app-house-detail',
   templateUrl: './house-detail.component.html',
@@ -44,17 +50,13 @@ export class HouseDetailComponent implements OnInit {
     private router: Router,
     private location: Location
   ) {
-
     this.router.routeReuseStrategy.shouldReuseRoute = () => false;
   }
 
   ngOnInit(): void {
-
-    this.route.params.subscribe(
-      params => {
-        this.houseId = +params['id'];
-      }
-  );
+    this.route.params.subscribe((params) => {
+      this.houseId = +params['id'];
+    });
 
     this.store
       .pipe(
@@ -73,6 +75,40 @@ export class HouseDetailComponent implements OnInit {
     this.getOutdoorAccommodations();
     this.getCommonAccommodations();
     this.getMainSlideShow();
+
+    var swiper = new Swiper('.mySwiper', {
+      fadeEffect: {
+            crossFade: true
+        },
+      breakpointsBase: '1000',
+      loop: true,
+      loopFillGroupWithBlank: true,
+      breakpoints: {
+        '480': {
+          slidesPerView: 1,
+          spaceBetween: 10,
+          slidesPerGroup: 1,
+        },
+        '736': {
+          slidesPerView: 2,
+          spaceBetween: 20,
+          slidesPerGroup: 2,
+        },
+        '1000': {
+          slidesPerView: 3,
+          spaceBetween: 30,
+          slidesPerGroup: 3,
+        }
+      },
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
   }
 
   getMainSlideShow() {

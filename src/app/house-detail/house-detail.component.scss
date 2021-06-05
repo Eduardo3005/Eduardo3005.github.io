@@ -28,6 +28,10 @@
     h3 {
       margin-left: 16px;
     }
+
+    .text-left{
+      margin-left: 16px;
+    }
   }
 
   .text {
@@ -67,6 +71,10 @@ ul {
 
 .card {
   .card-body {
+
+    .card-title-gallery{
+      margin-bottom: 0;
+    }
     &.card-body-gallery {
       background-color: $yellow;
       width: 100%;
@@ -75,38 +83,52 @@ ul {
     }
   }
 }
-
-
-.carousel-caption {
-  bottom: 3rem;
-  z-index: 10;
+.swiper-container {
+  margin-top: 48px;
+  width: 90%;
+  height: 90%;
 }
 
-.carousel-item {
-  height: 35vh;
-  width: 35vh;
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  height: 300px;
+  width: 300px;
+  background-color: $green-light;
 
-  @media (max-width: 768px) {
-    margin-top: 0;
-    height: 50vh;
-  }
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
 }
 
-@media (min-width: 40em) {
-  .carousel-caption p {
-    margin-bottom: 1.25rem;
-    font-size: 1.25rem;
-    line-height: 1.4;
-  }
-
-  .featurette-heading {
-    font-size: 50px;
-  }
+::ng-deep .swiper-pagination-bullet-active {
+	background: $yellow;
 }
 
-@media (min-width: 62em) {
-  .featurette-heading {
-    margin-top: 7rem;
-  }
+.swiper-button-next{
+  color: $yellow;
+  font-size: 12px;
 }
+
+.swiper-button-prev{
+  color: $yellow;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 

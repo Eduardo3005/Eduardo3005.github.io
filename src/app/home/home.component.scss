@@ -32,15 +32,7 @@
   }
 }
 
-.houses-header-card {
-  margin: auto;
-  border: none;
-}
 
-.houses-header-card-body {
-  text-align: center;
-  background-color: #ffffff;
-}
 
 .video-card {
   height: 640px;
@@ -58,23 +50,16 @@
   margin-top: 48px;
   border-top: none;
 
-  @media (min-width: 768px) {
-    margin-top: 48px;
-  }
-
   @media (max-width: 768px) {
-    margin-top: 48px;
+    margin-top: 0px;
   }
 
   .house-carousel-item {
     height: 500px;
 
     @media (max-width: 768px) {
-      height: 50vh;
-    }
-
-    @media (max-width: 768px) {
-      padding-bottom: 48px;
+      height: 400px;
+      padding-bottom:32px;
     }
   }
 
@@ -85,9 +70,13 @@
     justify-content: center;
     height: 500px;
     border-bottom: 2px solid $grey-light;
+    padding: 0;
+
+
     @media (max-width: 768px) {
-      padding-bottom: 48px;
+      height: 380px;
     }
+
   }
 }
 

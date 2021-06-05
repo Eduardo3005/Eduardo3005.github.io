@@ -17,6 +17,7 @@ import { appEffects, appReducers } from './state/app-state';
 import { EffectsModule } from "@ngrx/effects";
 import { StoreDevtoolsModule } from "@ngrx/store-devtools";
 import { ContactsComponent } from './contacts/contacts.component';
+import { RouterModule } from '@angular/router';
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http, './assets/i18n/', '.json');
@@ -38,6 +39,7 @@ export function HttpLoaderFactory(http: HttpClient) {
     BrowserModule,
     FormsModule,
     AppRoutingModule,
+    RouterModule,
     StoreModule.forRoot(appReducers),
 		EffectsModule.forRoot(appEffects),
     StoreDevtoolsModule.instrument(),

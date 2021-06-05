@@ -1,5 +1,5 @@
-import { Component, OnInit, Input } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
+import { Component, OnInit, Input, OnDestroy } from '@angular/core';
+import { ActivatedRoute, Router } from '@angular/router';
 import { Location } from '@angular/common';
 import { select, Store } from '@ngrx/store';
 import { TranslateService } from '@ngx-translate/core';
@@ -15,6 +15,7 @@ import {
   CommonAccommodation,
 } from '../models/common';
 import { House, Accommodation, Option } from '../models/house';
+import { SlideShowElement } from '../models/slide-show-element';
 
 @Component({
   selector: 'app-house-detail',
@@ -24,7 +25,7 @@ import { House, Accommodation, Option } from '../models/house';
 export class HouseDetailComponent implements OnInit {
   houses: Array<House>;
   houseName: string;
-  fullDescription: string
+  fullDescription: string;
   welfareActivities: Array<WelfareActivity>;
   personalizedServices: Array<PersonalizedService>;
   services: Array<Service>;
@@ -33,17 +34,27 @@ export class HouseDetailComponent implements OnInit {
   commonAccommodations: Array<CommonAccommodation>;
   accommodations: Array<Accommodation>;
   options: Array<Option>;
+  mainSlideShow: Array<SlideShowElement>;
+  houseId: number;
 
   constructor(
     private readonly store: Store<AppState>,
     private readonly translate: TranslateService,
     private route: ActivatedRoute,
+    private router: Router,
     private location: Location
-  ) {}
+  ) {
+
+    this.router.routeReuseStrategy.shouldReuseRoute = () => false;
+  }
 
   ngOnInit(): void {
 
-    this.houses = []
+    this.route.params.subscribe(
+      params => {
+        this.houseId = +params['id'];
+      }
+  );
 
     this.store
       .pipe(
@@ -60,18 +71,26 @@ export class HouseDetailComponent implements OnInit {
     this.getServices();
     this.getAdditionalServices();
     this.getOutdoorAccommodations();
-    this.getCommonAccommodations()
-
+    this.getCommonAccommodations();
+    this.getMainSlideShow();
   }
 
-  getHouse(){
-    this.translate.get("Houses").subscribe((res : Array<House>) => {
-      this.houses = res
-      const id = +this.route.snapshot.paramMap.get('id');
-      this.fullDescription = this.houses[id-1].FullDescription
-      this.houseName = this.houses[id-1].Name
-      this.accommodations = this.houses[id-1].Accommodations
-      this.options = this.houses[id-1].Options;
+  getMainSlideShow() {
+    this.translate
+      .get('Home.MainSlideShow')
+      .subscribe((res: Array<SlideShowElement>) => {
+        this.mainSlideShow = res;
+        console.log(this.mainSlideShow);
+      });
+  }
+
+  getHouse() {
+    this.translate.get('Houses').subscribe((res: Array<House>) => {
+      this.houses = res;
+      this.fullDescription = this.houses[this.houseId - 1].FullDescription;
+      this.houseName = this.houses[this.houseId - 1].Name;
+      this.accommodations = this.houses[this.houseId - 1].Accommodations;
+      this.options = this.houses[this.houseId - 1].Options;
     });
   }
 

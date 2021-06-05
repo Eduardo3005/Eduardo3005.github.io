@@ -1,10 +1,13 @@
 @import "../../assets/style/mixins.scss";
 
-.main-image {
+.house-card {
   height: 98vh;
   background-color: $green-light;
+  justify-content: center;
+  display: flex;
 
   @media (max-width: 768px) {
+
     height: 50vh;
   }
 }
@@ -84,3 +87,38 @@ ul {
     }
   }
 }
+
+
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+.carousel-item {
+  height: 35vh;
+  width: 35vh;
+
+  @media (max-width: 768px) {
+    margin-top: 0;
+    height: 50vh;
+  }
+}
+
+@media (min-width: 40em) {
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+}
+

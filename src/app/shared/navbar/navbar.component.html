@@ -2,7 +2,7 @@
 
 «
   <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" >
-    <a class="navbar-brand" routerLink="home">{{"NavBar.Title" | translate}}</a>
+    <a class="navbar-brand" [routerLink]="['/home']">{{"NavBar.Title" | translate}}</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -10,23 +10,23 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent" data-toggle="collapse" data-target=".navbar-collapse.show" >
       <ul class="navbar-nav ml-auto">
         <li class="nav-item menu">
-          <a class="nav-link uppercase"routerLink="history">{{"NavBar.History" | translate}}<span class="sr-only">(current)</span></a>
+          <a class="nav-link uppercase"  [routerLink]="['/history']">{{"NavBar.History" | translate}}<span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle uppercase" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             {{"NavBar.Houses" | translate}}
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" routerLink="houses/1">T1</a>
-            <a class="dropdown-item" routerLink="houses/2">T2</a>
-            <a class="dropdown-item" routerLink="houses/3">T3</a>
+            <a class="dropdown-item" [routerLink]="['/houses', 1]">T1</a>
+            <a class="dropdown-item" [routerLink]="['/houses', 2]">T2</a>
+            <a class="dropdown-item" [routerLink]="['/houses', 3]">T3</a>
           </div>
         </li>
         <li class="nav-item">
-          <a class="nav-link uppercase" routerLink="places">{{"NavBar.Places" | translate}}</a>
+          <a class="nav-link uppercase" [routerLink]="['/places']">{{"NavBar.Places" | translate}}</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link uppercase" routerLink="contacts">{{"NavBar.Contacts" | translate}}</a>
+          <a class="nav-link uppercase" [routerLink]="['/contacts']">{{"NavBar.Contacts" | translate}}</a>
         </li>
         <li class="nav-item dropdown">
          <a class="nav-link dropdown-toggle uppercase" routerLink="" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">

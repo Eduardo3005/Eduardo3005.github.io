@@ -1,17 +1,5 @@
 @import "../../assets/style/mixins.scss";
 
-.house-card {
-  height: 98vh;
-  background-color: $green-light;
-  justify-content: center;
-  display: flex;
-
-  @media (max-width: 768px) {
-
-    height: 50vh;
-  }
-}
-
 .house-description {
   margin-top: 16px;
   margin-bottom: 32px;

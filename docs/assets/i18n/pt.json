@@ -100,6 +100,28 @@
           "Title": "Slide 3",
           "Tooltip": "Description 3"
         }
+      ],
+      "FullDescription": "Assim chamada porque a porta de entrada era envidraçada, permitindo observar tudo o que se passava no Páteo. Era aqui que residiam os proprietários, que tinham acesso direto à venda através de uma porta que a ligava à residência. A sua ampla chaminé, onde o lume era uma presença constante, dava vida a enchidos e torresmos, mas também a amenas cavaqueiras familiares enquanto se esperava a saída do último cliente. Foi transformada num generoso e agradável T1, com uma aconchegante salamandra para as noites mais frias, que admite a lotação máxima de 4 pessoas, distribuídas por 1 quarto duplo e pelo sofá cama da sala. Dispõe de kitchenette equipada com placa, forno, combinado, máquina de lavar loiça, torradeira, chaleira, máquina de café, ferro de engomar, louça e talheres adequados ao número de ocupantes. No wc, acessível a cadeira de rodas, encontram-se o secador de cabelo e os produtos para o banho. A casa dispõe ainda de ar condicionado em todo o espaço, TV e internet gratuitas. ",
+      "Options": [
+        {
+          "Name": "2 pessoas",
+          "Price": "XXX€ p/ noite"
+        },
+        {
+          "Name": "4 pessoas",
+          "Price": "XXX€ p/ noite"
+        }
+      ],
+      "Accommodations": [
+        {
+          "Name": "T1 com 1 quarto duplo"
+        },
+        {
+          "Name": "Lotação máxima: 4 pessoas"
+        },
+        {
+          "Name": "Quarto 1: 1 cama dupla"
+        }
       ]
     },
     {
@@ -168,6 +190,34 @@
           "ImagePath": "",
           "Title": "Slide 3",
           "Tooltip": "Description 3"
+        }
+      ],
+      "FullDescription": "Foi buscar o nome ao portão da antiga cavalariça, entretanto transformada em garagem, quando chegou uma “moderna” furgoneta para facilitar o transporte das mercadorias. Mas este espaço teve ainda muitas outras funções: de queijaria a armazém, de loja a salão de baile, deu vida a trabalho e lazer da povoação, já que era aqui que alguns tinham o seu ganha-pão e muitos passavam os seus tempos livres à volta de um copo de tinto, de uma concertina ou de uma grafonola, que animavam as noites quentes de verão. Atualmente convertida num acolhedor T3, com um simpático e íntimo pátio interior, dispõe de lotação máxima para 8 pessoas, distribuídas por 1 quarto de casal, 2 quartos duplos e sofá cama na sala. Dispõe de kitchenette equipada com placa, forno, combinado, máquina de lavar loiça, torradeira, chaleira, máquina de café, ferro de engomar, louça e talheres adequados ao número de ocupantes. Nos 2 wc´s, acessíveis a cadeira de rodas, encontram-se secadores de cabelo e os produtos para o banho. A casa dispõe ainda de ar condicionado em todo o espaço, TV e internet gratuitas. ",
+      "Options": [
+        {
+          "Name": "6 pessoas",
+          "Price": "XXX€ p/ noite"
+        },
+        {
+          "Name": "8 pessoas",
+          "Price": "XXX€ p/ noite"
+        }
+      ],
+      "Accommodations": [
+        {
+          "Name": "T3 com 3 quarto duplos"
+        },
+        {
+          "Name": "Lotação máxima: 8 pessoas"
+        },
+        {
+          "Name": "Quarto 1: 1 cama dupla"
+        },
+        {
+          "Name": "Quarto 2: 1 cama dupla"
+        },
+        {
+          "Name": "Quarto 3: 1 cama de casal"
         }
       ]
     }
@@ -267,7 +317,7 @@
       "Name": "Ferro de engomar"
     },
     {
-      "Name": "WC acessível a caderias de rodas, equipado com secador de cabelo e produtos para o banho"
+      "Name": "WC acessível a cadeiras de rodas, equipado com secador de cabelo e produtos para o banho"
     },
     {
       "Name": "Ar condicionado nos quartos e sala"

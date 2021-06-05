@@ -4,10 +4,9 @@
 
 .card {
   border: none;
-  margin-top: 96px;
+  margin-top: 48px;
 
   @media (max-width: 768px) {
-    margin-top: 24px;
     margin-bottom: 24px;
   }
 }
@@ -135,3 +134,19 @@ rect{
 .uppercase {
   text-transform: uppercase;
 }
+
+
+.main-card {
+  height: 98vh;
+  background-color: $green-light;
+  justify-content: center;
+  display: flex;
+  top: 0;
+
+  @media (max-width: 768px) {
+
+    height: 50vh;
+  }
+}
+
+

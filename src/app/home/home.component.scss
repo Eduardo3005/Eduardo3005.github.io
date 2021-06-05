@@ -32,8 +32,6 @@
   }
 }
 
-
-
 .video-card {
   height: 640px;
   background-color: $green-light;
@@ -52,14 +50,13 @@
 
   @media (max-width: 768px) {
     margin-top: 0px;
+    margin-bottom: 16x;
   }
 
   .house-carousel-item {
     height: 500px;
-
     @media (max-width: 768px) {
-      height: 400px;
-      padding-bottom:32px;
+      margin-top: 0px;
     }
   }
 
@@ -70,13 +67,10 @@
     justify-content: center;
     height: 500px;
     border-bottom: 2px solid $grey-light;
-    padding: 0;
-
-
     @media (max-width: 768px) {
-      height: 380px;
-    }
+      height: 550px;
 
+    }
   }
 }
 

@@ -2,9 +2,13 @@
 @import "colors.scss";
 
 
+body {
+  font-family: "SourceSerifPro-Regular", serif;
+  letter-spacing: 0;
+}
+
 .card {
   border: none;
-  margin-top: 48px;
 
   @media (max-width: 768px) {
     margin-bottom: 0;
@@ -13,11 +17,8 @@
 .card-body{
   background-color: #ffffff;
 
-
   .card-title{
     text-align: center;
-    margin-bottom: 0;
-
   }
 
   .text {
@@ -53,22 +54,14 @@
   border-radius: 0;
   width:fit-content;
   margin: 0 auto;
-  margin-top: 16px;
   display: flex;
   text-transform: uppercase;
+  letter-spacing: 3px;
+  font-family: "Sarabun-Bold", sans-serif;
 
-  .link-button {
-
-    text-align: center;
-    color: $grey-dark;
-    font-family: "Sarabun-Regular", sans-serif;
-    padding: 8px;
-    display: flex;
-    justify-content: center;
-    &:hover{
-      color: #ffffff;
-      background-color: $grey-dark;
-    }
+  &:hover{
+    color: #ffffff;
+    background-color: $grey-dark;
   }
 }
 
@@ -78,18 +71,12 @@
   margin-bottom: 16px;
 }
 
-
-body {
-  font-family: "Sarabun-Regular", sans-serif;
-}
-
 h1 {
   color: $grey-dark;
   font-family: "Sarabun-Bold", sans-serif;
   font-size: 40px;
   letter-spacing: 8px;
   text-transform: uppercase;
-  margin-bottom: 48px;
 }
 
 h2 {
@@ -106,27 +93,7 @@ h3 {
   font-size: 16px;
   letter-spacing: 1px;
   text-transform: uppercase;
-  margin-top: 16px;
 }
-
-.button {
-  color: $grey-dark;
-  font-family: "Sarabun-Regular", sans-serif;
-  letter-spacing: 1px;
-}
-
-.text {
-  color: $grey-light;
-  font-family: "SourceSerifPro-Regular", serif;
-  letter-spacing: 1px;
-  font-size: 16px;
-
-  &.place-description{
-    width:100%;
-    text-align: left;
-  }
-}
-
 
 rect{
   fill: $green-light;
@@ -137,7 +104,6 @@ rect{
 .uppercase {
   text-transform: uppercase;
 }
-
 
 .main-card {
   height: 98vh;
@@ -152,4 +118,27 @@ rect{
   }
 }
 
+.mb-16 {
+  margin-bottom: 16px;
+}
+
+.mb-32 {
+  margin-bottom: 32px;
+}
+
+.mb-48 {
+  margin-bottom: 48px;
+}
+
+.mb-72 {
+  margin-bottom: 72px;
+}
+
+.mb-96 {
+  margin-bottom: 96px;
+}
+
+.mb-192 {
+  margin-bottom: 192px;
+}
 

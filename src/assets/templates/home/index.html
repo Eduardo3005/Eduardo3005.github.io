@@ -1,4 +1,4 @@
-<div id="mainSlideShow" class="carousel slide" data-ride="carousel">
+<div id="mainSlideShow" class="carousel slide mb-192" data-ride="carousel">
   <ol class="carousel-indicators">
     <li
       *ngFor="let slide of mainSlideShow; let i = index"
@@ -7,14 +7,14 @@
       [class.active]="i == 0"
     ></li>
   </ol>
-  <div class="carousel-inner">
+  <div class="carousel-inner ">
     <div
-      class="carousel-item"
+      class="carousel-item "
       *ngFor="let slide of mainSlideShow; let i = index"
       [class.active]="i == 0"
     >
       <svg class="bd-placeholder-img" width="100%" height="100%">
-        <rect />
+        <rect/>
         <text x="50%" y="50%" dy=".3em"></text>
       </svg>
       <div class="container"></div>
@@ -45,22 +45,23 @@
   </a>
 </div>
 
-<div class="card text-center">
+<div class="card text-center mb-96">
   <div class="card-body">
-    <h1 class="card-title">{{ "Home.Resume.Title" | translate }}</h1>
+    <h1 class="card-title mb-96">{{ "Home.Resume.Title" | translate }}</h1>
     <div class="text">
       {{ "Home.Resume.P1" | translate }}
     </div>
     <div class="text">
       {{ "Home.Resume.P2" | translate }}
     </div>
-    <a href="#" class="btn btn-outline-secondary link-button">{{
-      "Common.KnowMoreAboutUs" | translate
-    }}</a>
+
   </div>
+  <a href="#" class="btn btn-outline-secondary link-button">{{
+    "Common.KnowMoreAboutUs" | translate
+  }}</a>
 </div>
 
-<div class="card text-center">
+<div class="card text-center mb-192">
   <div class="card-body video-card">
     <h1 class="card-title">video</h1>
   </div>
@@ -71,8 +72,8 @@
     <h1 class="card-title">{{ "Home.HousesHeader.Title" | translate }}</h1>
   </div>
 
-  <div class="card card-house" *ngFor="let house of houses; let i = index">
-    <div class="row no-gutters">
+  <div class="card card-house mb-192" >
+    <div class="row no-gutters mb-72" *ngFor="let house of houses; let i = index">
       <div
         class="col-md-4"
         [ngClass]="i % 2 !== 0 ? 'order-md-1' : 'order-md-2'"
@@ -110,8 +111,8 @@
               [class.active]="i == 0"
             >
               <svg class="bd-placeholder-img" width="100%" height="100%">
-                <rect width="100%" height="100%" fill="#777" />
-                <text x="50%" y="50%" fill="#777" dy=".3em"></text>
+                <rect />
+                <text x="50%" y="50%" dy=".3em"></text>
               </svg>
               <div class="container"></div>
               <div class="carousel-caption">

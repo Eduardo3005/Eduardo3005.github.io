@@ -19,14 +19,15 @@ import { SlideShowElement } from '../models/slide-show-element';
 
 // core version + navigation, pagination modules:
 import SwiperCore, { Navigation, Pagination, Swiper } from 'swiper/core';
+import { FirebaseProvider } from '../services/firebase-logger.service';
 
 // configure Swiper to use modules
 SwiperCore.use([Navigation, Pagination]);
 
 @Component({
   selector: 'app-house-detail',
-  templateUrl: './house-detail.component.html',
-  styleUrls: ['./house-detail.component.css'],
+  templateUrl: '../../assets/templates/house-detail/index.html',
+  styleUrls: ['../../assets/templates/house-detail/style.css'],
 })
 export class HouseDetailComponent implements OnInit {
   houses: Array<House>;
@@ -48,7 +49,8 @@ export class HouseDetailComponent implements OnInit {
     private readonly translate: TranslateService,
     private route: ActivatedRoute,
     private router: Router,
-    private location: Location
+    private location: Location,
+    private firebase: FirebaseProvider
   ) {
     this.router.routeReuseStrategy.shouldReuseRoute = () => false;
   }
@@ -75,8 +77,11 @@ export class HouseDetailComponent implements OnInit {
     this.getOutdoorAccommodations();
     this.getCommonAccommodations();
     this.getMainSlideShow();
+    this.initSwiper()
+  }
 
-    var swiper = new Swiper('.mySwiper', {
+  initSwiper(): Swiper{
+    return new Swiper('.mySwiper', {
       fadeEffect: {
             crossFade: true
         },

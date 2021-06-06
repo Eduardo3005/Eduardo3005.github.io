@@ -7,11 +7,12 @@ import { tap } from 'rxjs/operators';
 import { SlideShowElement } from '../models/slide-show-element';
 import { House } from '../models/house';
 import { Place } from '../models/place';
+import { FirebaseProvider } from '../services/firebase-logger.service';
 
 @Component({
   selector: 'app-home',
-  templateUrl: './home.component.html',
-  styleUrls: ['./home.component.scss'],
+  templateUrl: '../../assets/templates/home/index.html',
+  styleUrls: ['../../assets/templates/home/style.css'],
 })
 export class HomeComponent implements OnInit {
 
@@ -26,8 +27,10 @@ export class HomeComponent implements OnInit {
 
   constructor(
     private readonly store: Store<AppState>,
-    private readonly translate: TranslateService
+    private readonly translate: TranslateService,
+    private readonly firebase: FirebaseProvider
   ) {
+
   }
 
   ngOnInit() {

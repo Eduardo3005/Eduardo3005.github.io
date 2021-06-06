@@ -9,7 +9,7 @@ import { selectLanguage } from 'src/app/state/language/language-state';
 @Component({
   selector: 'app-navbar',
   templateUrl: '../../assets/templates/navbar/index.html',
-  styleUrls: ['../../assets/templates/footer/style.css'],
+  styleUrls: ['../../assets/templates/navbar/style.scss'],
 })
 export class NavbarComponent implements OnInit {
 

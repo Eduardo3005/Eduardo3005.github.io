@@ -1,15 +1,18 @@
 @import "fonts/fonts-declarations.scss";
 @import "colors.scss";
 
-
 body {
   font-family: "SourceSerifPro-Regular", serif;
   letter-spacing: 0;
+  width: 100%;
+  margin: 0 auto;
 }
 
 .card {
   border: none;
-
+  display: flex;
+  justify-content: center;
+  width: 100%;
   @media (max-width: 768px) {
     margin-bottom: 0;
   }
@@ -108,9 +111,7 @@ rect{
 .main-card {
   height: 98vh;
   background-color: $green-light;
-  justify-content: center;
-  display: flex;
-  top: 0;
+
 
   @media (max-width: 768px) {
 
@@ -120,25 +121,50 @@ rect{
 
 .mb-16 {
   margin-bottom: 16px;
+  @media (max-width: 768px) {
+    margin-bottom: 8px;
+  }
 }
 
 .mb-32 {
   margin-bottom: 32px;
+  @media (max-width: 768px) {
+    margin-bottom: 16px;
+  }
 }
 
 .mb-48 {
   margin-bottom: 48px;
+  @media (max-width: 768px) {
+    margin-bottom: 24px;
+  }
 }
 
 .mb-72 {
   margin-bottom: 72px;
+  @media (max-width: 768px) {
+    margin-bottom: 48px;
+  }
 }
 
 .mb-96 {
   margin-bottom: 96px;
+  @media (max-width: 768px) {
+    margin-bottom: 48px;
+  }
+}
+
+.mb-144 {
+  margin-bottom: 144px;
+  @media (max-width: 768px) {
+    margin-bottom: 72px;
+  }
 }
 
 .mb-192 {
   margin-bottom: 192px;
+  @media (max-width: 768px) {
+    margin-bottom: 96px;
+  }
 }
 

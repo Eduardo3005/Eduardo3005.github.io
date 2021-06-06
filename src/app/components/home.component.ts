@@ -12,7 +12,7 @@ import { FirebaseProvider } from '../services/firebase-logger.service';
 @Component({
   selector: 'app-home',
   templateUrl: '../../assets/templates/home/index.html',
-  styleUrls: ['../../assets/templates/home/style.css'],
+  styleUrls: ['../../assets/templates/home/style.scss'],
 })
 export class HomeComponent implements OnInit {
 

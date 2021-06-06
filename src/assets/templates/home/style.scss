@@ -1,51 +1,15 @@
-@import "../../assets/style/mixins.scss";
-
-.carousel-caption {
-  bottom: 3rem;
-  z-index: 10;
-}
-
-.carousel-item {
-  height: 98vh;
-
-  @media (max-width: 768px) {
-    margin-top: 0;
-    height: 50vh;
-  }
-}
-
-@media (min-width: 40em) {
-  .carousel-caption p {
-    margin-bottom: 1.25rem;
-    font-size: 1.25rem;
-    line-height: 1.4;
-  }
-
-  .featurette-heading {
-    font-size: 50px;
-  }
-}
-
-@media (min-width: 62em) {
-  .featurette-heading {
-    margin-top: 7rem;
-  }
-}
+@import "../../style/mixins.scss";
+@import "../../style/carrousel.scss";
 
 .video-card {
   height: 640px;
-  background-color: $green-light;
+  display: flex;
   justify-content: center;
-
-  @media (max-width: 768px) {
-    padding: 20px;
-    height: 320px;
-  }
+  background-color: $green-light;
 }
 
 .card-house {
   width: 100%;
-  margin-top: 48px;
   border-top: none;
 
   @media (max-width: 768px) {
@@ -62,11 +26,11 @@
 
   .house-card-body {
     display: flex;
-    flex-direction: column;
+    flex-direction: column ;
     align-items: center;
     justify-content: center;
     height: 500px;
-    border-bottom: 2px solid $grey-light;
+    border-bottom: 1px solid $grey-light;
     @media (max-width: 768px) {
       height: 550px;
 
@@ -78,7 +42,7 @@
   display: grid;
   width: 100%;
   margin: 0 auto;
-  margin-top: 48px;
+  margin-bottom: 48px;
   grid-gap: 1rem;
   grid-template-columns: repeat(3, 1fr);
   justify-content: center;

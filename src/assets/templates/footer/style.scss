@@ -1,4 +1,4 @@
-@import "../../../assets/style/mixins.scss";
+@import "../../style/mixins.scss";
 
 footer {
   margin-top: 50px;
@@ -22,7 +22,7 @@ footer {
     }
   }
 
-  .second-item {
+  .second-item  {
     padding: 20px;
     height: 96px;
     width: 100%;

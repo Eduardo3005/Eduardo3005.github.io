@@ -4,7 +4,7 @@ import { FirebaseProvider } from '../services/firebase-logger.service';
 @Component({
   selector: 'app-contacts',
   templateUrl: '../../assets/templates/contacts/index.html',
-  styleUrls: ['../../assets/templates/contacts/style.css']
+  styleUrls: ['../../assets/templates/contacts/style.scss']
 })
 export class ContactsComponent implements OnInit {
 

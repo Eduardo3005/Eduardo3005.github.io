@@ -27,7 +27,7 @@ SwiperCore.use([Navigation, Pagination]);
 @Component({
   selector: 'app-house-detail',
   templateUrl: '../../assets/templates/house-detail/index.html',
-  styleUrls: ['../../assets/templates/house-detail/style.css'],
+  styleUrls: ['../../assets/templates/house-detail/style.scss'],
 })
 export class HouseDetailComponent implements OnInit {
   houses: Array<House>;
@@ -100,9 +100,9 @@ export class HouseDetailComponent implements OnInit {
           slidesPerGroup: 2,
         },
         '1000': {
-          slidesPerView: 3,
+          slidesPerView: 4,
           spaceBetween: 30,
-          slidesPerGroup: 3,
+          slidesPerGroup: 4,
         }
       },
       pagination: {

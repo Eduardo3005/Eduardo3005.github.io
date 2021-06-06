@@ -1,7 +1,6 @@
-@import "../../assets/style/mixins.scss";
+@import "../../style/mixins.scss";
 
 .house-description {
-  margin-top: 16px;
   margin-bottom: 32px;
   display: flex;
   color: $grey-light;
@@ -67,6 +66,9 @@
 
 ul {
   width: 80%;
+  margin-bottom: 48px;
+  font-family: "SourceSerifPro-Regular", serif;
+  color: $grey-light;
 }
 
 .card {

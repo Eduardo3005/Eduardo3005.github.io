@@ -10,7 +10,7 @@ import { selectLanguage } from '../state/language/language-state';
 @Component({
   selector: 'app-history',
   templateUrl: '../../assets/templates/history/index.html',
-  styleUrls: ['../../assets/templates/history/style.css']
+  styleUrls: ['../../assets/templates/history/style.scss']
 })
 export class HistoryComponent implements OnInit {
 

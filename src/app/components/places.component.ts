@@ -8,7 +8,7 @@ import { selectLanguage } from '../state/language/language-state';
 @Component({
   selector: 'app-places',
   templateUrl: '../../assets/templates/places/index.html',
-  styleUrls: ['../../assets/templates/places/style.css']
+  styleUrls: ['../../assets/templates/places/style.scss']
 })
 export class PlacesComponent implements OnInit {
 

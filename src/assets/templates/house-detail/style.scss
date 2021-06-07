@@ -25,7 +25,6 @@
   }
 
   .left-card-text {
-    margin-top: 16px;
     width: 100%;
 
     h3 {
@@ -39,7 +38,7 @@
 
   .text {
     width: 70%;
-
+    margin-top: 0px;
     @media (max-width: 768px) {
       width: 90%;
     }
@@ -51,15 +50,20 @@
   }
 
   &.prices {
-    width: 80%;
+    width: 65%;
     margin: 0 auto;
     margin-top: 32px;
     color: #ffffff;
+
+    @media (max-width: 768px) {
+      width:80%;
+    }
 
     .service {
       font-family: "Sarabun-Regular", sans-serif;
       font-size: 14px;
       margin: 0 auto;
+      color: #ffffff;
 
       text-transform: uppercase;
       line-height: 24px;

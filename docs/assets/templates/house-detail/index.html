@@ -1,4 +1,4 @@
-<div class="card text-center mb-96">
+<div class="card text-center mb-192 top-100">
   <div class="card-body main-card">
     <h1 class="card-title">{{ this.houseName | translate }}</h1>
   </div>
@@ -9,46 +9,44 @@
     <div class="card mb-96">
       <div class="card-body">
         <div class="text">
-          <h2 class="card-title text-left mb-48">{{ this.houseName | translate }}</h2>
+          <h2 class="card-title text-left mb-48">
+            {{ this.houseName | translate }}
+          </h2>
           <p class="house-description">
             {{ this.fullDescription | translate }}
           </p>
           <h3 class="card-title text-left">{{ "Farm.Title" | translate }}</h3>
-          <p class="house-description">
-            {{ "Farm.Description" | translate }}
-          </p>
-          <a href="#" class="btn btn-outline-secondary link-button uppercase">{{
-            "Common.KnowMoreAboutActivities2" | translate
-          }}</a>
+          <p class="house-description">{{ "Farm.Description" | translate }}</p>
+          <a href="#" class="btn btn-outline-secondary link-button uppercase"
+            >{{ "Common.KnowMoreAboutActivities2" | translate }}</a
+          >
         </div>
-
       </div>
 
-      <div class="card-body prices ">
+      <div class="card-body prices green-dark-background">
         <h2 class="card-title card-title-prices">
           {{ "Common.Prices" | translate }}
         </h2>
         <div *ngFor="let option of options">
-          <div class="service">{{ option.Name }} : {{ option.Price }}</div>
+          <h3 class="service">{{ option.Name }}: </h3>
+          <h3 class="service price">{{ option.Price }}</h3>
         </div>
-        <div class="line"></div>
+      </div>
+      <div class="card-body prices mt-0 green-light-background">
         <h3 class="card-title card-title-prices">
           {{ "Common.PersonalizedServices" | translate }}
         </h3>
         <div *ngFor="let personalizedService of personalizedServices">
-          <div class="service">
-            {{ personalizedService.Name }} :
-            <b>{{ personalizedService.Price }}</b>
-          </div>
+          <p class="service">{{ personalizedService.Name }}: </p>
+          <p class="service price">{{ personalizedService.Price }}</p>
         </div>
         <div class="line"></div>
         <h3 class="card-title card-title-prices">
           {{ "Common.WelfareActivities" | translate }}
         </h3>
         <div *ngFor="let welfareActivity of welfareActivities">
-          <div class="service">
-            {{ welfareActivity.Name }} : <b>{{ welfareActivity.Price }}</b>
-          </div>
+          <p class="service">{{ welfareActivity.Name }}: </p>
+          <p class="service price">{{ welfareActivity.Price }}</p>
         </div>
       </div>
     </div>
@@ -100,29 +98,27 @@
   </div>
 </div>
 
-  <div class="card ">
-    <div class="card-body card-body-gallery">
-        <h2 class="card-title card-title-gallery">
-          {{ "Common.PhotoGallery" | translate }}
-        </h2>
-    </div>
+<div class="card">
+  <div class="card-body card-body-gallery">
+    <h2 class="card-title card-title-gallery">
+      {{ "Common.PhotoGallery" | translate }}
+    </h2>
   </div>
+</div>
 
-
-
-  <div class="swiper-container mySwiper">
-    <div class="swiper-wrapper">
-      <div class="swiper-slide">Slide 1</div>
-      <div class="swiper-slide">Slide 2</div>
-      <div class="swiper-slide">Slide 3</div>
-      <div class="swiper-slide">Slide 4</div>
-      <div class="swiper-slide">Slide 5</div>
-      <div class="swiper-slide">Slide 6</div>
-      <div class="swiper-slide">Slide 7</div>
-      <div class="swiper-slide">Slide 8</div>
-      <div class="swiper-slide">Slide 9</div>
-    </div>
-    <div class="swiper-button-next"></div>
-    <div class="swiper-button-prev"></div>
-      <div class="swiper-pagination"></div>
+<div class="swiper-container mySwiper">
+  <div class="swiper-wrapper">
+    <div class="swiper-slide">Slide 1</div>
+    <div class="swiper-slide">Slide 2</div>
+    <div class="swiper-slide">Slide 3</div>
+    <div class="swiper-slide">Slide 4</div>
+    <div class="swiper-slide">Slide 5</div>
+    <div class="swiper-slide">Slide 6</div>
+    <div class="swiper-slide">Slide 7</div>
+    <div class="swiper-slide">Slide 8</div>
+    <div class="swiper-slide">Slide 9</div>
   </div>
+  <div class="swiper-button-next"></div>
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-pagination"></div>
+</div>

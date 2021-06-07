@@ -12,17 +12,21 @@ footer {
 
   .item {
     padding: 20px;
-    height: 248px;
+    height: 286px;
     width: 100%;
     background-color: $green-dark;
-    color:#ffffff;
+    color: #ffffff;
+
+    @media (max-width: 768px) {
+      height: fit-content;
+    }
 
     .text {
       font-family: "Sarabun-Regular", sans-serif;
     }
   }
 
-  .second-item  {
+  .second-item {
     padding: 20px;
     height: 96px;
     width: 100%;
@@ -31,10 +35,10 @@ footer {
 }
 
 a {
-  color:#ffffff;
+  color: #ffffff;
   &:hover {
     background-color: $green-dark;
-    color:#ffffff;
+    color: #ffffff;
   }
 }
 
@@ -42,4 +46,16 @@ a {
   position: absolute;
   margin: 0 auto;
   right: 16px;
+}
+
+
+
+p {
+  margin-bottom: 8px;
+  display:inline;
+}
+
+
+.p-yellow{
+  color: $yellow;
 }

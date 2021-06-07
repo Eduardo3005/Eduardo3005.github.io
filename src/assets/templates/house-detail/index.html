@@ -28,8 +28,8 @@
           {{ "Common.Prices" | translate }}
         </h2>
         <div *ngFor="let option of options">
-          <p class="service">{{ option.Name }}: </p>
-          <p class="service price">{{ option.Price }}</p>
+          <h3 class="service">{{ option.Name }}: </h3>
+          <h3 class="service price">{{ option.Price }}</h3>
         </div>
       </div>
       <div class="card-body prices mt-0 green-light-background">

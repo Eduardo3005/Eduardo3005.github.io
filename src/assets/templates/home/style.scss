@@ -36,6 +36,9 @@
     justify-content: center;
     height: 496px;
     border-bottom: 1px solid $grey-light;
+    @media (max-width: 768px) {
+      height: fit-content;
+    }
   }
 }
 

@@ -10,7 +10,7 @@
 }
 .card-body {
   background-color: #ffffff;
-
+  margin-top: 0;
   .card-title {
     text-align: center;
   }
@@ -183,4 +183,8 @@ rect {
 
 .green-dark-background{
   background-color: $green-dark;
+}
+
+p{
+  font-family: "SourceSerifPro-Regular", serif;
 }

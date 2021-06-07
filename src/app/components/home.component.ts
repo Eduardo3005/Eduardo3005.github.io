@@ -8,6 +8,10 @@ import { SlideShowElement } from '../models/slide-show-element';
 import { House } from '../models/house';
 import { Place } from '../models/place';
 import { FirebaseProvider } from '../services/firebase-logger.service';
+import SwiperCore, { Navigation, Pagination, Swiper } from 'swiper/core';
+
+SwiperCore.use([Navigation, Pagination]);
+
 
 @Component({
   selector: 'app-home',
@@ -18,12 +22,9 @@ export class HomeComponent implements OnInit {
 
   browserLang: string;
   title: string;
-  mainSlideShow: Array<SlideShowElement>;
-  houseT1SlideShow: Array<SlideShowElement>;
-  houseT2SlideShow: Array<SlideShowElement>;
-  houseT3SlideShow: Array<SlideShowElement>;
   houses: Array<House>;
   places: Array<Place>;
+  slideShow: Array<String>;
 
   constructor(
     private readonly store: Store<AppState>,
@@ -34,7 +35,7 @@ export class HomeComponent implements OnInit {
   }
 
   ngOnInit() {
-    this.mainSlideShow = []
+    this.slideShow = []
     this.houses = []
     this.store
 			.pipe(
@@ -44,15 +45,19 @@ export class HomeComponent implements OnInit {
 				})
 			).subscribe()
 
-      this.getMainSlideShow();
+      this.getSlideShow()
       this.getHouses();
       this.getPlaces();
+
+
+      setTimeout(() => {
+        this.initSwiper();
+      }, 1000);
   }
 
-  getMainSlideShow(){
-    this.translate.get("Home.MainSlideShow").subscribe((res : Array<SlideShowElement>) => {
-      this.mainSlideShow = res
-      console.log(this.mainSlideShow)
+  getSlideShow(){
+    this.translate.get("Home.SlideShow").subscribe((res : Array<String>) => {
+      this.slideShow = res
     });
   }
 
@@ -67,4 +72,22 @@ export class HomeComponent implements OnInit {
       this.places = res
     });
   }
+
+  initSwiper(): Swiper{
+    return new Swiper('.mySwiper', {
+      slidesPerView: 1,
+      spaceBetween: 10,
+      loop: true,
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+  }
+
 }
+

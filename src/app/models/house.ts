@@ -5,7 +5,7 @@ export class House {
   Name: string;
   Descripion: string;
   FullDescription: string;
-  SlideShow: Array<SlideShowElement>;
+  ImagePath: string;
   Options:  Array<Option>;
   Accommodations:  Array<Accommodation>;
 }

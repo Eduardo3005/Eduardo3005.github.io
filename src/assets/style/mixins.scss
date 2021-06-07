@@ -39,7 +39,8 @@
     &.description {
       width: 85%;
       padding: 8px;
-      margin: 8px auto;
+      margin: 16px;
+
     }
   }
 }
@@ -55,6 +56,7 @@
   letter-spacing: 3px;
   white-space: normal;
   overflow: hidden;
+  padding: 16px;
 
   &:hover {
     color: #ffffff;
@@ -65,7 +67,7 @@
 .yellow-background {
   background-color: $yellow;
   padding: 8px;
-  margin-bottom: 16px;
+
 }
 
 h1 {
@@ -78,9 +80,9 @@ h1 {
 
 h2 {
   color: $grey-dark;
-  font-family: "Sarabun-Medium", sans-serif;
+  font-family: "Sarabun-Bold", sans-serif;
   font-size: 28px;
-  letter-spacing: 2px;
+  letter-spacing: 8px;
   text-transform: uppercase;
 }
 
@@ -187,4 +189,9 @@ rect {
 
 p{
   font-family: "SourceSerifPro-Regular", serif;
+}
+
+
+a {
+  margin-top: 0;
 }

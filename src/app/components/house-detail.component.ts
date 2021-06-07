@@ -1,4 +1,4 @@
-import { Component, OnInit, Input, OnDestroy } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { Location } from '@angular/common';
 import { select, Store } from '@ngrx/store';
@@ -16,12 +16,9 @@ import {
 } from '../models/common';
 import { House, Accommodation, Option } from '../models/house';
 import { SlideShowElement } from '../models/slide-show-element';
-
-// core version + navigation, pagination modules:
 import SwiperCore, { Navigation, Pagination, Swiper } from 'swiper/core';
 import { FirebaseProvider } from '../services/firebase-logger.service';
 
-// configure Swiper to use modules
 SwiperCore.use([Navigation, Pagination]);
 
 @Component({

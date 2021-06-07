@@ -1,0 +1,61 @@
+@import "../../style/mixins.scss";
+
+footer {
+  margin-top: 50px;
+  height: 100px;
+  bottom: 0;
+  width: 100%;
+
+  .row {
+    margin-left: 0;
+  }
+
+  .item {
+    padding: 20px;
+    height: 286px;
+    width: 100%;
+    background-color: $green-dark;
+    color: #ffffff;
+
+    @media (max-width: 768px) {
+      height: fit-content;
+    }
+
+    .text {
+      font-family: "Sarabun-Regular", sans-serif;
+    }
+  }
+
+  .second-item {
+    padding: 20px;
+    height: 96px;
+    width: 100%;
+    background-color: $green-light;
+  }
+}
+
+a {
+  color: #ffffff;
+  &:hover {
+    background-color: $green-dark;
+    color: #ffffff;
+  }
+}
+
+.right {
+  position: absolute;
+  margin: 0 auto;
+  right: 16px;
+}
+
+
+
+p {
+  margin-bottom: 8px;
+  display:inline;
+}
+
+
+.p-yellow{
+  color: $yellow;
+}

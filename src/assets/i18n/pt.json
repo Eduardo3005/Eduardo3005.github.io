@@ -3,26 +3,22 @@
     "Title": "Início",
     "Language": "PT",
     "EnglishLanguage": "Inglês",
-    "MainSlideShow": [
-      {
-        "ImagePath": "",
-        "Title": "Slide 1",
-        "Tooltip": "Description 1"
-      },
-      {
-        "ImagePath": "",
-        "Title": "Slide 2",
-        "Tooltip": "Description 2"
-      },
-      {
-        "ImagePath": "",
-        "Title": "Slide 3",
-        "Tooltip": "Description 3"
-      }
-    ],
     "HousesHeader": {
       "Title": "Alugar no páteo lima"
     },
+    "SlideShow":[
+      "assets/images/slide_1.JPG",
+      "assets/images/slide_2.JPG",
+      "assets/images/slide_3.JPG",
+      "assets/images/slide_4.JPG",
+      "assets/images/slide_5.JPG",
+      "assets/images/slide_6.JPG",
+      "assets/images/slide_7.JPG",
+      "assets/images/slide_8.JPG",
+      "assets/images/slide_9.jpg",
+      "assets/images/slide_10.jpg",
+      "assets/images/slide_11.jpg"
+    ],
     "Resume": {
       "Title": "Um lugar com história",
       "P1": "Com localização privilegiada à entrada principal de Valverde e à ribeira com o mesmo nome, o Páteo Lima goza da proximidade da cidade património mundial de Évora, de importantes conjuntos megalíticos, ruínas romanas e medievais e até de uma quinta episcopal quinhentista, rodeada pela magnífica paisagem alentejana do sopé da serra de Monfurado.",
@@ -35,17 +31,17 @@
       "Title": "O que fazer",
       "List": [
         {
-          "ImagePath": "",
+          "ImagePath": "assets/images/templo_diana.JPG",
           "Title": "Turismo de cidade",
           "Tooltip": "Évora a 10km."
         },
         {
-          "ImagePath": "",
+          "ImagePath": "assets/images/migas.jpeg",
           "Title": "Workshops de culinária",
           "Tooltip": "Aprenda os segredos da culinária Alentejana. Actividade organizada pela administração do Páteo Lima."
         },
         {
-          "ImagePath": "",
+          "ImagePath": "assets/images/alentejo.jpeg",
           "Title": "Atividade de exterior",
           "Tooltip": "Para além das redondezas serem propícias a caminhadas pelo campo, pode participar das actividades da quinta."
         }
@@ -89,23 +85,7 @@
       "Tipology": "T1",
       "Name": "Casa dos vidros",
       "Description": "Assim chamada porque a porta de entrada era envidraçada. A sua ampla chaminé dava vida a enchido e torresmos, mas também a amenas cavaqueiras familiares enquanto se esperava a saída do último cliente. Foi transfroma num generoso e agradável T1.",
-      "SlideShow": [
-        {
-          "ImagePath": "",
-          "Title": "Slide 1",
-          "Tooltip": "Description 1"
-        },
-        {
-          "ImagePath": "",
-          "Title": "Slide 2",
-          "Tooltip": "Description 2"
-        },
-        {
-          "ImagePath": "",
-          "Title": "Slide 3",
-          "Tooltip": "Description 3"
-        }
-      ],
+      "ImagePath": "assets/images/t1.JPG",
       "FullDescription": "Assim chamada porque a porta de entrada era envidraçada, permitindo observar tudo o que se passava no Páteo. Era aqui que residiam os proprietários, que tinham acesso direto à venda através de uma porta que a ligava à residência. A sua ampla chaminé, onde o lume era uma presença constante, dava vida a enchidos e torresmos, mas também a amenas cavaqueiras familiares enquanto se esperava a saída do último cliente. Foi transformada num generoso e agradável T1, com uma aconchegante salamandra para as noites mais frias, que admite a lotação máxima de 4 pessoas, distribuídas por 1 quarto duplo e pelo sofá cama da sala. Dispõe de kitchenette equipada com placa, forno, combinado, máquina de lavar loiça, torradeira, chaleira, máquina de café, ferro de engomar, louça e talheres adequados ao número de ocupantes. No wc, acessível a cadeira de rodas, encontram-se o secador de cabelo e os produtos para o banho. A casa dispõe ainda de ar condicionado em todo o espaço, TV e internet gratuitas. ",
       "Options": [
         {
@@ -133,23 +113,7 @@
       "Tipology": "T2",
       "Name": "Casa da venda",
       "Description": "Era aqui que se situava a 'venda', onde se podiam encontrar produtos tão variados como as mercearias e os vinhos, a carne e o peixe, mas também os comprimidos para as dores e o petróleo para os candeeiros que alumiavam as longas e frias noites de inverno. Hoje tornou-se numa confortável habitação de tipologia T2.",
-      "SlideShow": [
-        {
-          "ImagePath": "",
-          "Title": "Slide 1",
-          "Tooltip": "Description 1"
-        },
-        {
-          "ImagePath": "",
-          "Title": "Slide 2",
-          "Tooltip": "Description 2"
-        },
-        {
-          "ImagePath": "",
-          "Title": "Slide 3",
-          "Tooltip": "Description 3"
-        }
-      ],
+      "ImagePath": "assets/images/t2.JPG",
       "FullDescription": "Sempre deu rosto à propriedade e à própria aldeia, pois está virada de frente para a ponte, sendo a primeira fachada que o olhar alcança quando se atravessa a ribeira; era aqui que se situava a “venda”, onde se podiam encontrar produtos tão variados como as mercearias e os vinhos, o pão e a roupa, mas também os comprimidos para as dores e o petróleo para os candeeiros que alumiavam as longas e frias noites de inverno. Hoje tornou-se numa confortável habitação de tipologia T2, solarenga e luminosa durante as manhãs e fresca nas tardes quentes de verão, pois todas as portas do antigo espaço comercial foram transformadas em generosas janelas de sacada viradas para o nascer do sol. Admite a lotação máxima de 6  pessoas, distribuídas por 2 quartos duplos e um sofá cama na sala. Dispõe de kitchenette equipada e wc acessível a cadeira de rodas. ",
       "Options": [
         {
@@ -180,23 +144,7 @@
       "Tipology": "T3",
       "Name": "Casa do portão",
       "Description": "Teve muitas e variadas funções: de queijaria a matadouro, de loja a salão de baile, deu vida a trabalho e lazer da povoação, já que era aqui que alguns tinham o seu ganha-pão e muitos passavam os seus tempos livres à volta de um copo de tinto, de uma concertina ou de uma grafonola. Atualmente convertida num acolhedor T3, com um simpático e íntimo pátio interior.",
-      "SlideShow": [
-        {
-          "ImagePath": "",
-          "Title": "Slide 1",
-          "Tooltip": "Description 1"
-        },
-        {
-          "ImagePath": "",
-          "Title": "Slide 2",
-          "Tooltip": "Description 2"
-        },
-        {
-          "ImagePath": "",
-          "Title": "Slide 3",
-          "Tooltip": "Description 3"
-        }
-      ],
+      "ImagePath": "assets/images/t3.JPG",
       "FullDescription": "Foi buscar o nome ao portão da antiga cavalariça, entretanto transformada em garagem, quando chegou uma “moderna” furgoneta para facilitar o transporte das mercadorias. Mas este espaço teve ainda muitas outras funções: de queijaria a armazém, de loja a salão de baile, deu vida a trabalho e lazer da povoação, já que era aqui que alguns tinham o seu ganha-pão e muitos passavam os seus tempos livres à volta de um copo de tinto, de uma concertina ou de uma grafonola, que animavam as noites quentes de verão. Atualmente convertida num acolhedor T3, com um simpático e íntimo pátio interior, dispõe de lotação máxima para 8 pessoas, distribuídas por 1 quarto de casal, 2 quartos duplos e sofá cama na sala. Dispõe de kitchenette equipada com placa, forno, combinado, máquina de lavar loiça, torradeira, chaleira, máquina de café, ferro de engomar, louça e talheres adequados ao número de ocupantes. Nos 2 wc´s, acessíveis a cadeira de rodas, encontram-se secadores de cabelo e os produtos para o banho. A casa dispõe ainda de ar condicionado em todo o espaço, TV e internet gratuitas. ",
       "Options": [
         {

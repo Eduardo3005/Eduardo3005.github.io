@@ -5,6 +5,7 @@ import { tap } from 'rxjs/operators';
 import { AppState } from 'src/app/state/app-state';
 import { setLanguage } from 'src/app/state/language/language-actions';
 import { selectLanguage } from 'src/app/state/language/language-state';
+import { House } from '../models/house';
 
 @Component({
   selector: 'app-navbar',
@@ -13,12 +14,15 @@ import { selectLanguage } from 'src/app/state/language/language-state';
 })
 export class NavbarComponent implements OnInit {
 
+  houseNames: Array<String>;
+
   constructor(
     private readonly store: Store<AppState>,
     public translate: TranslateService
   ) {}
 
   ngOnInit(): void {
+    this.houseNames = []
     this.store
       .pipe(
         select(selectLanguage),
@@ -27,9 +31,17 @@ export class NavbarComponent implements OnInit {
         })
       )
       .subscribe();
+
+      this.getHouseNames();
   }
 
   setLanguage(language: string) {
     this.store.dispatch(setLanguage({ language }));
+  }
+
+  getHouseNames(){
+    this.translate.get("Houses").subscribe((res : Array<House>) => {
+      res.forEach((house) => { this.houseNames.push(house.Name)});
+    });
   }
 }

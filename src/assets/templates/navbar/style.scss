@@ -9,6 +9,7 @@
   height: 100px;
   padding: 0;
 }
+
 .navbar-brand {
   margin-left: 16px;
   font-size: xx-large;
@@ -37,9 +38,15 @@
 }
 
 .dropdown-menu {
-  min-width: 0rem;
+
   background-color: #f8f9fa !important;
+  margin-top: 0;
+  border: none;
+  border-radius: 0;
+
+
 }
+
 
 li {
   padding: 16px;

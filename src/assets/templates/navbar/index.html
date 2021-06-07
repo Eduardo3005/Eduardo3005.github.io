@@ -41,9 +41,9 @@
           {{"NavBar.Houses" | translate}}
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" [routerLink]="['/houses', 1]">T1</a>
-          <a class="dropdown-item" [routerLink]="['/houses', 2]">T2</a>
-          <a class="dropdown-item" [routerLink]="['/houses', 3]">T3</a>
+          <div  *ngFor="let houseName of houseNames; let i = index">
+            <a class="dropdown-item uppercase" [routerLink]="['/houses', i+1]">{{houseName | translate}}</a>
+          </div>
         </div>
       </li>
       <li class="nav-item">

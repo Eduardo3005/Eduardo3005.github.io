@@ -4,12 +4,13 @@
 }
 
 .carousel-item {
-  height: 100vh;
+  height: 90vh;
 
   @media (max-width: 768px) {
-    margin-top: 0;
-    height: 50vh;
+
+    height:384px;
   }
+
 }
 
 @media (min-width: 40em) {
@@ -29,3 +30,4 @@
     margin-top: 7rem;
   }
 }
+

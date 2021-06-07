@@ -47,8 +47,14 @@
 .btn-outline-secondary {
   border-radius: 0;
   margin: 0 auto;
+  width: fit-content;
   text-transform: uppercase;
   font-family: "Sarabun-Bold", sans-serif;
+  justify-content: center;
+  display: flex;
+  letter-spacing: 3px;
+  white-space: normal;
+  overflow: hidden;
 
   &:hover {
     color: #ffffff;
@@ -90,6 +96,10 @@ rect {
   fill: $green-light;
   width: 100%;
   height: 100%;
+
+  @media (max-width: 768px) {
+    height: 384px;
+  }
 }
 
 .uppercase {
@@ -101,7 +111,7 @@ rect {
   background-color: $green-light;
 
   @media (max-width: 768px) {
-    height: 50vh;
+    height: 384px;
   }
 }
 
@@ -150,6 +160,27 @@ rect {
 .mb-192 {
   margin-bottom: 192px;
   @media (max-width: 768px) {
-    margin-bottom: 96px;
+    margin-bottom: 112px;
   }
+}
+
+.top-100{
+  top: 100px;
+}
+
+.row {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.mt-0 {
+  margin-top: 0px;
+}
+
+.green-light-background{
+  background-color: $green-light;
+}
+
+.green-dark-background{
+  background-color: $green-dark;
 }

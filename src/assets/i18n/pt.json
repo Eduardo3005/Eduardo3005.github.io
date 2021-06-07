@@ -233,28 +233,16 @@
   },
   "PersonalizedServices": [
     {
-      "Name": "Higiene Pessoal",
+      "Name": "Apoio na higiene pessoal",
       "Price": "165€"
     },
     {
-      "Name": "Confecção e apoio de 1 refeição",
-      "Price": "25€"
-    },
-    {
-      "Name": "Confecção e apoio de 2 refeições",
-      "Price": "40€"
+      "Name": "Confecção e apoio de refeições",
+      "Price": "Desde 25€"
     },
     {
       "Name": "Acompanhamento personalizado 3 horas",
-      "Price": "25€"
-    },
-    {
-      "Name": "Acompanhamento personalizado 6 horas",
-      "Price": "42€"
-    },
-    {
-      "Name": "Acompanhamento personalizado 12 horas",
-      "Price": "75€"
+      "Price": "Desde 25€"
     }
   ],
   "WelfareActivities": [
@@ -263,16 +251,12 @@
       "Price": "15€"
     },
     {
-      "Name": "Relaxamento individual",
+      "Name": "Sessão de relaxamento individual",
       "Price": "20€"
     },
     {
-      "Name": "Relaxamento 2 pessoas",
-      "Price": "35€"
-    },
-    {
       "Name": "Relaxamento de grupo",
-      "Price": "50€"
+      "Price": "Desde 50€"
     }
   ],
   "Services": [

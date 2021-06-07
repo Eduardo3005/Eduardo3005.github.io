@@ -4,10 +4,14 @@
   margin-bottom: 32px;
   display: flex;
   color: $grey-light;
+
 }
 
 .left-card {
   border-left: 2px solid $grey-light;
+  @media (max-width: 768px) {
+    border: 0;
+  }
   width: 100%;
 }
 
@@ -47,19 +51,25 @@
   }
 
   &.prices {
-    width: 70%;
+    width: 80%;
     margin: 0 auto;
     margin-top: 32px;
-    background-color: $green-light;
     color: #ffffff;
 
     .service {
       font-family: "Sarabun-Regular", sans-serif;
       font-size: 14px;
       margin: 0 auto;
-      margin-left: 16px;
+
       text-transform: uppercase;
       line-height: 24px;
+      display:inline;
+
+      &.price {
+        font-family: "Sarabun-Bold", sans-serif;
+        font-size: 14px;
+        margin-left: 0;
+      }
     }
   }
 }

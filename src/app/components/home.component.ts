@@ -1,10 +1,9 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';
 import { select, Store } from '@ngrx/store';
 import {  TranslateService } from '@ngx-translate/core';
 import { AppState } from '../state/app-state';
 import { selectLanguage } from '../state/language/language-state';
 import { tap } from 'rxjs/operators';
-import { SlideShowElement } from '../models/slide-show-element';
 import { House } from '../models/house';
 import { Place } from '../models/place';
 import { FirebaseProvider } from '../services/firebase-logger.service';
@@ -20,11 +19,13 @@ SwiperCore.use([Navigation, Pagination]);
 })
 export class HomeComponent implements OnInit {
 
-  browserLang: string;
-  title: string;
   houses: Array<House>;
   places: Array<Place>;
   slideShow: Array<String>;
+
+  @ViewChild('openModal') openModal:ElementRef;
+  @ViewChild('sponsorshipsModal') sponsorshipsModal:ElementRef;
+
 
   constructor(
     private readonly store: Store<AppState>,
@@ -35,6 +36,18 @@ export class HomeComponent implements OnInit {
   }
 
   ngOnInit() {
+    setTimeout(() => {
+      this.openModal.nativeElement.click();
+
+    }, 1000);
+    setTimeout(() => {
+      this.sponsorshipsModal.nativeElement.click();
+
+    }, 1000);
+
+
+
+
     this.slideShow = []
     this.houses = []
     this.store
@@ -53,6 +66,8 @@ export class HomeComponent implements OnInit {
       setTimeout(() => {
         this.initSwiper();
       }, 1000);
+
+
   }
 
   getSlideShow(){
@@ -90,4 +105,3 @@ export class HomeComponent implements OnInit {
   }
 
 }
-

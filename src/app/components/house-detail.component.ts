@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnDestroy, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { Location } from '@angular/common';
 import { select, Store } from '@ngrx/store';
@@ -18,6 +18,7 @@ import { House, Accommodation, Option } from '../models/house';
 import { SlideShowElement } from '../models/slide-show-element';
 import SwiperCore, { Navigation, Pagination, Swiper } from 'swiper/core';
 import { FirebaseProvider } from '../services/firebase-logger.service';
+import { DynamicComponent } from '../shared/base.component';
 
 SwiperCore.use([Navigation, Pagination]);
 
@@ -26,7 +27,10 @@ SwiperCore.use([Navigation, Pagination]);
   templateUrl: '../../assets/templates/house-detail/index.html',
   styleUrls: ['../../assets/templates/house-detail/style.scss'],
 })
-export class HouseDetailComponent implements OnInit {
+export class HouseDetailComponent
+  extends DynamicComponent
+  implements OnInit, OnDestroy
+{
   houses: Array<House>;
   houseName: string;
   fullDescription: string;
@@ -42,17 +46,19 @@ export class HouseDetailComponent implements OnInit {
   houseId: number;
 
   constructor(
-    private readonly store: Store<AppState>,
-    private readonly translate: TranslateService,
+    readonly store: Store<AppState>,
+    readonly translate: TranslateService,
+    readonly firebase: FirebaseProvider,
     private route: ActivatedRoute,
     private router: Router,
-    private location: Location,
-    private firebase: FirebaseProvider
+    private location: Location
   ) {
+    super(store, translate, firebase);
     this.router.routeReuseStrategy.shouldReuseRoute = () => false;
   }
 
   ngOnInit(): void {
+    super.ngOnInit();
     this.route.params.subscribe((params) => {
       this.houseId = +params['id'];
     });
@@ -74,14 +80,14 @@ export class HouseDetailComponent implements OnInit {
     this.getOutdoorAccommodations();
     this.getCommonAccommodations();
     this.getMainSlideShow();
-    this.initSwiper()
+    this.initSwiper();
   }
 
-  initSwiper(): Swiper{
+  initSwiper(): Swiper {
     return new Swiper('.mySwiper', {
       fadeEffect: {
-            crossFade: true
-        },
+        crossFade: true,
+      },
       breakpointsBase: '1000',
       loop: true,
       loopFillGroupWithBlank: true,
@@ -100,7 +106,7 @@ export class HouseDetailComponent implements OnInit {
           slidesPerView: 4,
           spaceBetween: 30,
           slidesPerGroup: 4,
-        }
+        },
       },
       pagination: {
         el: '.swiper-pagination',

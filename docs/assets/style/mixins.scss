@@ -9,7 +9,7 @@
   }
 }
 .card-body {
-  background-color: #ffffff;
+  background-color: $white;
   margin-top: 0;
   .card-title {
     text-align: center;
@@ -40,7 +40,6 @@
       width: 85%;
       padding: 8px;
       margin: 16px;
-
     }
   }
 }
@@ -57,9 +56,10 @@
   white-space: normal;
   overflow: hidden;
   padding: 16px;
+  border: 1px solid $white;
 
   &:hover {
-    color: #ffffff;
+    color: $white;
     background-color: $grey-dark;
   }
 }
@@ -67,7 +67,6 @@
 .yellow-background {
   background-color: $yellow;
   padding: 8px;
-
 }
 
 h1 {
@@ -82,7 +81,7 @@ h2 {
   color: $grey-dark;
   font-family: "Sarabun-Bold", sans-serif;
   font-size: 28px;
-  letter-spacing: 8px;
+  letter-spacing: 6px;
   text-transform: uppercase;
 }
 
@@ -166,7 +165,7 @@ rect {
   }
 }
 
-.top-100{
+.top-100 {
   top: 100px;
 }
 
@@ -183,19 +182,102 @@ rect {
   margin-top: 0px;
 }
 
-.green-light-background{
+.green-light-background {
   background-color: $green-light;
 }
 
-.green-dark-background{
+.green-dark-background {
   background-color: $green-dark;
 }
 
-p{
+p {
   font-family: "SourceSerifPro-Regular", serif;
+  color: $grey-dark;
 }
-
 
 a {
   margin-top: 0;
+}
+
+.modal-content {
+  border-radius: 0;
+
+  .modal-header {
+    border-bottom: none;
+    height: 48px;
+
+    .close {
+      font-size: 32px;
+      font-weight: 0;
+    }
+  }
+
+  .modal-body {
+    padding-right: 56px;
+    padding-left: 56px;
+    text-align: center;
+    justify-content: center;
+    .logo {
+      border: 1px solid $grey-light;
+      height: 80px;
+      width: 90%;
+      margin: 0 auto;
+      margin-bottom: 32px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}
+
+.modal-opening {
+  z-index: 9999;
+}
+
+.modal-bottom {
+
+  z-index: 8888;
+  color: $green-light;
+  .modal-dialog {
+    // height:80%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    max-width: 100% !important;
+    margin: 0;
+    height: 200px;
+
+    .modal-content {
+      border: none;
+
+      .modal-body {
+        padding:16px;
+        padding-right:32px;
+        padding-left:32px;
+        .close {
+          font-size: 32px;
+          font-weight: 0;
+          text-shadow: none;
+
+          &:focus,
+          &:active {
+            outline: none !important;
+            box-shadow: none;
+          }
+        }
+        .row {
+          .col-md-4 {
+            .logo {
+              background-color: $white;
+              height: 100px;
+            }
+          }
+        }
+      }
+
+      border-radius: 0;
+      background-color: $green-light;
+    }
+  }
 }

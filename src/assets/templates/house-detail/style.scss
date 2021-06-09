@@ -18,7 +18,7 @@
 .card-body {
   .card-title {
     &.card-title-prices {
-      color: #ffffff;
+      color: $white;
       margin-top: 16px;
       margin-bottom: 16px;
     }
@@ -46,14 +46,14 @@
 
   .line {
     margin-top: 16px;
-    border-bottom: 1px solid #ffffff;
+    border-bottom: 1px solid $white;
   }
 
   &.prices {
     width: 65%;
     margin: 0 auto;
     margin-top: 32px;
-    color: #ffffff;
+    color: $white;
 
     @media (max-width: 768px) {
       width:80%;
@@ -63,7 +63,7 @@
       font-family: "Sarabun-Regular", sans-serif;
       font-size: 14px;
       margin: 0 auto;
-      color: #ffffff;
+      color: $white;
 
       text-transform: uppercase;
       line-height: 24px;

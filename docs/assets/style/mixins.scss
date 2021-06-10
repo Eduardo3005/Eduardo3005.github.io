@@ -239,7 +239,6 @@ a {
   z-index: 8888;
   color: $green-light;
   .modal-dialog {
-    // height:80%;
     position: absolute;
     bottom: 0;
     left: 0;
@@ -247,6 +246,10 @@ a {
     max-width: 100% !important;
     margin: 0;
     height: 200px;
+
+    @media (max-width: 768px) {
+      height: fit-content;
+    }
 
     .modal-content {
       border: none;
@@ -266,11 +269,23 @@ a {
             box-shadow: none;
           }
         }
+        h2{
+          font-size: 24px;
+        }
         .row {
           .col-md-4 {
+
             .logo {
               background-color: $white;
-              height: 100px;
+              height: 96px;
+              @media (max-width: 768px) {
+                height: 56px;
+                margin-bottom: 8px;
+               }
+               .logo {
+                 background-color: $white;
+
+               }
             }
           }
         }

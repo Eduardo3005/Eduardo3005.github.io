@@ -6,7 +6,7 @@
     "HousesHeader": {
       "Title": "Alugar no páteo lima"
     },
-    "SlideShow":[
+    "SlideShow": [
       "assets/images/image_1.jpg",
       "assets/images/image_2.jpg",
       "assets/images/image_3.jpg",
@@ -25,7 +25,6 @@
       "P2": "Constituído por um conjunto de três casas de tipologia T1, T2 e T3, para além da habitação dos proprietários, que foram buscar os nomes à forma como eram habitualmente designadas pela família, esta unidade de Turismo Rural resulta da reconversão de um antigo ponto comercial que, na sua época áurea, chegou a contar com mercearia, retrosaria, sapataria, taberna, padaria, talho e queijaria, alimentados pela produção agropecuária da própria quinta.",
       "P3": "A aquisição da propriedade pela família Lima remonta a 1874, por iniciativa do trisavô da promotora – Custódio Joaquim – que começou a dar forma a um negócio que se foi expandindo ao longo de sucessivas gerações nesta localidade, outrora designada por Valle Verde. Mas este não era um mero lugar de “venda”; ele era também um lugar de encontro de gentes, onde se tecia a vida da aldeia e se interagia com o mundo. O afastamento dos mais novos, à procura de uma vida melhor, e a evolução do mercado levou-o, pouco a pouco, ao declínio e ao encerramento.",
       "P4": "O nascimento do Páteo Lima vem revitalizar o espaço e atribuir-lhe uma nova função, para que possa voltar a ser vivido, proporcionando novos momentos de partilha entre residentes e forasteiros. Tem como marca diferenciadora a acessibilidade integral a pessoas com mobilidade condicionada."
-
     },
     "Places": {
       "Title": "O que fazer",
@@ -46,7 +45,23 @@
           "Tooltip": "Para além das redondezas serem propícias a caminhadas pelo campo, pode participar das actividades da quinta."
         }
       ]
-    }
+    },
+    "OpeningModal": {
+      "ImagePath": "",
+      "Title": "Abertura prevista a 3 de Setembro",
+      "Tooltip": "Enquanto isso aproveite para conhecer o espaço, as atividades disponíveis e pontos de interesse dos arredores."
+    },
+    "CofinaningModal": [
+      {
+        "ImagePath": ""
+      },
+      {
+        "ImagePath": ""
+      },
+      {
+        "ImagePath": ""
+      }
+    ]
   },
   "History": {
     "Title": "Quem somos",
@@ -69,7 +84,7 @@
     "KnowMoreAboutActivities2": "Saiba mais sobre o que ver e fazer",
     "KnowMoreAboutUs": "Saiba mais sobre nós",
     "Prices": "Preços",
-    "PersonalizedServices" : "Serviços personalizados",
+    "PersonalizedServices": "Serviços personalizados",
     "WelfareActivities": "Actividades de bem estar psicológico",
     "Accommondations": "Comodidades",
     "Services": "Serviços",
@@ -78,7 +93,8 @@
     "PhotoGallery": "Galeria de fotos"
   },
   "Footer": {
-    "Link": "Ficha técnica do projecto"
+    "Link": "Ficha técnica do projecto",
+    "GoogleMapsIconPath": "assets/images/google_maps_icon.svg"
   },
   "Houses": [
     {

@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { TranslateService } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-footer',
@@ -7,9 +8,18 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FooterComponent implements OnInit {
 
-  constructor() {}
+  googleMapsIconPath : string;
+
+  constructor(
+    readonly translate: TranslateService,
+  ) {
+  }
 
   ngOnInit(): void {
+
+    this.translate.get('Footer.GoogleMapsIconPath').subscribe((res: string) => {
+      this.googleMapsIconPath = res;
+    });
   }
 
 }

@@ -48,16 +48,18 @@ a {
   right: 16px;
 }
 
-
-
 p {
   margin-bottom: 8px;
   display:inline;
   color: $white;
 }
 
-
 .p-yellow{
   color: $yellow;
+}
+
+.btn-outline-secondary {
+
+  border: 1px solid $white;
 }
 

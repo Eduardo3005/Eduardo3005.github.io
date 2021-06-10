@@ -110,7 +110,7 @@ rect {
   height: 100vh;
   background-color: $green-light;
 
-  @media (max-width: 768px) {
+  @media (max-width: 1024px) {
     height: 384px;
   }
 }
@@ -166,6 +166,9 @@ rect {
 
 .top-100 {
   top: 100px;
+  @media (max-width: 768px) {
+    top:58px;
+  }
 }
 
 .top-52 {
@@ -283,7 +286,6 @@ a {
                }
                .logo {
                  background-color: $white;
-
                }
             }
           }

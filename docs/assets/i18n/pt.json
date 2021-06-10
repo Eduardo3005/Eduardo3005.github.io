@@ -93,8 +93,18 @@
     "PhotoGallery": "Galeria de fotos"
   },
   "Footer": {
+    "ContactsTitle": "Contactos",
+    "AddressTitle": "Morada",
+    "LogoTitle": "Logotipo",
+    "CofinancingTitle": "Confinaciamento",
     "Link": "Ficha técnica do projecto",
-    "GoogleMapsIconPath": "assets/images/google_maps_icon.svg"
+    "GoogleMapsIconPath": "assets/images/google_maps_icon.svg",
+    "GoogleMapsLink": "#",
+    "Email": "p****@gmail.com",
+    "Phone": "93*******",
+    "FixedPhone": "266******",
+    "Address": "Rua ***** ***** *****, **",
+    "PostalCode": "7000-***"
   },
   "Houses": [
     {

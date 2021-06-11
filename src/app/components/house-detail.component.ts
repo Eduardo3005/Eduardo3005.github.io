@@ -1,4 +1,4 @@
-import { Component, OnDestroy, OnInit } from '@angular/core';
+import { Component, ElementRef, OnDestroy, OnInit, ViewChild } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { Location } from '@angular/common';
 import { select, Store } from '@ngrx/store';
@@ -44,6 +44,9 @@ export class HouseDetailComponent
   options: Array<Option>;
   mainSlideShow: Array<SlideShowElement>;
   houseId: number;
+  images: Array<string>;
+  currentModalImage: string;
+  @ViewChild('openModal') openModal: ElementRef;
 
   constructor(
     readonly store: Store<AppState>,
@@ -79,8 +82,9 @@ export class HouseDetailComponent
     this.getAdditionalServices();
     this.getOutdoorAccommodations();
     this.getCommonAccommodations();
-    this.getMainSlideShow();
-    this.initSwiper();
+    setTimeout(() => {
+      this.initSwiper();
+    }, 1000);
   }
 
   initSwiper(): Swiper {
@@ -135,6 +139,7 @@ export class HouseDetailComponent
       this.houseName = this.houses[this.houseId - 1].Name;
       this.accommodations = this.houses[this.houseId - 1].Accommodations;
       this.options = this.houses[this.houseId - 1].Options;
+      this.images = this.houses[this.houseId - 1].Images;
     });
   }
 
@@ -186,5 +191,13 @@ export class HouseDetailComponent
       .subscribe((res: Array<CommonAccommodation>) => {
         this.commonAccommodations = res;
       });
+  }
+
+  openImage(index: string) : void{
+    if(window.innerWidth > 767){
+      this.currentModalImage = this.images[index];
+      this.openModal.nativeElement.click();
+    }
+
   }
 }

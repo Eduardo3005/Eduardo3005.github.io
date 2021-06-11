@@ -8,6 +8,7 @@ export class House {
   ImagePath: string;
   Options:  Array<Option>;
   Accommodations:  Array<Accommodation>;
+  Images: Array<string>;
 }
 
 export class Option {

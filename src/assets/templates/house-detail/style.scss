@@ -4,7 +4,6 @@
   margin-bottom: 32px;
   display: flex;
   color: $grey-light;
-
 }
 
 .left-card {
@@ -32,7 +31,7 @@
       margin-left: 16px;
     }
 
-    .text-left{
+    .text-left {
       margin-left: 16px;
     }
   }
@@ -57,7 +56,7 @@
     color: $white;
 
     @media (max-width: 768px) {
-      width:80%;
+      width: 80%;
     }
 
     .service {
@@ -68,7 +67,7 @@
 
       text-transform: uppercase;
       line-height: 24px;
-      display:inline;
+      display: inline;
 
       &.price {
         font-family: "Sarabun-Bold", sans-serif;
@@ -88,8 +87,7 @@ ul {
 
 .card {
   .card-body {
-
-    .card-title-gallery{
+    .card-title-gallery {
       margin-bottom: 0;
     }
     &.card-body-gallery {
@@ -111,6 +109,8 @@ ul {
   font-size: 18px;
   height: 300px;
   width: 300px;
+  background-size: cover;
+  cursor: pointer;
   background-color: $green-light;
 
   /* Center slide text vertically */
@@ -129,15 +129,15 @@ ul {
 }
 
 ::ng-deep .swiper-pagination-bullet-active {
-	background: $yellow;
+  background: $yellow;
 }
 
-.swiper-button-next{
+.swiper-button-next {
   color: $yellow;
   font-size: 12px;
 }
 
-.swiper-button-prev{
+.swiper-button-prev {
   color: $yellow;
 }
 
@@ -148,4 +148,42 @@ ul {
   object-fit: cover;
 }
 
+.modal-dialog {
+  max-width: 1072px;
+  .modal-content {
+    border-radius: 0;
 
+    .modal-header {
+      border-bottom: none;
+      height: 48px;
+
+      .close {
+        font-size: 32px;
+        font-weight: 0;
+      }
+    }
+
+    .modal-body {
+      margin: 0 auto;
+      padding: 16px;
+      text-align: center;
+      justify-content: center;
+      .currentImageModal {
+        background-size: cover;
+        margin: 0 auto;
+        height: 780px;
+        width: 1040px;
+
+        @media (max-width: 1024px) {
+          height: 720px;
+          width: 960px;
+        }
+
+        @media (max-width: 768px) {
+          height: 540px;
+          width: 720px;
+        }
+      }
+    }
+  }
+}

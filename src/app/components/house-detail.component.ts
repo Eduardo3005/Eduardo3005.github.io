@@ -1,4 +1,10 @@
-import { Component, ElementRef, OnDestroy, OnInit, ViewChild } from '@angular/core';
+import {
+  Component,
+  ElementRef,
+  OnDestroy,
+  OnInit,
+  ViewChild,
+} from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { Location } from '@angular/common';
 import { select, Store } from '@ngrx/store';
@@ -46,6 +52,7 @@ export class HouseDetailComponent
   houseId: number;
   images: Array<string>;
   currentModalImage: string;
+  sliderXXLVisible: boolean;
   @ViewChild('openModal') openModal: ElementRef;
 
   constructor(
@@ -83,12 +90,14 @@ export class HouseDetailComponent
     this.getOutdoorAccommodations();
     this.getCommonAccommodations();
     setTimeout(() => {
-      this.initSwiper();
+      this.initSwiper('.mySwiper');
     }, 1000);
+
+    this.sliderXXLVisible = false
   }
 
-  initSwiper(): Swiper {
-    return new Swiper('.mySwiper', {
+  initSwiper(className: string): Swiper {
+    return new Swiper(className, {
       fadeEffect: {
         crossFade: true,
       },
@@ -193,11 +202,20 @@ export class HouseDetailComponent
       });
   }
 
-  openImage(index: string) : void{
-    if(window.innerWidth > 767){
+  openImage(index: string): void {
+    if (window.innerWidth > 767) {
       this.currentModalImage = this.images[index];
       this.openModal.nativeElement.click();
     }
+  }
 
+  openSlider(index: number): void {
+    if (window.innerWidth > 767) {
+      setTimeout(() => {
+        var swiper = this.initSwiper('.mySwiper-xxl');
+        swiper.slideTo(index);
+        this.sliderXXLVisible = true;
+      }, 1000);
+    }
   }
 }

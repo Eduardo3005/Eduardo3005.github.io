@@ -17,6 +17,14 @@
   margin-left: 16px;
   font-size: xx-large;
   font-weight: bold;
+
+  .logo{
+    @media (max-width:768px) {
+      width: 248px;
+     }
+  }
+
+
 }
 
 .nav-link {
@@ -29,6 +37,10 @@
   background-color: #f8f9fa !important;
   padding-right: 16px;
   padding-left: 16px;
+
+  @media (max-width: 1024px) {
+    letter-spacing: 1px;
+  }
 }
 
 .nav-item {

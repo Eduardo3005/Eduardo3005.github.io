@@ -220,7 +220,11 @@ a {
     text-align: center;
     justify-content: center;
     .logo {
-      border: 1px solid $grey-light;
+
+        @media (max-width:768px) {
+          width: 248px;
+         }
+
       height: 80px;
       width: 90%;
       margin: 0 auto;
@@ -247,7 +251,6 @@ a {
     right: 0;
     max-width: 100% !important;
     margin: 0;
-    height: 200px;
 
     @media (max-width: 768px) {
       height: fit-content;
@@ -261,6 +264,10 @@ a {
         padding-right:32px;
         padding-left:32px;
         .close {
+          @media (max-width: 768px) {
+            margin-top: 0;
+          }
+
           font-size: 32px;
           font-weight: 0;
           text-shadow: none;
@@ -271,24 +278,12 @@ a {
             box-shadow: none;
           }
         }
-        h2{
-          font-size: 24px;
-        }
-        .row {
-          .col-md-4 {
-
-            .logo {
-              background-color: $white;
-              height: 96px;
-              @media (max-width: 768px) {
-                height: 56px;
-                margin-bottom: 8px;
-               }
-               .logo {
-                 background-color: $white;
-               }
-            }
+        .cofinancingBar{
+          height: 100px;
+          @media (max-width: 768px) {
+            width: 70%;
           }
+
         }
       }
 
@@ -297,3 +292,4 @@ a {
     }
   }
 }
+

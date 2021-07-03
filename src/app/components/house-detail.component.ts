@@ -52,7 +52,6 @@ export class HouseDetailComponent
   houseId: number;
   images: Array<string>;
   currentModalImage: string;
-  sliderXXLVisible: boolean;
   @ViewChild('openModal') openModal: ElementRef;
 
   constructor(
@@ -93,7 +92,6 @@ export class HouseDetailComponent
       this.initSwiper('.mySwiper');
     }, 1000);
 
-    this.sliderXXLVisible = false
   }
 
   initSwiper(className: string): Swiper {
@@ -103,7 +101,6 @@ export class HouseDetailComponent
       },
       breakpointsBase: '1000',
       loop: true,
-      loopFillGroupWithBlank: true,
       breakpoints: {
         '480': {
           slidesPerView: 1,
@@ -202,20 +199,33 @@ export class HouseDetailComponent
       });
   }
 
-  openImage(index: string): void {
+  openImage(index: number): void {
+
     if (window.innerWidth > 767) {
       this.currentModalImage = this.images[index];
-      this.openModal.nativeElement.click();
-    }
-  }
 
-  openSlider(index: number): void {
-    if (window.innerWidth > 767) {
       setTimeout(() => {
-        var swiper = this.initSwiper('.mySwiper-xxl');
+        var swiper = new Swiper('.mySwiper-xxl', {
+          slidesPerView: 1,
+          spaceBetween: 10,
+          slidesPerGroup: 1,
+          pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+          },
+          navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+          },
+          initialSlide: index
+        });
+
         swiper.slideTo(index);
-        this.sliderXXLVisible = true;
-      }, 1000);
+
+        return swiper;
+      }, 1);
+
+      this.openModal.nativeElement.click();
     }
   }
 }

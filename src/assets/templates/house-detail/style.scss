@@ -129,13 +129,13 @@ ul {
 }
 
 .swiper-container-xxl {
-
+  margin-top: 32px;
   width: 100%;
   .swiper-slide {
     text-align: center;
     font-size: 18px;
-    height: 900px;
-    width: 675px;
+    height: 800px;
+    width: 600px;
     background-size: cover;
     cursor: pointer;
     background-color: $green-light;
@@ -171,12 +171,13 @@ ul {
 
 .modal-dialog {
   max-width: 1400px;
+  max-height: 800px;
   .modal-content {
     border-radius: 0;
 
     .modal-header {
       border-bottom: none;
-      height: 48px;
+      height: 0;
 
       .close {
         font-size: 32px;
@@ -189,8 +190,8 @@ ul {
       text-align: center;
       justify-content: center;
       @media (max-width: 1024px) {
-        height: 720px;
-        width: 960px;
+        height: 600px;
+        width: 800px;
       }
 
       @media (max-width: 768px) {

@@ -129,19 +129,13 @@ ul {
 }
 
 .swiper-container-xxl {
-  position: fixed;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  width: 90%;
-  height: 90%;
-
+  margin-top: 32px;
+  width: 100%;
   .swiper-slide {
     text-align: center;
     font-size: 18px;
-    height: 300px;
-    width: 300px;
+    height: 800px;
+    width: 600px;
     background-size: cover;
     cursor: pointer;
     background-color: $green-light;
@@ -162,8 +156,6 @@ ul {
   }
 }
 
-
-
 ::ng-deep .swiper-pagination-bullet-active {
   background: $yellow;
 }
@@ -178,13 +170,14 @@ ul {
 }
 
 .modal-dialog {
-  max-width: 1072px;
+  max-width: 1400px;
+  max-height: 800px;
   .modal-content {
     border-radius: 0;
 
     .modal-header {
       border-bottom: none;
-      height: 48px;
+      height: 0;
 
       .close {
         font-size: 32px;
@@ -193,25 +186,17 @@ ul {
     }
 
     .modal-body {
-      margin: 0 auto;
-      padding: 16px;
+      padding: 0;
       text-align: center;
       justify-content: center;
-      .currentImageModal {
-        background-size: cover;
-        margin: 0 auto;
-        height: 780px;
-        width: 1040px;
+      @media (max-width: 1024px) {
+        height: 600px;
+        width: 800px;
+      }
 
-        @media (max-width: 1024px) {
-          height: 720px;
-          width: 960px;
-        }
-
-        @media (max-width: 768px) {
-          height: 540px;
-          width: 720px;
-        }
+      @media (max-width: 768px) {
+        height: 540px;
+        width: 720px;
       }
     }
   }

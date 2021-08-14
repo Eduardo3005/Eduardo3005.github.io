@@ -15,6 +15,8 @@ import { House } from '../models/house';
 export class NavbarComponent implements OnInit {
 
   houseNames: Array<String>;
+  active = false
+
 
   constructor(
     private readonly store: Store<AppState>,

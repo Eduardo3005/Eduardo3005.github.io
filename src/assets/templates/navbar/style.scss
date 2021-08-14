@@ -11,6 +11,8 @@
     height: auto;
   }
   padding: 0;
+
+  border-bottom: 1px solid $green-light !important;
 }
 
 .navbar-brand {
@@ -21,10 +23,8 @@
   .logo{
     @media (max-width:768px) {
       width: 248px;
-     }
+    }
   }
-
-
 }
 
 .nav-link {
@@ -41,6 +41,7 @@
   @media (max-width: 1024px) {
     letter-spacing: 1px;
   }
+
 }
 
 .nav-item {
@@ -51,6 +52,14 @@
     padding: 0;
   }
 }
+
+.navbar-light .navbar-nav .nav-link  {
+  &:hover, &:focus, &:active {
+    color: $white;
+    background-color: $green-light !important;
+  }
+}
+
 
 .dropdown-menu {
 

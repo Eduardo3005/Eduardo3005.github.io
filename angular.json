@@ -42,7 +42,7 @@
               "node_modules/swiper/swiper-bundle.min.css"
             ],
             "scripts": [
-              "../src/assets/base.js",
+              "src/assets/base.js",
               "node_modules/swiper/swiper-bundle.min.js"
             ]
           },

@@ -72,15 +72,6 @@ export class HouseDetailComponent
       this.houseId = +params['id'];
     });
 
-    this.store
-      .pipe(
-        select(selectLanguage),
-        tap((language: string) => {
-          this.translate.use(language);
-        })
-      )
-      .subscribe();
-
     this.getHouse();
     this.getWelfareActivities();
     this.getPersonalizedServices();

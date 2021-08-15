@@ -1,20 +1,145 @@
-<div class="card text-center mb-192 top-100">
-  <div class="card-body main-card">
-    <h1 class="card-title">{{ "History.Title" | translate }}</h1>
+
+<div class="card text-center">
+  <div class="card-body">
+    <h2 class="card-title mt-240 mb-72">{{ "Home.Resume.Title" | translate }}</h2>
+    <p class="text">{{ "History.P1" | translate }} {{ "History.P2" | translate }}</p>
+  </div>
+</div>
+
+<div class="card text-center">
+    <div class="card-body yellow-background">
+      <p class="text">{{ "History.P3" | translate }}</p>
+    </div>
+</div>
+
+<div class="card text-center">
+  <div class="card-body">
+    <p class="text">{{ "History.P4" | translate }}</p>
+
   </div>
 </div>
 
 <div class="card text-center">
   <div class="card-body">
-    <h1 class="card-title mb-96">{{ "History.Title" | translate }}</h1>
-    <p class="text">{{ "History.P1" | translate }}</p>
-    <p class="text">{{ "History.P2" | translate }}</p>
-    <p class="text">{{ "History.P3" | translate }}</p>
-    <p class="text">{{ "History.P4" | translate }}</p>
     <p class="text">{{ "History.P5" | translate }}</p>
-    <h1 class="card-title mb-96 mt-96">{{ "History.SecondTitle" | translate }}</h1>
-    <p class="text">{{ "History.P6" | translate }}</p>
-    <p class="text">{{ "History.P7" | translate }}</p>
-    <p class="text">{{ "History.P8" | translate }}</p>
+  </div>
+</div>
+
+<div class="masonry">
+  <div class="item-masonry">
+    <img src="assets/images/carimbo_jose_ferreira.jpg">
+  </div>
+  <div class="item-masonry">
+    <img src="assets/images/familia_lima_anos_60.jpg">
+  </div>
+  <div class="item-masonry">
+    <img src="assets/images/frente_loja.jpg">
+  </div>
+  <div class="item-masonry">
+    <img src="assets/images/matanca_porco_II.jpg">
+  </div>
+  <div class="item-masonry">
+    <img src="assets/images/pai_loja_fotog_holandes.jpg">
+  </div>
+  <div class="item-masonry">
+    <img src="assets/images/porco.jpg">
+  </div>
+  <div class="item-masonry">
+    <img src="assets/images/procissao.jpg">
+  </div>
+  <div class="item-masonry">
+    <img src="assets/images/procissao_I_anos_80.jpg">
+  </div>
+  <div class="item-masonry">
+    <img src="assets/images/servindo_um_copo.jpg">
+  </div>
+  <div class="item-masonry">
+    <img src="assets/images/custodio_ferreira_lima.jpg">
+  </div>
+</div>
+
+<div class="card text-center mb-192 top-100">
+  <div class="card-body main-card">
+    <div class="row no-gutters">
+      <div class="col-md-5 ">
+        <div
+          class="photo"
+          style="background-image: url('assets/images/bene_5_anos.jpg')"
+        ></div>
+
+      </div>
+
+      <div class="col-md-7 ">
+        <h2 class="card-title mt-48 mb-72">{{ "History.SecondTitle" | translate }}</h2>
+
+        <p class="text">{{ "History.P6" | translate }}{{ "History.P7" | translate }}</p>
+        <p class="text">{{ "History.P8" | translate }}</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="card text-center">
+  <div class="card-body">
+    <h2 class="card-title mt-48 mb-72">{{ "Home.Resume.Title" | translate }}</h2>
+    <p class="text">{{ "History.P9" | translate }}</p>
+
+  </div>
+</div>
+
+<div class="swiper-container mySwiper">
+  <div class="swiper-wrapper">
+    <ng-container *ngFor="let image of images; ; let i = index">
+      <div class="swiper-slide" (click)="openImage(i)" style="background-image: url({{image}})"></div>
+    </ng-container>
+  </div>
+  <div class="swiper-button-next"></div>
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-pagination"></div>
+</div>
+
+
+<button
+  id="openModal"
+  #openModal
+  [hidden]="true"
+  data-toggle="modal"
+  data-target="#openingModal"
+></button>
+<div
+  class="modal modal-opening"
+  id="openingModal"
+  tabindex="-1"
+  role="dialog"
+  aria-labelledby="exampleModalCenterTitle"
+  aria-hidden="true"
+>
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button
+          type="button"
+          class="close"
+          data-dismiss="modal"
+          aria-label="Close"
+        >
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+
+        <div class="swiper-container swiper-container-xxl mySwiper-xxl">
+          <div class="swiper-wrapper">
+            <ng-container *ngFor="let image of images; let i = index">
+              <div class="swiper-slide " style="background-image: url({{image}})"></div>
+            </ng-container>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+    </div>
   </div>
 </div>

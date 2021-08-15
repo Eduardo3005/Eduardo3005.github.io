@@ -25,70 +25,36 @@
   </div>
 </div>
 
-<div class="container">
-  <div class="card-columns">
-    <div class="card">
-      <img class="card-img-top" src="http://via.placeholder.com/1600x900/483D8B/ffffff?text=Card+1" alt="Card image cap">
-      <div class="card-body">
-        <h5 class="card-title">Card title that wraps to a new line</h5>
-        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-      </div>
-    </div>
-    <div class="card p-3">
-      <blockquote class="blockquote mb-0 card-body">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-        <footer class="blockquote-footer">
-          <small class="text-muted">
-            Someone famous in <cite title="Source Title">Source Title</cite>
-          </small>
-        </footer>
-      </blockquote>
-    </div>
-    <div class="card">
-      <img class="card-img-top" src="http://via.placeholder.com/1600x450/9400D3/ffffff?text=Card+2" alt="Card image cap">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-      </div>
-    </div>
-    <div class="card bg-primary text-white text-center p-3">
-      <blockquote class="blockquote mb-0">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat.</p>
-        <footer class="blockquote-footer">
-          <small>
-            Someone famous in <cite title="Source Title">Source Title</cite>
-          </small>
-        </footer>
-      </blockquote>
-    </div>
-    <div class="card text-center">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-      </div>
-    </div>
-    <div class="card">
-      <img class="card-img" src="http://via.placeholder.com/1600x1600/FF1493/ffffff?text=Card+3" alt="Card image">
-    </div>
-    <div class="card p-3 text-right">
-      <blockquote class="blockquote mb-0">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-        <footer class="blockquote-footer">
-          <small class="text-muted">
-            Someone famous in <cite title="Source Title">Source Title</cite>
-          </small>
-        </footer>
-      </blockquote>
-    </div>
-    <div class="card">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-      </div>
-    </div>
+<div class="masonry">
+  <div class="item-masonry">
+    <img src="assets/images/carimbo_jose_ferreira.jpg">
+  </div>
+  <div class="item-masonry">
+    <img src="assets/images/familia_lima_anos_60.jpg">
+  </div>
+  <div class="item-masonry">
+    <img src="assets/images/frente_loja.jpg">
+  </div>
+  <div class="item-masonry">
+    <img src="assets/images/matanca_porco_II.jpg">
+  </div>
+  <div class="item-masonry">
+    <img src="assets/images/pai_loja_fotog_holandes.jpg">
+  </div>
+  <div class="item-masonry">
+    <img src="assets/images/porco.jpg">
+  </div>
+  <div class="item-masonry">
+    <img src="assets/images/procissao.jpg">
+  </div>
+  <div class="item-masonry">
+    <img src="assets/images/procissao_I_anos_80.jpg">
+  </div>
+  <div class="item-masonry">
+    <img src="assets/images/servindo_um_copo.jpg">
+  </div>
+  <div class="item-masonry">
+    <img src="assets/images/custodio_ferreira_lima.jpg">
   </div>
 </div>
 
@@ -96,8 +62,11 @@
   <div class="card-body main-card">
     <div class="row no-gutters">
       <div class="col-md-5 ">
-        <div class="photo mt-48">
-        </div>
+        <div
+          class="photo"
+          style="background-image: url('assets/images/bene_5_anos.jpg')"
+        ></div>
+
       </div>
 
       <div class="col-md-7 ">
@@ -118,3 +87,59 @@
   </div>
 </div>
 
+<div class="swiper-container mySwiper">
+  <div class="swiper-wrapper">
+    <ng-container *ngFor="let image of images; ; let i = index">
+      <div class="swiper-slide" (click)="openImage(i)" style="background-image: url({{image}})"></div>
+    </ng-container>
+  </div>
+  <div class="swiper-button-next"></div>
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-pagination"></div>
+</div>
+
+
+<button
+  id="openModal"
+  #openModal
+  [hidden]="true"
+  data-toggle="modal"
+  data-target="#openingModal"
+></button>
+<div
+  class="modal modal-opening"
+  id="openingModal"
+  tabindex="-1"
+  role="dialog"
+  aria-labelledby="exampleModalCenterTitle"
+  aria-hidden="true"
+>
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button
+          type="button"
+          class="close"
+          data-dismiss="modal"
+          aria-label="Close"
+        >
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+
+        <div class="swiper-container swiper-container-xxl mySwiper-xxl">
+          <div class="swiper-wrapper">
+            <ng-container *ngFor="let image of images; let i = index">
+              <div class="swiper-slide " style="background-image: url({{image}})"></div>
+            </ng-container>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>

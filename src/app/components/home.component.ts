@@ -35,12 +35,13 @@ export class HomeComponent extends DynamicComponent implements OnInit, OnDestroy
 
     super.ngOnInit();
 
+    /*
     setTimeout(() => {
       this.openModal.nativeElement.click();
     }, 1000);
     setTimeout(() => {
       this.sponsorshipsModal.nativeElement.click();
-    }, 1000);
+    }, 1000);*/
 
     this.slideShow = [];
     this.houses = [];

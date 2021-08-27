@@ -6,6 +6,8 @@
 
   @media (max-width: 1024px) {
     height: fit-content;
+    padding: 0;
+    padding-top: 16px;
   }
 }
 
@@ -28,9 +30,7 @@
     margin-left: 0;
 
 
-    @media (max-width: 768px) {
-      width: 90% !important;
-    }
+
   }
 
   .card-title {
@@ -64,6 +64,13 @@
     height: 450px !important;
 
     @media (max-width: 1024px) {
+      margin: 0 auto;
+      justify-content: center;
+      width: 250px !important;
+      height: 280px !important;
+    }
+
+    @media (max-width: 768px) {
       margin: 0 auto;
       justify-content: center;
       width: 300px !important;
@@ -259,3 +266,5 @@
     }
   }
 }
+
+

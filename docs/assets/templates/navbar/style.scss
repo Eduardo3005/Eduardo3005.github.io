@@ -45,12 +45,18 @@
 }
 
 .nav-item {
-  padding-bottom: 0;
-  bottom: 0;
 
   @media (max-width: 1000px) {
     padding: 0;
+    padding-top: 8px;
+
+    .cofinancingItem {
+      display: none;
+    }
   }
+
+
+
 }
 
 .navbar-light .navbar-nav .nav-link  {
@@ -75,11 +81,43 @@
 
 li {
   padding: 16px;
-  @media (max-width: 1200px) {
-    padding: 0;
-  }
+
 }
 
 .dropdown-item {
   text-decoration: none;
 }
+
+
+.cofinancingBar{
+
+
+  display: flex;
+  width: 250px;
+  margin-top: -16px;
+  @media (max-width: 768px) {
+    width: 80%;
+  }
+
+  @media (max-width: 1024px) {
+
+    display: none;
+  }
+}
+
+
+.secondCofinancingBar{
+  margin-left: 0;
+  display: none;
+  width: 300px;
+
+  @media (max-width: 1024px) {
+
+    display: flex;
+  }
+
+  padding-left: 16px;
+  padding-bottom: 16px;;
+}
+
+

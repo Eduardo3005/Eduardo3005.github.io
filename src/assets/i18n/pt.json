@@ -21,10 +21,8 @@
     ],
     "Resume": {
       "Title": "Um lugar com história",
-      "P1": "Com localização privilegiada à entrada principal de Valverde e à ribeira com o mesmo nome, o Páteo Lima goza da proximidade da cidade património mundial de Évora, de importantes conjuntos megalíticos, ruínas romanas e medievais e até de uma quinta episcopal quinhentista, rodeada pela magnífica paisagem alentejana do sopé da serra de Monfurado.",
-      "P2": "Constituído por um conjunto de três casas de tipologia T1, T2 e T3, para além da habitação dos proprietários, que foram buscar os nomes à forma como eram habitualmente designadas pela família, esta unidade de Turismo Rural resulta da reconversão de um antigo ponto comercial que, na sua época áurea, chegou a contar com mercearia, retrosaria, sapataria, taberna, padaria, talho e queijaria, alimentados pela produção agropecuária da própria quinta.",
-      "P3": "A aquisição da propriedade pela família Lima remonta a 1874, por iniciativa do tetravô da promotora – Custódio Joaquim – que começou a dar forma a um negócio que se foi expandindo ao longo de sucessivas gerações nesta localidade, outrora designada por Valle Verde. Mas este não era um mero lugar de “venda”; ele era também um lugar de encontro de gentes, onde se tecia a vida da aldeia e se interagia com o mundo. O afastamento dos mais novos, à procura de uma vida melhor, e a evolução do mercado levou-o, pouco a pouco, ao declínio e ao encerramento.",
-      "P4": "O nascimento do Páteo Lima vem revitalizar o espaço e atribuir-lhe uma nova função, para que possa voltar a ser vivido, proporcionando novos momentos de partilha entre residentes e forasteiros. Tem como marca diferenciadora a acessibilidade integral a pessoas com mobilidade condicionada."
+      "P1" : "Com localização privilegiada à entrada principal de Valverde e à ribeira com o mesmo nome, o Páteo Lima goza da proximidade da cidade património mundial de Évora, de importantes conjuntos megalíticos, ruínas romanas e medievais e até de uma quinta episcopal quinhentista, rodeada pela magnífica paisagem alentejana do sopé da serra de Monfurado.",
+      "P2" : "Constituído por um conjunto de três casas de tipologia T1, T2 e T3, que foram buscar os nomes à forma como eram habitualmente designadas pela família, esta unidade de Turismo Rural resulta da reconversão de um antigo ponto comercial que, na sua época áurea, contava principalmente com mercearia, taberna, padaria e talho, alimentados pela produção agropecuária da própria quinta."
     },
     "Places": {
       "Title": "O que fazer",
@@ -56,15 +54,18 @@
   "History": {
     "Title": "Quem somos",
     "SecondTitle": "A promotora",
-    "P1": "A aquisição da propriedade pela família remonta a 1874, por iniciativa do tetravô da promotora – Custódio Joaquim – que começou a dar forma a um negócio que se foi expandindo ao longo de sucessivas gerações nesta localidade, outrora designada por Valle Verde. ",
-    "P2": "Porém o apelido Lima só se viria a impor já na segunda década do século XX, quando o marido de sua neta Iria do Carmo assumiu o comando da família, que antes era conhecida por Ferreira. Inserir carimbo do tetravô José Joaquim Ferreira O avô da promotora – Custódio Ferreira Lima – foi o primeiro elemento agregador das duas famílias.",
-    "P3": "Para além do espírito empreendedor, tanto os Ferreira como os Lima comungavam de um elevado sentido de organização e de zelo pelo arquivo documental, o que tem permitido aos seus mais recentes descendentes ir reconstruindo não só a história familiar, mas também da própria povoação e dos modos de vida que foram marcando o último século e meio.",
-    "P4": "Este não era, pois, um mero lugar de “venda”; ele era também um lugar de encontro de gentes, onde se tecia a vida da aldeia e se interagia com o mundo, nele se imprimindo hábitos e maneiras de viver. A passagem de viajantes sempre foi frequente, delas havendo variadas notas e fotos enviadas de paragens longínquas por quem fez questão de dar conta da experiência por aqui vivida. Inserir foto pai e nota de apreciação. Contudo, o afastamento dos mais novos, à procura de uma vida melhor, e a evolução do mercado levou-o, pouco a pouco, ao declínio.",
-    "P5": "O nascimento do Páteo Lima vem revitalizar o espaço e atribuir-lhe uma nova função, para que possa voltar a ser vivido, proporcionando novos momentos de partilha entre residentes e forasteiros e a possibilidade de reescrever a história que, um dia, será contada a outros netos. Tem como marca diferenciadora a acessibilidade a pessoas com mobilidade condicionada.",
-    "P6": "Benedita Lima nasceu em Évora, em 1963, tendo vivido na quinta até aos 18 anos.",
-    "P7": "Nessa altura rumou a Lisboa, para se tornar Psicóloga, por lá tendo ficado, mas o apelo da “terra” trouxe-a de volta às origens. Não veio sozinha; trouxe consigo uma nova geração dos Lima, disposta a dar continuidade ao sonho dos seus antepassados.",
-    "P8": "Tendo dedicado a maior parte do tempo da sua vida profissional à promoção da inclusão de pessoas em fragilidade social, em especial, de pessoas com deficiência, e defendendo o modelo da vida independente, que preconiza o direito à participação social ativa de todos os cidadãos, cada um à sua medida, esforça-se por contribuir para o efeito em todos os projetos em que se envolve, ideia que também presidiu à criação desta unidade de turismo rural, que se pretende inclusiva. ",
-    "P9": "Por altura da morte do avô Custódio, quase simultânea à da bisavó Iria, para além da zona de produção agropecuária e das casas dedicadas ao comércio, a quinta contava com várias habitações por onde se distribuíam a família e alguns rendeiros. Contudo, com as sucessivas partilhas, o espaço da atual proprietária ficou mais reduzido, contando apenas com parte do quintal original e com 4 casas remodeladas: casa da venda, casa dos vidros, casa da cocheira e casa da padaria. As três primeiras foram totalmente afetas ao turismo e a última serve de residência à proprietária, nela funcionando os serviços de apoio à unidade, incluindo a receção.",
+    "ThirdTitle": "O espaço",
+    "FourthTitle": "A recepção",
+    "P1": "A aquisição da propriedade pela família remonta a 1874, por iniciativa do tetravô da promotora – Custódio Joaquim – que começou a dar forma a um negócio que se foi expandindo ao longo de sucessivas gerações nesta localidade, outrora designada por Valle Verde. Porém o apelido Lima só se viria a impor já na segunda década do século XX, quando o marido de sua neta Iria do Carmo assumiu o comando da família, que antes era conhecida por Ferreira. O avô da promotora – Custódio Ferreira Lima – foi o primeiro elemento agregador das duas famílias.",
+    "P2": "Para além do espírito empreendedor, tanto os Ferreira como os Lima comungavam de um elevado sentido de organização e de zelo pelos documentos, o que tem permitido aos seus mais recentes descendentes ir reconstruindo não só a história familiar, mas também da própria povoação e dos modos de vida que foram marcando o seu último século e meio. ",
+    "P3": "Este não era, pois, um mero lugar de “venda”; ele era também um lugar de encontro de gentes, onde se tecia a vida da aldeia e se interagia com o mundo, nele se imprimindo hábitos e maneiras de viver. A passagem de viajantes sempre foi frequente, delas havendo variadas notas e fotos enviadas de paragens longínquas por quem fez questão de dar conta da experiência por aqui vivida. Contudo, o afastamento dos mais novos, à procura de uma vida melhor, e a evolução do mercado levou-o, pouco a pouco, ao declínio.",
+    "P4": "O nascimento do Páteo Lima vem revitalizar o espaço e atribuir-lhe uma nova função, para que possa voltar a ser vivido, proporcionando novos momentos de partilha entre residentes e forasteiros e a possibilidade de reescrever a história que, um dia, será contada a outros netos. Tem como marca diferenciadora a acessibilidade a pessoas com mobilidade condicionada.",
+    "P5": "Benedita Lima nasceu em Évora, em 1963, tendo vivido na quinta até aos 18 anos. Nessa altura rumou a Lisboa, para se tornar Psicóloga, por lá tendo ficado, mas o apelo da “terra” trouxe-a de volta às origens. Não veio sozinha; trouxe consigo uma nova geração dos Lima, disposta a dar continuidade ao sonho dos seus antepassados.",
+    "P6": "Tendo dedicado a maior parte do tempo da sua vida profissional à promoção da inclusão de pessoas em fragilidade social, em especial, de pessoas com deficiência, e defendendo o modelo da vida independente, que preconiza o direito à participação social ativa de todos os cidadãos, cada um à sua medida, esforça-se por contribuir para o efeito em todos os projetos em que se envolve, ideia que também presidiu à criação desta unidade de turismo rural, que se pretende inclusiva. ",
+    "P7": "Por altura da morte do avô Custódio, quase simultânea à da bisavó Iria, para além da parte comercial, a quinta contava com uma zona de produção agropecuária e com várias habitações por onde se distribuíam a família e alguns rendeiros. Contudo, após sucessivas partilhas, o espaço do Páteo Lima conta agora apenas com parte do quintal original e com 4 casas totalmente remodeladas: casa da venda, casa dos vidros, casa da cocheira e casa da padaria, sendo nesta última que reside a proprietária e onde funcionam os serviços de apoio à unidade, incluindo a receção e o “quarto do forno”, que também pode ser cedido para alojamento. ",
+    "P8": "Apesar da irregularidade natural do terreno, o espaço que dá acesso às casas foi transformado num pátio comum acessível a pessoas com mobilidade condicionada, com possibilidade de acesso a veículos automóveis, que podem ficar estacionados nas traseiras da habitação principal. A configuração do pátio favorece o convívio entre hóspedes, proprietários e população local, mas os visitantes também podem usufruir do resto da quinta, onde podem contar com um grelhador e zona para piqueniques, piscina tubular, terraço para banhos de sol, balouços e atividades na horta.",
+    "P9": "Situa-se nas traseiras da Casa da Padaria. Como o nome indica, era aqui que se produzia o pão que depois era vendido na loja ou distribuído pelos montes dos arredores, na altura habitados por grandes ranchos de trabalhadores que se deslocavam do Norte para proverem o seu sustento na apanha da azeitona, do tomate ou do arroz. Contigua à habitação da antiga matriarca da família, foi ampliada e transformada na casa dos atuais proprietários.",
+    "P10": "A sala de receção fica na antiga “casa do forno”, local por onde passavam as fornadas de pão ainda escaldante a espalhar o seu típico cheirinho de criar “água na boca”.  Para além do acolhimento, neste espaço os hóspedes podem demorar-se a apreciar alguns elementos que fazem parte da história do lugar.",
     "Images": [
       "assets/images/image_1.jpg",
       "assets/images/image_2.jpg",
@@ -77,6 +78,56 @@
       "assets/images/image_9.jpg",
       "assets/images/image_10.jpg",
       "assets/images/image_11.jpg"
+    ],
+    "HistoryImages": [
+      {
+        "Path" : "assets/images/history_foto_1.jpg",
+        "Description" : "Carimbo do início do séc. xx em nome de José Joaquim Ferreira, trisavô da promotora"
+      },
+      {
+        "Path" : "assets/images/history_foto_2.jpg",
+        "Description" : "Cliente assíduo em finais do séc. xx"
+      },
+      {
+        "Path" : "assets/images/history_foto_3.jpg",
+        "Description" : "Exemplo de registo da venda de produtos em 1936 (vinho e aguardente)"
+      },
+      {
+        "Path" : "assets/images/history_foto_4.jpg",
+        "Description" : "Custódio Ferreira Lima, avô da promotora"
+      },
+
+      {
+        "Path" : "assets/images/history_foto_6.jpg",
+        "Description" : "Foto de família no pátio nos anos sessenta do séc. xx"
+      },
+      {
+        "Path" : "assets/images/history_foto_7.jpg",
+        "Description" : "Fachada do espaço e ribeira de Valverde no início do séc. xxi"
+      },
+      {
+        "Path" : "assets/images/history_foto_8.jpg",
+        "Description" : "Nota enviada por visitantes espanhóis em 1994"
+      },
+      {
+        "Path" : "assets/images/history_foto_9.jpg",
+        "Description" : "Matança do porco frente à cocheira (ano desconhecido)"
+      },
+      {
+        "Path" : "assets/images/history_foto_10.jpg",
+        "Description" : "Registo da propriedade no Livro das Descrições Prediais"
+      },
+      {
+        "Path" : "assets/images/history_foto_11.jpg",
+        "Description" : "O pai da promotora, José Guilherme Lima, servindo um copo de bagaço (início do séc. xxi)"
+      },
+      {
+        "Path" : "assets/images/history_foto_12.jpg",
+        "Description" : "Visita da RTP, por altura da reportagem “Ninho de Cegonhas”, em 23-03-2010"
+      },{
+        "Path" : "assets/images/history_foto_5.jpg",
+        "Description" : "Exemplo de registo de dividas em 1939"
+      }
     ]
   },
   "NavBar": {
@@ -126,11 +177,11 @@
       "Options": [
         {
           "Name": "2 pessoas",
-          "Price": "XXX€ p/ noite"
+          "Price": "100€ p/ noite"
         },
         {
           "Name": "4 pessoas",
-          "Price": "XXX€ p/ noite"
+          "Price": "165€ p/ noite"
         }
       ],
       "Accommodations": [
@@ -163,7 +214,7 @@
       "Name": "Casa da venda",
       "Description": "Era aqui que se situava a 'venda', onde se podiam encontrar produtos tão variados como as mercearias e os vinhos, a carne e o peixe, mas também os comprimidos para as dores e o petróleo para os candeeiros que alumiavam as longas e frias noites de inverno. Hoje tornou-se numa confortável habitação de tipologia T2.",
       "ImagePath": "assets/images/t2.JPG",
-      "FullDescription": "Sempre deu rosto à propriedade e à própria aldeia, pois está virada de frente para a ponte, sendo a primeira fachada que o olhar alcança quando se atravessa a ribeira; era aqui que se situava a “venda”, onde se podiam encontrar produtos tão variados como as mercearias e os vinhos, o pão e a roupa, mas também os comprimidos para as dores e o petróleo para os candeeiros que alumiavam as longas e frias noites de inverno. Hoje tornou-se numa confortável habitação de tipologia T2, solarenga e luminosa durante as manhãs e fresca nas tardes quentes de verão, pois todas as portas do antigo espaço comercial foram transformadas em generosas janelas de sacada viradas para o nascer do sol. Admite a lotação máxima de 6  pessoas, distribuídas por 2 quartos duplos e um sofá cama na sala. Dispõe de kitchenette equipada e wc acessível a cadeira de rodas. ",
+      "FullDescription": "Sempre deu rosto à propriedade e à própria aldeia, pois está virada de frente para a ponte, sendo a primeira fachada que o olhar alcança quando se atravessa a ribeira; era aqui que se situava a “venda”, onde se podiam encontrar produtos tão variados como as mercearias e os vinhos, o pão e a roupa, mas também os comprimidos para as dores e o petróleo para os candeeiros que alumiavam as longas e frias noites de inverno. Hoje tornou-se numa confortável habitação de tipologia T2, solarenga e luminosa durante as manhãs e fresca nas tardes quentes de verão, pois todas as portas do antigo espaço comercial foram transformadas em generosas janelas de sacada viradas para o nascer do sol. Admite a lotação máxima de 6 pessoas, distribuídas por 2 quartos duplos e um sofá cama na sala. Dispõe de kitchenette equipada com placa, forno, combinado, máquina de lavar loiça, torradeira, chaleira, máquina de café, ferro de engomar, louça e talheres adequados ao número de ocupantes. No wc, acessível a cadeira de rodas, encontram-se o secador de cabelo e os produtos para o banho. A casa dispõe ainda de ar condicionado em todo o espaço, TV e internet gratuitas.",
       "Options": [
         {
           "Name": "4 pessoas",
@@ -207,15 +258,15 @@
       "Name": "Casa da cocheira",
       "Description": "Teve muitas e variadas funções: de queijaria a matadouro, de loja a salão de baile, deu vida a trabalho e lazer da povoação, já que era aqui que alguns tinham o seu ganha-pão e muitos passavam os seus tempos livres à volta de um copo de tinto, de uma concertina ou de uma grafonola. Atualmente convertida num acolhedor T3, com um simpático e íntimo pátio interior.",
       "ImagePath": "assets/images/t3.JPG",
-      "FullDescription": "Foi buscar o nome à sua designação original, embora se tenha passado a chamar garagem depois da chegada de uma “moderna” furgoneta. Mas este espaço teve ainda muitas outras funções: de queijaria a armazém, de loja a salão de baile, deu vida a trabalho e lazer da povoação, já que era aqui que alguns tinham o seu ganha-pão e muitos passavam os seus tempos livres à volta de um copo de tinto, de uma concertina ou de uma grafonola, que animavam as noites quentes de verão. Atualmente convertida num acolhedor T3, com um simpático e íntimo pátio interior, dispõe de lotação máxima para 8 pessoas, distribuídas por 1 quarto de casal, 2 quartos duplos e sofá cama na sala. Dispõe de kitchenette equipada com placa, forno, combinado, máquina de lavar loiça, torradeira, chaleira, máquina de café, ferro de  engomar, louça e talheres adequados ao número de ocupantes. Nos 2 wc´s, acessíveis a cadeira de rodas, encontram-se secadores de cabelo e os produtos para o banho. A casa dispõe ainda de ar condicionado em todo o espaço, TV e internet gratuitas.",
+      "FullDescription": "Foi buscar o nome à sua designação original, embora se tenha passado a chamar “garagem” depois da chegada de uma “moderna” furgoneta. Mas este espaço teve ainda muitas outras funções: de queijaria a armazém, de loja a salão de baile, deu vida a trabalho e lazer da povoação, já que era aqui que alguns tinham o seu ganha-pão e muitos passavam os seus tempos livres à volta de um copo de tinto, de uma concertina ou de uma grafonola, que animavam as noites quentes de verão. Atualmente convertida num acolhedor T3, com um simpático e íntimo pátio interior, dispõe de lotação máxima para 8 pessoas, distribuídas por 1 quarto de casal, 2 quartos duplos e sofá cama na sala. Dispõe de kitchenette equipada com placa, forno, combinado, máquina de lavar loiça, torradeira, chaleira, máquina de café, ferro de engomar, louça e talheres adequados ao número de ocupantes. Nos 2 wc´s, acessíveis a cadeira de rodas, encontram-se secadores de cabelo e os produtos para o banho. A casa dispõe ainda de ar condicionado em todo o espaço, TV e internet gratuitas. ",
       "Options": [
         {
           "Name": "6 pessoas",
-          "Price": "XXX€ p/ noite"
+          "Price": "270€ p/ noite"
         },
         {
           "Name": "8 pessoas",
-          "Price": "XXX€ p/ noite"
+          "Price": "335€ p/ noite"
         }
       ],
       "Accommodations": [
@@ -257,7 +308,7 @@
   "PersonalizedServices": [
     {
       "Name": "Apoio na higiene pessoal",
-      "Price": "165€"
+      "Price": "15€"
     },
     {
       "Name": "Confecção e apoio de refeições",
@@ -271,7 +322,7 @@
   "WelfareActivities": [
     {
       "Name": "Apoio e aconselhamento individual",
-      "Price": "15€"
+      "Price": "50€"
     },
     {
       "Name": "Sessão de relaxamento individual",
@@ -284,10 +335,10 @@
   ],
   "Services": [
     {
-      "Name": "Pequeno almoço: De tipo continental e com produtos da região, está incluído na diária e pode ser servido na própria casa ou tomado num dos cafés/restaurantes da aldeia"
+      "Name": "Pequeno almoço: De tipo continental e com produtos da região, está incluído na diária e pode ser servido na própria casa ou tomado num dos cafés/restaurantes da aldeia."
     },
     {
-      "Name": "Higiene e limpeza: Diária; em estadias prolongadas as mudas de roupa de cama e atoalhadosocorrem a cada 3 dias e/ou a pedido dos hóspedes."
+      "Name": "Higiene e limpeza: Diária; em estadias prolongadas as mudas de roupa de cama e atoalhados ocorrem a cada 3 dias e/ou a pedido dos hóspedes."
     }
   ],
   "AdditionalServices": [
@@ -302,17 +353,29 @@
     },
     {
       "Name": "Serviços de apoio personalizado para quem necessitar de apoio na higiene, alimentação, confeção das refeições, etc."
+    },
+    {
+      "Name": "Workshops de culinária"
+    },
+    {
+      "Name": "Animais permitidos no alojamento sujeito a regulamento específico"
+    },
+    {
+      "Name": "Eventos: Possibilidade de reserva da totalidade ou parte do espaço para eventos especiais, mediante orçamento específico."
     }
   ],
   "OutdoorAccommodations": [
     {
-      "Name": "Piscina e terraço acessíveis a quem não possua mobilidade condicionada"
+      "Name": "Piscina tubular e terraço: Acessíveis mediante disponibilidade e grau de mobilidade"
     },
     {
       "Name": "Espreguiçadeiras"
     },
     {
-      "Name": "Grelhador (mediante disponibilidade)"
+      "Name": "Grelhador: Pode ser utilizado a qualquer momento, mediante disponibilidade"
+    },
+    {
+      "Name": "Zona de piqueniques: De utilização livre, mediante disponibilidade"
     },
     {
       "Name": "Estacionamento gratuito"
@@ -341,7 +404,7 @@
       "Name": "Acesso Wi-Fi gratuito em toda a unidade"
     },
     {
-      "Name": "Animais permitidos no alojamento, mediante de inscrição"
+      "Name": "Animais permitidos no alojamento, mediante de inscrição e sujeito a regulamento específico"
     }
   ]
 }

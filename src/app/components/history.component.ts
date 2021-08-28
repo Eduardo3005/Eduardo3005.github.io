@@ -2,6 +2,7 @@ import { Component, ElementRef, OnDestroy, OnInit, ViewChild } from '@angular/co
 import { Store } from '@ngrx/store';
 import { TranslateService } from '@ngx-translate/core';
 import Swiper from 'swiper';
+import { HistoryImage } from '../models/history-image';
 import { FirebaseProvider } from '../services/firebase-logger.service';
 import { DynamicComponent } from '../shared/base.component';
 import { AppState } from '../state/app-state';
@@ -17,6 +18,7 @@ export class HistoryComponent
 {
 
   images: Array<string>;
+  historyImages: Array<HistoryImage>
   currentModalImage: string;
   @ViewChild('openModal') openModal: ElementRef;
 
@@ -34,6 +36,7 @@ export class HistoryComponent
     this.images = []
 
     this.getFarmImages()
+    this. getHistoryImages()
 
     setTimeout(() => {
       this.initSwiper('.mySwiper');
@@ -108,6 +111,12 @@ export class HistoryComponent
   getFarmImages() {
     this.translate.get('History.Images').subscribe((res: Array<string>) => {
       this.images = res;
+    });
+  }
+
+  getHistoryImages() {
+    this.translate.get('History.HistoryImages').subscribe((res: Array<HistoryImage>) => {
+      this.historyImages = res;
     });
   }
 

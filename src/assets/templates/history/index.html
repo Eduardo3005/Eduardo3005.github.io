@@ -1,13 +1,19 @@
 
 <div class="card text-center">
   <div class="card-body">
-    <h2 class="card-title mt-240 mb-72">{{ "Home.Resume.Title" | translate }}</h2>
-    <p class="text">{{ "History.P1" | translate }} {{ "History.P2" | translate }}</p>
+    <h2 class="card-title mt-200 mb-72">{{ "Home.Resume.Title" | translate }}</h2>
+    <p class="text">{{ "History.P1" | translate }}</p>
   </div>
 </div>
 
 <div class="card text-center">
-    <div class="card-body yellow-background">
+  <div class="card-body">
+    <p class="text">{{ "History.P2" | translate }}</p>
+  </div>
+</div>
+
+<div class="card text-center">
+    <div class="card-body">
       <p class="text">{{ "History.P3" | translate }}</p>
     </div>
 </div>
@@ -19,43 +25,15 @@
   </div>
 </div>
 
-<div class="card text-center">
-  <div class="card-body">
-    <p class="text">{{ "History.P5" | translate }}</p>
-  </div>
-</div>
-
-<div class="masonry">
-  <div class="item-masonry">
-    <img src="assets/images/carimbo_jose_ferreira.jpg">
-  </div>
-  <div class="item-masonry">
-    <img src="assets/images/familia_lima_anos_60.jpg">
-  </div>
-  <div class="item-masonry">
-    <img src="assets/images/frente_loja.jpg">
-  </div>
-  <div class="item-masonry">
-    <img src="assets/images/matanca_porco_II.jpg">
-  </div>
-  <div class="item-masonry">
-    <img src="assets/images/pai_loja_fotog_holandes.jpg">
-  </div>
-  <div class="item-masonry">
-    <img src="assets/images/porco.jpg">
-  </div>
-  <div class="item-masonry">
-    <img src="assets/images/procissao.jpg">
-  </div>
-  <div class="item-masonry">
-    <img src="assets/images/procissao_I_anos_80.jpg">
-  </div>
-  <div class="item-masonry">
-    <img src="assets/images/servindo_um_copo.jpg">
-  </div>
-  <div class="item-masonry">
-    <img src="assets/images/custodio_ferreira_lima.jpg">
-  </div>
+<div class="masonry mb-32">
+  <ng-container *ngFor="let image of historyImages; ; let i = index">
+    <div class="item-masonry">
+      <img src="{{image.Path}}">
+      <div class="description">
+        <p class="text">{{image.Description}}</p>
+      </div>
+    </div>
+  </ng-container>
 </div>
 
 <div class="card text-center mb-192 top-100">
@@ -72,8 +50,8 @@
       <div class="col-md-7 ">
         <h2 class="card-title mt-48 mb-72">{{ "History.SecondTitle" | translate }}</h2>
 
-        <p class="text">{{ "History.P6" | translate }}{{ "History.P7" | translate }}</p>
-        <p class="text">{{ "History.P8" | translate }}</p>
+        <p class="text">{{ "History.P5" | translate }}</p>
+        <p class="text">{{ "History.P6" | translate }}</p>
       </div>
     </div>
   </div>
@@ -81,11 +59,20 @@
 
 <div class="card text-center">
   <div class="card-body">
-    <h2 class="card-title mt-48 mb-72">{{ "Home.Resume.Title" | translate }}</h2>
-    <p class="text">{{ "History.P9" | translate }}</p>
+    <h2 class="card-title mt-48 mb-72">{{ "History.ThirdTitle" | translate }}</h2>
+    <p class="text">{{ "History.P7" | translate }}</p>
 
   </div>
 </div>
+
+<div class="card text-center">
+  <div class="card-body">
+    <p class="text">{{ "History.P8" | translate }}</p>
+
+  </div>
+</div>
+
+
 
 <div class="swiper-container mySwiper">
   <div class="swiper-wrapper">
@@ -96,6 +83,21 @@
   <div class="swiper-button-next"></div>
   <div class="swiper-button-prev"></div>
   <div class="swiper-pagination"></div>
+</div>
+
+<div class="card text-center">
+  <div class="card-body">
+    <h2 class="card-title mt-72 mb-72">{{ "History.FourthTitle" | translate }}</h2>
+    <p class="text">{{ "History.P9" | translate }}</p>
+
+  </div>
+</div>
+
+<div class="card text-center">
+  <div class="card-body">
+    <p class="text">{{ "History.P10" | translate }}</p>
+
+  </div>
 </div>
 
 

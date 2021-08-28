@@ -19,12 +19,11 @@
     color: $grey-light;
     font-family: "SourceSerifPro-Regular", serif;
     padding-bottom: 16px;
-    width: 50%;
+    width: 55%;
     display: flex;
     justify-content: center;
     flex-direction: column;
     margin: auto;
-    margin-top: 16px;
     font-weight: 400;
     line-height: 27px;
 
@@ -184,6 +183,13 @@ rect {
   }
 }
 
+.mt-72 {
+  margin-top: 72px;
+  @media (max-width: 768px) {
+    margin-top: 48px;
+  }
+}
+
 .top-100 {
   top: 100px;
   @media (max-width: 768px) {
@@ -191,13 +197,12 @@ rect {
   }
 }
 
-.mt-240 {
-  margin-top: 240px;
+.mt-200 {
+  margin-top: 200px;
   @media (max-width: 768px) {
     margin-top:112px;
   }
 }
-
 .top-52 {
   top: 52px;
 }
@@ -230,7 +235,18 @@ p {
 
 a {
   margin-top: 0;
+  text-decoration: none;
 }
+
+a:hover{
+  color:$green-light;
+}
+
+
+a:active {
+  background-color: $white;
+}
+
 
 .modal-content {
   border-radius: 0;

@@ -1,7 +1,7 @@
 @import "../../style/mixins.scss";
 
 .main-card {
-  height: 800px;
+  height: 680px;
   background-color: $green-light;
 
   @media (max-width: 1024px) {
@@ -140,7 +140,7 @@
 .item-masonry {
   display: inline-block;
   background: #fff;
-  padding: 1em;
+  padding: 0.5em;
   margin: 0 0 1.5em;
   width: 100%;
   -webkit-transition: 1s ease all;
@@ -151,6 +151,7 @@
 
   .img {
     margin: 0 auto;
+    width: 200px;
     justify-content: center;
   }
 
@@ -158,6 +159,20 @@
     padding: 1px;
 
   }
+
+  .description {
+    display: none;
+
+
+  }
+  &:hover {
+    .description {
+      display: block;
+      margin-top: 16px;
+    }
+
+  }
+
 }
 .item-masonry img {
   max-width: 100%;

@@ -1,50 +1,72 @@
 <footer>
   <div class="row item">
     <div class="col-md-2">
-      <div class="text-center uppercase mb-32">{{"Footer.ContactsTitle" | translate}}</div>
-      <div class="info">
-        <p class="p-yellow">Email: </p><p>{{"Footer.Email" | translate}}</p>
+      <div class="contacts">
+        <img class="badge-pateo-lima" src="assets/images/badge-pateo-lima.svg" />
       </div>
-      <div class="info">
-        <p class="p-yellow">Tlf: </p><p>{{"Footer.Phone" | translate}}</p>
-      </div>
-      <div class="info">
-        <p class="p-yellow">Tel: </p><p>{{"Footer.FixedPhone" | translate}}</p>
-      </div>
-    </div>
-    <div class="col-md-3">
-      <div class=" text-center uppercase mb-32">{{"Footer.AddressTitle" | translate}}</div>
-      <div class="info">
-        <p>{{"Footer.Address" | translate}}</p>
-      </div>
-      <div class="info">
-        <p>{{"Footer.PostalCode" | translate}}</p>
-      </div>
-      <div class="info mb-32" >
-        <a href='{{"Footer.GoogleMapsLink" | translate}}' width="32" height="32"><svg style="background-image: url('{{googleMapsIconPath}}')" width="22" height="32"  ></svg></a>
-      </div>
-    </div>
-    <div class="col-md-2 mb-32">
-      <div class=" text-center uppercase mb-32">{{"Footer.LogoTitle" | translate}}</div>
-      <img class="badge-pateo-lima " src="assets/images/badge-pateo-lima.svg" >
 
     </div>
-    <div class="col-md-5 ">
-      <div class=" text-center uppercase mb-32">{{"Footer.CofinancingTitle" | translate}}</div>
+    <div class="col-md-2">
+      <div class="contacts">
+        <div class="info mb-32">
+          <h3 class="uppercase">{{"Footer.ContactsTitle" | translate}}</h3>
+        </div>
+        <div class="info">
+          <p class="p-yellow">Email: </p>
+          <p>{{"Footer.Email" | translate}}</p>
+        </div>
+        <div class="info">
+          <p class="p-yellow">Tlf: </p>
+          <p>{{"Footer.Phone" | translate}}</p>
+        </div>
+        <div class="info">
+          <p class="p-yellow">Tel: </p>
+          <p>{{"Footer.FixedPhone" | translate}}</p>
+        </div>
+      </div>
+    </div>
 
-      <!--
-         <div class="col-md-6 "><img class="cofinancingBar" src="assets/images/logo_iefp.svg" ></div>
-        <div class="col-md-6 "><img class="cofinancingBar" src="assets/images/logo_compete2020.svg"></div>
-      -->
+    <div class="col-md-8">
+      <div class="contacts">
+        <div class="info mb-32">
+          <h3 class="uppercase">{{"Footer.CofinancingTitle" | translate}}</h3>
+        </div>
 
-      <img class="cofinancingBar" src="assets/images/cofinancingBarWhite.svg" >
+        <div class="imgContainer">
+          <img class="cofinancingBar" src="assets/images/logo_iefp.svg" />
+        </div>
 
+        <div class="imgContainer">
+          <img
+            class="cofinancingBar"
+            src="assets/images/logo_compete2020.svg"
+          />
+        </div>
+
+        <div class="imgContainer">
+          <img class="cofinancingBar" src="assets/images/cofinancingBarWhite.svg" >
+        </div>
+
+
+      </div>
     </div>
   </div>
   <div class="row second-item">
+    <div class= "rules">
+      <ul>
+        <li><a href="#">Termos e condições</a> <p> | </p> </li>
+        <li><a href="#">Politia de Privacidade</a> <p> | </p> </li>
+        <li><a href="#">Cookie Law</a></li>
+        <li><h3>RNET - 3819</h3></li>
 
-    <a href="assets/files/ficha_projeto.pdf" target="_blank" class="btn btn-outline-secondary link-button uppercase right">{{
-      "Footer.Link" | translate
-    }}</a>
+
+      </ul>
+    </div>
+    <a
+      href="assets/files/ficha_projeto.pdf"
+      target="_blank"
+      class="btn btn-outline-secondary link-button uppercase project-file"
+      >{{ "Footer.Link" | translate }}</a
+    >
   </div>
 </footer>

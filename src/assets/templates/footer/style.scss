@@ -31,6 +31,10 @@ footer {
     height: 96px;
     width: 100%;
     background-color: $green-light;
+
+    @media (max-width: 768px) {
+      height: fit-content;
+    }
   }
 }
 
@@ -40,12 +44,6 @@ a {
     background-color: $green-dark;
     color: $white;
   }
-}
-
-.right {
-  position: absolute;
-  margin: 0 auto;
-  right: 16px;
 }
 
 p {
@@ -68,8 +66,10 @@ p {
   margin: 0 auto;
   display: flex;
   height: 80px;
+  max-width: 500px;
   @media (max-width: 1024px) {
     width: 90%;
+
   }
 }
 
@@ -77,8 +77,74 @@ p {
 .badge-pateo-lima{
   margin: 0 auto;
   display: flex;
-  height: 148px;
+  height: 220px;
   @media (max-width: 768px) {
-    width: 100%;
+    width: 80%;
+    justify-content: center;
+  }
+}
+
+
+.contacts {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+
+
+  @media (max-width: 1024px) {
+    position: relative;
+    margin-top:32px;
+
+  }
+}
+
+h3 {
+  color: $white;
+}
+
+
+.imgContainer{
+  float:left;
+  @media (max-width: 1024px) {
+    float:none;
+    height: auto;
+  }
+}
+
+.rules{
+  ul li{
+    display: inline;
+  }
+
+  a:hover {
+    background-color: $green-light;
+    color: $green-dark
+  }
+
+  @media (max-width: 1024px) {
+    margin-bottom: 16px;
+  }
+}
+
+.col-md-2{
+  justify-content: center;
+  display: flex;
+
+  @media (max-width: 1024px) {
+    justify-content: none;
+    display: inline;
+  }
+}
+
+.project-file{
+  position: absolute;
+  margin: 0 auto;
+  right: 16px;
+
+  @media (max-width: 1024px) {
+    position:relative;
+    right: 0;
   }
 }

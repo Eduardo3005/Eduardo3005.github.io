@@ -159,11 +159,16 @@
     "LogoTitle": "Logotipo",
     "CofinancingTitle": "Cofinanciamento",
     "Link": "Ficha técnica do projecto",
-    "GoogleMapsIconPath": "assets/images/google_maps_icon.svg",
-    "GoogleMapsLink": "#",
     "Email": "p****@gmail.com",
     "Phone": "93*******",
-    "FixedPhone": "266******",
+    "FixedPhone": "266******"
+  },
+  "Contacts" : {
+    "GoogleMapsIconPath": "assets/images/google_maps_icon.svg",
+    "GoogleMapsLink": "#",
+    "GoogleMapsButtonText": "Como chegar",
+    "BookingButtonText": "Booking.com",
+    "BookingLink": "#",
     "Address": "Rua ***** ***** *****, **",
     "PostalCode": "7000-***"
   },

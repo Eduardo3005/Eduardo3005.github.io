@@ -1,1 +1,75 @@
 @import "../../style/mixins.scss";
+
+.container {
+  height: 100%;
+  width: 100%;
+  background-color: white;
+  max-width: 100%;
+  padding: 0;
+
+  @media (max-width: 1024px) {
+    height: fit-content;
+  }
+
+  .row {
+    height: 100%;
+
+    .first-item {
+      margin: 0 auto;
+      background-color: $green-dark;
+      height: 100%;
+
+      @media (max-width: 1024px) {
+        display: none;
+      }
+    }
+
+    .second-item {
+
+      height: 100%;
+      background-color: $white;
+
+      .info {
+        text-align: left;
+        padding-left: 16px;
+        height: fit-content;
+        margin-top: 100px;
+
+
+        @media (min-width: 1025px) {
+          position: absolute;
+          top: 50%;
+          -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+          padding-left: 72px;
+
+        }
+        .text {
+          margin-left: 0;
+          padding-bottom: 0;
+          width: 65%;
+
+          @media (max-width: 768px) {
+            width: 100%;
+          }
+
+        }
+
+      }
+    }
+  }
+}
+
+.card-body {
+  padding: 0 !important;
+  margin-bottom: 0 !important
+}
+
+footer {
+  margin-top: 0 !important;
+}
+
+
+.btn-outline-secondary{
+  margin-left: 0;
+}

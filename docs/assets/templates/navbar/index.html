@@ -21,9 +21,11 @@
     data-target=".navbar-collapse.show"
   >
     <ul class="navbar-nav ml-auto">
+      <!--
       <li class="nav-item cofinancing-item" >
         <img class="cofinancingBar" src="assets/images/cofinancingBarGreen.svg" >
       </li>
+      -->
       <li class="nav-item menu">
         <a class="nav-link uppercase" [routerLink]="['/history']"
           >{{"NavBar.History" | translate}}<span class="sr-only"
@@ -49,11 +51,14 @@
           </div>
         </div>
       </li>
+      <!--
       <li class="nav-item">
         <a class="nav-link uppercase" [routerLink]="['/places']"
           >{{"NavBar.Places" | translate}}</a
         >
       </li>
+      -->
+
       <li class="nav-item">
         <a class="nav-link uppercase" [routerLink]="['/contacts']"
           >{{"NavBar.Contacts" | translate}}</a

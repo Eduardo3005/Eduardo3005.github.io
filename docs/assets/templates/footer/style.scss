@@ -1,7 +1,7 @@
 @import "../../style/mixins.scss";
 
 footer {
-  margin-top: 50px;
+
   height: 100px;
   bottom: 0;
   width: 100%;
@@ -67,7 +67,12 @@ p {
   display: flex;
   height: 80px;
   max-width: 500px;
-  @media (max-width: 1024px) {
+  @media (min-width:  769px) and (max-width: 1024px) {
+    height: 33px;
+
+  }
+
+  @media (max-width: 768px) {
     width: 90%;
 
   }
@@ -78,6 +83,12 @@ p {
   margin: 0 auto;
   display: flex;
   height: 220px;
+
+  @media (max-width: 1024px) {
+    width: 80%;
+    justify-content: center;
+  }
+
   @media (max-width: 768px) {
     width: 80%;
     justify-content: center;

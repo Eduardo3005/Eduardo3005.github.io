@@ -120,3 +120,43 @@
   display:none;
   width: 100%;
 }
+
+#ytplayer{
+  width: 100% !important;
+  height: 100% !important;
+}
+
+
+iframe {
+
+  width: 100% !important;
+  height: 100% !important;
+}
+
+
+.youtube-video-play{
+  position: relative;
+  opacity: 0.2;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  justify-content: center !important;
+  margin:0 auto !important;
+
+
+
+  .play-circle{
+    margin-top: 15%;
+    width: 100px;
+    height: 100px;
+    color: #ffffff;
+
+  }
+
+  h1{
+    color: white !important;
+  }
+}
+
+
+

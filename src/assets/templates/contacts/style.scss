@@ -6,12 +6,16 @@
   background-color: white;
   max-width: 100%;
   padding: 0;
+  margin-top: 100px;
+
 
   @media (max-width: 1024px) {
     height: fit-content;
   }
 
+
   .row {
+
     height: 100%;
 
     .first-item {
@@ -26,22 +30,25 @@
 
     .second-item {
 
-      height: 100%;
+
       background-color: $white;
+      padding-top: 32px;
+
+
+
 
       .info {
         text-align: left;
         padding-left: 16px;
-        height: fit-content;
-        margin-top: 100px;
 
 
         @media (min-width: 1025px) {
           position: absolute;
-          top: 50%;
+          margin-top: 300px;
           -ms-transform: translateY(-50%);
           transform: translateY(-50%);
           padding-left: 72px;
+
 
         }
         .text {
@@ -62,7 +69,14 @@
 
 .card-body {
   padding: 0 !important;
-  margin-bottom: 0 !important
+  margin-bottom: 100px !important;
+  height: 90vh;
+  @media (max-width: 1024px) and (max-width: 1200px) {
+    height: 760px !important;
+  }
+  @media (max-width: 1023px) {
+    height: 650px !important;
+  }
 }
 
 footer {

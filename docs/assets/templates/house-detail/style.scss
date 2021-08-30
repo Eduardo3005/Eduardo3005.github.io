@@ -15,6 +15,21 @@
 }
 
 .card-body {
+
+  @media (max-width: 768px) {
+   padding: 8px;
+  }
+
+  .card-title-gallery {
+    margin-bottom: 0;
+  }
+  &.card-body-gallery {
+    background-color: $yellow;
+    width: 100%;
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+  }
+
   .card-title {
     &.card-title-prices {
       color: $white;
@@ -40,7 +55,7 @@
     width: 70%;
     margin-top: 0px;
     @media (max-width: 768px) {
-      width: 90%;
+      width: 100%;
     }
   }
 
@@ -85,19 +100,6 @@ ul {
   color: $grey-light;
 }
 
-.card {
-  .card-body {
-    .card-title-gallery {
-      margin-bottom: 0;
-    }
-    &.card-body-gallery {
-      background-color: $yellow;
-      width: 100%;
-      margin-right: 0 !important;
-      margin-left: 0 !important;
-    }
-  }
-}
 .swiper-container {
   margin-top: 48px;
   width: 90%;

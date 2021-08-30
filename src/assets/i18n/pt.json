@@ -29,18 +29,23 @@
       "List": [
         {
           "ImagePath": "assets/images/templo_diana.JPG",
-          "Title": "Turismo de cidade",
-          "Tooltip": "Évora a 10km."
-        },
-        {
-          "ImagePath": "assets/images/migas.jpeg",
-          "Title": "Workshops de culinária",
-          "Tooltip": "Aprenda os segredos da culinária Alentejana. Actividade organizada pela administração do Páteo Lima."
+          "Title": "Atividade na quinta",
+          "Tooltip": "Os hóspedes podem participar nas tarefas habituais de alimentação dos animais, mediante orientações, bem como em todas as atividades que vão decorrendo na horta, tais como, sementeira, rega, apanha de frutos e vegetais, que podem ser consumidos pelos próprios, mediante disponibilidade."
         },
         {
           "ImagePath": "assets/images/alentejo.jpeg",
           "Title": "Atividade de exterior",
-          "Tooltip": "Para além das redondezas serem propícias a caminhadas pelo campo, pode participar das actividades da quinta."
+          "Tooltip": "As redondezas são propícias a caminhadas. Um visita demorada a Évora, situada a 10 kms, também será imperdível. Quem quiser viajar um pouco mais, poderá ainda deixar-se surpreender por muitas e variadas paragens que se podem fazer nas proximidades, podendo mesmo ir dar um mergulho nas praias fluviais da Amieira ou do Alqueva (a cerca de 70 kms)."
+        },
+        {
+          "ImagePath": "assets/images/alentejo.jpeg",
+          "Title": "Atividades de bem estar psicológico",
+          "Tooltip": "Dada a formação de base da promotora em Psicologia (cédula profissional nº 3904), os hóspedes podem, mediante custo adicional, usufruir de sessões de relaxamento, de apoio psicológico ou de aconselhamento, enquadrados em ambiente natural (disponíveis apenas em língua portuguesa)."
+        },
+        {
+          "ImagePath": "assets/images/migas.jpeg",
+          "Title": "Workshops de culinária",
+          "Tooltip": "Feita de saberes e sabores locais, a gastronomia alentejana tira proveito de tudo o que a terra lhe oferece. Nestes workhops, mediante marcação e custo adicional, os hóspedes podem fazer uma incursão sobre a arte de transformar alguns dos produtos mais típicos da região para darem às suas refeições “aquele gostinho” tão especial (disponível apenas em língua portuguesa)."
         }
       ]
     },
@@ -141,6 +146,7 @@
   "Common": {
     "ReadMore": "Ler mais",
     "SeeMore": "Ver mais",
+    "SeeMore2": "Contacte-nos",
     "KnowMoreAboutActivities": "Saiba mais sobre as nossas atividades",
     "KnowMoreAboutActivities2": "Saiba mais sobre o que ver e fazer",
     "KnowMoreAboutUs": "Saiba mais sobre nós",
@@ -161,7 +167,11 @@
     "Link": "Ficha técnica do projecto",
     "Email": "p****@gmail.com",
     "Phone": "93*******",
-    "FixedPhone": "266******"
+    "FixedPhone": "266******",
+    "TermsAndConditions": "Termos e Condições",
+    "PrivacyPolicies": "Política de privacidade",
+    "ReservationsText": "Para efetuar reservas contacte-nos por e-mail, telefone ou aceda à plataform de reservas Booking.com"
+
   },
   "Contacts" : {
     "GoogleMapsIconPath": "assets/images/google_maps_icon.svg",
@@ -169,8 +179,9 @@
     "GoogleMapsButtonText": "Como chegar",
     "BookingButtonText": "Booking.com",
     "BookingLink": "#",
-    "Address": "Rua ***** ***** *****, **",
-    "PostalCode": "7000-***"
+    "Address": "Rua General Humberto Delgado,",
+    "SecondAddress": " nº1, 3 e 5, Valverde",
+    "PostalCode": "7000-093 Nossa Senhora da Tourega"
   },
   "Houses": [
     {
@@ -304,6 +315,12 @@
         "assets/images/image_10.jpg",
         "assets/images/image_11.jpg"
       ]
+    },
+    {
+      "Tipology": "Eventos",
+      "Name": "Casas e/ou exterior",
+      "Description": "Mediante orçamento, o Páteo Lima disponibiliza o aluguer da total ou parcial do espaço. O espaço exterior reune as características ideais para eventos familiares, aniversários...",
+      "ImagePath": "assets/images/breakfast.jpg"
     }
   ],
   "Farm": {

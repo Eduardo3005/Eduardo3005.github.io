@@ -1,7 +1,6 @@
 @import "../../style/mixins.scss";
 
 footer {
-
   height: 100px;
   bottom: 0;
   width: 100%;
@@ -28,7 +27,7 @@ footer {
 
   .second-item {
     padding: 20px;
-    height: 96px;
+    height: 72px;
     width: 100%;
     background-color: $green-light;
 
@@ -48,38 +47,39 @@ a {
 
 p {
   margin-bottom: 8px;
-  display:inline;
+  display: inline;
   color: $white;
 }
 
-.p-yellow{
+.p-yellow {
   color: $yellow;
 }
 
 .btn-outline-secondary {
-
   border: 1px solid $white;
+  margin-left: 0;
+
+  @media (max-width: 768px) {
+    margin: 0 auto;
+    margin-bottom: 32px;
+  }
 }
 
-
-.cofinancingBar{
+.cofinancingBar {
   margin: 0 auto;
   display: flex;
   height: 80px;
   max-width: 500px;
-  @media (min-width:  769px) and (max-width: 1024px) {
+  @media (min-width: 769px) and (max-width: 1024px) {
     height: 33px;
-
   }
 
   @media (max-width: 768px) {
     width: 90%;
-
   }
 }
 
-
-.badge-pateo-lima{
+.badge-pateo-lima {
   margin: 0 auto;
   display: flex;
   height: 220px;
@@ -95,7 +95,6 @@ p {
   }
 }
 
-
 .contacts {
   margin: 0;
   position: absolute;
@@ -103,11 +102,9 @@ p {
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
 
-
   @media (max-width: 1024px) {
     position: relative;
-    margin-top:32px;
-
+    margin-top: 32px;
   }
 }
 
@@ -115,23 +112,36 @@ h3 {
   color: $white;
 }
 
-
-.imgContainer{
-  float:left;
+.imgContainer {
+  float: left;
   @media (max-width: 1024px) {
-    float:none;
+    float: none;
     height: auto;
   }
 }
 
-.rules{
-  ul li{
+.rules {
+  display: flex;
+  margin-bottom: 0;
+  ul li {
     display: inline;
+    text-transform: uppercase;
+    font-family: "Sarabun-Regular", sans-serif;
+    font-size: 13px;
+    letter-spacing: 1px;
+    color: white;
+
+    svg {
+      top: 50%;
+      -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+      transform: translateY(-50%);
+    }
   }
 
   a:hover {
     background-color: $green-light;
-    color: $green-dark
+    color: $green-dark;
   }
 
   @media (max-width: 1024px) {
@@ -139,7 +149,7 @@ h3 {
   }
 }
 
-.col-md-2{
+.col-md-2 {
   justify-content: center;
   display: flex;
 
@@ -149,13 +159,16 @@ h3 {
   }
 }
 
-.project-file{
+.project-file {
   position: absolute;
   margin: 0 auto;
   right: 16px;
+  font-size: 13px;
+  color: white;
+  padding: 8px;
 
   @media (max-width: 1024px) {
-    position:relative;
+    position: relative;
     right: 0;
   }
 }

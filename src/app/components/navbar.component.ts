@@ -44,6 +44,9 @@ export class NavbarComponent implements OnInit {
   getHouseNames(){
     this.translate.get("Houses").subscribe((res : Array<House>) => {
       res.forEach((house) => { this.houseNames.push(house.Name)});
+
+      // To not include events
+      this.houseNames.pop();
     });
   }
 }

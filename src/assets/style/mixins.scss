@@ -112,7 +112,7 @@ rect {
 }
 
 .main-card {
-  height: 100vh;
+  height: 91vh;
   background-color: $green-light;
 
   @media (max-width: 1024px) {
@@ -162,8 +162,8 @@ rect {
   }
 }
 
-.mb-192 {
-  margin-bottom: 192px;
+.mb-160 {
+  margin-bottom: 160px;
   @media (max-width: 768px) {
     margin-bottom: 112px;
   }
@@ -197,6 +197,20 @@ rect {
   }
 }
 
+.top-64{
+  top: 64% !important;
+  @media (max-width: 1024px) {
+    top: 40% !important;
+  }
+}
+
+.top-80 {
+  top: 80px;
+  @media (max-width: 768px) {
+    top:58px;
+  }
+}
+
 .mt-200 {
   margin-top: 200px;
   @media (max-width: 768px) {
@@ -206,6 +220,7 @@ rect {
 .top-52 {
   top: 52px;
 }
+
 
 .top-0 {
   top: 0;

@@ -1,4 +1,4 @@
-<div class="swiper-container mySwiper mb-192 top-52">
+<div class="swiper-container mySwiper mb-160 top-52">
   <div class="swiper-wrapper">
     <ng-container *ngFor="let slide of slideShow">
       <div class="swiper-slide" style="background-image: url({{slide}})"></div>
@@ -69,10 +69,17 @@
           <h2 class="yellow-background mb-32">{{ house.Tipology }}</h2>
           <h2 class="uppercase">{{ house.Name }}</h2>
           <div class="text description">{{ house.Description }}</div>
-          <a
+          <a *ngIf="i != houses.length-1"
             [routerLink]="['/houses', i+1]"
             class="btn btn-outline-secondary link-button"
             >{{ "Common.SeeMore" | translate }}</a
+          >
+
+
+          <a *ngIf="i == houses.length-1"
+            [routerLink]="['/contacts']"
+            class="btn btn-outline-secondary link-button"
+            >{{ "Common.SeeMore2" | translate }}</a
           >
         </div>
       </div>

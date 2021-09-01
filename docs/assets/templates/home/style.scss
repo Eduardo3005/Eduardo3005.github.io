@@ -4,7 +4,10 @@
   height: 92vh;
   display: flex;
   justify-content: center;
-  background-color: $green-light;
+
+
+  background-size: cover;
+  z-index:3;
 
   padding: 0;
   @media (max-width: 768px) {
@@ -13,12 +16,12 @@
 
   .youtube-video-play{
     position: relative;
-    opacity: 0.2;
-    background-size: cover;
+
     width: 100%;
     height: 100%;
     justify-content: center !important;
     margin:0 auto !important;
+    background-color: rgba(115,139,121, 0.9);
 
     .play-circle{
       margin-top: 15%;

@@ -54,7 +54,8 @@
       "Title": "Abertura prevista a 3 de Setembro",
       "Tooltip": "Enquanto isso aproveite para conhecer o espaço, as atividades disponíveis e pontos de interesse dos arredores."
     },
-    "CofinaningBarPath": "assets/images/cofinaningBar.svg"
+    "CofinaningBarPath": "assets/images/cofinaningBar.svg",
+    "VideoTitle": "Veja o nosso vídeo"
   },
   "History": {
     "Title": "Quem somos",

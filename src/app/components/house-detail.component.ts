@@ -52,6 +52,7 @@ export class HouseDetailComponent
   houseId: number;
   images: Array<string>;
   currentModalImage: string;
+  mainImagePath: string;
   @ViewChild('openModal') openModal: ElementRef;
 
   constructor(
@@ -137,6 +138,8 @@ export class HouseDetailComponent
       this.accommodations = this.houses[this.houseId - 1].Accommodations;
       this.options = this.houses[this.houseId - 1].Options;
       this.images = this.houses[this.houseId - 1].Images;
+      this.images = this.houses[this.houseId - 1].Images;
+      this.mainImagePath = this.houses[this.houseId - 1].ImagePath
     });
   }
 

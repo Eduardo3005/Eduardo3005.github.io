@@ -25,6 +25,10 @@
   font-weight: bold;
   padding-bottom: 16px;
 
+  img{
+    width: 300px;
+  }
+
   .logo{
     @media (max-width:768px) {
       width: 248px;

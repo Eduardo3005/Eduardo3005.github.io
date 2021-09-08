@@ -195,6 +195,7 @@ iframe {
     transform: translateY(-50%);
     z-index: 999999;
     right: 48px;
+    width: 460px;
 
     @media (max-width: 1024px) {
       width: 60%;

@@ -11,7 +11,7 @@
   @media (max-width: 768px) {
     border: 0;
   }
-  width: 100%;
+
 }
 
 .card-body {
@@ -52,7 +52,7 @@
   }
 
   .text {
-    width: 70%;
+    width: 80%;
     margin-top: 0px;
     @media (max-width: 768px) {
       width: 100%;
@@ -71,7 +71,7 @@
     color: $white;
 
     @media (max-width: 768px) {
-      width: 80%;
+      width: 100%;
     }
 
     .service {
@@ -94,7 +94,7 @@
 }
 
 ul {
-  width: 80%;
+  width: 100%;
   margin-bottom: 48px;
   font-family: "SourceSerifPro-Regular", serif;
   color: $grey-light;

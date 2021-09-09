@@ -16,6 +16,8 @@
 
   .row {
 
+
+
     height: 100%;
 
     .first-item {
@@ -43,6 +45,7 @@
         padding-left: 16px;
 
 
+
         @media (min-width: 1025px) {
           position: absolute;
           margin-top: 300px;
@@ -53,6 +56,15 @@
 
         }
         .text {
+
+            -webkit-touch-callout: initial !important; /* iOS Safari */
+            -webkit-user-select: initial !important; /* Safari */
+            -khtml-user-select: initial !important; /* Konqueror HTML */
+            -moz-user-select: initial !important; /* Old versions of Firefox */
+            -ms-user-select: initial !important; /* Internet Explorer/Edge */
+            user-select: initial !important; /* Non-prefixed version, currently
+                                          supported by Chrome, Edge, Opera and Firefox */
+
           margin-left: 0;
           padding-bottom: 0;
           width: 65%;
@@ -87,4 +99,17 @@ footer {
 
 .btn-outline-secondary{
   margin-left: 0;
+}
+
+
+.card {
+
+      -webkit-touch-callout: initial !important; /* iOS Safari */
+      -webkit-user-select: initial !important; /* Safari */
+      -khtml-user-select: initial !important; /* Konqueror HTML */
+      -moz-user-select: initial !important; /* Old versions of Firefox */
+      -ms-user-select: initial !important; /* Internet Explorer/Edge */
+      user-select: initial !important; /* Non-prefixed version, currently
+                                    supported by Chrome, Edge, Opera and Firefox */
+
 }

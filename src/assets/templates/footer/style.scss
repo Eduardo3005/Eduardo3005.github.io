@@ -106,6 +106,16 @@ p {
     position: relative;
     margin-top: 32px;
   }
+
+  p {
+    -webkit-touch-callout: initial !important; /* iOS Safari */
+    -webkit-user-select: initial !important; /* Safari */
+    -khtml-user-select: initial !important; /* Konqueror HTML */
+    -moz-user-select: initial !important; /* Old versions of Firefox */
+    -ms-user-select: initial !important; /* Internet Explorer/Edge */
+    user-select: initial !important; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+  }
 }
 
 h3 {

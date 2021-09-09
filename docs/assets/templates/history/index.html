@@ -28,7 +28,7 @@
 <div class="masonry mb-32">
   <ng-container *ngFor="let image of historyImages; ; let i = index">
     <div class="item-masonry">
-      <img src="{{image.Path}}">
+      <img src="{{image.Path}}" alt="{{image.Description}}">
       <div class="description">
         <p class="text">{{image.Description}}</p>
       </div>
@@ -99,8 +99,6 @@
 
   </div>
 </div>
-
-
 <button
   id="openModal"
   #openModal

@@ -166,9 +166,9 @@
     "LogoTitle": "Logotipo",
     "CofinancingTitle": "Cofinanciamento",
     "Link": "Ficha técnica do projecto",
-    "Email": "p****@gmail.com",
-    "Phone": "93*******",
-    "FixedPhone": "266******",
+    "Email": "pateolima@gmail.com",
+    "Phone": "9383285665",
+    "FixedPhone": "266711142",
     "TermsAndConditions": "Termos e Condições",
     "PrivacyPolicies": "Política de privacidade",
     "ReservationsText": "Para efetuar reservas contacte-nos por e-mail, telefone ou aceda à plataform de reservas Booking.com"
@@ -176,7 +176,7 @@
   },
   "Contacts" : {
     "GoogleMapsIconPath": "assets/images/google_maps_icon.svg",
-    "GoogleMapsLink": "#",
+    "GoogleMapsLink": "https://goo.gl/maps/qsBmJRUgs2z4PTLy6",
     "GoogleMapsButtonText": "Como chegar",
     "BookingButtonText": "Booking.com",
     "BookingLink": "#",
@@ -354,7 +354,7 @@
     },
     {
       "Name": "Relaxamento de grupo",
-      "Price": "Desde 50€"
+      "Price": "Desde 35€"
     }
   ],
   "Services": [

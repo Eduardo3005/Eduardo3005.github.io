@@ -2,6 +2,13 @@
 @import "colors.scss";
 
 .card {
+  -webkit-touch-callout: none !important; /* iOS Safari */
+  -webkit-user-select: none !important; /* Safari */
+  -khtml-user-select: none !important; /* Konqueror HTML */
+  -moz-user-select: none !important; /* Old versions of Firefox */
+  -ms-user-select: none !important; /* Internet Explorer/Edge */
+  user-select: none !important; /* Non-prefixed version, currently
+                                supported by Chrome, Edge, Opera and Firefox */
   border: none;
 
   @media (max-width: 768px) {
@@ -16,6 +23,13 @@
   }
 
   .text {
+    -webkit-touch-callout: none ; /* iOS Safari */
+    -webkit-user-select: none ; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none ; /* Old versions of Firefox */
+    -ms-user-select: none ; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
     color: $grey-light;
     font-family: "SourceSerifPro-Regular", serif;
     padding-bottom: 16px;
@@ -193,11 +207,11 @@ rect {
 .top-100 {
   top: 100px;
   @media (max-width: 768px) {
-    top:58px;
+    top: 58px;
   }
 }
 
-.top-64{
+.top-64 {
   top: 64% !important;
   @media (max-width: 1024px) {
     top: 40% !important;
@@ -207,20 +221,19 @@ rect {
 .top-80 {
   top: 80px;
   @media (max-width: 768px) {
-    top:58px;
+    top: 58px;
   }
 }
 
 .mt-200 {
   margin-top: 200px;
   @media (max-width: 768px) {
-    margin-top:112px;
+    margin-top: 112px;
   }
 }
 .top-52 {
   top: 52px;
 }
-
 
 .top-0 {
   top: 0;
@@ -246,6 +259,13 @@ rect {
 p {
   font-family: "SourceSerifPro-Regular", serif;
   color: $grey-dark;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none ; /* Old versions of Firefox */
+  -ms-user-select: none ; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently
+                                supported by Chrome, Edge, Opera and Firefox */
 }
 
 a {
@@ -253,15 +273,13 @@ a {
   text-decoration: none;
 }
 
-a:hover{
-  color:$green-light;
+a:hover {
+  color: $green-light;
 }
-
 
 a:active {
   background-color: $white;
 }
-
 
 .modal-content {
   border-radius: 0;
@@ -282,10 +300,9 @@ a:active {
     text-align: center;
     justify-content: center;
     .logo {
-
-        @media (max-width:768px) {
-          width: 248px;
-         }
+      @media (max-width: 768px) {
+        width: 248px;
+      }
 
       height: 80px;
       width: 90%;
@@ -303,7 +320,6 @@ a:active {
 }
 
 .modal-bottom {
-
   z-index: 8888;
   color: $green-light;
   .modal-dialog {
@@ -322,9 +338,9 @@ a:active {
       border: none;
 
       .modal-body {
-        padding:16px;
-        padding-right:32px;
-        padding-left:32px;
+        padding: 16px;
+        padding-right: 32px;
+        padding-left: 32px;
         .close {
           @media (max-width: 768px) {
             margin-top: 0;
@@ -340,7 +356,7 @@ a:active {
             box-shadow: none;
           }
         }
-        .cofinancingBar{
+        .cofinancingBar {
           margin: 0 auto;
           display: flex;
           height: 80px;

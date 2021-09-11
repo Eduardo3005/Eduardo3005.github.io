@@ -1,3 +1,4 @@
+import { Image } from "./image";
 import { SlideShowElement } from "./slide-show-element";
 
 export class House {
@@ -8,7 +9,7 @@ export class House {
   ImagePath: string;
   Options:  Array<Option>;
   Accommodations:  Array<Accommodation>;
-  Images: Array<string>;
+  Images: Array<Image>;
 }
 
 export class Option {

@@ -16,7 +16,7 @@ footer {
     background-color: $green-dark;
     color: $white;
 
-    @media (max-width: 768px) {
+    @media (max-width:1024px) {
       height: fit-content;
     }
 
@@ -61,21 +61,33 @@ p {
 
   @media (max-width: 768px) {
     margin: 0 auto;
-    margin-bottom: 32px;
+    margin-bottom: 16px;
   }
 }
 
 .cofinancingBar {
-  margin: 0 auto;
-  display: flex;
+
+  display: block;
   height: 80px;
+  float: right;
+  margin-right: 32px;
+
   max-width: 500px;
+  @media (min-width: 1025px) and (max-width: 1366px) {
+    height: 50px;
+  }
   @media (min-width: 769px) and (max-width: 1024px) {
     height: 33px;
+    margin: 0 auto;
+    float: none;
+    margin-bottom: 16px;
   }
 
   @media (max-width: 768px) {
     width: 90%;
+    margin: 0 auto;
+    float: none;
+    margin-bottom: 16px;
   }
 }
 
@@ -104,7 +116,8 @@ p {
 
   @media (max-width: 1024px) {
     position: relative;
-    margin-top: 32px;
+    top: 40%;
+    margin-top: 32px;;
   }
 
   p {
@@ -162,12 +175,24 @@ h3 {
 .col-md-2 {
   justify-content: center;
   display: flex;
+  @media (max-width: 1024px) {
+    justify-content: none;
+    display: inline;
+  }
+}
+
+.col-md-3 {
+  justify-content: center;
+  display: flex;
 
   @media (max-width: 1024px) {
     justify-content: none;
     display: inline;
   }
 }
+
+
+
 
 .project-file {
   position: absolute;
@@ -177,8 +202,15 @@ h3 {
   color: white;
   padding: 8px;
 
-  @media (max-width: 1024px) {
+  @media (max-width: 768px) {
     position: relative;
     right: 0;
+  }
+}
+
+.bookingLink {
+ float:left;
+  @media (max-width:768px) {
+    float: none;
   }
 }

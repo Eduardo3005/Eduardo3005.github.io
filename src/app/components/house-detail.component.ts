@@ -25,6 +25,7 @@ import { SlideShowElement } from '../models/slide-show-element';
 import SwiperCore, { Navigation, Pagination, Swiper } from 'swiper/core';
 import { FirebaseProvider } from '../services/firebase-logger.service';
 import { DynamicComponent } from '../shared/base.component';
+import { Image } from '../models/image';
 
 SwiperCore.use([Navigation, Pagination]);
 
@@ -50,7 +51,7 @@ export class HouseDetailComponent
   options: Array<Option>;
   mainSlideShow: Array<SlideShowElement>;
   houseId: number;
-  images: Array<string>;
+  images: Array<Image>;
   currentModalImage: string;
   mainImagePath: string;
   @ViewChild('openModal') openModal: ElementRef;
@@ -88,28 +89,9 @@ export class HouseDetailComponent
 
   initSwiper(className: string): Swiper {
     return new Swiper(className, {
-      fadeEffect: {
-        crossFade: true,
-      },
-      breakpointsBase: '1000',
+      slidesPerView: 1,
+      spaceBetween: 10,
       loop: true,
-      breakpoints: {
-        '480': {
-          slidesPerView: 1,
-          spaceBetween: 10,
-          slidesPerGroup: 1,
-        },
-        '736': {
-          slidesPerView: 2,
-          spaceBetween: 20,
-          slidesPerGroup: 2,
-        },
-        '1000': {
-          slidesPerView: 4,
-          spaceBetween: 30,
-          slidesPerGroup: 4,
-        },
-      },
       pagination: {
         el: '.swiper-pagination',
         clickable: true,
@@ -137,7 +119,6 @@ export class HouseDetailComponent
       this.houseName = this.houses[this.houseId - 1].Name;
       this.accommodations = this.houses[this.houseId - 1].Accommodations;
       this.options = this.houses[this.houseId - 1].Options;
-      this.images = this.houses[this.houseId - 1].Images;
       this.images = this.houses[this.houseId - 1].Images;
       this.mainImagePath = this.houses[this.houseId - 1].ImagePath
     });
@@ -196,7 +177,7 @@ export class HouseDetailComponent
   openImage(index: number): void {
 
     if (window.innerWidth > 767) {
-      this.currentModalImage = this.images[index];
+      this.currentModalImage = this.images[index].Path;
 
       setTimeout(() => {
         var swiper = new Swiper('.mySwiper-xxl', {

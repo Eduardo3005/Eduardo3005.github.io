@@ -21,8 +21,8 @@
     ],
     "Resume": {
       "Title": "Um lugar com história",
-      "P1" : "Com localização privilegiada à entrada principal de Valverde e à ribeira com o mesmo nome, o Páteo Lima goza da proximidade da cidade património mundial de Évora, de importantes conjuntos megalíticos, ruínas romanas e medievais e até de uma quinta episcopal quinhentista, rodeada pela magnífica paisagem alentejana do sopé da serra de Monfurado.",
-      "P2" : "Constituído por um conjunto de três casas de tipologia T1, T2 e T3, que foram buscar os nomes à forma como eram habitualmente designadas pela família, esta unidade de Turismo Rural resulta da reconversão de um antigo ponto comercial que, na sua época áurea, contava principalmente com mercearia, taberna, padaria e talho, alimentados pela produção agropecuária da própria quinta."
+      "P1": "Com localização privilegiada à entrada principal de Valverde e à ribeira com o mesmo nome, o Páteo Lima goza da proximidade da cidade património mundial de Évora, de importantes conjuntos megalíticos, ruínas romanas e medievais e até de uma quinta episcopal quinhentista, rodeada pela magnífica paisagem alentejana do sopé da serra de Monfurado.",
+      "P2": "Constituído por um conjunto de três casas de tipologia T1, T2 e T3, que foram buscar os nomes à forma como eram habitualmente designadas pela família, esta unidade de Turismo Rural resulta da reconversão de um antigo ponto comercial que, na sua época áurea, contava principalmente com mercearia, taberna, padaria e talho, alimentados pela produção agropecuária da própria quinta."
     },
     "Places": {
       "Title": "O que fazer",
@@ -33,7 +33,7 @@
           "Tooltip": "Os hóspedes podem participar nas tarefas habituais de alimentação dos animais, mediante orientações, bem como em todas as atividades que vão decorrendo na horta, tais como, sementeira, rega, apanha de frutos e vegetais, que podem ser consumidos pelos próprios, mediante disponibilidade."
         },
         {
-          "ImagePath": "assets/images/alentejo.jpeg",
+          "ImagePath": "assets/images/templo_diana.JPG",
           "Title": "Atividade de exterior",
           "Tooltip": "As redondezas são propícias a caminhadas. Um visita demorada a Évora, situada a 10 kms, também será imperdível. Quem quiser viajar um pouco mais, poderá ainda deixar-se surpreender por muitas e variadas paragens que se podem fazer nas proximidades, podendo mesmo ir dar um mergulho nas praias fluviais da Amieira ou do Alqueva (a cerca de 70 kms)."
         },
@@ -87,52 +87,53 @@
     ],
     "HistoryImages": [
       {
-        "Path" : "assets/images/history_foto_1.jpg",
-        "Description" : "Carimbo do início do séc. xx em nome de José Joaquim Ferreira, trisavô da promotora"
+        "Path": "assets/images/history_foto_1.jpg",
+        "Description": "Carimbo do início do séc. xx em nome de José Joaquim Ferreira, trisavô da promotora"
       },
       {
-        "Path" : "assets/images/history_foto_2.jpg",
-        "Description" : "Cliente assíduo em finais do séc. xx"
+        "Path": "assets/images/history_foto_2.jpg",
+        "Description": "Cliente assíduo em finais do séc. xx"
       },
       {
-        "Path" : "assets/images/history_foto_3.jpg",
-        "Description" : "Exemplo de registo da venda de produtos em 1936 (vinho e aguardente)"
+        "Path": "assets/images/history_foto_3.jpg",
+        "Description": "Exemplo de registo da venda de produtos em 1936 (vinho e aguardente)"
       },
       {
-        "Path" : "assets/images/history_foto_4.jpg",
-        "Description" : "Custódio Ferreira Lima, avô da promotora"
+        "Path": "assets/images/history_foto_4.jpg",
+        "Description": "Custódio Ferreira Lima, avô da promotora"
       },
 
       {
-        "Path" : "assets/images/history_foto_6.jpg",
-        "Description" : "Foto de família no pátio nos anos sessenta do séc. xx"
+        "Path": "assets/images/history_foto_6.jpg",
+        "Description": "Foto de família no pátio nos anos sessenta do séc. xx"
       },
       {
-        "Path" : "assets/images/history_foto_7.jpg",
-        "Description" : "Fachada do espaço e ribeira de Valverde no início do séc. xxi"
+        "Path": "assets/images/history_foto_7.jpg",
+        "Description": "Fachada do espaço e ribeira de Valverde no início do séc. xxi"
       },
       {
-        "Path" : "assets/images/history_foto_8.jpg",
-        "Description" : "Nota enviada por visitantes espanhóis em 1994"
+        "Path": "assets/images/history_foto_8.jpg",
+        "Description": "Nota enviada por visitantes espanhóis em 1994"
       },
       {
-        "Path" : "assets/images/history_foto_9.jpg",
-        "Description" : "Matança do porco frente à cocheira (ano desconhecido)"
+        "Path": "assets/images/history_foto_9.jpg",
+        "Description": "Matança do porco frente à cocheira (ano desconhecido)"
       },
       {
-        "Path" : "assets/images/history_foto_10.jpg",
-        "Description" : "Registo da propriedade no Livro das Descrições Prediais"
+        "Path": "assets/images/history_foto_10.jpg",
+        "Description": "Registo da propriedade no Livro das Descrições Prediais"
       },
       {
-        "Path" : "assets/images/history_foto_11.jpg",
-        "Description" : "O pai da promotora, José Guilherme Lima, servindo um copo de bagaço (início do séc. xxi)"
+        "Path": "assets/images/history_foto_11.jpg",
+        "Description": "O pai da promotora, José Guilherme Lima, servindo um copo de bagaço (início do séc. xxi)"
       },
       {
-        "Path" : "assets/images/history_foto_12.jpg",
-        "Description" : "Visita da RTP, por altura da reportagem “Ninho de Cegonhas”, em 23-03-2010"
-      },{
-        "Path" : "assets/images/history_foto_5.jpg",
-        "Description" : "Exemplo de registo de dividas em 1939"
+        "Path": "assets/images/history_foto_12.jpg",
+        "Description": "Visita da RTP, por altura da reportagem “Ninho de Cegonhas”, em 23-03-2010"
+      },
+      {
+        "Path": "assets/images/history_foto_5.jpg",
+        "Description": "Exemplo de registo de dividas em 1939"
       }
     ]
   },
@@ -172,9 +173,8 @@
     "TermsAndConditions": "Termos e Condições",
     "PrivacyPolicies": "Política de privacidade",
     "ReservationsText": "Para efetuar reservas contacte-nos por e-mail, telefone ou aceda à plataform de reservas Booking.com"
-
   },
-  "Contacts" : {
+  "Contacts": {
     "GoogleMapsIconPath": "assets/images/google_maps_icon.svg",
     "GoogleMapsLink": "https://goo.gl/maps/qsBmJRUgs2z4PTLy6",
     "GoogleMapsButtonText": "Como chegar",
@@ -213,16 +213,48 @@
         }
       ],
       "Images": [
-        "assets/images/t1_sala.jpg",
-        "assets/images/t1_sala_2.jpg",
-        "assets/images/t1_sala_3.jpg",
-        "assets/images/t1_sala_4.jpg",
-        "assets/images/t1_q1.jpg",
-        "assets/images/t1_q1_2.jpg",
-        "assets/images/t1_q1_3.jpg",
-        "assets/images/t1_exterior.jpg",
-        "assets/images/t1_exterior_2.jpg",
-        "assets/images/t1_exterior_3.jpg"
+        {
+          "Path": "assets/images/t1_exterior.jpg",
+          "Description": ""
+        },
+        {
+          "Path": "assets/images/t1_sala_2.jpg",
+          "Description": ""
+        },
+        {
+          "Path": "assets/images/t1_sala.jpg",
+          "Description": ""
+        },
+
+        {
+          "Path": "assets/images/t1_sala_3.jpg",
+          "Description": ""
+        },
+        {
+          "Path": "assets/images/t1_sala_4.jpg",
+          "Description": ""
+        },
+        {
+          "Path": "assets/images/t1_q1.jpg",
+          "Description": ""
+        },
+        {
+          "Path": "assets/images/t1_q1_2.jpg",
+          "Description": ""
+        },
+        {
+          "Path": "assets/images/t1_q1_3.jpg",
+          "Description": ""
+        },
+
+        {
+          "Path": "assets/images/t1_exterior_2.jpg",
+          "Description": ""
+        },
+        {
+          "Path": "assets/images/t1_exterior_3.jpg",
+          "Description": ""
+        }
       ]
     },
     {
@@ -256,19 +288,59 @@
         }
       ],
       "Images": [
-        "assets/images/t2_sala_2.jpg",
-        "assets/images/t2_sala_3.jpg",
-        "assets/images/t2_sala.jpg",
-        "assets/images/t2_q1.jpg",
-        "assets/images/t2_q1_2.jpg",
-        "assets/images/t2_q1_3.jpg",
-        "assets/images/t2_q2.jpg",
-        "assets/images/t2_q2_1.jpg",
-        "assets/images/t2_corredor.jpg",
-        "assets/images/t2_corredor_2.jpg",
-        "assets/images/t2_corredor_3.jpg",
-        "assets/images/t2_exterior.jpg",
-        "assets/images/t2_exterior_2.jpg"
+        {
+          "Path": "assets/images/t2_exterior.jpg",
+          "Description": ""
+        },
+        {
+          "Path": "assets/images/t2_sala_2.jpg",
+          "Description": ""
+        },
+        {
+          "Path": "assets/images/t2_sala_3.jpg",
+          "Description": ""
+        },
+        {
+          "Path": "assets/images/t2_sala.jpg",
+          "Description": ""
+        },
+        {
+          "Path": "assets/images/t2_q1.jpg",
+          "Description": ""
+        },
+        {
+          "Path": "assets/images/t2_q1_2.jpg",
+          "Description": ""
+        },
+        {
+          "Path": "assets/images/t2_q1_3.jpg",
+          "Description": ""
+        },
+        {
+          "Path": "assets/images/t2_q2.jpg",
+          "Description": ""
+        },
+        {
+          "Path": "assets/images/t2_q2_1.jpg",
+          "Description": ""
+        },
+        {
+          "Path": "assets/images/t2_corredor.jpg",
+          "Description": ""
+        },
+        {
+          "Path": "assets/images/t2_corredor_2.jpg",
+          "Description": ""
+        },
+        {
+          "Path": "assets/images/t2_corredor_3.jpg",
+          "Description": ""
+        },
+
+        {
+          "Path": "assets/images/t2_exterior_2.jpg",
+          "Description": ""
+        }
       ]
     },
     {
@@ -305,17 +377,46 @@
         }
       ],
       "Images": [
-        "assets/images/t3_sala.jpg",
-        "assets/images/t3_sala_2.jpg",
-        "assets/images/t3_sala_3.jpg",
-        "assets/images/t3_sala_4.jpg",
-        "assets/images/t3_sala_5.jpg",
-        "assets/images/t3_q1.jpg",
-        "assets/images/t3_q1_2.jpg",
-        "assets/images/t3_exterior.jpg",
-        "assets/images/t3_exterior_2.jpg",
-        "assets/images/t3_exterior_3.jpg",
-        "assets/images/t3_exterior_4.jpg"
+        {
+          "Path": "assets/images/t3_exterior.jpg",
+          "Description": ""
+        },
+        {
+          "Path":  "assets/images/t3_sala.jpg",
+          "Description": ""
+        },
+        {
+          "Path": "assets/images/t3_sala_2.jpg",
+          "Description": ""
+        },
+        {
+          "Path":  "assets/images/t3_sala_3.jpg",
+          "Description": ""
+        },
+        {
+          "Path": "assets/images/t3_sala_5.jpg",
+          "Description": ""
+        },
+        {
+          "Path": "assets/images/t3_q1.jpg",
+          "Description": ""
+        },
+        {
+          "Path":  "assets/images/t3_q1_2.jpg",
+          "Description": ""
+        },
+        {
+          "Path":"assets/images/t3_exterior_2.jpg",
+          "Description": ""
+        },
+        {
+          "Path":  "assets/images/t3_exterior_3.jpg",
+          "Description": ""
+        },
+        {
+          "Path": "assets/images/t3_exterior_4.jpg",
+          "Description": ""
+        }
       ]
     },
     {

@@ -1,4 +1,4 @@
-export class HistoryImage {
+export class Image {
   Description: string;
   Path: string;
 }

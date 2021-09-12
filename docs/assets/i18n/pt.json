@@ -189,7 +189,7 @@
       "Tipology": "T1",
       "Name": "Casa dos vidros",
       "Description": "Assim chamada porque a porta de entrada era envidraçada. A sua ampla chaminé dava vida a enchido e torresmos, mas também a amenas cavaqueiras familiares enquanto se esperava a saída do último cliente. Foi transfroma num generoso e agradável T1.",
-      "ImagePath": "assets/images/t1/t1_exterior.jpg",
+      "ImagePath": "assets/images/t1/exterior.jpg",
       "FullDescription": "Assim chamada porque a porta de entrada era envidraçada, permitindo observar tudo o que se passava no Páteo. Era aqui que residiam os proprietários, que tinham acesso direto à venda através de uma porta que a ligava à residência. A sua ampla chaminé, onde o lume era uma presença constante, dava vida a enchidos e torresmos, mas também a amenas cavaqueiras familiares enquanto se esperava a saída do último cliente. Foi transformada num generoso e agradável T1, com uma aconchegante salamandra para as noites mais frias, que admite a lotação máxima de 4 pessoas, distribuídas por 1 quarto duplo e pelo sofá cama da sala. Dispõe de kitchenette equipada com placa, forno, combinado, máquina de lavar loiça, torradeira, chaleira, máquina de café, ferro de engomar, louça e talheres adequados ao número de ocupantes. No wc, acessível a cadeira de rodas, encontram-se o secador de cabelo e os produtos para o banho. A casa dispõe ainda de ar condicionado em todo o espaço, TV e internet gratuitas. ",
       "Options": [
         {
@@ -214,43 +214,51 @@
       ],
       "Images": [
         {
-          "Path": "assets/images/t1/t1_exterior.jpg",
+          "Path": "assets/images/t1/exterior.jpg",
           "Description": ""
         },
         {
-          "Path": "assets/images/t1/t1_sala_2.jpg",
+          "Path": "assets/images/t1/sala_2.jpg",
           "Description": ""
         },
         {
-          "Path": "assets/images/t1/t1_sala.jpg",
+          "Path": "assets/images/t1/sala.jpg",
           "Description": ""
         },
         {
-          "Path": "assets/images/t1/t1_sala_3.jpg",
+          "Path": "assets/images/t1/sala_3.jpg",
           "Description": ""
         },
         {
-          "Path": "assets/images/t1/t1_sala_4.jpg",
+          "Path": "assets/images/t1/sala_4.jpg",
           "Description": ""
         },
         {
-          "Path": "assets/images/t1/t1_q1.jpg",
+          "Path": "assets/images/t1/sala_5.jpg",
           "Description": ""
         },
         {
-          "Path": "assets/images/t1/t1_q1_2.jpg",
+          "Path": "assets/images/t1/q1.jpg",
           "Description": ""
         },
         {
-          "Path": "assets/images/t1/t1_q1_3.jpg",
+          "Path": "assets/images/t1/q1_2.jpg",
           "Description": ""
         },
         {
-          "Path": "assets/images/t1/t1_exterior_2.jpg",
+          "Path": "assets/images/t1/q1_3.jpg",
           "Description": ""
         },
         {
-          "Path": "assets/images/t1/t1_exterior_3.jpg",
+          "Path": "assets/images/t1/q1_4.jpg",
+          "Description": ""
+        },
+        {
+          "Path": "assets/images/t1/exterior_2.jpg",
+          "Description": ""
+        },
+        {
+          "Path": "assets/images/t1/exterior_3.jpg",
           "Description": ""
         }
       ]
@@ -259,7 +267,7 @@
       "Tipology": "T2",
       "Name": "Casa da venda",
       "Description": "Era aqui que se situava a 'venda', onde se podiam encontrar produtos tão variados como as mercearias e os vinhos, a carne e o peixe, mas também os comprimidos para as dores e o petróleo para os candeeiros que alumiavam as longas e frias noites de inverno. Hoje tornou-se numa confortável habitação de tipologia T2.",
-      "ImagePath": "assets/images/t2/t2_exterior.jpg",
+      "ImagePath": "assets/images/t2/exterior.jpg",
       "FullDescription": "Sempre deu rosto à propriedade e à própria aldeia, pois está virada de frente para a ponte, sendo a primeira fachada que o olhar alcança quando se atravessa a ribeira; era aqui que se situava a “venda”, onde se podiam encontrar produtos tão variados como as mercearias e os vinhos, o pão e a roupa, mas também os comprimidos para as dores e o petróleo para os candeeiros que alumiavam as longas e frias noites de inverno. Hoje tornou-se numa confortável habitação de tipologia T2, solarenga e luminosa durante as manhãs e fresca nas tardes quentes de verão, pois todas as portas do antigo espaço comercial foram transformadas em generosas janelas de sacada viradas para o nascer do sol. Admite a lotação máxima de 6 pessoas, distribuídas por 2 quartos duplos e um sofá cama na sala. Dispõe de kitchenette equipada com placa, forno, combinado, máquina de lavar loiça, torradeira, chaleira, máquina de café, ferro de engomar, louça e talheres adequados ao número de ocupantes. No wc, acessível a cadeira de rodas, encontram-se o secador de cabelo e os produtos para o banho. A casa dispõe ainda de ar condicionado em todo o espaço, TV e internet gratuitas.",
       "Options": [
         {
@@ -287,54 +295,49 @@
       ],
       "Images": [
         {
-          "Path": "assets/images/t2/t2_exterior.jpg",
+          "Path": "assets/images/t2/exterior.jpg",
           "Description": ""
         },
         {
-          "Path": "assets/images/t2/t2_sala_2.jpg",
+          "Path": "assets/images/t2/sala_2.jpg",
           "Description": ""
         },
         {
-          "Path": "assets/images/t2/t2_sala_3.jpg",
+          "Path": "assets/images/t2/sala_3.jpg",
           "Description": ""
         },
         {
-          "Path": "assets/images/t2/t2_sala.jpg",
+          "Path": "assets/images/t2/sala.jpg",
           "Description": ""
         },
         {
-          "Path": "assets/images/t2/t2_q1.jpg",
+          "Path": "assets/images/t2/q1.jpg",
           "Description": ""
         },
         {
-          "Path": "assets/images/t2/t2_q1_2.jpg",
+          "Path": "assets/images/t2/q1_2.jpg",
           "Description": ""
         },
         {
-          "Path": "assets/images/t2/t2_q1_3.jpg",
+          "Path": "assets/images/t2/q1_3.jpg",
           "Description": ""
         },
         {
-          "Path": "assets/images/t2/t2_q2.jpg",
+          "Path": "assets/images/t2/q2.jpg",
           "Description": ""
         },
         {
-          "Path": "assets/images/t2/t2_q2_1.jpg",
+          "Path": "assets/images/t2/q2_1.jpg",
           "Description": ""
         },
         {
-          "Path": "assets/images/t2/t2_corredor.jpg",
+          "Path": "assets/images/t2/corredor.jpg",
           "Description": ""
         },
         {
-          "Path": "assets/images/t2/t2_corredor_2.jpg",
+          "Path": "assets/images/t2/corredor_2.jpg",
           "Description": ""
         },
-        {
-          "Path": "assets/images/t2/t2_corredor_3.jpg",
-          "Description": ""
-        },
-
         {
           "Path": "assets/images/t2/t2_exterior_2.jpg",
           "Description": ""
@@ -345,7 +348,7 @@
       "Tipology": "T3",
       "Name": "Casa da cocheira",
       "Description": "Teve muitas e variadas funções: de queijaria a matadouro, de loja a salão de baile, deu vida a trabalho e lazer da povoação, já que era aqui que alguns tinham o seu ganha-pão e muitos passavam os seus tempos livres à volta de um copo de tinto, de uma concertina ou de uma grafonola. Atualmente convertida num acolhedor T3, com um simpático e íntimo pátio interior.",
-      "ImagePath": "assets/images/t3/t3_exterior.jpg",
+      "ImagePath": "assets/images/t3/exterior.jpg",
       "FullDescription": "Foi buscar o nome à sua designação original, embora se tenha passado a chamar “garagem” depois da chegada de uma “moderna” furgoneta. Mas este espaço teve ainda muitas outras funções: de queijaria a armazém, de loja a salão de baile, deu vida a trabalho e lazer da povoação, já que era aqui que alguns tinham o seu ganha-pão e muitos passavam os seus tempos livres à volta de um copo de tinto, de uma concertina ou de uma grafonola, que animavam as noites quentes de verão. Atualmente convertida num acolhedor T3, com um simpático e íntimo pátio interior, dispõe de lotação máxima para 8 pessoas, distribuídas por 1 quarto de casal, 2 quartos duplos e sofá cama na sala. Dispõe de kitchenette equipada com placa, forno, combinado, máquina de lavar loiça, torradeira, chaleira, máquina de café, ferro de engomar, louça e talheres adequados ao número de ocupantes. Nos 2 wc´s, acessíveis a cadeira de rodas, encontram-se secadores de cabelo e os produtos para o banho. A casa dispõe ainda de ar condicionado em todo o espaço, TV e internet gratuitas. ",
       "Options": [
         {
@@ -376,43 +379,79 @@
       ],
       "Images": [
         {
-          "Path": "assets/images/t3/t3_exterior.jpg",
+          "Path": "assets/images/t3/exterior.jpg",
           "Description": ""
         },
         {
-          "Path":  "assets/images/t3/t3_sala.jpg",
+          "Path":  "assets/images/t3/sala.jpg",
           "Description": ""
         },
         {
-          "Path": "assets/images/t3/t3_sala_2.jpg",
+          "Path": "assets/images/t3/sala_2.jpg",
           "Description": ""
         },
         {
-          "Path":  "assets/images/t3/t3_sala_3.jpg",
+          "Path":  "assets/images/t3/sala_3.jpg",
           "Description": ""
         },
         {
-          "Path": "assets/images/t3/t3_sala_5.jpg",
+          "Path": "assets/images/t3/sala_5.jpg",
           "Description": ""
         },
         {
-          "Path": "assets/images/t3/t3_q1.jpg",
+          "Path": "assets/images/t3/sala_6.jpg",
           "Description": ""
         },
         {
-          "Path":  "assets/images/t3/t3_q1_2.jpg",
+          "Path": "assets/images/t3/q1.jpg",
           "Description": ""
         },
         {
-          "Path":"assets/images/t3/t3_exterior_2.jpg",
+          "Path":  "assets/images/t3/q1_2.jpg",
           "Description": ""
         },
         {
-          "Path":  "assets/images/t3/t3_exterior_3.jpg",
+          "Path":  "assets/images/t3/q2.jpg",
           "Description": ""
         },
         {
-          "Path": "assets/images/t3/t3_exterior_4.jpg",
+          "Path":  "assets/images/t3/q2_2.jpg",
+          "Description": ""
+        },
+        {
+          "Path":  "assets/images/t3/q3.jpg",
+          "Description": ""
+        },
+        {
+          "Path":  "assets/images/t3/wc.jpg",
+          "Description": ""
+        },
+        {
+          "Path":  "assets/images/t3/wc_2.jpg",
+          "Description": ""
+        },
+        {
+          "Path":  "assets/images/t3/wc_3.jpg",
+          "Description": ""
+        },
+        {
+          "Path":"assets/images/t3/exterior_2.jpg",
+          "Description": ""
+        },
+        {
+          "Path":  "assets/images/t3/exterior_3.jpg",
+          "Description": ""
+        },
+        {
+          "Path": "assets/images/t3/exterior_4.jpg",
+          "Description": ""
+        },
+        {
+          "Path": "assets/images/t3/terraço.jpg",
+          "Description": ""
+        },
+        {
+          "Path": "assets/images/t3/terraço_2.jpg",
           "Description": ""
         }
       ]

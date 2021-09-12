@@ -7,17 +7,17 @@
       "Title": "Alugar no páteo lima"
     },
     "SlideShow": [
-      "assets/images/image_1.jpg",
-      "assets/images/image_2.jpg",
-      "assets/images/image_3.jpg",
-      "assets/images/image_4.jpg",
-      "assets/images/image_5.jpg",
-      "assets/images/image_6.jpg",
-      "assets/images/image_7.jpg",
-      "assets/images/image_8.jpg",
-      "assets/images/image_9.jpg",
-      "assets/images/image_10.jpg",
-      "assets/images/image_11.jpg"
+      "assets/images/valverde/image_1.jpg",
+      "assets/images/valverde/image_2.jpg",
+      "assets/images/valverde/image_3.jpg",
+      "assets/images/valverde/image_4.jpg",
+      "assets/images/valverde/image_5.jpg",
+      "assets/images/valverde/image_6.jpg",
+      "assets/images/valverde/image_7.jpg",
+      "assets/images/valverde/image_8.jpg",
+      "assets/images/valverde/image_9.jpg",
+      "assets/images/valverde/image_10.jpg",
+      "assets/images/valverde/image_11.jpg"
     ],
     "Resume": {
       "Title": "Um lugar com história",
@@ -28,22 +28,22 @@
       "Title": "O que fazer",
       "List": [
         {
-          "ImagePath": "assets/images/quinta.jpg",
+          "ImagePath": "assets/images/footer/quinta.jpg",
           "Title": "Atividade na quinta",
           "Tooltip": "Os hóspedes podem participar nas tarefas habituais de alimentação dos animais, mediante orientações, bem como em todas as atividades que vão decorrendo na horta, tais como, sementeira, rega, apanha de frutos e vegetais, que podem ser consumidos pelos próprios, mediante disponibilidade."
         },
         {
-          "ImagePath": "assets/images/templo_diana.JPG",
+          "ImagePath": "assets/images/footer/ruinas.jpeg",
           "Title": "Atividade de exterior",
           "Tooltip": "As redondezas são propícias a caminhadas. Um visita demorada a Évora, situada a 10 kms, também será imperdível. Quem quiser viajar um pouco mais, poderá ainda deixar-se surpreender por muitas e variadas paragens que se podem fazer nas proximidades, podendo mesmo ir dar um mergulho nas praias fluviais da Amieira ou do Alqueva (a cerca de 70 kms)."
         },
         {
-          "ImagePath": "assets/images/alentejo.jpg",
+          "ImagePath": "assets/images/footer/alentejo.jpg",
           "Title": "Atividades de bem estar psicológico",
           "Tooltip": "Dada a formação de base da promotora em Psicologia (cédula profissional nº 3904), os hóspedes podem, mediante custo adicional, usufruir de sessões de relaxamento, de apoio psicológico ou de aconselhamento, enquadrados em ambiente natural (disponíveis apenas em língua portuguesa)."
         },
         {
-          "ImagePath": "assets/images/migas.jpeg",
+          "ImagePath": "assets/images/footer/migas.jpg",
           "Title": "Workshops de culinária",
           "Tooltip": "Feita de saberes e sabores locais, a gastronomia alentejana tira proveito de tudo o que a terra lhe oferece. Nestes workhops, mediante marcação e custo adicional, os hóspedes podem fazer uma incursão sobre a arte de transformar alguns dos produtos mais típicos da região para darem às suas refeições “aquele gostinho” tão especial (disponível apenas em língua portuguesa)."
         }
@@ -54,7 +54,7 @@
       "Title": "Abertura prevista a 3 de Setembro",
       "Tooltip": "Enquanto isso aproveite para conhecer o espaço, as atividades disponíveis e pontos de interesse dos arredores."
     },
-    "CofinaningBarPath": "assets/images/cofinaningBar.svg",
+    "CofinaningBarPath": "assets/images/svg/cofinaningBar.svg",
     "VideoTitle": "Veja o nosso vídeo"
   },
   "History": {
@@ -175,7 +175,7 @@
     "ReservationsText": "Para efetuar reservas contacte-nos por e-mail, telefone ou aceda à plataform de reservas Booking.com"
   },
   "Contacts": {
-    "GoogleMapsIconPath": "assets/images/google_maps_icon.svg",
+    "GoogleMapsIconPath": "assets/images/svg/google_maps_icon.svg",
     "GoogleMapsLink": "https://goo.gl/maps/qsBmJRUgs2z4PTLy6",
     "GoogleMapsButtonText": "Como chegar",
     "BookingButtonText": "Booking.com",
@@ -214,45 +214,43 @@
       ],
       "Images": [
         {
-          "Path": "assets/images/t1_exterior.jpg",
+          "Path": "assets/images/t1/t1_exterior.jpg",
           "Description": ""
         },
         {
-          "Path": "assets/images/t1_sala_2.jpg",
+          "Path": "assets/images/t1/t1_sala_2.jpg",
           "Description": ""
         },
         {
-          "Path": "assets/images/t1_sala.jpg",
-          "Description": ""
-        },
-
-        {
-          "Path": "assets/images/t1_sala_3.jpg",
+          "Path": "assets/images/t1/t1_sala.jpg",
           "Description": ""
         },
         {
-          "Path": "assets/images/t1_sala_4.jpg",
+          "Path": "assets/images/t1/t1_sala_3.jpg",
           "Description": ""
         },
         {
-          "Path": "assets/images/t1_q1.jpg",
+          "Path": "assets/images/t1/t1_sala_4.jpg",
           "Description": ""
         },
         {
-          "Path": "assets/images/t1_q1_2.jpg",
+          "Path": "assets/images/t1/t1_q1.jpg",
           "Description": ""
         },
         {
-          "Path": "assets/images/t1_q1_3.jpg",
-          "Description": ""
-        },
-
-        {
-          "Path": "assets/images/t1_exterior_2.jpg",
+          "Path": "assets/images/t1/t1_q1_2.jpg",
           "Description": ""
         },
         {
-          "Path": "assets/images/t1_exterior_3.jpg",
+          "Path": "assets/images/t1/t1_q1_3.jpg",
+          "Description": ""
+        },
+        {
+          "Path": "assets/images/t1/t1_exterior_2.jpg",
+          "Description": ""
+        },
+        {
+          "Path": "assets/images/t1/t1_exterior_3.jpg",
           "Description": ""
         }
       ]
@@ -289,56 +287,56 @@
       ],
       "Images": [
         {
-          "Path": "assets/images/t2_exterior.jpg",
+          "Path": "assets/images/t2/t2_exterior.jpg",
           "Description": ""
         },
         {
-          "Path": "assets/images/t2_sala_2.jpg",
+          "Path": "assets/images/t2/t2_sala_2.jpg",
           "Description": ""
         },
         {
-          "Path": "assets/images/t2_sala_3.jpg",
+          "Path": "assets/images/t2/t2_sala_3.jpg",
           "Description": ""
         },
         {
-          "Path": "assets/images/t2_sala.jpg",
+          "Path": "assets/images/t2/t2_sala.jpg",
           "Description": ""
         },
         {
-          "Path": "assets/images/t2_q1.jpg",
+          "Path": "assets/images/t2/t2_q1.jpg",
           "Description": ""
         },
         {
-          "Path": "assets/images/t2_q1_2.jpg",
+          "Path": "assets/images/t2/t2_q1_2.jpg",
           "Description": ""
         },
         {
-          "Path": "assets/images/t2_q1_3.jpg",
+          "Path": "assets/images/t2/t2_q1_3.jpg",
           "Description": ""
         },
         {
-          "Path": "assets/images/t2_q2.jpg",
+          "Path": "assets/images/t2/t2_q2.jpg",
           "Description": ""
         },
         {
-          "Path": "assets/images/t2_q2_1.jpg",
+          "Path": "assets/images/t2/t2_q2_1.jpg",
           "Description": ""
         },
         {
-          "Path": "assets/images/t2_corredor.jpg",
+          "Path": "assets/images/t2/t2_corredor.jpg",
           "Description": ""
         },
         {
-          "Path": "assets/images/t2_corredor_2.jpg",
+          "Path": "assets/images/t2/t2_corredor_2.jpg",
           "Description": ""
         },
         {
-          "Path": "assets/images/t2_corredor_3.jpg",
+          "Path": "assets/images/t2/t2_corredor_3.jpg",
           "Description": ""
         },
 
         {
-          "Path": "assets/images/t2_exterior_2.jpg",
+          "Path": "assets/images/t2/t2_exterior_2.jpg",
           "Description": ""
         }
       ]
@@ -378,43 +376,43 @@
       ],
       "Images": [
         {
-          "Path": "assets/images/t3_exterior.jpg",
+          "Path": "assets/images/t3/t3_exterior.jpg",
           "Description": ""
         },
         {
-          "Path":  "assets/images/t3_sala.jpg",
+          "Path":  "assets/images/t3/t3_sala.jpg",
           "Description": ""
         },
         {
-          "Path": "assets/images/t3_sala_2.jpg",
+          "Path": "assets/images/t3/t3_sala_2.jpg",
           "Description": ""
         },
         {
-          "Path":  "assets/images/t3_sala_3.jpg",
+          "Path":  "assets/images/t3/t3_sala_3.jpg",
           "Description": ""
         },
         {
-          "Path": "assets/images/t3_sala_5.jpg",
+          "Path": "assets/images/t3/t3_sala_5.jpg",
           "Description": ""
         },
         {
-          "Path": "assets/images/t3_q1.jpg",
+          "Path": "assets/images/t3/t3_q1.jpg",
           "Description": ""
         },
         {
-          "Path":  "assets/images/t3_q1_2.jpg",
+          "Path":  "assets/images/t3/t3_q1_2.jpg",
           "Description": ""
         },
         {
-          "Path":"assets/images/t3_exterior_2.jpg",
+          "Path":"assets/images/t3/t3_exterior_2.jpg",
           "Description": ""
         },
         {
-          "Path":  "assets/images/t3_exterior_3.jpg",
+          "Path":  "assets/images/t3/t3_exterior_3.jpg",
           "Description": ""
         },
         {
-          "Path": "assets/images/t3_exterior_4.jpg",
+          "Path": "assets/images/t3/t3_exterior_4.jpg",
           "Description": ""
         }
       ]

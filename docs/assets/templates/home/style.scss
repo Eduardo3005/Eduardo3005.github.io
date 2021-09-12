@@ -1,6 +1,7 @@
 @import "../../style/mixins.scss";
 
 .video-card {
+  cursor: pointer;
   height: 92vh;
   display: flex;
   justify-content: center;

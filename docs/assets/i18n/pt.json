@@ -73,66 +73,66 @@
     "P9": "Situa-se nas traseiras da Casa da Padaria. Como o nome indica, era aqui que se produzia o pão que depois era vendido na loja ou distribuído pelos montes dos arredores, na altura habitados por grandes ranchos de trabalhadores que se deslocavam do Norte para proverem o seu sustento na apanha da azeitona, do tomate ou do arroz. Contigua à habitação da antiga matriarca da família, foi ampliada e transformada na casa dos atuais proprietários.",
     "P10": "A sala de receção fica na antiga “casa do forno”, local por onde passavam as fornadas de pão ainda escaldante a espalhar o seu típico cheirinho de criar “água na boca”.  Para além do acolhimento, neste espaço os hóspedes podem demorar-se a apreciar alguns elementos que fazem parte da história do lugar.",
     "Images": [
-      "assets/images/image_1.jpg",
-      "assets/images/image_2.jpg",
-      "assets/images/image_3.jpg",
-      "assets/images/image_4.jpg",
-      "assets/images/image_5.jpg",
-      "assets/images/image_6.jpg",
-      "assets/images/image_7.jpg",
-      "assets/images/image_8.jpg",
-      "assets/images/image_9.jpg",
-      "assets/images/image_10.jpg",
-      "assets/images/image_11.jpg"
+      "assets/images/valverde/image_1.jpg",
+      "assets/images/valverde/image_2.jpg",
+      "assets/images/valverde/image_3.jpg",
+      "assets/images/valverde/image_4.jpg",
+      "assets/images/valverde/image_5.jpg",
+      "assets/images/valverde/image_6.jpg",
+      "assets/images/valverde/image_7.jpg",
+      "assets/images/valverde/image_8.jpg",
+      "assets/images/valverde/image_9.jpg",
+      "assets/images/valverde/image_10.jpg",
+      "assets/images/valverde/image_11.jpg"
     ],
     "HistoryImages": [
       {
-        "Path": "assets/images/history_foto_1.jpg",
+        "Path": "assets/images/history/history_foto_1.jpg",
         "Description": "Carimbo do início do séc. xx em nome de José Joaquim Ferreira, trisavô da promotora"
       },
       {
-        "Path": "assets/images/history_foto_2.jpg",
+        "Path": "assets/images/history/history_foto_2.jpg",
         "Description": "Cliente assíduo em finais do séc. xx"
       },
       {
-        "Path": "assets/images/history_foto_3.jpg",
+        "Path": "assets/images/history/history_foto_3.jpg",
         "Description": "Exemplo de registo da venda de produtos em 1936 (vinho e aguardente)"
       },
       {
-        "Path": "assets/images/history_foto_4.jpg",
+        "Path": "assets/images/history/history_foto_4.jpg",
         "Description": "Custódio Ferreira Lima, avô da promotora"
       },
 
       {
-        "Path": "assets/images/history_foto_6.jpg",
+        "Path": "assets/images/history/history_foto_6.jpg",
         "Description": "Foto de família no pátio nos anos sessenta do séc. xx"
       },
       {
-        "Path": "assets/images/history_foto_7.jpg",
+        "Path": "assets/images/history/history_foto_7.jpg",
         "Description": "Fachada do espaço e ribeira de Valverde no início do séc. xxi"
       },
       {
-        "Path": "assets/images/history_foto_8.jpg",
+        "Path": "assets/images/history/history_foto_8.jpg",
         "Description": "Nota enviada por visitantes espanhóis em 1994"
       },
       {
-        "Path": "assets/images/history_foto_9.jpg",
+        "Path": "assets/images/history/history_foto_9.jpg",
         "Description": "Matança do porco frente à cocheira (ano desconhecido)"
       },
       {
-        "Path": "assets/images/history_foto_10.jpg",
+        "Path": "assets/images/history/history_foto_10.jpg",
         "Description": "Registo da propriedade no Livro das Descrições Prediais"
       },
       {
-        "Path": "assets/images/history_foto_11.jpg",
+        "Path": "assets/images/history/history_foto_11.jpg",
         "Description": "O pai da promotora, José Guilherme Lima, servindo um copo de bagaço (início do séc. xxi)"
       },
       {
-        "Path": "assets/images/history_foto_12.jpg",
+        "Path": "assets/images/history/history_foto_12.jpg",
         "Description": "Visita da RTP, por altura da reportagem “Ninho de Cegonhas”, em 23-03-2010"
       },
       {
-        "Path": "assets/images/history_foto_5.jpg",
+        "Path": "assets/images/history/history_foto_5.jpg",
         "Description": "Exemplo de registo de dividas em 1939"
       }
     ]
@@ -189,7 +189,7 @@
       "Tipology": "T1",
       "Name": "Casa dos vidros",
       "Description": "Assim chamada porque a porta de entrada era envidraçada. A sua ampla chaminé dava vida a enchido e torresmos, mas também a amenas cavaqueiras familiares enquanto se esperava a saída do último cliente. Foi transfroma num generoso e agradável T1.",
-      "ImagePath": "assets/images/t1_exterior.jpg",
+      "ImagePath": "assets/images/t1/t1_exterior.jpg",
       "FullDescription": "Assim chamada porque a porta de entrada era envidraçada, permitindo observar tudo o que se passava no Páteo. Era aqui que residiam os proprietários, que tinham acesso direto à venda através de uma porta que a ligava à residência. A sua ampla chaminé, onde o lume era uma presença constante, dava vida a enchidos e torresmos, mas também a amenas cavaqueiras familiares enquanto se esperava a saída do último cliente. Foi transformada num generoso e agradável T1, com uma aconchegante salamandra para as noites mais frias, que admite a lotação máxima de 4 pessoas, distribuídas por 1 quarto duplo e pelo sofá cama da sala. Dispõe de kitchenette equipada com placa, forno, combinado, máquina de lavar loiça, torradeira, chaleira, máquina de café, ferro de engomar, louça e talheres adequados ao número de ocupantes. No wc, acessível a cadeira de rodas, encontram-se o secador de cabelo e os produtos para o banho. A casa dispõe ainda de ar condicionado em todo o espaço, TV e internet gratuitas. ",
       "Options": [
         {
@@ -259,7 +259,7 @@
       "Tipology": "T2",
       "Name": "Casa da venda",
       "Description": "Era aqui que se situava a 'venda', onde se podiam encontrar produtos tão variados como as mercearias e os vinhos, a carne e o peixe, mas também os comprimidos para as dores e o petróleo para os candeeiros que alumiavam as longas e frias noites de inverno. Hoje tornou-se numa confortável habitação de tipologia T2.",
-      "ImagePath": "assets/images/t2_exterior.jpg",
+      "ImagePath": "assets/images/t2/t2_exterior.jpg",
       "FullDescription": "Sempre deu rosto à propriedade e à própria aldeia, pois está virada de frente para a ponte, sendo a primeira fachada que o olhar alcança quando se atravessa a ribeira; era aqui que se situava a “venda”, onde se podiam encontrar produtos tão variados como as mercearias e os vinhos, o pão e a roupa, mas também os comprimidos para as dores e o petróleo para os candeeiros que alumiavam as longas e frias noites de inverno. Hoje tornou-se numa confortável habitação de tipologia T2, solarenga e luminosa durante as manhãs e fresca nas tardes quentes de verão, pois todas as portas do antigo espaço comercial foram transformadas em generosas janelas de sacada viradas para o nascer do sol. Admite a lotação máxima de 6 pessoas, distribuídas por 2 quartos duplos e um sofá cama na sala. Dispõe de kitchenette equipada com placa, forno, combinado, máquina de lavar loiça, torradeira, chaleira, máquina de café, ferro de engomar, louça e talheres adequados ao número de ocupantes. No wc, acessível a cadeira de rodas, encontram-se o secador de cabelo e os produtos para o banho. A casa dispõe ainda de ar condicionado em todo o espaço, TV e internet gratuitas.",
       "Options": [
         {
@@ -345,7 +345,7 @@
       "Tipology": "T3",
       "Name": "Casa da cocheira",
       "Description": "Teve muitas e variadas funções: de queijaria a matadouro, de loja a salão de baile, deu vida a trabalho e lazer da povoação, já que era aqui que alguns tinham o seu ganha-pão e muitos passavam os seus tempos livres à volta de um copo de tinto, de uma concertina ou de uma grafonola. Atualmente convertida num acolhedor T3, com um simpático e íntimo pátio interior.",
-      "ImagePath": "assets/images/t3_exterior.jpg",
+      "ImagePath": "assets/images/t3/t3_exterior.jpg",
       "FullDescription": "Foi buscar o nome à sua designação original, embora se tenha passado a chamar “garagem” depois da chegada de uma “moderna” furgoneta. Mas este espaço teve ainda muitas outras funções: de queijaria a armazém, de loja a salão de baile, deu vida a trabalho e lazer da povoação, já que era aqui que alguns tinham o seu ganha-pão e muitos passavam os seus tempos livres à volta de um copo de tinto, de uma concertina ou de uma grafonola, que animavam as noites quentes de verão. Atualmente convertida num acolhedor T3, com um simpático e íntimo pátio interior, dispõe de lotação máxima para 8 pessoas, distribuídas por 1 quarto de casal, 2 quartos duplos e sofá cama na sala. Dispõe de kitchenette equipada com placa, forno, combinado, máquina de lavar loiça, torradeira, chaleira, máquina de café, ferro de engomar, louça e talheres adequados ao número de ocupantes. Nos 2 wc´s, acessíveis a cadeira de rodas, encontram-se secadores de cabelo e os produtos para o banho. A casa dispõe ainda de ar condicionado em todo o espaço, TV e internet gratuitas. ",
       "Options": [
         {

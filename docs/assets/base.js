@@ -1,25 +1,7 @@
 $(document).ready(function () {
   $(document).click(function () {
-    // if($(".navbar-collapse").hasClass("in")){
     $(".navbar-collapse").collapse("hide");
-    // }
   });
-
-  $(".youtube-video-play").click(function () {
-    $(".youtube-video-play").hide();
-
-    $(".youtube-video").show();
-
-    $("#video")[0].src += "?autoplay=1";
-  });
-
-  /*
-  setTimeout(function () {
-    var e1 = document.getElementById("ytplayer");
-    e1.style.width = "100%";
-    e1.style.height = "100%";
-  }, 1000);
-  */
 });
 
 

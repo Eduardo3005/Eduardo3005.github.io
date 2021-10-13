@@ -22,6 +22,9 @@ export class HomeComponent extends DynamicComponent implements OnInit, OnDestroy
 
   @ViewChild('openModal') openModal: ElementRef;
   @ViewChild('sponsorshipsModal') sponsorshipsModal: ElementRef;
+  @ViewChild('youtubeVideoPlay') youtubeVideoPlay: ElementRef;
+  @ViewChild('youtubeVideo') youtubeVideo: ElementRef;
+  @ViewChild('video') video: ElementRef;
 
   constructor(
     readonly store: Store<AppState>,
@@ -35,14 +38,6 @@ export class HomeComponent extends DynamicComponent implements OnInit, OnDestroy
 
     super.ngOnInit();
 
-    /*
-    setTimeout(() => {
-      this.openModal.nativeElement.click();
-    }, 1000);
-    setTimeout(() => {
-      this.sponsorshipsModal.nativeElement.click();
-    }, 1000);*/
-
     this.slideShow = [];
     this.houses = [];
 
@@ -53,6 +48,12 @@ export class HomeComponent extends DynamicComponent implements OnInit, OnDestroy
     setTimeout(() => {
       this.initSwiper();
     }, 1000);
+  }
+
+  playVideo(){
+    this.youtubeVideoPlay.nativeElement.style.display='none';
+    this.youtubeVideo.nativeElement.style.display='block';
+    this.video.nativeElement.src += "?autoplay=1";
   }
 
   getSlideShow() {

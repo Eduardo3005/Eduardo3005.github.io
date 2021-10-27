@@ -1,0 +1,300 @@
+{
+  "Home": {
+    "SlideShow": [
+      "assets/images/valverde/image_1.jpg",
+      "assets/images/valverde/image_2.jpg",
+      "assets/images/valverde/image_3.jpg",
+      "assets/images/valverde/image_4.jpg",
+      "assets/images/valverde/image_5.jpg",
+      "assets/images/valverde/image_6.jpg",
+      "assets/images/valverde/image_7.jpg",
+      "assets/images/valverde/image_8.jpg",
+      "assets/images/valverde/image_9.jpg",
+      "assets/images/valverde/image_10.jpg",
+      "assets/images/valverde/image_11.jpg"
+    ],
+    "Places": {
+      "List": [
+        {
+          "ImagePath": "assets/images/footer/quinta.jpg",
+          "Title": "Atividades na quinta",
+          "Tooltip": "Os hóspedes podem participar nas tarefas habituais de alimentação dos animais, mediante orientações, bem como em todas as atividades que vão decorrendo na horta, tais como, sementeira, rega, apanha de frutos e vegetais, que podem ser consumidos pelos próprios, mediante disponibilidade."
+        },
+        {
+          "ImagePath": "assets/images/footer/ruinas.jpeg",
+          "Title": "Atividades de exterior",
+          "Tooltip": "As redondezas são propícias a caminhadas. Um visita demorada a Évora, situada a 10 kms, também será imperdível. Quem quiser viajar um pouco mais, poderá ainda deixar-se surpreender por muitas e variadas paragens que se podem fazer nas proximidades, podendo mesmo ir dar um mergulho nas praias fluviais da Amieira ou do Alqueva (a cerca de 70 kms)."
+        },
+        {
+          "ImagePath": "assets/images/footer/alentejo.jpg",
+          "Title": "Atividades de bem estar psicológico",
+          "Tooltip": "Dada a formação de base da promotora em Psicologia (cédula profissional nº 3904), os hóspedes podem, mediante custo adicional, usufruir de sessões de relaxamento, de apoio psicológico ou de aconselhamento, enquadrados em ambiente natural (disponíveis apenas em língua portuguesa)."
+        },
+        {
+          "ImagePath": "assets/images/footer/migas.jpg",
+          "Title": "Workshops de culinária",
+          "Tooltip": "Feita de saberes e sabores locais, a gastronomia alentejana tira proveito de tudo o que a terra lhe oferece. Nestes workhops, mediante marcação e custo adicional, os hóspedes podem fazer uma incursão sobre a arte de transformar alguns dos produtos mais típicos da região para darem às suas refeições “aquele gostinho” tão especial (disponível apenas em língua portuguesa)."
+        }
+      ]
+    },
+    "CofinaningBarPath": "assets/images/svg/cofinaningBar.svg"
+  },
+  "History": {
+   "Images": [
+      "assets/images/quinta/piscina.jpeg",
+      "assets/images/quinta/quinta.jpeg",
+      "assets/images/quinta/terraço.jpeg",
+      "assets/images/quinta/quinta_2.jpg",
+      "assets/images/t2_frente_3.jpeg",
+      "assets/images/quinta/eventos_2.jpeg",
+      "assets/images/pateo_1.jpeg"
+    ],
+    "HistoryImages": [
+      {
+        "Path": "assets/images/history/history_foto_1.jpg",
+        "Description": "Carimbo do início do séc. xx em nome de José Joaquim Ferreira, trisavô da promotora"
+      },
+      {
+        "Path": "assets/images/history/history_foto_2.jpg",
+        "Description": "Cliente assíduo em finais do séc. xx"
+      },
+      {
+        "Path": "assets/images/history/history_foto_3.jpg",
+        "Description": "Exemplo de registo da venda de produtos em 1936 (vinho e aguardente)"
+      },
+      {
+        "Path": "assets/images/history/history_foto_4.jpg",
+        "Description": "Custódio Ferreira Lima, avô da promotora"
+      },
+
+      {
+        "Path": "assets/images/history/history_foto_6.jpg",
+        "Description": "Foto de família no pátio nos anos sessenta do séc. xx"
+      },
+      {
+        "Path": "assets/images/history/history_foto_7.jpg",
+        "Description": "Fachada do espaço e ribeira de Valverde no início do séc. xxi"
+      },
+      {
+        "Path": "assets/images/history/history_foto_8.jpg",
+        "Description": "Nota enviada por visitantes espanhóis em 1994"
+      },
+      {
+        "Path": "assets/images/history/history_foto_9.jpg",
+        "Description": "Matança do porco frente à cocheira (ano desconhecido)"
+      },
+      {
+        "Path": "assets/images/history/history_foto_10.jpg",
+        "Description": "Registo da propriedade no Livro das Descrições Prediais"
+      },
+      {
+        "Path": "assets/images/history/history_foto_11.jpg",
+        "Description": "O pai da promotora, José Guilherme Lima, servindo um copo de bagaço (início do séc. xxi)"
+      },
+      {
+        "Path": "assets/images/history/history_foto_12.jpg",
+        "Description": "Visita da RTP, por altura da reportagem “Ninho de Cegonhas”, em 23-03-2010"
+      },
+      {
+        "Path": "assets/images/history/history_foto_5.jpg",
+        "Description": "Exemplo de registo de dividas em 1939"
+      }
+    ]
+  },
+  "Houses": [
+    {
+      "Tipology": "T1",
+      "ImagePath": "assets/images/t1/exterior.jpg",
+      "Images": [
+        {
+          "Path": "assets/images/t1/exterior.jpg",
+          "Description": ""
+        },
+        {
+          "Path": "assets/images/t1/sala_2.jpg",
+          "Description": ""
+        },
+        {
+          "Path": "assets/images/t1/sala.jpg",
+          "Description": ""
+        },
+        {
+          "Path": "assets/images/t1/sala_3.jpg",
+          "Description": ""
+        },
+        {
+          "Path": "assets/images/t1/sala_4.jpg",
+          "Description": ""
+        },
+        {
+          "Path": "assets/images/t1/sala_5.jpg",
+          "Description": ""
+        },
+        {
+          "Path": "assets/images/t1/q1.jpg",
+          "Description": ""
+        },
+        {
+          "Path": "assets/images/t1/q1_2.jpg",
+          "Description": ""
+        },
+        {
+          "Path": "assets/images/t1/q1_3.jpg",
+          "Description": ""
+        },
+        {
+          "Path": "assets/images/t1/q1_4.jpg",
+          "Description": ""
+        },
+        {
+          "Path": "assets/images/t1/exterior_2.jpg",
+          "Description": ""
+        },
+        {
+          "Path": "assets/images/t1/exterior_3.jpg",
+          "Description": ""
+        }
+      ]
+    },
+    {
+      "Tipology": "T2",
+      "ImagePath": "assets/images/t2/exterior_3.jpeg",
+      "Images": [
+        {
+          "Path": "assets/images/t2/exterior_3.jpeg",
+          "Description": ""
+        },
+        {
+          "Path": "assets/images/t2/sala_2.jpg",
+          "Description": ""
+        },
+        {
+          "Path": "assets/images/t2/sala_3.jpg",
+          "Description": ""
+        },
+        {
+          "Path": "assets/images/t2/sala.jpg",
+          "Description": ""
+        },
+        {
+          "Path": "assets/images/t2/q1.jpg",
+          "Description": ""
+        },
+        {
+          "Path": "assets/images/t2/q1_2.jpg",
+          "Description": ""
+        },
+        {
+          "Path": "assets/images/t2/q1_3.jpg",
+          "Description": ""
+        },
+        {
+          "Path": "assets/images/t2/q2.jpg",
+          "Description": ""
+        },
+        {
+          "Path": "assets/images/t2/q2_1.jpg",
+          "Description": ""
+        },
+        {
+          "Path": "assets/images/t2/corredor.jpg",
+          "Description": ""
+        },
+        {
+          "Path": "assets/images/t2/corredor_2.jpg",
+          "Description": ""
+        },
+        {
+          "Path": "assets/images/t2/t2_exterior_2.jpg",
+          "Description": ""
+        }
+      ]
+    },
+    {
+      "Tipology": "T3",
+      "ImagePath": "assets/images/t3/exterior.jpg",
+      "Images": [
+        {
+          "Path": "assets/images/t3/exterior.jpg",
+          "Description": ""
+        },
+        {
+          "Path":  "assets/images/t3/sala.jpg",
+          "Description": ""
+        },
+        {
+          "Path": "assets/images/t3/sala_2.jpg",
+          "Description": ""
+        },
+        {
+          "Path":  "assets/images/t3/sala_3.jpg",
+          "Description": ""
+        },
+        {
+          "Path": "assets/images/t3/sala_5.jpg",
+          "Description": ""
+        },
+        {
+          "Path": "assets/images/t3/sala_6.jpg",
+          "Description": ""
+        },
+        {
+          "Path": "assets/images/t3/q1.jpg",
+          "Description": ""
+        },
+        {
+          "Path":  "assets/images/t3/q1_2.jpg",
+          "Description": ""
+        },
+        {
+          "Path":  "assets/images/t3/q2.jpg",
+          "Description": ""
+        },
+        {
+          "Path":  "assets/images/t3/q2_2.jpg",
+          "Description": ""
+        },
+        {
+          "Path":  "assets/images/t3/q3.jpg",
+          "Description": ""
+        },
+        {
+          "Path":  "assets/images/t3/wc.jpg",
+          "Description": ""
+        },
+        {
+          "Path":  "assets/images/t3/wc_2.jpg",
+          "Description": ""
+        },
+        {
+          "Path":  "assets/images/t3/wc_3.jpg",
+          "Description": ""
+        },
+        {
+          "Path":"assets/images/t3/exterior_2.jpg",
+          "Description": ""
+        },
+        {
+          "Path":  "assets/images/t3/exterior_3.jpg",
+          "Description": ""
+        },
+        {
+          "Path": "assets/images/t3/exterior_4.jpg",
+          "Description": ""
+        },
+        {
+          "Path": "assets/images/t3/terraço.jpg",
+          "Description": ""
+        },
+        {
+          "Path": "assets/images/t3/terraço_2.jpg",
+          "Description": ""
+        }
+      ]
+    },
+    {
+      "Tipology": "Eventos",
+      "ImagePath": "assets/images/eventos.jpeg"
+    }
+  ]
+}

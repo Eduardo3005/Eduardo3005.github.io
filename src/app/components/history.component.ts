@@ -109,15 +109,13 @@ export class HistoryComponent
   }
 
   getFarmImages() {
-    this.translate.get('History.Images').subscribe((res: Array<string>) => {
-      this.images = res;
-    });
+
+    this.images = this.imagesPathFiles.History.Images;
   }
 
   getHistoryImages() {
-    this.translate.get('History.HistoryImages').subscribe((res: Array<Image>) => {
-      this.historyImages = res;
-    });
+    
+    this.historyImages = this.imagesPathFiles.History.HistoryImages;
   }
 
 

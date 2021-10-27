@@ -57,14 +57,19 @@ export class HomeComponent extends DynamicComponent implements OnInit, OnDestroy
   }
 
   getSlideShow() {
-    this.translate.get('Home.SlideShow').subscribe((res: Array<String>) => {
-      this.slideShow = res;
-    });
+    this.slideShow = this.imagesPathFiles.Home.SlideShow;
   }
 
   getHouses() {
+    
     this.translate.get('Houses').subscribe((res: Array<House>) => {
-      this.houses = res;
+      res.forEach(house => {
+        let houseImages = this.imagesPathFiles.Houses.find((h: House) => h.Tipology == house.Tipology)
+
+        house.ImagePath = houseImages.ImagePath;
+
+        this.houses.push(house)
+      });
     });
   }
 

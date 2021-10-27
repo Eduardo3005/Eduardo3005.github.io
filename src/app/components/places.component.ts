@@ -5,7 +5,6 @@ import { tap } from 'rxjs/operators';
 import { FirebaseProvider } from '../services/firebase-logger.service';
 import { DynamicComponent } from '../shared/base.component';
 import { AppState } from '../state/app-state';
-import { selectLanguage } from '../state/language/language-state';
 @Component({
   selector: 'app-places',
   templateUrl: '../../assets/templates/places/index.html',

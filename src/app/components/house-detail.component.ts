@@ -119,8 +119,8 @@ export class HouseDetailComponent
       this.houseName = this.houses[this.houseId - 1].Name;
       this.accommodations = this.houses[this.houseId - 1].Accommodations;
       this.options = this.houses[this.houseId - 1].Options;
-      this.images = this.houses[this.houseId - 1].Images;
-      this.mainImagePath = this.houses[this.houseId - 1].ImagePath
+      this.images = this.imagesPathFiles.Houses[this.houseId - 1].Images;
+      this.mainImagePath =  this.imagesPathFiles.Houses[this.houseId - 1].ImagePath
     });
   }
 

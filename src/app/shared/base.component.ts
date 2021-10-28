@@ -36,7 +36,7 @@ export abstract class DynamicComponent implements OnInit, OnDestroy {
     
     console.log(data);
 
-    
+  
   }
 
   ngOnDestroy() {

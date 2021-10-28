@@ -47,7 +47,8 @@
       "assets/images/quinta/quinta_2.jpg",
       "assets/images/t2_frente_3.jpeg",
       "assets/images/quinta/eventos_2.jpeg",
-      "assets/images/pateo_1.jpeg"
+      "assets/images/pateo_1.jpeg",
+      "assets/images/quinta/porta_forno.jpeg"
     ],
     "HistoryImages": [
       {
@@ -104,10 +105,10 @@
   "Houses": [
     {
       "Tipology": "T1",
-      "ImagePath": "assets/images/t1/exterior.jpg",
+      "ImagePath": "assets/images/t1/exterior.jpeg",
       "Images": [
         {
-          "Path": "assets/images/t1/exterior.jpg",
+          "Path": "assets/images/t1/exterior.jpeg",
           "Description": ""
         },
         {
@@ -152,6 +153,10 @@
         },
         {
           "Path": "assets/images/t1/exterior_3.jpg",
+          "Description": ""
+        },
+        {
+          "Path": "assets/images/t1/casa_vidros.jpeg",
           "Description": ""
         }
       ]
@@ -205,17 +210,21 @@
           "Description": ""
         },
         {
-          "Path": "assets/images/t2/t2_exterior_2.jpg",
+          "Path": "assets/images/t2/exterior_2.jpg",
+          "Description": ""
+        },
+        {
+          "Path": "assets/images/t2/casa_venda.jpeg",
           "Description": ""
         }
       ]
     },
     {
       "Tipology": "T3",
-      "ImagePath": "assets/images/t3/exterior.jpg",
+      "ImagePath": "assets/images/t3/exterior.jpeg",
       "Images": [
         {
-          "Path": "assets/images/t3/exterior.jpg",
+          "Path": "assets/images/t3/exterior.jpeg",
           "Description": ""
         },
         {
@@ -288,6 +297,10 @@
         },
         {
           "Path": "assets/images/t3/terraço_2.jpg",
+          "Description": ""
+        },
+        {
+          "Path": "assets/images/t3/casa_cocheira.jpeg",
           "Description": ""
         }
       ]

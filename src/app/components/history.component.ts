@@ -1,11 +1,14 @@
 import { Component, ElementRef, OnDestroy, OnInit, ViewChild } from '@angular/core';
 import { Store } from '@ngrx/store';
 import { TranslateService } from '@ngx-translate/core';
-import Swiper from 'swiper';
 import { Image } from '../models/image';
 import { FirebaseProvider } from '../services/firebase-logger.service';
 import { DynamicComponent } from '../shared/base.component';
 import { AppState } from '../state/app-state';
+import SwiperCore, { Keyboard, Navigation, Pagination, Swiper } from 'swiper/core';
+
+SwiperCore.use([Navigation, Pagination, Keyboard]);
+
 
 @Component({
   selector: 'app-history',
@@ -88,6 +91,10 @@ export class HistoryComponent
           slidesPerView: 1,
           spaceBetween: 10,
           slidesPerGroup: 1,
+          keyboard: {
+            enabled: true,
+            onlyInViewport: false,
+          },
           pagination: {
             el: '.swiper-pagination',
             clickable: true,

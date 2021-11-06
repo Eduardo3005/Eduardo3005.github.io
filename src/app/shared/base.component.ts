@@ -1,8 +1,6 @@
-import { HttpClient } from '@angular/common/http';
 import { Directive, OnDestroy, OnInit } from '@angular/core';
 import { select, Store } from '@ngrx/store';
 import { TranslateService } from '@ngx-translate/core';
-import { Observable } from 'rxjs';
 import { tap } from 'rxjs/operators';
 import { EventType } from '../models/analytics/event-type.enum';
 import { FirebaseProvider } from '../services/firebase-logger.service';

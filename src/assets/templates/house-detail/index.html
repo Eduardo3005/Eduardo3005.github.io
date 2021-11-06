@@ -2,7 +2,7 @@
   <div class="swiper-container mySwiper mb-160 top-80">
     <div class="swiper-wrapper">
       <ng-container *ngFor="let image of images; let i = index">
-        <img class="swiper-slide" (click)="openImage(i)" style="background-image: url({{image.Path}})" alt="{{image.Description}}"/>
+        <img class="swiper-slide" style="background-image: url({{image.Path}})" alt="{{image.Description}}"/>
       </ng-container>
     </div>
     <div class="swiper-button-next"></div>

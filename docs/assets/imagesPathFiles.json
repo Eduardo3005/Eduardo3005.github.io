@@ -1,6 +1,7 @@
 {
   "Home": {
     "SlideShow": [
+      "assets/images/valverde/image.jpg",
       "assets/images/valverde/image_1.jpg",
       "assets/images/valverde/image_2.jpg",
       "assets/images/valverde/image_3.jpg",
@@ -11,7 +12,13 @@
       "assets/images/valverde/image_8.jpg",
       "assets/images/valverde/image_9.jpg",
       "assets/images/valverde/image_10.jpg",
-      "assets/images/valverde/image_11.jpg"
+      "assets/images/valverde/image_11.jpg",
+      "assets/images/valverde/image_12.jpg",
+      "assets/images/valverde/image_13.jpg",
+      "assets/images/valverde/image_14.jpg",
+      "assets/images/valverde/image_15.jpg",
+      "assets/images/valverde/image_16.jpg",
+      "assets/images/valverde/image_17.jpg"
     ],
     "Places": {
       "List": [
@@ -43,10 +50,20 @@
    "Images": [
       "assets/images/quinta/piscina.jpeg",
       "assets/images/quinta/quinta.jpeg",
+      "assets/images/quinta/horta_1.jpg",
+      "assets/images/quinta/quinta_7.jpg",
+      "assets/images/quinta/piscina_2.jpg",
       "assets/images/quinta/terraço.jpeg",
       "assets/images/quinta/quinta_2.jpg",
+      "assets/images/quinta/piscina_3.jpg",
       "assets/images/t2_frente_3.jpeg",
       "assets/images/quinta/eventos_2.jpeg",
+      "assets/images/quinta/quinta_3.jpg",
+      "assets/images/quinta/quinta_4.jpg",
+      "assets/images/quinta/quinta_5.jpg",
+      "assets/images/quinta/quinta_6.jpg",
+      "assets/images/quinta/horta_2.jpg",
+      "assets/images/quinta/horta_3.jpg",
       "assets/images/pateo_1.jpeg",
       "assets/images/quinta/porta_forno.jpeg"
     ],
@@ -112,11 +129,11 @@
           "Description": ""
         },
         {
-          "Path": "assets/images/t1/sala_2.jpg",
+          "Path": "assets/images/t1/sala.jpg",
           "Description": ""
         },
         {
-          "Path": "assets/images/t1/sala.jpg",
+          "Path": "assets/images/t1/sala_2.jpg",
           "Description": ""
         },
         {
@@ -128,7 +145,11 @@
           "Description": ""
         },
         {
-          "Path": "assets/images/t1/sala_5.jpg",
+          "Path": "assets/images/t1/cozinha.jpg",
+          "Description": ""
+        },
+        {
+          "Path": "assets/images/t1/cozinha_2.jpg",
           "Description": ""
         },
         {
@@ -145,6 +166,10 @@
         },
         {
           "Path": "assets/images/t1/q1_4.jpg",
+          "Description": ""
+        },
+        {
+          "Path": "assets/images/t1/wc.jpg",
           "Description": ""
         },
         {
@@ -170,6 +195,10 @@
           "Description": ""
         },
         {
+          "Path": "assets/images/t2/sala.jpg",
+          "Description": ""
+        },
+        {
           "Path": "assets/images/t2/sala_2.jpg",
           "Description": ""
         },
@@ -178,7 +207,23 @@
           "Description": ""
         },
         {
-          "Path": "assets/images/t2/sala.jpg",
+          "Path": "assets/images/t2/sala_4.jpg",
+          "Description": ""
+        },
+        {
+          "Path": "assets/images/t2/sala_5.jpg",
+          "Description": ""
+        },
+        {
+          "Path": "assets/images/t2/cozinha.jpg",
+          "Description": ""
+        },
+        {
+          "Path": "assets/images/t2/pormenor.jpg",
+          "Description": ""
+        },
+        {
+          "Path": "assets/images/t2/pormenor_2.jpg",
           "Description": ""
         },
         {
@@ -198,7 +243,11 @@
           "Description": ""
         },
         {
-          "Path": "assets/images/t2/q2_1.jpg",
+          "Path": "assets/images/t2/q2_2.jpg",
+          "Description": ""
+        },
+        {
+          "Path": "assets/images/t2/wc.jpg",
           "Description": ""
         },
         {
@@ -240,11 +289,15 @@
           "Description": ""
         },
         {
+          "Path": "assets/images/t3/sala_4.jpg",
+          "Description": ""
+        },
+        {
           "Path": "assets/images/t3/sala_5.jpg",
           "Description": ""
         },
         {
-          "Path": "assets/images/t3/sala_6.jpg",
+          "Path": "assets/images/t3/cozinha.jpg",
           "Description": ""
         },
         {
@@ -256,6 +309,10 @@
           "Description": ""
         },
         {
+          "Path":  "assets/images/t3/q1_3.jpg",
+          "Description": ""
+        },
+        {
           "Path":  "assets/images/t3/q2.jpg",
           "Description": ""
         },
@@ -264,7 +321,23 @@
           "Description": ""
         },
         {
+          "Path":  "assets/images/t3/q2_3.jpg",
+          "Description": ""
+        },
+        {
           "Path":  "assets/images/t3/q3.jpg",
+          "Description": ""
+        },
+        {
+          "Path":  "assets/images/t3/q3_2.jpg",
+          "Description": ""
+        },
+        {
+          "Path":  "assets/images/t3/pormenor.jpg",
+          "Description": ""
+        },
+        {
+          "Path":  "assets/images/t3/pormenor_2.jpg",
           "Description": ""
         },
         {

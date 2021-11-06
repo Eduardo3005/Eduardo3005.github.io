@@ -69,6 +69,12 @@
       width: 250px !important;
       height: 280px !important;
     }
+
+    @media (min-width: 1025px) and (max-width: 1367px) {
+      justify-content: center;
+      width: 320px !important;
+      height: 350px !important;
+    }
   }
 }
 
@@ -243,7 +249,15 @@
 .modal-dialog {
   max-width: 1400px;
   max-height: 800px;
+  
   .modal-content {
+
+    @media (max-width: 1366px) {
+      height: 816px;
+      width: 90%;
+      margin: 0 auto;
+    }
+
     border-radius: 0;
 
     .modal-header {
@@ -260,10 +274,7 @@
       padding: 0;
       text-align: center;
       justify-content: center;
-      @media (max-width: 1024px) {
-        height: 600px;
-        width: 800px;
-      }
+     
 
       @media (max-width: 768px) {
         height: 540px;

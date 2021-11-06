@@ -1,14 +1,14 @@
 import { Component, ElementRef, OnDestroy, OnInit, ViewChild } from '@angular/core';
-import { select, Store } from '@ngrx/store';
+import { Store } from '@ngrx/store';
 import { TranslateService } from '@ngx-translate/core';
 import { AppState } from '../state/app-state';
 import { House } from '../models/house';
 import { Place } from '../models/place';
 import { FirebaseProvider } from '../services/firebase-logger.service';
-import SwiperCore, { Navigation, Pagination, Swiper } from 'swiper/core';
+import SwiperCore, { Keyboard, Navigation, Pagination, Swiper } from 'swiper/core';
 import { DynamicComponent } from '../shared/base.component';
 
-SwiperCore.use([Navigation, Pagination]);
+SwiperCore.use([Navigation, Pagination, Keyboard]);
 
 @Component({
   selector: 'app-home',
@@ -84,6 +84,10 @@ export class HomeComponent extends DynamicComponent implements OnInit, OnDestroy
       slidesPerView: 1,
       spaceBetween: 10,
       loop: true,
+      keyboard: {
+        enabled: true,
+        onlyInViewport: false,
+      },
       pagination: {
         el: '.swiper-pagination',
         clickable: true,

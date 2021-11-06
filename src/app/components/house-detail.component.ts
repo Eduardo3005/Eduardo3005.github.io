@@ -11,7 +11,6 @@ import { select, Store } from '@ngrx/store';
 import { TranslateService } from '@ngx-translate/core';
 import { tap } from 'rxjs/operators';
 import { AppState } from '../state/app-state';
-import { selectLanguage } from '../state/language/language-state';
 import {
   PersonalizedService,
   WelfareActivity,
@@ -22,12 +21,12 @@ import {
 } from '../models/common';
 import { House, Accommodation, Option } from '../models/house';
 import { SlideShowElement } from '../models/slide-show-element';
-import SwiperCore, { Navigation, Pagination, Swiper } from 'swiper/core';
+import SwiperCore, { Keyboard, Navigation, Pagination, Swiper } from 'swiper/core';
 import { FirebaseProvider } from '../services/firebase-logger.service';
 import { DynamicComponent } from '../shared/base.component';
 import { Image } from '../models/image';
 
-SwiperCore.use([Navigation, Pagination]);
+SwiperCore.use([Navigation, Pagination, Keyboard]);
 
 @Component({
   selector: 'app-house-detail',
@@ -54,7 +53,6 @@ export class HouseDetailComponent
   images: Array<Image>;
   currentModalImage: string;
   mainImagePath: string;
-  @ViewChild('openModal') openModal: ElementRef;
 
   constructor(
     readonly store: Store<AppState>,
@@ -92,14 +90,19 @@ export class HouseDetailComponent
       slidesPerView: 1,
       spaceBetween: 10,
       loop: true,
+      keyboard: {
+        enabled: true,
+        onlyInViewport: false,
+      },
       pagination: {
         el: '.swiper-pagination',
         clickable: true,
+        dynamicBullets: true
       },
       navigation: {
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev',
-      },
+      }
     });
   }
 
@@ -172,35 +175,5 @@ export class HouseDetailComponent
       .subscribe((res: Array<CommonAccommodation>) => {
         this.commonAccommodations = res;
       });
-  }
-
-  openImage(index: number): void {
-
-    if (window.innerWidth > 767) {
-      this.currentModalImage = this.images[index].Path;
-
-      setTimeout(() => {
-        var swiper = new Swiper('.mySwiper-xxl', {
-          slidesPerView: 1,
-          spaceBetween: 10,
-          slidesPerGroup: 1,
-          pagination: {
-            el: '.swiper-pagination',
-            clickable: true,
-          },
-          navigation: {
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev',
-          },
-          initialSlide: index
-        });
-
-        swiper.slideTo(index);
-
-        return swiper;
-      }, 1);
-
-      this.openModal.nativeElement.click();
-    }
   }
 }

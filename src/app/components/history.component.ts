@@ -73,11 +73,16 @@ export class HistoryComponent
       pagination: {
         el: '.swiper-pagination',
         clickable: true,
+        dynamicBullets: true
       },
       navigation: {
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev',
       },
+      keyboard: {
+        enabled: true,
+        onlyInViewport: false,
+      }
     });
   }
 
@@ -98,6 +103,7 @@ export class HistoryComponent
           pagination: {
             el: '.swiper-pagination',
             clickable: true,
+            dynamicBullets: true
           },
           navigation: {
             nextEl: '.swiper-button-next',

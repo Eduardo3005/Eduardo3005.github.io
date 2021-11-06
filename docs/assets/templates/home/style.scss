@@ -11,7 +11,7 @@
 
   padding: 0;
   @media (max-width: 768px) {
-    height: 384px;
+    height: 248px;
   }
 
   .youtube-video-play{
@@ -24,7 +24,7 @@
     background-color: rgba(115,139,121, 0.9);
 
     .play-circle{
-      margin-top: 15%;
+      margin-top: 18%;
       width: 100px;
       height: 100px;
       color: #ffffff;
@@ -33,6 +33,11 @@
 
     h1{
       color: white !important;
+
+      @media (max-width: 768px) {
+        display:none;
+        margin: 0 auto !important
+      }
     }
   }
 }
@@ -52,7 +57,7 @@
     height: 620px;
     background-color: $green-light;
     @media (max-width: 768px) {
-      height: 384px;
+      height: 248px;
     }
   }
 

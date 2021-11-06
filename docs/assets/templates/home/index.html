@@ -33,11 +33,11 @@
 <div class="card text-center mb-144">
   <div
     class="card-body video-card"
-    style="background-image: url('assets/images/photo_video.jpg')"
+    style="background-image: url('assets/images/pateo.jpeg')"
   >
     <div #youtubeVideoPlay class="youtube-video-play" (click)="playVideo()" >
       <img
-        class="play-circle mt-96 mb-72"
+        class="play-circle mt-96 mb-48"
         src="assets/images/svg/play-circle.svg"
       />
       <h1 class="uppercase" style>{{ "Home.VideoTitle" | translate }}</h1>
@@ -82,14 +82,14 @@
           <a
             *ngIf="i != houses.length-1"
             [routerLink]="['/houses', i+1]"
-            class="btn btn-outline-secondary link-button"
+            class="btn btn-outline-secondary link-button mb-48"
             >{{ "Common.SeeMore" | translate }}</a
           >
 
           <a
             *ngIf="i == houses.length-1"
             [routerLink]="['/contacts']"
-            class="btn btn-outline-secondary link-button"
+            class="btn btn-outline-secondary link-button mb-48"
             >{{ "Common.SeeMore2" | translate }}</a
           >
         </div>

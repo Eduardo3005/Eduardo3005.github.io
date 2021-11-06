@@ -91,6 +91,7 @@ export class HomeComponent extends DynamicComponent implements OnInit, OnDestroy
       pagination: {
         el: '.swiper-pagination',
         clickable: true,
+        dynamicBullets: true
       },
       navigation: {
         nextEl: '.swiper-button-next',

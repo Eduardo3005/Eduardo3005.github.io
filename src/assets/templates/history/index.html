@@ -1,6 +1,6 @@
 <div class="card text-center">
   <div class="card-body">
-    <h2 class="card-title mt-200 mb-72">{{ "Home.Resume.Title" | translate }}</h2>
+    <h2 class="card-title mt-200 mb-96">{{ "Home.Resume.Title" | translate }}</h2>
     <p class="text">{{ "History.P1" | translate }}</p>
   </div>
 </div>
@@ -27,7 +27,7 @@
 <div class="masonry mb-32">
   <ng-container *ngFor="let image of historyImages; ; let i = index">
     <div class="item-masonry">
-      <img src="{{image.Path}}" alt="{{image.Description}}">
+      <img src="{{image.Path}}" alt="{{image.Description}}" (click)="openHistoryImage(i)">
       <div class="description">
         <p class="text">{{image.Description}}</p>
       </div>
@@ -72,7 +72,7 @@
 
 <div class="swiper-container mySwiper">
   <div class="swiper-wrapper">
-    <ng-container *ngFor="let image of images; ; let i = index">
+    <ng-container *ngFor="let image of images; let i = index">
       <div class="swiper-slide" (click)="openImage(i)" style="background-image: url({{image}})"></div>
     </ng-container>
   </div>
@@ -80,6 +80,7 @@
   <div class="swiper-button-prev"></div>
   <div class="swiper-pagination"></div>
 </div>
+
 
 <div class="card text-center">
   <div class="card-body">

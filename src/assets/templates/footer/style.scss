@@ -39,6 +39,7 @@ footer {
 
 a {
   color: $white;
+  user-select: none;
   &:hover {
     background-color: $green-dark;
     color: $white;
@@ -92,6 +93,7 @@ p {
 }
 
 .badge-pateo-lima {
+  user-select: none;
   margin: 0 auto;
   display: flex;
   height: 220px;
@@ -132,6 +134,7 @@ p {
 }
 
 h3 {
+  user-select: none;
   color: $white;
 }
 

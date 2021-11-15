@@ -14,7 +14,7 @@
     height: 248px;
   }
 
-  @media (max-width: 1025px) {
+  @media (min-width: 769px) and (max-width: 1025px) {
     height: 620px;
   }
 

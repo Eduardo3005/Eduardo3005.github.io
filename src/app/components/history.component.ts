@@ -24,6 +24,7 @@ export class HistoryComponent
   historyImages: Array<Image>
   currentModalImage: string;
   @ViewChild('openModal') openModal: ElementRef;
+  @ViewChild('openHistoryModal') openHistoryModal: ElementRef;
 
   constructor(
     readonly store: Store<AppState>,
@@ -48,11 +49,8 @@ export class HistoryComponent
 
   initSwiper(className: string): Swiper {
     return new Swiper(className, {
-      fadeEffect: {
-        crossFade: true,
-      },
+      loop : true,
       breakpointsBase: '1000',
-      loop: true,
       breakpoints: {
         '480': {
           slidesPerView: 1,
@@ -92,25 +90,7 @@ export class HistoryComponent
       this.currentModalImage = this.images[index];
 
       setTimeout(() => {
-        var swiper = new Swiper('.mySwiper-xxl', {
-          slidesPerView: 1,
-          spaceBetween: 10,
-          slidesPerGroup: 1,
-          keyboard: {
-            enabled: true,
-            onlyInViewport: false,
-          },
-          pagination: {
-            el: '.swiper-pagination',
-            clickable: true,
-            dynamicBullets: true
-          },
-          navigation: {
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev',
-          },
-          initialSlide: index
-        });
+        var swiper = this.createSwiperXXL(index)
 
         swiper.slideTo(index);
 
@@ -120,6 +100,46 @@ export class HistoryComponent
       this.openModal.nativeElement.click();
     }
   }
+
+  openHistoryImage(index: number): void {
+
+    if (window.innerWidth > 767) {
+      this.currentModalImage = this.historyImages[index].Path;
+
+      setTimeout(() => {
+        var swiper = this.createSwiperXXL(index)
+        swiper.slideTo(index);
+
+        return swiper;
+      }, 1);
+
+      this.openHistoryModal.nativeElement.click();
+    }
+  }
+
+  createSwiperXXL(index: number) : Swiper{
+    return new Swiper('.mySwiper-xxl', {
+      slidesPerView: 1,
+      spaceBetween: 10,
+      slidesPerGroup: 1,
+      keyboard: {
+        enabled: true,
+        onlyInViewport: false,
+      },
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+        dynamicBullets: true
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+      initialSlide: index
+    });
+  }
+
+  
 
   getFarmImages() {
 

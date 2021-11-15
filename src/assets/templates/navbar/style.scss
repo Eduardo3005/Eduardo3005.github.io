@@ -102,7 +102,6 @@ li {
   text-decoration: none;
 }
 
-
 .cofinancingBar{
   user-select: none;
   display: flex;
@@ -113,15 +112,19 @@ li {
   }
 
   @media (max-width: 1024px) {
-
     display: none;
   }
 }
 
-
 .secondCofinancingBar{
   display: none;
   user-select: none;
+
+  img {
+    @media (max-width: 1023px) {
+      width: 65%;
+    }
+  }
 
   @media (max-width: 1023px) {
     width: 100%;
@@ -129,10 +132,7 @@ li {
     background-color: $green-light;
     display: flex;
     padding: 8px;
-
   }
-
-
 }
 
 

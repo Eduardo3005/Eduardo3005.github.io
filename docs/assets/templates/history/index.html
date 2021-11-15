@@ -123,3 +123,31 @@
     </div>
   </div>
 </div>
+
+<button id="openHistoryModal" #openHistoryModal [hidden]="true" data-toggle="modal" data-target="#openingHistoryModal"></button>
+<div class="modal modal-opening" id="openingHistoryModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+  aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header" data-dismiss="modal" aria-label="Close">
+        <button type="button" class="close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+
+        <div class="swiper-container swiper-container-xxl mySwiper-xxl">
+          <div class="swiper-wrapper">
+            <ng-container *ngFor="let image of historyImages; let i = index">
+              <div class="swiper-slide " style="background-image: url({{image.Path}})"></div>
+            </ng-container>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>

@@ -53,7 +53,7 @@ export class HomeComponent extends DynamicComponent implements OnInit, OnDestroy
   playVideo(){
     this.youtubeVideoPlay.nativeElement.style.display='none';
     this.youtubeVideo.nativeElement.style.display='block';
-    this.video.nativeElement.src += "?autoplay=1";
+    this.video.nativeElement.src += "&autoplay=1";
   }
 
   getSlideShow() {

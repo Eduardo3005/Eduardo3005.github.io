@@ -1,31 +1,316 @@
 {
-  "Home":{
-    "Title": "Home",
-    "Language": "ENG",
-    "EnglishLanguage" : "English",
-    "MainSlideShow": [
-      {
-        "ImagePath":"",
-        "Title": "Slide 1",
-        "Tooltip": "Description 1"
-      },
-      {
-        "ImagePath":"",
-        "Title": "Slide 2",
-        "Tooltip": "Description 2"
-      },
-      {
-        "ImagePath":"",
-        "Title": "Slide 3",
-        "Tooltip": "Description 3"
-      }
-    ]
+  "Home": {
+    "Title": "Início",
+    "Language": "EN",
+    "EnglishLanguage": "Inglês",
+    "HousesHeader": {
+      "Title": "Alugar no páteo lima"
+    },
+    "Resume": {
+      "Title": "Place with history",
+      "P1": "With a privileged location at the main entrance of Valverde and the riverside with the same name, Páteo Lima enjoys from the proximity of Évora, a worlds heritage city; important megalithic ensembles; Roman and medieval ruins and even an episcopal farm from the sixteenth century. Furthermore, Valverde is surrounded by the magnificent Alentejo landscape at the base of the Monfurado hills.",
+      "P2": "This rural tourism unit results from the conversion of an old commercial point which, in its heyday, had mainly a grocery store, tavern, bakery and butcher, fed by the farm's own agricultural production. Therefore, this rural tourism is constituted by a set of three houses of typology T1, T2 and T3 and each apartment has a name from the way they were usually designated by the family, in the past."
+    },
+    "Places": {
+      "Title": "What to do",
+      "List": [
+        {
+          "ImagePath": "assets/images/footer/quinta.jpg",
+          "Title": "Activities in the farm",
+          "Tooltip": "Guests can observe and participate in the usual tasks of feeding the animals, through guidance, as well as in all the activities that take place in the garden, where they can pick fruits and vegetables to consume, subject to availability. They can also take care of meals using the grill and socialize in the picnic area. This is also a place to relax and sunbathe on the swings and sun loungers, read a book, organize games or cool off in the pool."
+        },
+        {
+          "ImagePath": "assets/images/footer/ruinas.jpeg",
+          "Title": "Activities abroad",
+          "Tooltip": "As redondezas são propícias a caminhadas. Um visita demorada a Évora, situada a 10 kms, também será imperdível. Quem quiser viajar um pouco mais, poderá ainda deixar-se surpreender por muitas e variadas paragens que se podem fazer nas proximidades, podendo mesmo ir dar um mergulho nas praias fluviais da Amieira ou do Alqueva (a cerca de 70 kms)."
+        },
+        {
+          "ImagePath": "assets/images/footer/alentejo.jpg",
+          "Title": "Psychological well-being activities",
+          "Tooltip": "Dada a formação de base da promotora em Psicologia (cédula profissional nº 3904), os hóspedes podem, mediante custo adicional, usufruir de sessões de relaxamento, de apoio psicológico ou de aconselhamento, enquadrados em ambiente natural (disponíveis apenas em língua portuguesa)."
+        },
+        {
+          "ImagePath": "assets/images/footer/migas.jpg",
+          "Title": "Alentejana Cuisine workshops",
+          "Tooltip": "Made up of local knowledge and flavours, Alentejo cuisine takes advantage of everything the land has to offer. In these workshops, by appointment and at an additional cost, guests can explore the art of transforming some of the region's most typical products to give their meals “that little taste” so special (available only in Portuguese)"
+        }
+      ]
+    },
+    "OpeningModal": {
+      "ImagePath": "",
+      "Title": "Abertura prevista a 3 de Setembro",
+      "Tooltip": "Enquanto isso aproveite para conhecer o espaço, as atividades disponíveis e pontos de interesse dos arredores."
+    },
+    "CofinaningBarPath": "assets/images/svg/cofinaningBar.svg",
+    "VideoTitle": "See our video"
   },
-  "NavBar":{
-    "History": "HISTORY",
-    "Houses" : "HOUSES",
-    "Places": "PLACES TO DISCOVER",
-    "Contacts": "CONTACTS",
-    "Language": "LANGUAGE"
-  }
+  "History": {
+    "Title": "About us",
+    "SecondTitle": "The promotor",
+    "ThirdTitle": "The space",
+    "FourthTitle": "The reception",
+    "P1": "A aquisição da propriedade pela família remonta a 1874, por iniciativa do tetravô da promotora – Custódio Joaquim – que começou a dar forma a um negócio que se foi expandindo ao longo de sucessivas gerações nesta localidade, outrora designada por Valle Verde. Porém o apelido Lima só viria a impor-se já na segunda década do século XX, quando o marido de sua neta Iria do Carmo assumiu o comando da família, que antes era conhecida por Ferreira. O avô da promotora – Custódio Ferreira Lima – foi o primeiro elemento agregador das duas famílias.",
+    "P2": "In addition to their entrepreneurial spirit, both families (Ferreira and Lima) shared a high sense of organization and zeal for the documentary archive, which has allowed their most recent descendants to rebuild not only their family history, but also the village and its ways of life that have marked the last century and a half.",
+    "P3": "This was not, however, a mere “sales” place; it was also a meeting place for people, where village life unrolled and the world was interacted with, imprinting habits and ways of life on it. The passage of travelers has always been frequent, with various notes and photos sent from far away by those who made a point of explaining the experience lived here. However, the withdrawal of the youngest, in search of a better life, and the evolution of the market led, little by little, to its decline.",
+    "P4": "The birth of Páteo Lima revitalizes the space and gives it a new function, so that it can be lived again, providing new moments of sharing between residents and outsiders and the possibility of rewriting the story that, one day, will be told to other grandchildren. Its distinguishing feature is accessibility for people with limited mobility.",
+    "P5": "Benedita Lima was born in Évora, in 1963, having lived on the farm until she was 18 years old. At that time, she headed to Lisbon, to become a Psychologist, having stayed there, but the appeal of the “land” brought her back to her origins. She didn't come alone; she brought with her a new generation of Lima, willing to continue the dream of their ancestors.",
+    "P6": "Having dedicated most of her professional life to promoting the inclusion of people in social vulnerability, especially people with disabilities, and defending the model of independent life, which advocates the right to active social participation of all citizens, each one to its measure, strives to contribute to this effect in all the projects in which she is involved, an idea that also led to the creation of this rural tourism unit, which is intended to be inclusive.",
+    "P7": "At the time of the death of grandfather Custódio, almost simultaneously with that of great-grandmother Iria, in addition to the commercial part, the farm had an agricultural production area and several houses where the family and some tenants were distributed. However, after successive sharings, the Páteo Lima space now has only part of the original backyard and 4 houses completely remodeled: house 'of sales', glass house, coach house and bakery house, the owner and last but not least bakery house, where the unit's support services operate, including reception and the “oven room”, which can also be used for accommodation.",
+    "P8": "Despite the natural irregularity of the land, the space that gives access to the houses was transformed into a common patio accessible to people with reduced mobility, with the possibility of accessing motor vehicles, which can be parked at the back of the main house. The patio's configuration favors interaction between guests, owners and local population, but visitors can also enjoy the rest of the farm, where they can count on a grill and picnic area, swimming pool, terrace for sunbathing, swings and activities in the vegetable garden.",
+    "P9": "It is located at the back of the Casa da Padaria (bakery house). As the name implies, it was here that bread was produced, which was then sold in the store or distributed to the surrounding hills, inhabited at the time by large groups of workers who traveled from the North to provide their livelihood in picking olives and tomatoes. or rice. Adjacent to the house of the former matriarch of the family, it was expanded and transformed into the house of the current owners.",
+    "P10": "The reception room is located in the former “House of the Oven”, a place where the just baked steaming hot bread batches used to pass, always giving off a “mouth-watering” smell. In addition to the welcome, in this space guests can take time to appreciate some elements that are part of the history of the place."
+  },
+  "NavBar": {
+    "Title": "Páteo Lima",
+    "History": "About us",
+    "Houses": "Houses",
+    "Places": "What to do",
+    "Contacts": "Contacts",
+    "Language": "Language"
+  },
+  "Common": {
+    "ReadMore": "Read more",
+    "SeeMore": "See more",
+    "SeeMore2": "Contact us",
+    "KnowMoreAboutActivities": "Know more about our activities",
+    "KnowMoreAboutActivities2": "Saiba mais sobre o que ver e fazer",
+    "KnowMoreAboutUs": "Know more about us",
+    "Prices": "Prices",
+    "PersonalizedServices": "personalized care",
+    "WelfareActivities": "Psychological well-being activities",
+    "Accommondations": "Accomodation",
+    "Services": "Services",
+    "AdditionalServices": "With additional cost",
+    "Outside": "Exterior",
+    "PhotoGallery": "Photo Gallery"
+  },
+  "Footer": {
+    "ContactsTitle": "Contacts",
+    "AddressTitle": "Address",
+    "LogoTitle": "Logo",
+    "CofinancingTitle": "Co-financing",
+    "Link": "Project technical sheet",
+    "Email": "pateolima@gmail.com",
+    "Phone": "938285665",
+    "FixedPhone": "266011449",
+    "TermsAndConditions": "Terms and Conditons",
+    "PrivacyPolicies": "Privacy Policies and Cookie Law",
+    "ComplaintBook" : "Complaint book",
+    "ReservationsText": "Para efetuar reservas contacte-nos por e-mail, telefone ou aceda à plataforma de reservas Booking.com"
+  },
+  "Contacts": {
+    "Title": "Reservations",
+    "GoogleMapsIconPath": "assets/images/svg/google_maps_icon.svg",
+    "GoogleMapsLink": "https://goo.gl/maps/qsBmJRUgs2z4PTLy6",
+    "GoogleMapsButtonText": "How to find",
+    "BookingButtonText": "Booking.com",
+    "BookingLink": "#",
+    "Address": "Rua General Humberto Delgado,",
+    "SecondAddress": " nº3, Valverde",
+    "PostalCode": "7000-093 Nossa Senhora da Tourega"
+  },
+  "Houses": [
+    {
+      "Tipology": "T1",
+      "Name": "Casa dos vidros",
+      "Description": "Assim chamada porque a porta de entrada era envidraçada. A sua ampla chaminé dava vida a enchidos e torresmos, mas também a amenas cavaqueiras familiares enquanto se esperava a saída do último cliente. Foi transformada num generoso e agradável T1.",
+      "FullDescription": "So called because the entrance door was glazed, allowing you to observe everything that happened in the Páteo. It was here that the owners lived, who had direct access to the sale through a door that connected it to the residence. Its large chimney, where the fire was a constant presence, gave life to sausages and cracklings, but also to mild familiar chatter while waiting for the last customer to leave. It was transformed into a generous and pleasant T1, with a cozy stove for the coldest nights, which can accommodate a maximum of 4 people, spread over 1 double bedroom and the sofa bed in the living room. It has a open space kitchen equipped with a ceramic hob, oven, refrigerator, dishwasher, toaster, kettle, coffee machine, clothing iron, crockery and cutlery suitable for the number of occupants. In the bathroom, accessible by wheelchair, there is a hairdryer and bath products. The house also has air conditioning throughout, free TV and internet.",
+      "Options": [
+        {
+          "Name": "2 people",
+          "Price": "100€ p/ night"
+        },
+        {
+          "Name": "4 people",
+          "Price": "165€ p/ night"
+        }
+      ],
+      "Accommodations": [
+        {
+          "Name": "Flat with 1 bedroom"
+        },
+        {
+          "Name": "Maximum capacity: 4 people"
+        },
+        {
+          "Name": "Room 1: 1 cama dupla"
+        }
+      ]
+    },
+    {
+      "Tipology": "T2",
+      "Name": "Casa da venda",
+      "Description": "Era aqui que se situava a 'venda', onde se podiam encontrar produtos tão variados como as mercearias e os vinhos, a carne e o peixe, mas também os comprimidos para as dores e o petróleo para os candeeiros que alumiavam as longas e frias noites de inverno. Hoje tornou-se numa confortável habitação de tipologia T2.",
+      "FullDescription": "It has always given a face to the property and to the village itself, as it faces the bridge, being the first facade that the eye can see when crossing the river; this was where the 'sales' would occur, where you could find products as varied as groceries and wine, bread and clothing, but also painkillers and oil for lamps that illuminated the long, cold nights winter. Today it has become a comfortable T2 type house, sunny and bright in the mornings and cool in the hot summer afternoons, as all the doors of the former commercial space have been transformed into generous bay windows facing the sunrise. It has a maximum capacity of 6 people, spread over 2 double bedrooms and a sofa bed in the living room. It has an open space kitchen equipped with a ceramic hob, oven, refrigerator, dishwasher, toaster, kettle, coffee machine, clothing iron, crockery and cutlery suitable for the number of occupants. In the bathroom, accessible by wheelchair, there is a hairdryer and bath products. The house also has air conditioning throughout, free TV and internet.",
+      "Options": [
+        {
+          "Name": "4 people",
+          "Price": "185€ p/ night"
+        },
+        {
+          "Name": "6 people",
+          "Price": "250€ p/ night"
+        }
+      ],
+      "Accommodations": [
+        {
+          "Name": "Flat with 2 bedroom"
+        },
+        {
+          "Name": "Maximum capacity: 6 people"
+        },
+        {
+          "Name": "Room 1: 1 double bed"
+        },
+        {
+          "Name": "Room 2: 1 double bed"
+        }
+      ]
+    },
+    {
+      "Tipology": "T3",
+      "Name": "Casa da cocheira",
+      "Description": "Teve muitas e variadas funções: de queijaria a armazém, de loja a salão de baile, deu vida a trabalho e lazer da povoação, já que era aqui que alguns tinham o seu ganha-pão e muitos passavam os seus tempos livres à volta de um copo de tinto, de uma concertina ou de uma grafonola. Atualmente convertida num acolhedor T3, com um simpático e íntimo pátio interior.",
+      "FullDescription": "The name was inspired by its original designation, although it started to be called “garage” after the arrival of a “modern” van. But this space also had many other functions: from cheese shop to warehouse, shop to ballroom, it gave life to work and leisure in the village, as it was here that some had their livelihoods and many spent their free time accompanied by a glass of red wine, a concertina or a phonograph, which would brightened up the hot summer nights. Currently converted into a cozy T3 with a friendly and intimate interior patio, it has a maximum capacity for 8 people, spread over 1 double bedroom, 2 double bedrooms and a sofa bed in the living room. It has an open space kitchen equipped with a ceramic hob, oven, microwave, refrigerator, dishwasher, toaster, kettle, coffee machine, clothing iron, crockery and cutlery suitable for the number of occupants. In the 2 bathrooms, accessible by wheelchair, there are hair dryers and bath products. The house also has air conditioning throughout, free TV and internet.",
+      "Options": [
+        {
+          "Name": "6 people",
+          "Price": "270€ p/ night"
+        },
+        {
+          "Name": "8 people",
+          "Price": "335€ p/ night"
+        }
+      ],
+      "Accommodations": [
+        {
+          "Name": "Flat with 3 bedrooms"
+        },
+        {
+          "Name": "Maximum capacity: 8 people"
+        },
+        {
+          "Name": "Room 1: 1 double bed"
+        },
+        {
+          "Name": "Room 2: 1 double bed"
+        },
+        {
+          "Name": "Room 3: 1 single couple bed"
+        }
+      ]
+    },
+    {
+      "Tipology": "Events",
+      "Name": "Casas e/ou exterior",
+      "Description": "Mediante orçamento, o Páteo Lima disponibiliza o aluguer total ou parcial do espaço. O espaço exterior reune as características ideais para eventos familiares, aniversários...",
+      "ImagePath": "assets/images/breakfast.jpg"
+    }
+  ],
+  "Farm": {
+    "Title": "In the farm",
+    "Description": "A quinta é um espaço comum que pode ser desfrutado por todos os hóspedes. Equipada com espreguiçadeiras, balouços, mesas de piquenique, é um local para relaxar, ler um livro, apanhar sol ou participar nas tarefas habituais de alimentação dos animais, mediante de orientações, bem como em todas as atividades que vão decorrendo na horta."
+  },
+  "PersonalizedServices": [
+    {
+      "Name": "Apoio na higiene pessoal",
+      "Price": "15€"
+    },
+    {
+      "Name": "Confecção e apoio de refeições",
+      "Price": "Desde 25€"
+    },
+    {
+      "Name": "Acompanhamento personalizado",
+      "Price": "Desde 25€"
+    }
+  ],
+  "WelfareActivities": [
+    {
+      "Name": "Apoio / aconselhamento individual",
+      "Price": "50€"
+    },
+    {
+      "Name": "Sessão de relaxamento individual",
+      "Price": "20€"
+    },
+    {
+      "Name": "Relaxamento em grupo",
+      "Price": "Desde 30€"
+    }
+  ],
+  "Services": [
+    {
+      "Name": "Breakfast: Continental in type and with products from the region, it is included in the price and can be served at the residence or eaten in one of the village's cafes/restaurants"
+    },
+    {
+      "Name": "Higiene and cleaning: Daily; for longer stays, bed sheets and towels are changed every 3 days and/or upon guest request."
+    }
+  ],
+  "AdditionalServices": [
+    {
+      "Name": "Bicycles"
+    },
+    {
+      "Name": "Fishing rods"
+    },
+    {
+      "Name": "Clothing treatment"
+    },
+    {
+      "Name": "Personalized support services: Upon request and subject to an additional cost (for those who need support with hygiene, food, cooking, etc.)"
+    },
+    {
+      "Name": "Alentejana (Typical Alentejo cuisine) workshops"
+    },
+    {
+      "Name": "Animals"
+    },
+    {
+      "Name": "Events: Possibility of booking all or part of the space for special events, subject to a specific budget."
+    }
+  ],
+  "OutdoorAccommodations": [
+    {
+      "Name": "Swimming pool and terrace: Accessible, subject to availability and degree of mobility."
+    },
+    {
+      "Name": "Espreguiçadeiras"
+    },
+    {
+      "Name": "Grill: Can be used at any time, subject to availability."
+    },
+    {
+      "Name": "Picnic zone: Free to use, subject to availability."
+    },
+    {
+      "Name": "Free parking"
+    }
+  ],
+  "CommonAccommodations": [
+    {
+      "Name": "Sala com sofá-cama"
+    },
+    {
+      "Name": "Berço de viagem para bebés"
+    },
+    {
+      "Name": "Kitchenette equipada com placa, forno, micro-ondas, combinado, máquina de lavar loiça, torradeira, chaleira, máquina de café, louça e talheres"
+    },
+    {
+      "Name": "Ferro de engomar"
+    },
+    {
+      "Name": "WC acessível a cadeiras de rodas, equipado com secador de cabelo e produtos para o banho"
+    },
+    {
+      "Name": "Ar condicionado nos quartos e sala"
+    },
+    {
+      "Name": "TV"
+    },
+    {
+      "Name": "Acesso Wi-Fi gratuito em toda a unidade"
+    }
+  ]
 }

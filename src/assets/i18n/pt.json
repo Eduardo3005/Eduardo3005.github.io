@@ -99,6 +99,7 @@
     "ReservationsText": "Para efetuar reservas contacte-nos por e-mail, telefone ou aceda à plataforma de reservas Booking.com"
   },
   "Contacts": {
+    "Title": "Reservas",
     "GoogleMapsIconPath": "assets/images/svg/google_maps_icon.svg",
     "GoogleMapsLink": "https://goo.gl/maps/qsBmJRUgs2z4PTLy6",
     "GoogleMapsButtonText": "Como chegar",

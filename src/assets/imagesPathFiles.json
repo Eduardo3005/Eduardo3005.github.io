@@ -2,9 +2,9 @@
   "Home": {
     "SlideShow": [
       "assets/images/valverde/image.jpg",
-      "assets/images/valverde/image_1.jpg",
       "assets/images/valverde/image_2.jpg",
       "assets/images/valverde/image_3.jpg",
+      "assets/images/valverde/image_1.jpg",
       "assets/images/valverde/image_4.jpg",
       "assets/images/valverde/image_5.jpg",
       "assets/images/valverde/image_6.jpg",
@@ -115,7 +115,7 @@
       },
       {
         "Path": "assets/images/history/history_foto_5.jpg",
-        "Description": "Exemplo de registo de dividas em 1939"
+        "Description": "Example of debt registration in 1939"
       }
     ]
   },

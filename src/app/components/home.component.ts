@@ -46,6 +46,10 @@ export class HomeComponent extends DynamicComponent implements OnInit, OnDestroy
     this.getPlaces();
 
     setTimeout(() => {
+      this.openModal.nativeElement.click();
+    }, 1000);
+
+    setTimeout(() => {
       this.initSwiper();
     }, 1000);
   }

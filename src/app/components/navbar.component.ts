@@ -6,6 +6,8 @@ import { AppState } from 'src/app/state/app-state';
 import { setLanguage } from 'src/app/state/language/language-actions';
 import { selectLanguage } from 'src/app/state/language/language-state';
 import { House } from '../models/house';
+import * as data from 'src/assets/imagesPathFiles.json';
+import * as dataEn from 'src/assets/imagesPathFiles-en.json';
 
 @Component({
   selector: 'app-navbar',
@@ -16,7 +18,7 @@ export class NavbarComponent implements OnInit {
 
   houseNames: Array<String>;
   active = false
-
+  imagesPathFiles: any = [];
 
   constructor(
     private readonly store: Store<AppState>,
@@ -30,6 +32,12 @@ export class NavbarComponent implements OnInit {
         select(selectLanguage),
         tap((language: string) => {
           this.translate.use(language);
+
+          if(language == "en"){
+            this.imagesPathFiles = (dataEn as any).default;
+          } else {
+            this.imagesPathFiles = (data as any).default;
+          }
         })
       )
       .subscribe();

@@ -7,6 +7,7 @@ import { FirebaseProvider } from '../services/firebase-logger.service';
 import { AppState } from '../state/app-state';
 import { selectLanguage } from '../state/language/language-state';
 import * as data from 'src/assets/imagesPathFiles.json';
+import * as dataEn from 'src/assets/imagesPathFiles-en.json';
 
 @Directive()
 export abstract class DynamicComponent implements OnInit, OnDestroy {
@@ -20,21 +21,25 @@ export abstract class DynamicComponent implements OnInit, OnDestroy {
   ) {}
 
   ngOnInit() {
+
+
     this.store
 			.pipe(
 				select(selectLanguage),
 				tap((language: string) => {
           this.translate.use(language)
+
+          if(language == "en"){
+            this.imagesPathFiles = (dataEn as any).default;
+          } else {
+            this.imagesPathFiles = (data as any).default;
+          }
 				})
 			).subscribe()
 
     this.firebase.logEvent(EventType.EnterView);
-
-    this.imagesPathFiles = (data as any).default;
     
-    console.log(data);
-
-  
+    console.log(this.imagesPathFiles);
   }
 
   ngOnDestroy() {

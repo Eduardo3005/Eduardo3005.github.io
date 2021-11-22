@@ -70,6 +70,7 @@ export class HomeComponent extends DynamicComponent implements OnInit, OnDestroy
       res.forEach(house => {
         let houseImages = this.imagesPathFiles.Houses.find((h: House) => h.Tipology == house.Tipology)
 
+        debugger;
         house.ImagePath = houseImages.ImagePath;
 
         this.houses.push(house)
@@ -78,9 +79,7 @@ export class HomeComponent extends DynamicComponent implements OnInit, OnDestroy
   }
 
   getPlaces() {
-    this.translate.get('Home.Places.List').subscribe((res: Array<Place>) => {
-      this.places = res;
-    });
+    this.places = this.imagesPathFiles.Home.Places.List;
   }
 
   initSwiper(): Swiper {

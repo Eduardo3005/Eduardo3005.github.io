@@ -4,7 +4,7 @@
     "Language": "EN",
     "EnglishLanguage": "Inglês",
     "HousesHeader": {
-      "Title": "Alugar no páteo lima"
+      "Title": "Rent in Páteo Lima"
     },
     "Resume": {
       "Title": "Place with history",
@@ -17,29 +17,29 @@
         {
           "ImagePath": "assets/images/footer/quinta.jpg",
           "Title": "Activities in the farm",
-          "Tooltip": "Guests can observe and participate in the usual tasks of feeding the animals, through guidance, as well as in all the activities that take place in the garden, where they can pick fruits and vegetables to consume, subject to availability. They can also take care of meals using the grill and socialize in the picnic area. This is also a place to relax and sunbathe on the swings and sun loungers, read a book, organize games or cool off in the pool."
+          "Tooltip": "Guests can participate in the usual tasks of feeding the animals, through guidance, as well as in all the activities that take place in the garden, such as sowing, watering, picking fruits and vegetables, which can be consumed by the guests, subject to availability."
         },
         {
           "ImagePath": "assets/images/footer/ruinas.jpeg",
           "Title": "Activities abroad",
-          "Tooltip": "As redondezas são propícias a caminhadas. Um visita demorada a Évora, situada a 10 kms, também será imperdível. Quem quiser viajar um pouco mais, poderá ainda deixar-se surpreender por muitas e variadas paragens que se podem fazer nas proximidades, podendo mesmo ir dar um mergulho nas praias fluviais da Amieira ou do Alqueva (a cerca de 70 kms)."
+          "Tooltip": "The surroundings are suitable for walking. A lengthy visit to Évora, located 10 km away, will also be unmissable. Those who want to travel a little further can still be surprised by the many and varied stops that can be made nearby, and can even go for a dip in the river beaches of Amieira or Alqueva (about 70 km away)."
         },
         {
           "ImagePath": "assets/images/footer/alentejo.jpg",
           "Title": "Psychological well-being activities",
-          "Tooltip": "Dada a formação de base da promotora em Psicologia (cédula profissional nº 3904), os hóspedes podem, mediante custo adicional, usufruir de sessões de relaxamento, de apoio psicológico ou de aconselhamento, enquadrados em ambiente natural (disponíveis apenas em língua portuguesa)."
+          "Tooltip": "Given the promoter's basic training in Psychology (professional nº 3904), guests can, at an additional cost, enjoy relaxation sessions, psychological support or counseling, in a natural environment (available only in Portuguese)."
         },
         {
           "ImagePath": "assets/images/footer/migas.jpg",
           "Title": "Alentejana Cuisine workshops",
-          "Tooltip": "Made up of local knowledge and flavours, Alentejo cuisine takes advantage of everything the land has to offer. In these workshops, by appointment and at an additional cost, guests can explore the art of transforming some of the region's most typical products to give their meals “that little taste” so special (available only in Portuguese)"
+          "Tooltip": "Made up of local knowledge and flavors, cuisine <i>Alentejana<i/> takes advantage of everything the land has to offer. In these workshops, by appointment and at an additional cost, guests can explore the art of transforming some of the region's most typical products to give their meals a special taste (available only in Portuguese)."
         }
       ]
     },
     "OpeningModal": {
       "ImagePath": "",
-      "Title": "Abertura prevista a 3 de Setembro",
-      "Tooltip": "Enquanto isso aproveite para conhecer o espaço, as atividades disponíveis e pontos de interesse dos arredores."
+      "Title": "Grand opening shortly",
+      "Tooltip": "Meanwhile, take the opportunity to discover the space, available activities and points of interest in the surroundings."
     },
     "CofinaningBarPath": "assets/images/svg/cofinaningBar.svg",
     "VideoTitle": "See our video"
@@ -49,7 +49,7 @@
     "SecondTitle": "The promotor",
     "ThirdTitle": "The space",
     "FourthTitle": "The reception",
-    "P1": "A aquisição da propriedade pela família remonta a 1874, por iniciativa do tetravô da promotora – Custódio Joaquim – que começou a dar forma a um negócio que se foi expandindo ao longo de sucessivas gerações nesta localidade, outrora designada por Valle Verde. Porém o apelido Lima só viria a impor-se já na segunda década do século XX, quando o marido de sua neta Iria do Carmo assumiu o comando da família, que antes era conhecida por Ferreira. O avô da promotora – Custódio Ferreira Lima – foi o primeiro elemento agregador das duas famílias.",
+    "P1": "The acquisition of the property by the family dates back to 1874, on the initiative of the promoter's great-grandfather – Custódio Joaquim – who began to shape a business that expanded over successive generations in this location, formerly known as Valle Verde. However, the nickname Lima only came to be imposed in the second decade of the 20th century, when the husband of his granddaughter Iria do Carmo took over the family, which was previously known as Ferreira. The promoter's grandfather – Custódio Ferreira Lima – was the first aggregating element of the two families.",
     "P2": "In addition to their entrepreneurial spirit, both families (Ferreira and Lima) shared a high sense of organization and zeal for the documentary archive, which has allowed their most recent descendants to rebuild not only their family history, but also the village and its ways of life that have marked the last century and a half.",
     "P3": "This was not, however, a mere “sales” place; it was also a meeting place for people, where village life unrolled and the world was interacted with, imprinting habits and ways of life on it. The passage of travelers has always been frequent, with various notes and photos sent from far away by those who made a point of explaining the experience lived here. However, the withdrawal of the youngest, in search of a better life, and the evolution of the market led, little by little, to its decline.",
     "P4": "The birth of Páteo Lima revitalizes the space and gives it a new function, so that it can be lived again, providing new moments of sharing between residents and outsiders and the possibility of rewriting the story that, one day, will be told to other grandchildren. Its distinguishing feature is accessibility for people with limited mobility.",
@@ -96,7 +96,7 @@
     "TermsAndConditions": "Terms and Conditons",
     "PrivacyPolicies": "Privacy Policies and Cookie Law",
     "ComplaintBook" : "Complaint book",
-    "ReservationsText": "Para efetuar reservas contacte-nos por e-mail, telefone ou aceda à plataforma de reservas Booking.com"
+    "ReservationsText": "To make reservations, contact us by email, phone or access the Booking.com reservation platform"
   },
   "Contacts": {
     "Title": "Reservations",
@@ -112,8 +112,9 @@
   "Houses": [
     {
       "Tipology": "T1",
+      "ImagePath": "",
       "Name": "Casa dos vidros",
-      "Description": "Assim chamada porque a porta de entrada era envidraçada. A sua ampla chaminé dava vida a enchidos e torresmos, mas também a amenas cavaqueiras familiares enquanto se esperava a saída do último cliente. Foi transformada num generoso e agradável T1.",
+      "Description": "So-called because the entrance door was glazed. Its wide chimney gave life to sausages and cracklings, but also to mild familiar chatter while waiting for the last customer to leave. It was transformed into a generous and pleasant T1.",
       "FullDescription": "So called because the entrance door was glazed, allowing you to observe everything that happened in the Páteo. It was here that the owners lived, who had direct access to the sale through a door that connected it to the residence. Its large chimney, where the fire was a constant presence, gave life to sausages and cracklings, but also to mild familiar chatter while waiting for the last customer to leave. It was transformed into a generous and pleasant T1, with a cozy stove for the coldest nights, which can accommodate a maximum of 4 people, spread over 1 double bedroom and the sofa bed in the living room. It has a open space kitchen equipped with a ceramic hob, oven, refrigerator, dishwasher, toaster, kettle, coffee machine, clothing iron, crockery and cutlery suitable for the number of occupants. In the bathroom, accessible by wheelchair, there is a hairdryer and bath products. The house also has air conditioning throughout, free TV and internet.",
       "Options": [
         {
@@ -133,14 +134,15 @@
           "Name": "Maximum capacity: 4 people"
         },
         {
-          "Name": "Room 1: 1 cama dupla"
+          "Name": "Room 1: 1 double bed"
         }
       ]
     },
     {
       "Tipology": "T2",
+      "ImagePath": "",
       "Name": "Casa da venda",
-      "Description": "Era aqui que se situava a 'venda', onde se podiam encontrar produtos tão variados como as mercearias e os vinhos, a carne e o peixe, mas também os comprimidos para as dores e o petróleo para os candeeiros que alumiavam as longas e frias noites de inverno. Hoje tornou-se numa confortável habitação de tipologia T2.",
+      "Description": "This was where the 'sale' was located, where you could find products as varied as groceries and wines, meat and fish, but also pills for pain and oil for the lamps that illuminated the long, cold winter nights. Today it has become a comfortable T2 house.",
       "FullDescription": "It has always given a face to the property and to the village itself, as it faces the bridge, being the first facade that the eye can see when crossing the river; this was where the 'sales' would occur, where you could find products as varied as groceries and wine, bread and clothing, but also painkillers and oil for lamps that illuminated the long, cold nights winter. Today it has become a comfortable T2 type house, sunny and bright in the mornings and cool in the hot summer afternoons, as all the doors of the former commercial space have been transformed into generous bay windows facing the sunrise. It has a maximum capacity of 6 people, spread over 2 double bedrooms and a sofa bed in the living room. It has an open space kitchen equipped with a ceramic hob, oven, refrigerator, dishwasher, toaster, kettle, coffee machine, clothing iron, crockery and cutlery suitable for the number of occupants. In the bathroom, accessible by wheelchair, there is a hairdryer and bath products. The house also has air conditioning throughout, free TV and internet.",
       "Options": [
         {
@@ -169,8 +171,9 @@
     },
     {
       "Tipology": "T3",
+      "ImagePath": "",
       "Name": "Casa da cocheira",
-      "Description": "Teve muitas e variadas funções: de queijaria a armazém, de loja a salão de baile, deu vida a trabalho e lazer da povoação, já que era aqui que alguns tinham o seu ganha-pão e muitos passavam os seus tempos livres à volta de um copo de tinto, de uma concertina ou de uma grafonola. Atualmente convertida num acolhedor T3, com um simpático e íntimo pátio interior.",
+      "Description": "It had many and varied functions: from cheese shop to warehouse, shop to the ballroom, it gave life to work and leisure in the village, as it was here that some had their livelihoods and many spent their free time around a glass of red wine, 'oncertina' or 'grafonola'. Currently converted into a cozy T3 with a friendly and intimate interior patio.",
       "FullDescription": "The name was inspired by its original designation, although it started to be called “garage” after the arrival of a “modern” van. But this space also had many other functions: from cheese shop to warehouse, shop to ballroom, it gave life to work and leisure in the village, as it was here that some had their livelihoods and many spent their free time accompanied by a glass of red wine, a concertina or a phonograph, which would brightened up the hot summer nights. Currently converted into a cozy T3 with a friendly and intimate interior patio, it has a maximum capacity for 8 people, spread over 1 double bedroom, 2 double bedrooms and a sofa bed in the living room. It has an open space kitchen equipped with a ceramic hob, oven, microwave, refrigerator, dishwasher, toaster, kettle, coffee machine, clothing iron, crockery and cutlery suitable for the number of occupants. In the 2 bathrooms, accessible by wheelchair, there are hair dryers and bath products. The house also has air conditioning throughout, free TV and internet.",
       "Options": [
         {
@@ -202,40 +205,40 @@
     },
     {
       "Tipology": "Events",
-      "Name": "Casas e/ou exterior",
-      "Description": "Mediante orçamento, o Páteo Lima disponibiliza o aluguer total ou parcial do espaço. O espaço exterior reune as características ideais para eventos familiares, aniversários...",
+      "Name": "Houses and/or exterior",
+      "Description": "Upon budget, Páteo Lima offers the total or partial rental of the space. The outdoor space brings together the ideal characteristics for family events, birthdays...",
       "ImagePath": "assets/images/breakfast.jpg"
     }
   ],
   "Farm": {
     "Title": "In the farm",
-    "Description": "A quinta é um espaço comum que pode ser desfrutado por todos os hóspedes. Equipada com espreguiçadeiras, balouços, mesas de piquenique, é um local para relaxar, ler um livro, apanhar sol ou participar nas tarefas habituais de alimentação dos animais, mediante de orientações, bem como em todas as atividades que vão decorrendo na horta."
+    "Description": "The farm is a common space that can be enjoyed by all guests. Equipped with loungers, swings, picnic tables, it is a place to relax, read a book, sunbathe or participate in the usual tasks of feeding the animals, through guidance, as well as in all the activities that take place in the garden."
   },
   "PersonalizedServices": [
     {
-      "Name": "Apoio na higiene pessoal",
+      "Name": "Support for personal hygiene",
       "Price": "15€"
     },
     {
-      "Name": "Confecção e apoio de refeições",
-      "Price": "Desde 25€"
+      "Name": "Cooking and supporting meals",
+      "Price": "From 25€"
     },
     {
-      "Name": "Acompanhamento personalizado",
-      "Price": "Desde 25€"
+      "Name": "Custom Tracking",
+      "Price": "From 25€"
     }
   ],
   "WelfareActivities": [
     {
-      "Name": "Apoio / aconselhamento individual",
+      "Name": "Individual support / advice",
       "Price": "50€"
     },
     {
-      "Name": "Sessão de relaxamento individual",
+      "Name": "Individual relaxation session",
       "Price": "20€"
     },
     {
-      "Name": "Relaxamento em grupo",
+      "Name": "Group relaxation",
       "Price": "Desde 30€"
     }
   ],
@@ -275,7 +278,7 @@
       "Name": "Swimming pool and terrace: Accessible, subject to availability and degree of mobility."
     },
     {
-      "Name": "Espreguiçadeiras"
+      "Name": "Sunbeds"
     },
     {
       "Name": "Grill: Can be used at any time, subject to availability."
@@ -289,28 +292,28 @@
   ],
   "CommonAccommodations": [
     {
-      "Name": "Sala com sofá-cama"
+      "Name": "Room with sofa bed"
     },
     {
-      "Name": "Berço de viagem para bebés"
+      "Name": "Travel Cradle for Babies"
     },
     {
-      "Name": "Kitchenette equipada com placa, forno, micro-ondas, combinado, máquina de lavar loiça, torradeira, chaleira, máquina de café, louça e talheres"
+      "Name": "Kitchenette equipped with hob, oven, microwave, refrigerator, dishwasher, toaster, kettle, coffee machine, crockery, and cutlery"
     },
     {
-      "Name": "Ferro de engomar"
+      "Name": "Iron"
     },
     {
-      "Name": "WC acessível a cadeiras de rodas, equipado com secador de cabelo e produtos para o banho"
+      "Name": "WC accessible to wheelchairs, equipped with hairdryer and bath products"
     },
     {
-      "Name": "Ar condicionado nos quartos e sala"
+      "Name": "Air conditioning in bedrooms and living room"
     },
     {
       "Name": "TV"
     },
     {
-      "Name": "Acesso Wi-Fi gratuito em toda a unidade"
+      "Name": "Free WiFi access throughout the unit"
     }
   ]
 }

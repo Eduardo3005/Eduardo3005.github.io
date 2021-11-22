@@ -24,23 +24,23 @@
       "List": [
         {
           "ImagePath": "assets/images/footer/quinta.jpg",
-          "Title": "Atividades na quinta",
-          "Tooltip": "Os hóspedes podem participar nas tarefas habituais de alimentação dos animais, mediante orientações, bem como em todas as atividades que vão decorrendo na horta, tais como, sementeira, rega, apanha de frutos e vegetais, que podem ser consumidos pelos próprios, mediante disponibilidade."
+          "Title": "Activities in the farm", 
+          "Tooltip": "Guests can participate in the usual tasks of feeding the animals, through guidance, as well as in all the activities that take place in the garden, such as sowing, watering, picking fruits and vegetables, which can be consumed by the guests, subject to availability."
         },
         {
           "ImagePath": "assets/images/footer/ruinas.jpeg",
-          "Title": "Atividades de exterior",
-          "Tooltip": "As redondezas são propícias a caminhadas. Um visita demorada a Évora, situada a 10 kms, também será imperdível. Quem quiser viajar um pouco mais, poderá ainda deixar-se surpreender por muitas e variadas paragens que se podem fazer nas proximidades, podendo mesmo ir dar um mergulho nas praias fluviais da Amieira ou do Alqueva (a cerca de 70 kms)."
+          "Title": "Activities abroad",
+          "Tooltip": "The surroundings are suitable for walking. A lengthy visit to Évora, located 10 km away, will also be unmissable. Those who want to travel a little further can still be surprised by the many and varied stops that can be made nearby, and can even go for a dip in the river beaches of Amieira or Alqueva (about 70 km away)."
         },
         {
           "ImagePath": "assets/images/footer/alentejo.jpg",
-          "Title": "Atividades de bem estar psicológico",
-          "Tooltip": "Dada a formação de base da promotora em Psicologia (cédula profissional nº 3904), os hóspedes podem, mediante custo adicional, usufruir de sessões de relaxamento, de apoio psicológico ou de aconselhamento, enquadrados em ambiente natural (disponíveis apenas em língua portuguesa)."
+          "Title": "Psychological well-being activities",
+          "Tooltip": "Given the promoter's basic training in Psychology (professional nº 3904), guests can, at an additional cost, enjoy relaxation sessions, psychological support or counseling, in a natural environment (available only in Portuguese)."
         },
         {
           "ImagePath": "assets/images/footer/migas.jpg",
-          "Title": "Workshops de culinária",
-          "Tooltip": "Feita de saberes e sabores locais, a gastronomia alentejana tira proveito de tudo o que a terra lhe oferece. Nestes workhops, mediante marcação e custo adicional, os hóspedes podem fazer uma incursão sobre a arte de transformar alguns dos produtos mais típicos da região para darem às suas refeições “aquele gostinho” tão especial (disponível apenas em língua portuguesa)."
+          "Title": "Alentejana Cuisine workshops",
+          "Tooltip": "Made up of local knowledge and flavors, cuisine Alentejana takes advantage of everything the land has to offer. In these workshops, by appointment and at an additional cost, guests can explore the art of transforming some of the region's most typical products to give their meals a special taste (available only in Portuguese)."
         }
       ]
     },

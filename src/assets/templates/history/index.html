@@ -1,6 +1,8 @@
 <div class="card text-center">
   <div class="card-body">
-    <h2 class="card-title mt-200 mb-96">{{ "Home.Resume.Title" | translate }}</h2>
+    <h2 class="card-title mt-200 mb-96">
+      {{ "Home.Resume.Title" | translate }}
+    </h2>
     <p class="text">{{ "History.P1" | translate }}</p>
   </div>
 </div>
@@ -20,14 +22,17 @@
 <div class="card text-center">
   <div class="card-body">
     <p class="text">{{ "History.P4" | translate }}</p>
-
   </div>
 </div>
 
 <div class="masonry mb-32">
-  <ng-container *ngFor="let image of historyImages; ; let i = index">
+  <ng-container *ngFor="let image of historyImages$  | async; ; let i = index">
     <div class="item-masonry">
-      <img src="{{image.Path}}" alt="{{image.Description}}" (click)="openHistoryImage(i)">
+      <img
+        src="{{image.Path}}"
+        alt="{{image.Description}}"
+        (click)="openHistoryImage(image, i)"
+      />
       <div class="description">
         <p class="text">{{image.Description}}</p>
       </div>
@@ -38,13 +43,17 @@
 <div class="card text-center mb-160 top-100">
   <div class="card-body main-card">
     <div class="row no-gutters">
-      <div class="col-md-5 ">
-        <div class="photo" style="background-image: url('assets/images/history/bene_5_anos.jpg')"></div>
-
+      <div class="col-md-5">
+        <div
+          class="photo"
+          style="background-image: url('assets/images/history/bene_5_anos.jpg')"
+        ></div>
       </div>
 
-      <div class="col-md-7 ">
-        <h2 class="card-title mt-48 mb-72">{{ "History.SecondTitle" | translate }}</h2>
+      <div class="col-md-7">
+        <h2 class="card-title mt-48 mb-72">
+          {{ "History.SecondTitle" | translate }}
+        </h2>
 
         <p class="text">{{ "History.P5" | translate }}</p>
         <p class="text">{{ "History.P6" | translate }}</p>
@@ -55,25 +64,27 @@
 
 <div class="card text-center">
   <div class="card-body">
-    <h2 class="card-title mt-48 mb-72">{{ "History.ThirdTitle" | translate }}</h2>
+    <h2 class="card-title mt-48 mb-72">
+      {{ "History.ThirdTitle" | translate }}
+    </h2>
     <p class="text">{{ "History.P7" | translate }}</p>
-
   </div>
 </div>
 
 <div class="card text-center">
   <div class="card-body">
     <p class="text">{{ "History.P8" | translate }}</p>
-
   </div>
 </div>
 
-
-
 <div class="swiper-container mySwiper">
   <div class="swiper-wrapper">
-    <ng-container *ngFor="let image of images; let i = index">
-      <div class="swiper-slide" (click)="openImage(i)" style="background-image: url({{image}})"></div>
+    <ng-container *ngFor="let image of images$ | async; let i = index">
+      <div
+        class="swiper-slide"
+        (click)="openImage(image, i)"
+        style="background-image: url({{image}})"
+      ></div>
     </ng-container>
   </div>
   <div class="swiper-button-next"></div>
@@ -81,24 +92,35 @@
   <div class="swiper-pagination"></div>
 </div>
 
-
 <div class="card text-center">
   <div class="card-body">
-    <h2 class="card-title mt-72 mb-72">{{ "History.FourthTitle" | translate }}</h2>
+    <h2 class="card-title mt-72 mb-72">
+      {{ "History.FourthTitle" | translate }}
+    </h2>
     <p class="text">{{ "History.P9" | translate }}</p>
-
   </div>
 </div>
 
 <div class="card text-center mb-72">
   <div class="card-body">
     <p class="text">{{ "History.P10" | translate }}</p>
-
   </div>
 </div>
-<button id="openModal" #openModal [hidden]="true" data-toggle="modal" data-target="#openingModal"></button>
-<div class="modal modal-opening" id="openingModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
-  aria-hidden="true">
+<button
+  id="openModal"
+  #openModal
+  [hidden]="true"
+  data-toggle="modal"
+  data-target="#openingModal"
+></button>
+<div
+  class="modal modal-opening"
+  id="openingModal"
+  tabindex="-1"
+  role="dialog"
+  aria-labelledby="exampleModalCenterTitle"
+  aria-hidden="true"
+>
   <div class="modal-dialog modal-dialog-centered" role="document">
     <div class="modal-content">
       <div class="modal-header" data-dismiss="modal" aria-label="Close">
@@ -107,26 +129,39 @@
         </button>
       </div>
       <div class="modal-body">
-
         <div class="swiper-container swiper-container-xxl mySwiper-xxl">
           <div class="swiper-wrapper">
-            <ng-container *ngFor="let image of images; let i = index">
-              <div class="swiper-slide " style="background-image: url({{image}})"></div>
+            <ng-container *ngFor="let image of images$ | async; let i = index">
+              <div
+                class="swiper-slide"
+                style="background-image: url({{image}})"
+              ></div>
             </ng-container>
           </div>
           <div class="swiper-button-next"></div>
           <div class="swiper-button-prev"></div>
           <div class="swiper-pagination"></div>
         </div>
-
       </div>
     </div>
   </div>
 </div>
 
-<button id="openHistoryModal" #openHistoryModal [hidden]="true" data-toggle="modal" data-target="#openingHistoryModal"></button>
-<div class="modal modal-opening" id="openingHistoryModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
-  aria-hidden="true">
+<button
+  id="openHistoryModal"
+  #openHistoryModal
+  [hidden]="true"
+  data-toggle="modal"
+  data-target="#openingHistoryModal"
+></button>
+<div
+  class="modal modal-opening"
+  id="openingHistoryModal"
+  tabindex="-1"
+  role="dialog"
+  aria-labelledby="exampleModalCenterTitle"
+  aria-hidden="true"
+>
   <div class="modal-dialog modal-dialog-centered" role="document">
     <div class="modal-content">
       <div class="modal-header" data-dismiss="modal" aria-label="Close">
@@ -135,18 +170,21 @@
         </button>
       </div>
       <div class="modal-body">
-
         <div class="swiper-container swiper-container-xxl mySwiper-xxl">
           <div class="swiper-wrapper">
-            <ng-container *ngFor="let image of historyImages; let i = index">
-              <div class="swiper-slide " style="background-image: url({{image.Path}})"></div>
+            <ng-container
+              *ngFor="let image of historyImages$ | async; let i = index"
+            >
+              <div
+                class="swiper-slide"
+                style="background-image: url({{image.Path}})"
+              ></div>
             </ng-container>
           </div>
           <div class="swiper-button-next"></div>
           <div class="swiper-button-prev"></div>
           <div class="swiper-pagination"></div>
         </div>
-
       </div>
     </div>
   </div>

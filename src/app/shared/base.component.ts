@@ -10,8 +10,7 @@ import * as data from 'src/assets/imagesPathFiles.json';
 import * as dataEn from 'src/assets/imagesPathFiles-en.json';
 
 @Directive()
-export abstract class DynamicComponent implements OnInit, OnDestroy {
-
+export abstract class BaseComponent implements OnInit, OnDestroy {
   imagesPathFiles: any = [];
 
   constructor(
@@ -21,25 +20,20 @@ export abstract class DynamicComponent implements OnInit, OnDestroy {
   ) {}
 
   ngOnInit() {
-
-
     this.store
-			.pipe(
-				select(selectLanguage),
-				tap((language: string) => {
-          this.translate.use(language)
-
-          if(language == "en"){
+      .pipe(
+        select(selectLanguage),
+        tap((language: string) => {
+          if (language == 'en') {
             this.imagesPathFiles = (dataEn as any).default;
           } else {
             this.imagesPathFiles = (data as any).default;
           }
-				})
-			).subscribe()
+        })
+      )
+      .subscribe();
 
     this.firebase.logEvent(EventType.EnterView);
-    
-    console.log(this.imagesPathFiles);
   }
 
   ngOnDestroy() {

@@ -14,16 +14,14 @@ import { PlacesComponent } from './components/places.component';
 import { FooterComponent } from './components/footer.component';
 import { NavbarComponent } from './components/navbar.component';
 import { appEffects, appReducers } from './state/app-state';
-import { EffectsModule } from "@ngrx/effects";
-import { StoreDevtoolsModule } from "@ngrx/store-devtools";
+import { EffectsModule } from '@ngrx/effects';
+import { StoreDevtoolsModule } from '@ngrx/store-devtools';
 import { ContactsComponent } from './components/contacts.component';
 import { RouterModule } from '@angular/router';
 import { FirebaseProvider } from './services/firebase-logger.service';
 
-
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http, './assets/i18n/', '.json');
-
 }
 
 @NgModule({
@@ -44,9 +42,11 @@ export function HttpLoaderFactory(http: HttpClient) {
     AppRoutingModule,
     RouterModule,
     StoreModule.forRoot(appReducers),
-		EffectsModule.forRoot(appEffects),
+    EffectsModule.forRoot(appEffects),
     StoreDevtoolsModule.instrument(),
     TranslateModule.forRoot({
+      defaultLanguage: 'pt',
+      useDefaultLang: true,
       loader: {
         provide: TranslateLoader,
         useFactory: HttpLoaderFactory,

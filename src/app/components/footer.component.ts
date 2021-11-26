@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { Store } from '@ngrx/store';
 import { TranslateService } from '@ngx-translate/core';
 import { FirebaseProvider } from '../services/firebase-logger.service';
-import { DynamicComponent } from '../shared/base.component';
+import { BaseComponent } from '../shared/base.component';
 import { AppState } from '../state/app-state';
 
 @Component({
@@ -10,7 +10,7 @@ import { AppState } from '../state/app-state';
   templateUrl: '../../assets/templates/footer/index.html',
   styleUrls: ['../../assets/templates/footer/style.scss'],
 })
-export class FooterComponent extends DynamicComponent implements OnInit {
+export class FooterComponent extends BaseComponent implements OnInit {
   googleMapsIconPath: string;
 
   constructor(

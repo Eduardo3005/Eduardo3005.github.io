@@ -21,10 +21,16 @@ import {
 } from '../models/common';
 import { House, Accommodation, Option } from '../models/house';
 import { SlideShowElement } from '../models/slide-show-element';
-import SwiperCore, { Keyboard, Navigation, Pagination, Swiper } from 'swiper/core';
+import SwiperCore, {
+  Keyboard,
+  Navigation,
+  Pagination,
+  Swiper,
+} from 'swiper/core';
 import { FirebaseProvider } from '../services/firebase-logger.service';
-import { DynamicComponent } from '../shared/base.component';
+import { BaseComponent } from '../shared/base.component';
 import { Image } from '../models/image';
+import { Subscription } from 'rxjs';
 
 SwiperCore.use([Navigation, Pagination, Keyboard]);
 
@@ -34,7 +40,7 @@ SwiperCore.use([Navigation, Pagination, Keyboard]);
   styleUrls: ['../../assets/templates/house-detail/style.scss'],
 })
 export class HouseDetailComponent
-  extends DynamicComponent
+  extends BaseComponent
   implements OnInit, OnDestroy
 {
   houses: Array<House>;
@@ -54,6 +60,8 @@ export class HouseDetailComponent
   currentModalImage: string;
   mainImagePath: string;
 
+  languageSub: Subscription;
+
   constructor(
     readonly store: Store<AppState>,
     readonly translate: TranslateService,
@@ -71,18 +79,24 @@ export class HouseDetailComponent
     this.route.params.subscribe((params) => {
       this.houseId = +params['id'];
     });
+    this.languageSub = this.translate.onLangChange.subscribe(() => {
+      this.getHouse();
+      this.getWelfareActivities();
+      this.getPersonalizedServices();
+      this.getServices();
+      this.getAdditionalServices();
+      this.getOutdoorAccommodations();
+      this.getCommonAccommodations();
 
-    this.getHouse();
-    this.getWelfareActivities();
-    this.getPersonalizedServices();
-    this.getServices();
-    this.getAdditionalServices();
-    this.getOutdoorAccommodations();
-    this.getCommonAccommodations();
-    setTimeout(() => {
-      this.initSwiper('.mySwiper');
-    }, 1000);
+      setTimeout(() => {
+        this.initSwiper('.mySwiper');
+      }, 1000);
+    });
+  }
 
+  ngOnDestroy(): void {
+    super.ngOnDestroy();
+    this.languageSub?.unsubscribe();
   }
 
   initSwiper(className: string): Swiper {
@@ -97,12 +111,12 @@ export class HouseDetailComponent
       pagination: {
         el: '.swiper-pagination',
         clickable: true,
-        dynamicBullets: true
+        dynamicBullets: true,
       },
       navigation: {
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev',
-      }
+      },
     });
   }
 
@@ -123,7 +137,8 @@ export class HouseDetailComponent
       this.accommodations = this.houses[this.houseId - 1].Accommodations;
       this.options = this.houses[this.houseId - 1].Options;
       this.images = this.imagesPathFiles.Houses[this.houseId - 1].Images;
-      this.mainImagePath =  this.imagesPathFiles.Houses[this.houseId - 1].ImagePath
+      this.mainImagePath =
+        this.imagesPathFiles.Houses[this.houseId - 1].ImagePath;
     });
   }
 

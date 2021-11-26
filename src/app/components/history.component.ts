@@ -1,14 +1,26 @@
-import { Component, ElementRef, OnDestroy, OnInit, ViewChild } from '@angular/core';
+import {
+  Component,
+  ElementRef,
+  OnDestroy,
+  OnInit,
+  ViewChild,
+} from '@angular/core';
 import { Store } from '@ngrx/store';
 import { TranslateService } from '@ngx-translate/core';
 import { Image } from '../models/image';
 import { FirebaseProvider } from '../services/firebase-logger.service';
-import { DynamicComponent } from '../shared/base.component';
+import { BaseComponent } from '../shared/base.component';
 import { AppState } from '../state/app-state';
-import SwiperCore, { Keyboard, Navigation, Pagination, Swiper } from 'swiper/core';
+import SwiperCore, {
+  Keyboard,
+  Navigation,
+  Pagination,
+  Swiper,
+} from 'swiper/core';
+import { map } from 'rxjs/operators';
+import { Observable } from 'rxjs';
 
 SwiperCore.use([Navigation, Pagination, Keyboard]);
-
 
 @Component({
   selector: 'app-history',
@@ -16,12 +28,11 @@ SwiperCore.use([Navigation, Pagination, Keyboard]);
   styleUrls: ['../../assets/templates/history/style.scss'],
 })
 export class HistoryComponent
-  extends DynamicComponent
+  extends BaseComponent
   implements OnInit, OnDestroy
 {
-
-  images: Array<string>;
-  historyImages: Array<Image>
+  images$: Observable<string[]>;
+  historyImages$: Observable<Image[]>;
   currentModalImage: string;
   @ViewChild('openModal') openModal: ElementRef;
   @ViewChild('openHistoryModal') openHistoryModal: ElementRef;
@@ -37,10 +48,8 @@ export class HistoryComponent
   ngOnInit(): void {
     super.ngOnInit();
 
-    this.images = []
-
-    this.getFarmImages()
-    this. getHistoryImages()
+    this.getFarmImages();
+    this.getHistoryImages();
 
     setTimeout(() => {
       this.initSwiper('.mySwiper');
@@ -49,7 +58,7 @@ export class HistoryComponent
 
   initSwiper(className: string): Swiper {
     return new Swiper(className, {
-      loop : true,
+      loop: true,
       breakpointsBase: '1000',
       breakpoints: {
         '480': {
@@ -71,7 +80,7 @@ export class HistoryComponent
       pagination: {
         el: '.swiper-pagination',
         clickable: true,
-        dynamicBullets: true
+        dynamicBullets: true,
       },
       navigation: {
         nextEl: '.swiper-button-next',
@@ -80,17 +89,16 @@ export class HistoryComponent
       keyboard: {
         enabled: true,
         onlyInViewport: false,
-      }
+      },
     });
   }
 
-  openImage(index: number): void {
-
+  openImage(image: string, index: number): void {
     if (window.innerWidth > 767) {
-      this.currentModalImage = this.images[index];
+      this.currentModalImage = image;
 
       setTimeout(() => {
-        var swiper = this.createSwiperXXL(index)
+        var swiper = this.createSwiperXXL(index);
 
         swiper.slideTo(index);
 
@@ -101,13 +109,12 @@ export class HistoryComponent
     }
   }
 
-  openHistoryImage(index: number): void {
-
+  openHistoryImage(image: Image, index: number): void {
     if (window.innerWidth > 767) {
-      this.currentModalImage = this.historyImages[index].Path;
+      this.currentModalImage = image.Path;
 
       setTimeout(() => {
-        var swiper = this.createSwiperXXL(index)
+        var swiper = this.createSwiperXXL(index);
         swiper.slideTo(index);
 
         return swiper;
@@ -117,7 +124,7 @@ export class HistoryComponent
     }
   }
 
-  createSwiperXXL(index: number) : Swiper{
+  createSwiperXXL(index: number): Swiper {
     return new Swiper('.mySwiper-xxl', {
       slidesPerView: 1,
       spaceBetween: 10,
@@ -129,27 +136,25 @@ export class HistoryComponent
       pagination: {
         el: '.swiper-pagination',
         clickable: true,
-        dynamicBullets: true
+        dynamicBullets: true,
       },
       navigation: {
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev',
       },
-      initialSlide: index
+      initialSlide: index,
     });
   }
 
-  
-
   getFarmImages() {
-
-    this.images = this.imagesPathFiles.History.Images;
+    this.images$ = this.translate.onLangChange.pipe(
+      map(() => this.imagesPathFiles.History.Images)
+    );
   }
 
   getHistoryImages() {
-    
-    this.historyImages = this.imagesPathFiles.History.HistoryImages;
+    this.historyImages$ = this.translate.onLangChange.pipe(
+      map(() => this.imagesPathFiles.History.HistoryImages)
+    );
   }
-
-
 }

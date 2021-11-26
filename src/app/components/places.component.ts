@@ -3,7 +3,7 @@ import { select, Store } from '@ngrx/store';
 import { TranslateService } from '@ngx-translate/core';
 import { tap } from 'rxjs/operators';
 import { FirebaseProvider } from '../services/firebase-logger.service';
-import { DynamicComponent } from '../shared/base.component';
+import { BaseComponent } from '../shared/base.component';
 import { AppState } from '../state/app-state';
 @Component({
   selector: 'app-places',
@@ -11,7 +11,7 @@ import { AppState } from '../state/app-state';
   styleUrls: ['../../assets/templates/places/style.scss'],
 })
 export class PlacesComponent
-  extends DynamicComponent
+  extends BaseComponent
   implements OnInit, OnDestroy
 {
   constructor(
@@ -21,5 +21,4 @@ export class PlacesComponent
   ) {
     super(store, translate, firebase);
   }
-
 }

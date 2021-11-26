@@ -14,6 +14,7 @@ export class ContactsComponent
   extends BaseComponent
   implements OnInit, OnDestroy
 {
+  protected init(): void {}
   constructor(
     readonly store: Store<AppState>,
     readonly translate: TranslateService,

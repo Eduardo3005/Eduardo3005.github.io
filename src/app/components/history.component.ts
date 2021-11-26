@@ -7,18 +7,16 @@ import {
 } from '@angular/core';
 import { Store } from '@ngrx/store';
 import { TranslateService } from '@ngx-translate/core';
-import { Image } from '../models/image';
-import { FirebaseProvider } from '../services/firebase-logger.service';
-import { BaseComponent } from '../shared/base.component';
-import { AppState } from '../state/app-state';
 import SwiperCore, {
   Keyboard,
   Navigation,
   Pagination,
   Swiper,
 } from 'swiper/core';
-import { map } from 'rxjs/operators';
-import { Observable } from 'rxjs';
+import { Image } from '../models/image';
+import { FirebaseProvider } from '../services/firebase-logger.service';
+import { BaseComponent } from '../shared/base.component';
+import { AppState } from '../state/app-state';
 
 SwiperCore.use([Navigation, Pagination, Keyboard]);
 
@@ -27,12 +25,9 @@ SwiperCore.use([Navigation, Pagination, Keyboard]);
   templateUrl: '../../assets/templates/history/index.html',
   styleUrls: ['../../assets/templates/history/style.scss'],
 })
-export class HistoryComponent
-  extends BaseComponent
-  implements OnInit, OnDestroy
-{
-  images$: Observable<string[]>;
-  historyImages$: Observable<Image[]>;
+export class HistoryComponent extends BaseComponent {
+  images: Array<string> = [];
+  historyImages: Array<Image> = [];
   currentModalImage: string;
   @ViewChild('openModal') openModal: ElementRef;
   @ViewChild('openHistoryModal') openHistoryModal: ElementRef;
@@ -45,17 +40,15 @@ export class HistoryComponent
     super(store, translate, firebase);
   }
 
-  ngOnInit(): void {
-    super.ngOnInit();
-
+  protected init(): void {
+    this.images = [];
+    this.historyImages = [];
     this.getFarmImages();
     this.getHistoryImages();
-
     setTimeout(() => {
       this.initSwiper('.mySwiper');
     }, 1000);
   }
-
   initSwiper(className: string): Swiper {
     return new Swiper(className, {
       loop: true,
@@ -93,14 +86,14 @@ export class HistoryComponent
     });
   }
 
-  openImage(image: string, index: number): void {
+  openImage(index: number): void {
     if (window.innerWidth > 767) {
-      this.currentModalImage = image;
+      this.currentModalImage = this.images[index];
 
       setTimeout(() => {
         var swiper = this.createSwiperXXL(index);
 
-        swiper.slideTo(index);
+        swiper.slideTo?.(index);
 
         return swiper;
       }, 1);
@@ -109,9 +102,9 @@ export class HistoryComponent
     }
   }
 
-  openHistoryImage(image: Image, index: number): void {
+  openHistoryImage(index: number): void {
     if (window.innerWidth > 767) {
-      this.currentModalImage = image.Path;
+      this.currentModalImage = this.historyImages[index].Path;
 
       setTimeout(() => {
         var swiper = this.createSwiperXXL(index);
@@ -147,14 +140,10 @@ export class HistoryComponent
   }
 
   getFarmImages() {
-    this.images$ = this.translate.onLangChange.pipe(
-      map(() => this.imagesPathFiles.History.Images)
-    );
+    this.images = this.imagesPathFiles.History.Images;
   }
 
   getHistoryImages() {
-    this.historyImages$ = this.translate.onLangChange.pipe(
-      map(() => this.imagesPathFiles.History.HistoryImages)
-    );
+    this.historyImages = this.imagesPathFiles.History.HistoryImages;
   }
 }

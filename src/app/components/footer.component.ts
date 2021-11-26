@@ -11,6 +11,7 @@ import { AppState } from '../state/app-state';
   styleUrls: ['../../assets/templates/footer/style.scss'],
 })
 export class FooterComponent extends BaseComponent implements OnInit {
+  protected init(): void {}
   googleMapsIconPath: string;
 
   constructor(

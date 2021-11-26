@@ -1,36 +1,32 @@
-import {
-  Component,
-  ElementRef,
-  OnDestroy,
-  OnInit,
-  ViewChild,
-} from '@angular/core';
-import { ActivatedRoute, Router } from '@angular/router';
 import { Location } from '@angular/common';
-import { select, Store } from '@ngrx/store';
-import { TranslateService } from '@ngx-translate/core';
-import { tap } from 'rxjs/operators';
-import { AppState } from '../state/app-state';
+import { Component, OnDestroy, OnInit } from '@angular/core';
 import {
-  PersonalizedService,
-  WelfareActivity,
-  Service,
-  AdditionalService,
-  OutdoorAccommodation,
-  CommonAccommodation,
-} from '../models/common';
-import { House, Accommodation, Option } from '../models/house';
-import { SlideShowElement } from '../models/slide-show-element';
+  ActivatedRoute,
+  ActivatedRouteSnapshot,
+  Router,
+} from '@angular/router';
+import { Store } from '@ngrx/store';
+import { TranslateService } from '@ngx-translate/core';
 import SwiperCore, {
   Keyboard,
   Navigation,
   Pagination,
   Swiper,
 } from 'swiper/core';
+import {
+  AdditionalService,
+  CommonAccommodation,
+  OutdoorAccommodation,
+  PersonalizedService,
+  Service,
+  WelfareActivity,
+} from '../models/common';
+import { Accommodation, House, Option } from '../models/house';
+import { Image } from '../models/image';
+import { SlideShowElement } from '../models/slide-show-element';
 import { FirebaseProvider } from '../services/firebase-logger.service';
 import { BaseComponent } from '../shared/base.component';
-import { Image } from '../models/image';
-import { Subscription } from 'rxjs';
+import { AppState } from '../state/app-state';
 
 SwiperCore.use([Navigation, Pagination, Keyboard]);
 
@@ -60,8 +56,6 @@ export class HouseDetailComponent
   currentModalImage: string;
   mainImagePath: string;
 
-  languageSub: Subscription;
-
   constructor(
     readonly store: Store<AppState>,
     readonly translate: TranslateService,
@@ -75,28 +69,23 @@ export class HouseDetailComponent
   }
 
   ngOnInit(): void {
+    const { params } = this.route.snapshot;
+    this.houseId = +params['id'];
     super.ngOnInit();
-    this.route.params.subscribe((params) => {
-      this.houseId = +params['id'];
-    });
-    this.languageSub = this.translate.onLangChange.subscribe(() => {
-      this.getHouse();
-      this.getWelfareActivities();
-      this.getPersonalizedServices();
-      this.getServices();
-      this.getAdditionalServices();
-      this.getOutdoorAccommodations();
-      this.getCommonAccommodations();
 
-      setTimeout(() => {
-        this.initSwiper('.mySwiper');
-      }, 1000);
-    });
+    setTimeout(() => {
+      this.initSwiper('.mySwiper');
+    }, 1000);
   }
 
-  ngOnDestroy(): void {
-    super.ngOnDestroy();
-    this.languageSub?.unsubscribe();
+  protected init(): void {
+    this.getHouse();
+    this.getWelfareActivities();
+    this.getPersonalizedServices();
+    this.getServices();
+    this.getAdditionalServices();
+    this.getOutdoorAccommodations();
+    this.getCommonAccommodations();
   }
 
   initSwiper(className: string): Swiper {

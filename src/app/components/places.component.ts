@@ -1,7 +1,6 @@
 import { Component, OnDestroy, OnInit } from '@angular/core';
-import { select, Store } from '@ngrx/store';
+import { Store } from '@ngrx/store';
 import { TranslateService } from '@ngx-translate/core';
-import { tap } from 'rxjs/operators';
 import { FirebaseProvider } from '../services/firebase-logger.service';
 import { BaseComponent } from '../shared/base.component';
 import { AppState } from '../state/app-state';
@@ -14,6 +13,7 @@ export class PlacesComponent
   extends BaseComponent
   implements OnInit, OnDestroy
 {
+  protected init(): void {}
   constructor(
     readonly store: Store<AppState>,
     readonly translate: TranslateService,

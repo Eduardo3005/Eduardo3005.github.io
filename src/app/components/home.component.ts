@@ -18,8 +18,7 @@ import SwiperCore, {
   Swiper,
 } from 'swiper/core';
 import { BaseComponent } from '../shared/base.component';
-import { map, switchMap, tap } from 'rxjs/operators';
-import { Observable } from 'rxjs';
+import { delay } from 'rxjs/operators';
 
 SwiperCore.use([Navigation, Pagination, Keyboard]);
 
@@ -30,10 +29,9 @@ SwiperCore.use([Navigation, Pagination, Keyboard]);
 })
 export class HomeComponent extends BaseComponent implements OnInit, OnDestroy {
   private readonly MODAL_OPENED_ONCE_KEY = 'pl-o-o';
-  houses$: Observable<House[]>;
-  places$: Observable<Place>;
-
-  slideShow$: Observable<String>;
+  houses: Array<House> = [];
+  places: Array<Place> = [];
+  slideShow: Array<String> = [];
 
   @ViewChild('openModal') openModal: ElementRef;
   @ViewChild('sponsorshipsModal') sponsorshipsModal: ElementRef;
@@ -52,9 +50,6 @@ export class HomeComponent extends BaseComponent implements OnInit, OnDestroy {
   ngOnInit() {
     super.ngOnInit();
 
-    this.getSlideShow();
-    this.getHouses();
-    this.getPlaces();
     this.openModalIfFirstEntry();
 
     setTimeout(() => {
@@ -70,7 +65,17 @@ export class HomeComponent extends BaseComponent implements OnInit, OnDestroy {
     setTimeout(() => {
       this.openModal.nativeElement.click();
       sessionStorage.setItem(this.MODAL_OPENED_ONCE_KEY, true.toString());
+      this.initSwiper();
     }, 1000);
+  }
+
+  protected init(): void {
+    this.houses = [];
+    this.places = [];
+    this.slideShow = [];
+    this.getSlideShow();
+    this.getHouses();
+    this.getPlaces();
   }
 
   playVideo() {
@@ -80,36 +85,25 @@ export class HomeComponent extends BaseComponent implements OnInit, OnDestroy {
   }
 
   getSlideShow() {
-    this.slideShow$ = this.translate.onLangChange.pipe(
-      map(() => this.imagesPathFiles.Home.SlideShow)
-    );
+    this.slideShow = this.imagesPathFiles.Home.SlideShow;
   }
 
   getHouses() {
-    this.houses$ = this.translate.onLangChange.pipe(
-      switchMap(() =>
-        this.translate.get('Houses').pipe(
-          map((res: House[]) => {
-            console.log(this.imagesPathFiles, res);
-            return res.map(
-              (house) =>
-                ({
-                  ...house,
-                  ImagePath: this.imagesPathFiles.Houses.find(
-                    (h: House) => h.Tipology == house.Tipology
-                  )?.ImagePath,
-                } as House)
-            );
-          })
-        )
-      )
-    );
+    this.translate.get('Houses').subscribe((res: Array<House>) => {
+      res.forEach((house) => {
+        let houseImages = this.imagesPathFiles.Houses.find(
+          (h: House) => h.Tipology == house.Tipology
+        );
+
+        house.ImagePath = houseImages.ImagePath;
+
+        this.houses.push(house);
+      });
+    });
   }
 
   getPlaces() {
-    this.places$ = this.translate.onLangChange.pipe(
-      map(() => this.imagesPathFiles.Home.Places.List)
-    );
+    this.places = this.imagesPathFiles.Home.Places.List;
   }
 
   initSwiper(): Swiper {

@@ -7,7 +7,7 @@
 
 <div class="swiper-container mySwiper mb-160 top-80">
   <div class="swiper-wrapper">
-    <ng-container *ngFor="let slide of slideShow$ | async">
+    <ng-container *ngFor="let slide of slideShow">
       <div class="swiper-slide" style="background-image: url({{slide}})"></div>
     </ng-container>
   </div>
@@ -35,7 +35,7 @@
     class="card-body video-card"
     style="background-image: url('assets/images/pateo.jpeg')"
   >
-    <div #youtubeVideoPlay class="youtube-video-play" (click)="playVideo()">
+    <div #youtubeVideoPlay class="youtube-video-play" (click)="playVideo()" >
       <img
         class="play-circle mt-96 mb-48"
         src="assets/images/svg/play-circle.svg"
@@ -69,7 +69,7 @@
   <div class="card-house">
     <div
       class="row no-gutters mb-72"
-      *ngFor="let house of houses$ | async; let i = index"
+      *ngFor="let house of houses; let i = index"
     >
       <div
         class="col-md-4"
@@ -80,14 +80,14 @@
           <h2 class="uppercase">{{ house.Name }}</h2>
           <div class="text description">{{ house.Description }}</div>
           <a
-            *ngIf="i != (houses$ | async)?.length-1"
+            *ngIf="i != houses.length-1"
             [routerLink]="['/houses', i+1]"
             class="btn btn-outline-secondary link-button mb-48"
             >{{ "Common.SeeMore" | translate }}</a
           >
 
           <a
-            *ngIf="i == (houses$ | async)?.length-1"
+            *ngIf="i == houses.length-1"
             [routerLink]="['/contacts']"
             class="btn btn-outline-secondary link-button mb-48"
             >{{ "Common.SeeMore2" | translate }}</a
@@ -111,7 +111,7 @@
   <div class="card-body">
     <h1 class="card-title mb-144">{{ "Home.Places.Title" | translate }}</h1>
     <div class="gallery">
-      <div class="item" *ngFor="let place of places$ | async; let i = index">
+      <div class="item" *ngFor="let place of places; let i = index">
         <div
           class="image mb-16"
           style="background-image: url({{place.ImagePath}})"
@@ -127,6 +127,8 @@
     -->
   </div>
 </div>
+
+
 
 <button
   id="openModal"
@@ -157,16 +159,18 @@
       </div>
       <div class="modal-body">
         <div class="logo mb-32 text-center">
-          <img class="logo" src="assets/images/svg/logo-menu.svg" />
+          <img class="logo" src="assets/images/svg/logo-menu.svg">
         </div>
         <h2 class="mb-32">{{"Home.OpeningModal.Title" | translate }}</h2>
-        <p>{{"Home.OpeningModal.Tooltip" | translate }}</p>
+        <p>
+          {{"Home.OpeningModal.Tooltip" | translate }}
+        </p>
       </div>
     </div>
   </div>
 </div>
 
-<button
+  <button
   id="sponsorshipsModal"
   #sponsorshipsModal
   [hidden]="true"
@@ -181,7 +185,7 @@
   aria-labelledby="exampleModalCenterTitle"
   aria-hidden="true"
 >
-  <div class="modal-dialog" role="document">
+  <div class="modal-dialog" role="document" >
     <div class="modal-content">
       <div class="modal-body">
         <button
@@ -193,11 +197,9 @@
           <span aria-hidden="true">&times;</span>
         </button>
 
-        <img
-          class="cofinancingBar"
-          src="assets/images/cofinancingBarWhite.svg"
-        />
+        <img class="cofinancingBar" src="assets/images/cofinancingBarWhite.svg" >
       </div>
     </div>
   </div>
 </div>
+

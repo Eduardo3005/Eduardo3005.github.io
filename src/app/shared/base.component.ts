@@ -20,21 +20,25 @@ export abstract class BaseComponent implements OnInit, OnDestroy {
   ) {}
 
   ngOnInit() {
-    this.store
-      .pipe(
-        select(selectLanguage),
-        tap((language: string) => {
-          if (language == 'en') {
-            this.imagesPathFiles = (dataEn as any).default;
-          } else {
-            this.imagesPathFiles = (data as any).default;
-          }
-        })
-      )
-      .subscribe();
+    this.translate.onLangChange.subscribe(() => {
+      this.initContent();
+    });
 
     this.firebase.logEvent(EventType.EnterView);
+    this.initContent();
   }
+
+  private initContent() {
+    const language = this.translate.currentLang;
+    if (language == 'en') {
+      this.imagesPathFiles = (dataEn as any).default;
+    } else {
+      this.imagesPathFiles = (data as any).default;
+    }
+    this.init();
+  }
+
+  protected abstract init(): void;
 
   ngOnDestroy() {
     this.firebase.logEvent(EventType.LeaveView);

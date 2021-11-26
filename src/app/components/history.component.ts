@@ -108,7 +108,7 @@ export class HistoryComponent extends BaseComponent {
 
       setTimeout(() => {
         var swiper = this.createSwiperXXL(index);
-        swiper.slideTo(index);
+        swiper.slideTo?.(index);
 
         return swiper;
       }, 1);

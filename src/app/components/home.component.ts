@@ -48,13 +48,9 @@ export class HomeComponent extends BaseComponent implements OnInit, OnDestroy {
   }
 
   ngOnInit() {
+    
     super.ngOnInit();
-
     this.openModalIfFirstEntry();
-
-    setTimeout(() => {
-      this.initSwiper();
-    }, 1000);
   }
 
   openModalIfFirstEntry() {
@@ -76,6 +72,10 @@ export class HomeComponent extends BaseComponent implements OnInit, OnDestroy {
     this.getSlideShow();
     this.getHouses();
     this.getPlaces();
+
+    setTimeout(() => {
+      this.initSwiper();
+    }, 1000);
   }
 
   playVideo() {

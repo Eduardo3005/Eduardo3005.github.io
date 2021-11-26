@@ -73,9 +73,7 @@ export class HouseDetailComponent
     this.houseId = +params['id'];
     super.ngOnInit();
 
-    setTimeout(() => {
-      this.initSwiper('.mySwiper');
-    }, 1000);
+    
   }
 
   protected init(): void {
@@ -86,6 +84,10 @@ export class HouseDetailComponent
     this.getAdditionalServices();
     this.getOutdoorAccommodations();
     this.getCommonAccommodations();
+
+    setTimeout(() => {
+      this.initSwiper('.mySwiper');
+    }, 1000);
   }
 
   initSwiper(className: string): Swiper {

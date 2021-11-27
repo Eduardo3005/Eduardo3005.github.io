@@ -10,9 +10,11 @@ import { AppState } from '../../state/app-state';
   templateUrl: 'index.html',
   styleUrls: ['style.scss'],
 })
-export class FooterComponent extends BaseComponent implements OnInit {
-  protected init(): void {}
-  googleMapsIconPath: string;
+export class FooterComponent extends BaseComponent {
+
+  privacyPoliciesFilePath : string = null;
+  projectTechnicalSheetPath : string = null
+  termsAndConditionsPath: string = null
 
   constructor(
     readonly store: Store<AppState>,
@@ -22,9 +24,17 @@ export class FooterComponent extends BaseComponent implements OnInit {
     super(store, translate, firebase);
   }
 
-  ngOnInit(): void {
-    this.translate.get('Footer.GoogleMapsIconPath').subscribe((res: string) => {
-      this.googleMapsIconPath = res;
-    });
+  protected init(): void {
+    this.getFilesPaths();
+  }
+
+  getFilesPaths() {
+    this.privacyPoliciesFilePath = null
+    this.projectTechnicalSheetPath = null
+    this.termsAndConditionsPath = null
+
+    this.privacyPoliciesFilePath = this.imagesPathFiles.Files.PrivacyPoliciesFilePath;
+    this.projectTechnicalSheetPath = this.imagesPathFiles.Files.ProjectTechnicalSheetPath;
+    this.termsAndConditionsPath = this.imagesPathFiles.Files.TermsAndConditionsPath;
   }
 }

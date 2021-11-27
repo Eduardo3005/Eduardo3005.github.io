@@ -49,6 +49,7 @@ export class HistoryComponent extends BaseComponent {
       this.initSwiper('.mySwiper');
     }, 1000);
   }
+  
   initSwiper(className: string): Swiper {
     return new Swiper(className, {
       loop: true,

@@ -381,5 +381,10 @@
       "Tipology": "Events",
       "ImagePath": "assets/images/quinta/eventos.jpeg"
     }
-  ]
+  ],
+  "Files": {
+    "PrivacyPoliciesFilePath" : "assets/files/politicas_privacidade_cookies_en.pdf",
+    "ProjectTechnicalSheetPath": "assets/files/ficha_projeto_en.pdf",
+    "TermsAndConditionsPath": "assets/files/informacoes_termos_e_condicoes_en.pdf"
+  }
 }

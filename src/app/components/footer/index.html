@@ -11,11 +11,11 @@
           <p>{{"Footer.Email" | translate}}</p>
         </div>
         <div>
-          <p class="p-yellow">Tlf. </p>
+          <p class="p-yellow">{{"Footer.PhoneLabel" | translate}}</p>
           <p>{{"Footer.Phone" | translate}}</p>
         </div>
         <div>
-          <p class="p-yellow">Tel. </p>
+          <p class="p-yellow">{{"Footer.FixedPhoneLabel" | translate}}</p>
           <p>{{"Footer.FixedPhone" | translate}}</p>
         </div>
       </div>
@@ -67,17 +67,17 @@
   <div class="row second-item">
     <div class="rules">
       <ul>
-        <li><a href="assets/files/informacoes_termos_e_condicoes.pdf" target="_blank">{{ "Footer.TermsAndConditions" |
+        <li><a href="{{termsAndConditionsPath}}" target="_blank">{{ "Footer.TermsAndConditions" |
             translate }}</a>
           <p> | </p>
         </li>
-        <li><a href="assets/files/politicas_privacidade_cookies.pdf" target="_blank">{{ "Footer.PrivacyPolicies" |
+        <li><a href="{{privacyPoliciesFilePath}}" target="_blank">{{ "Footer.PrivacyPolicies" |
             translate }} </a> <p> | </p></li>
             <li><a href="https://www.livroreclamacoes.pt" target="_blank">{{ "Footer.ComplaintBook" |
               translate }} </a></li>
       </ul>
     </div>
-    <a href="assets/files/ficha_projeto.pdf" target="_blank"
+    <a href="{{projectTechnicalSheetPath}}" target="_blank"
       class="btn btn-outline-secondary link-button uppercase project-file">{{ "Footer.Link" | translate }}</a>
   </div>
 </footer>

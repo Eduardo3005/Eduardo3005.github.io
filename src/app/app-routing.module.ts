@@ -1,11 +1,11 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { HouseDetailComponent } from './components/house-detail.component';
-import { HomeComponent } from './components/home.component';
-import { PlacesComponent } from './components/places.component';
-import { HistoryComponent } from './components/history.component';
+import { HouseDetailComponent } from './components/house-detail/house-detail.component';
+import { HomeComponent } from './components/home/home.component';
+import { PlacesComponent } from './components/places/places.component';
+import { HistoryComponent } from './components/history/history.component';
 import {TranslateModule} from '@ngx-translate/core';
-import { ContactsComponent } from './components/contacts.component';
+import { ContactsComponent } from './components/contacts/contacts.component';
 
 
 const routes: Routes = [

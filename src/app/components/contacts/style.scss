@@ -1,0 +1,115 @@
+@import "../../../assets/style/mixins.scss";
+
+.container {
+  height: 100%;
+  width: 100%;
+  background-color: white;
+  max-width: 100%;
+  padding: 0;
+  margin-top: 80px;
+
+
+  @media (max-width: 1024px) {
+    height: fit-content;
+  }
+
+
+  .row {
+
+
+
+    height: 100%;
+
+    .first-item {
+      margin: 0 auto;
+      background-color: $green-dark;
+      height: 100%;
+      background-size: cover;
+
+      @media (max-width: 1024px) {
+        display: none;
+      }
+    }
+
+    .second-item {
+
+
+      background-color: $white;
+      padding-top: 32px;
+
+
+
+
+      .info {
+        text-align: left;
+        padding-left: 16px;
+
+
+
+        @media (min-width: 1025px) {
+          position: absolute;
+          margin-top: 300px;
+          -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+          padding-left: 72px;
+
+
+        }
+        .text {
+
+            -webkit-touch-callout: initial !important; /* iOS Safari */
+            -webkit-user-select: initial !important; /* Safari */
+            -khtml-user-select: initial !important; /* Konqueror HTML */
+            -moz-user-select: initial !important; /* Old versions of Firefox */
+            -ms-user-select: initial !important; /* Internet Explorer/Edge */
+            user-select: initial !important; /* Non-prefixed version, currently
+                                          supported by Chrome, Edge, Opera and Firefox */
+
+          margin-left: 0;
+          padding-bottom: 0;
+          width: 65%;
+
+          @media (max-width: 768px) {
+            width: 100%;
+          }
+
+        }
+
+      }
+    }
+  }
+}
+
+.card-body {
+  padding: 0 !important;
+  margin-bottom: 80px !important;
+  height: 92vh;
+  @media (max-width: 1024px) and (max-width: 1200px) {
+    height: 760px !important;
+  }
+  @media (max-width: 1023px) {
+    height: 650px !important;
+  }
+}
+
+footer {
+  margin-top: 0 !important;
+}
+
+
+.btn-outline-secondary{
+  margin-left: 0;
+}
+
+
+.card {
+
+      -webkit-touch-callout: initial !important; /* iOS Safari */
+      -webkit-user-select: initial !important; /* Safari */
+      -khtml-user-select: initial !important; /* Konqueror HTML */
+      -moz-user-select: initial !important; /* Old versions of Firefox */
+      -ms-user-select: initial !important; /* Internet Explorer/Edge */
+      user-select: initial !important; /* Non-prefixed version, currently
+                                    supported by Chrome, Edge, Opera and Firefox */
+
+}

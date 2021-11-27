@@ -1,0 +1,139 @@
+@import "../../../assets/style/mixins.scss";
+
+.navbar-toggler {
+  margin-right: 16px !important;
+}
+
+.navbar {
+  user-select: none;
+  width: 100%;
+  height: min-content;
+  padding: 0;
+
+  border-bottom: 1px solid $green-light !important;
+}
+
+.navbar-collapse{
+  padding-bottom: 0px  !important;
+}
+
+.navbar-brand {
+  margin-left: 16px;
+  font-size: xx-large;
+  font-weight: bold;
+  padding-bottom: 16px;
+
+  img{
+    
+    user-select: none;
+  }
+
+  .logo{
+    user-select: none;
+    width: fit-content;
+    @media (max-width:768px) {
+      width: 248px;
+    }
+
+    @media (max-width:320px) {
+      width: 200px;
+    }
+  }
+}
+
+.nav-link {
+  user-select: none;
+  color: $grey-dark;
+  font-family: "Sarabu-Regular", sans-serif;
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 20px;
+  letter-spacing: 2px;
+  background-color: #f8f9fa !important;
+  padding-right: 1rem;
+  padding-left: 1rem;
+
+
+
+}
+
+.nav-item {
+
+  @media (max-width: 1000px) {
+    padding: 0;
+    padding-top: 8px;
+
+    .cofinancingItem {
+      display: none;
+    }
+  }
+
+
+
+}
+
+.navbar-light .navbar-nav .nav-link  {
+  &:hover, &:focus, &:active {
+    color: $white;
+    background-color: $green-light !important;
+  }
+}
+
+
+.dropdown-menu {
+
+  background-color: #f8f9fa !important;
+  margin-top: 0;
+  border: none;
+  border-radius: 0;
+  font-weight:300; font-size:13px; letter-spacing:2px;
+}
+
+.dropdown-item{
+  color: $grey-dark;
+}
+
+li {
+  padding: 16px;
+
+}
+
+.dropdown-item {
+  text-decoration: none;
+}
+
+.cofinancingBar{
+  user-select: none;
+  display: flex;
+  width: 360px;
+  margin-top: -29px;
+  @media (max-width: 768px) {
+    width: 80%;
+  }
+
+  @media (max-width: 1024px) {
+    display: none;
+  }
+}
+
+.secondCofinancingBar{
+  display: none;
+  user-select: none;
+
+  img {
+    @media (max-width: 1023px) {
+      width: 65%;
+    }
+  }
+
+  @media (max-width: 1023px) {
+    width: 100%;
+    user-select: none;
+    background-color: $green-light;
+    display: flex;
+    padding: 8px;
+  }
+}
+
+
+

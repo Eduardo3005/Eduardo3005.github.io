@@ -191,6 +191,13 @@ rect {
   }
 }
 
+.mb-160 {
+  margin-bottom: 160px;
+  @media (max-width: 768px) {
+    margin-bottom: 112px;
+  }
+}
+
 .mt-96 {
   margin-top: 96px;
   @media (max-width: 768px) {
@@ -233,8 +240,8 @@ rect {
   }
 }
 
-.mt-200 {
-  margin-top: 200px;
+.mt-160 {
+  margin-top: 160px;
   @media (max-width: 768px) {
     margin-top: 112px;
   }

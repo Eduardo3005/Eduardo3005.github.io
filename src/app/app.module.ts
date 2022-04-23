@@ -19,6 +19,8 @@ import { StoreDevtoolsModule } from '@ngrx/store-devtools';
 import { ContactsComponent } from './components/contacts/contacts.component';
 import { RouterModule } from '@angular/router';
 import { FirebaseProvider } from './services/firebase-logger.service';
+import { RestaurantsComponent } from './components/restaurants/restaurants.component';
+import { FarmComponent } from './components/farm/farm.component';
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http, './assets/i18n/', '.json');
@@ -30,6 +32,8 @@ export function HttpLoaderFactory(http: HttpClient) {
     HouseDetailComponent,
     HomeComponent,
     PlacesComponent,
+    RestaurantsComponent,
+    FarmComponent,
     HistoryComponent,
     ContactsComponent,
     NavbarComponent,

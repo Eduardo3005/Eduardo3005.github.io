@@ -1,8 +1,6 @@
 import {
   Component,
   ElementRef,
-  OnDestroy,
-  OnInit,
   ViewChild,
 } from '@angular/core';
 import { Store } from '@ngrx/store';

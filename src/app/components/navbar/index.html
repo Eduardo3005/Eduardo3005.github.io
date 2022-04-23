@@ -51,14 +51,30 @@
           </div>
         </div>
       </li>
-      <!--
       <li class="nav-item">
-        <a class="nav-link uppercase" [routerLink]="['/places']"
-          >{{"NavBar.Places" | translate}}</a
+        <a class="nav-link uppercase" [routerLink]="['/restaurants']"
+          >Onde comer</a
         >
       </li>
-      -->
-
+      <li class="nav-item dropdown">
+        <a
+          class="nav-link dropdown-toggle uppercase"
+          href="#"
+          id="navbarDropdown"
+          role="button"
+          data-toggle="dropdown"
+          aria-haspopup="true"
+          aria-expanded="false"
+        >
+          {{"NavBar.Places" | translate}}
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          
+            <a class="dropdown-item uppercase" [routerLink]="['/what-to-do/farm']">Na quinta</a>
+            <a class="dropdown-item uppercase" [routerLink]="['/what-to-do/places']">Nos arredores</a>        
+        </div>
+      </li>
+     
       <li class="nav-item">
         <a class="nav-link uppercase" [routerLink]="['/contacts']"
           >{{"NavBar.Contacts" | translate}}</a

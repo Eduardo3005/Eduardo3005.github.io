@@ -1,0 +1,20 @@
+<div class="card text-center">
+  <div class="card-body">
+    <h2 class="card-title mt-160 mb-96">Onde Comer</h2>
+    <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit</p>
+  </div>
+</div>
+
+<div class="card mb-160">
+  <div class="card-body">
+    <h3 class="card-title mb-32">Na aldeia e arredores</h3>
+    <div class="masonry">
+      <ng-container *ngFor="let restaurant of restaurants.Valverde; let i = index">
+        <div class="item-masonry">
+          <img src="{{restaurant.Images[0].Path}}" alt="{{restaurant.Images[0].Description}}" (click)="openHistoryImage(i)">
+          <p class="text"><b>{{restaurant.Name}}</b></p>
+        </div>
+      </ng-container>
+    </div>
+  </div>
+</div>

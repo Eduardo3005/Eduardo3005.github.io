@@ -7,7 +7,6 @@
 
 <div class="card mb-160">
   <div class="card-body">
-    <h3 class="card-title mb-32">Na aldeia e arredores</h3>
     <div class="masonry">
       <ng-container *ngFor="let restaurant of restaurants; let i = index">
         <div class="item-masonry">
@@ -35,27 +34,34 @@
           <div class="swiper-wrapper">
             <ng-container *ngFor="let restaurant of restaurants; let i = index">
               <div class="swiper-slide">
-                <div class="row">
-                  <div class="col-md-7 first-column">
-                    <h2>{{restaurant.Name}}</h2>
-                    <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit</p>
+                <div >
+                  <div class="row mb-32">
+                    <div class="col-md-7 first-column">
+                      <h2>{{restaurant.Name}}</h2>
+                      <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit</p>
+                    </div>
+                    <div class="col-md-5 second-column">
+                      <h2 class ="mb-32 mt-32">Recomendações</h2>
+                      <ng-container *ngFor="let recomendation of restaurant.Recomendations; let i = index">
+                        <div class="recomentation-container">
+                          <img src = "{{recomendation.IconPath}}"/>
+                          <p>{{recomendation.Text}}</p>
+                        </div>
+                      </ng-container>
+                      
+                      <a *ngIf="restaurant.Link != null" href="{{restaurant.Link | translate}}" target="_blank" left="0"
+                      class="btn btn-outline-secondary mb-32 bookingLink">Localização</a>
+                    </div>
                   </div>
-                  <div class="col-md-5 second-column">
-                    <h2 class ="mb-32 mt-32">Recomendações</h2>
-                    <ng-container *ngFor="let recomendation of restaurant.Recomendations; let i = index">
-                      <div class="recomentation-container">
-                        <img src = "{{recomendation.IconPath}}"/>
-                        <p>{{recomendation.Text}}</p>
-                      </div>
-                    </ng-container>
-                    
-                    <a *ngIf="restaurant.Link != null" href="{{restaurant.Link | translate}}" target="_blank" left="0"
-                    class="btn btn-outline-secondary mb-32 bookingLink">Localização</a>
-                    
+                  
+                 <div class="row" *ngIf="restaurant.MainImage != null">
+                  <div class="col-md-12 main-image" style="background-image: url({{restaurant.MainImage}})" >
                   </div>
+                </div>
+                  
+
               
                 </div>
-              
               </div>
             </ng-container>
           </div>

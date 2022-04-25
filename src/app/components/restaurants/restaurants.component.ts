@@ -5,18 +5,10 @@ import {
 } from '@angular/core';
 import { Store } from '@ngrx/store';
 import { TranslateService } from '@ngx-translate/core';
-import { Restaurant } from 'src/app/models/restaurant';
-import SwiperCore, {
-  Keyboard,
-  Navigation,
-  Pagination,
-  Swiper,
-} from 'swiper/core';
+import { Reference } from 'src/app/models/reference';
 import { FirebaseProvider } from '../../services/firebase-logger.service';
 import { BaseComponent } from '../../shared/base.component';
 import { AppState } from '../../state/app-state';
-
-SwiperCore.use([Navigation, Pagination, Keyboard]);
 
 @Component({
   selector: 'app-places',
@@ -25,8 +17,8 @@ SwiperCore.use([Navigation, Pagination, Keyboard]);
 })
 export class RestaurantsComponent extends BaseComponent {
 
-  restaurants: Array<Restaurant> = [];
-  currentRestaurant: Restaurant;
+  restaurants: Array<Reference> = [];
+  currentRestaurant: Reference;
 
   @ViewChild('openModal') openModal: ElementRef;
  
@@ -43,7 +35,7 @@ export class RestaurantsComponent extends BaseComponent {
   }
 
   getRestaurants() {
-    this.translate.get('Restaurants').subscribe((res: Array<Restaurant>) => {
+    this.translate.get('Restaurants').subscribe((res: Array<Reference>) => {
       this.restaurants = res;
     });
   }
@@ -52,7 +44,7 @@ export class RestaurantsComponent extends BaseComponent {
 
       this.currentRestaurant = this.restaurants[index];
       setTimeout(() => {
-        var swiper = this.createSwiperXXL(index);
+        var swiper = this.createSwiper(index);
 
         swiper.slideTo?.(index);
 
@@ -62,27 +54,4 @@ export class RestaurantsComponent extends BaseComponent {
       this.openModal.nativeElement.click();
     
   }
-
-  createSwiperXXL(index: number): Swiper {
-    return new Swiper('.mySwiper-xxl', {
-      slidesPerView: 1,
-      spaceBetween: 10,
-      slidesPerGroup: 1,
-      keyboard: {
-        enabled: true,
-        onlyInViewport: false,
-      },
-      pagination: {
-        el: '.swiper-pagination',
-        clickable: true,
-        dynamicBullets: true,
-      },
-      navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-      },
-      initialSlide: index,
-    });
-  }
-
 }

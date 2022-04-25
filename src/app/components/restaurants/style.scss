@@ -103,21 +103,24 @@ h3 {
     background-color: white !important;
     align-items: baseline ;
     font-size: 18px;
-    height: 360px;
+    height: 700px;
     width: 80%;
     cursor: pointer;
     background-color: $green-light;
+    overflow-y: scroll;
     
     .row{
       width: 90%;
       height: 300px;
-      
+      display: -webkit-inline-box;
 
-      @media  (max-width: 767px) {
-       height: 500px;
-      
+      .main-image {
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-top: 32px !important;
+        height: 700px;
       }
-
+    
       .first-column{
         padding: 16px;
         padding: 8px;
@@ -162,6 +165,8 @@ h3 {
         }
       }
     }
+      
+  
   }
 }
 
@@ -180,14 +185,16 @@ h3 {
 
 .modal-dialog {
   max-width: 1200px;
-  max-height: 800px;
-  
+
   .modal-content {
 
     @media (max-width: 1366px) {
-      height: 816px;
-      width: 90%;
+      width: 95%;
       margin: 0 auto;
+    }
+
+    @media (max-width: 767px) {
+      height: 800px;
     }
 
     border-radius: 0;
@@ -206,12 +213,8 @@ h3 {
       padding: 0;
       text-align: center;
       justify-content: center;
-     
-
-      @media (max-width: 768px) {
-        height: 540px;
         
-      }
+      
     }
   }
 }

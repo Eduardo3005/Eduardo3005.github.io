@@ -335,7 +335,8 @@
           "Text": "Boa qualidade/preço"
         }
       ],
-      "Link" : "https://goo.gl/maps/BmriywaZwXvxdm9MA"
+      "Link" : "https://goo.gl/maps/BmriywaZwXvxdm9MA",
+      "MainImage": "assets/images/food.jpeg"
     },
     {
       "Name" : "Laranjinha",
@@ -348,10 +349,15 @@
       ],
       "Recomendations": [
         {
-          "Icon": "xpto",
-          "Text": "bla bla bla"
+          "IconPath": "assets/images/svg/calendar-check-line.svg",
+          "Text": "Reserve com antecência"
+        },
+        {
+          "IconPath": "assets/images/svg/euro.svg",
+          "Text": "Boa qualidade/preço"
         }
-      ]
+      ],
+      "Link" : "https://goo.gl/maps/BmriywaZwXvxdm9MA"
     },
     {
       "Name" : "Café Mónica",
@@ -364,10 +370,15 @@
       ],
       "Recomendations": [
         {
-          "Icon": "xpto",
-          "Text": "bla bla bla"
+          "IconPath": "assets/images/svg/calendar-check-line.svg",
+          "Text": "Reserve com antecência"
+        },
+        {
+          "IconPath": "assets/images/svg/euro.svg",
+          "Text": "Boa qualidade/preço"
         }
-      ]
+      ],
+      "Link" : "https://goo.gl/maps/BmriywaZwXvxdm9MA"
     },
     {
       "Name" : "Café O Estoura",
@@ -380,10 +391,15 @@
       ],
       "Recomendations": [
         {
-          "Icon": "xpto",
-          "Text": "bla bla bla"
+          "IconPath": "assets/images/svg/calendar-check-line.svg",
+          "Text": "Reserve com antecência"
+        },
+        {
+          "IconPath": "assets/images/svg/euro.svg",
+          "Text": "Boa qualidade/preço"
         }
-      ]
+      ],
+      "Link" : "https://goo.gl/maps/BmriywaZwXvxdm9MA"
     },
     {
       "Name" : "Sabores da vila",
@@ -396,10 +412,15 @@
       ],
       "Recomendations": [
         {
-          "Icon": "xpto",
-          "Text": "bla bla bla"
+          "IconPath": "assets/images/svg/calendar-check-line.svg",
+          "Text": "Reserve com antecência"
+        },
+        {
+          "IconPath": "assets/images/svg/euro.svg",
+          "Text": "Boa qualidade/preço"
         }
-      ]
+      ],
+      "Link" : "https://goo.gl/maps/BmriywaZwXvxdm9MA"
     }
   ]
 }

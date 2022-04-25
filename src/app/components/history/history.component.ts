@@ -90,7 +90,7 @@ export class HistoryComponent extends BaseComponent {
       this.currentModalImage = this.images[index];
 
       setTimeout(() => {
-        var swiper = this.createSwiperXXL(index);
+        var swiper = this.createSwiper(index);
 
         swiper.slideTo?.(index);
 
@@ -106,7 +106,7 @@ export class HistoryComponent extends BaseComponent {
       this.currentModalImage = this.historyImages[index].Path;
 
       setTimeout(() => {
-        var swiper = this.createSwiperXXL(index);
+        var swiper = this.createSwiper(index);
         swiper.slideTo?.(index);
 
         return swiper;
@@ -114,28 +114,6 @@ export class HistoryComponent extends BaseComponent {
 
       this.openHistoryModal.nativeElement.click();
     }
-  }
-
-  createSwiperXXL(index: number): Swiper {
-    return new Swiper('.mySwiper-xxl', {
-      slidesPerView: 1,
-      spaceBetween: 10,
-      slidesPerGroup: 1,
-      keyboard: {
-        enabled: true,
-        onlyInViewport: false,
-      },
-      pagination: {
-        el: '.swiper-pagination',
-        clickable: true,
-        dynamicBullets: true,
-      },
-      navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-      },
-      initialSlide: index,
-    });
   }
 
   getFarmImages() {

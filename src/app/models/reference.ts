@@ -1,6 +1,6 @@
 import { Image } from "./image";
 
-export class Restaurant {
+export class Reference {
     Name: string;
     Description: string;
     Images: Array<Image>;

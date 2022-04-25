@@ -1,17 +1,15 @@
 @import "../../../assets/style/mixins.scss";
 
 
-h3{
+h3 {
     margin-left: 0 !important;
 }
 
-
-
 .masonry {
   /* Masonry container */
-  -webkit-column-count: 4;
-  -moz-column-count: 4;
-  column-count: 4;
+  -webkit-column-count: 5;
+  -moz-column-count: 5;
+  column-count: 5;
   -webkit-column-gap: 1em;
   -moz-column-gap: 1em;
   column-gap: 1em;
@@ -24,6 +22,7 @@ h3{
   width: 60%;
   justify-content: center;
   margin: 0 auto;
+  
 
   @media only screen and (max-width: 320px) {
     -moz-column-count: 1;
@@ -44,12 +43,7 @@ h3{
     column-count: 3;
     width: 90%;
   }
-  @media only screen and (min-width: 1201px) {
-    -moz-column-count: 5;
-    -webkit-column-count: 5;
-    column-count: 5;
-    width: 90%;
-  }
+ 
 }
 .item-masonry {
  
@@ -62,6 +56,7 @@ h3{
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-shadow: 2px 2px 4px 2px #ccc;
+  cursor: pointer;
 
   @media (max-width: 1650px) {
     display: inline-grid;
@@ -72,9 +67,6 @@ h3{
     width: 200px;
     justify-content: center;
     margin-bottom: 16px !important;
-
-   
-
   }
 
   @media (max-width: 1024px) {
@@ -97,3 +89,131 @@ h3{
   max-width: 100%;
   user-select: none;
 }
+
+.swiper-container {
+  margin-top: 48px;
+  display: grid;
+  height: 90%;
+}
+
+.swiper-container-xxl {
+  margin-top: 32px;
+
+  .swiper-slide {
+    background-color: white !important;
+    align-items: baseline ;
+    font-size: 18px;
+    height: 360px;
+    width: 80%;
+    cursor: pointer;
+    background-color: $green-light;
+    
+    .row{
+      width: 90%;
+      height: 300px;
+      
+
+      @media  (max-width: 767px) {
+       height: 500px;
+      
+      }
+
+      .first-column{
+        padding: 16px;
+        padding: 8px;
+        display: grid;
+        align-items: center;
+      }
+
+      .second-column{
+        
+        padding: 16px;
+        background-color: $green-light;
+        
+
+        h2 {
+          color: white;
+
+          @media (max-width: 768px) {
+            font-size: medium;
+            
+          }
+        }
+
+        .recomentation-container {
+          display: flex;
+          align-items: center;
+          flex-direction: row;
+
+          img{
+            padding: 16px;
+          }
+
+          p{
+            color: white;
+            margin-bottom: 0;
+          }  
+        }
+
+        .btn-outline-secondary {
+          margin-top: 16px;
+          border: 1px solid $white;
+          color: white;
+        }
+      }
+    }
+  }
+}
+
+::ng-deep .swiper-pagination-bullet-active {
+  background: $green-dark;
+}
+
+.swiper-button-next {
+  color: $green-dark;
+  font-size: 12px;
+}
+
+.swiper-button-prev {
+  color: $green-dark;
+}
+
+.modal-dialog {
+  max-width: 1200px;
+  max-height: 800px;
+  
+  .modal-content {
+
+    @media (max-width: 1366px) {
+      height: 816px;
+      width: 90%;
+      margin: 0 auto;
+    }
+
+    border-radius: 0;
+
+    .modal-header {
+      border-bottom: none;
+      height: 0;
+
+      .close {
+        font-size: 32px;
+        font-weight: 0;
+      }
+    }
+
+    .modal-body {
+      padding: 0;
+      text-align: center;
+      justify-content: center;
+     
+
+      @media (max-width: 768px) {
+        height: 540px;
+        
+      }
+    }
+  }
+}
+
+

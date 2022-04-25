@@ -9,12 +9,63 @@
   <div class="card-body">
     <h3 class="card-title mb-32">Na aldeia e arredores</h3>
     <div class="masonry">
-      <ng-container *ngFor="let restaurant of restaurants.Valverde; let i = index">
+      <ng-container *ngFor="let restaurant of restaurants; let i = index">
         <div class="item-masonry">
-          <img src="{{restaurant.Images[0].Path}}" alt="{{restaurant.Images[0].Description}}" (click)="openHistoryImage(i)">
+          <img src="{{restaurant.Images[0].Path}}" alt="{{restaurant.Images[0].Description}}" (click)="openImage(i)">
           <p class="text"><b>{{restaurant.Name}}</b></p>
         </div>
       </ng-container>
+    </div>
+  </div>
+</div>
+
+<button id="openModal" #openModal [hidden]="true" data-toggle="modal" data-target="#openingModal"></button>
+<div class="modal modal-opening" id="openingModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+  aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header" data-dismiss="modal" aria-label="Close">
+        <button type="button" class="close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+
+        <div class="swiper-container swiper-container-xxl mySwiper-xxl">
+          <div class="swiper-wrapper">
+            <ng-container *ngFor="let restaurant of restaurants; let i = index">
+              <div class="swiper-slide">
+                <div class="row">
+                  <div class="col-md-7 first-column">
+                    <h2>{{restaurant.Name}}</h2>
+                    <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit</p>
+                  </div>
+                  <div class="col-md-5 second-column">
+                    <h2 class ="mb-32 mt-32">Recomendações</h2>
+                    <ng-container *ngFor="let recomendation of restaurant.Recomendations; let i = index">
+                      <div class="recomentation-container">
+                        <img src = "{{recomendation.IconPath}}"/>
+                        <p>{{recomendation.Text}}</p>
+                      </div>
+                    </ng-container>
+                    
+                    <a *ngIf="restaurant.Link != null" href="{{restaurant.Link | translate}}" target="_blank" left="0"
+                    class="btn btn-outline-secondary mb-32 bookingLink">Localização</a>
+                    
+                  </div>
+              
+                </div>
+              
+              </div>
+            </ng-container>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+      
+
+      </div>
     </div>
   </div>
 </div>

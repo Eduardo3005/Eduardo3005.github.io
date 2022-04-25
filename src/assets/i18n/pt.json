@@ -315,91 +315,91 @@
       "Name": "Acesso Wi-Fi gratuito em toda a unidade"
     }
   ],
-  "Restaurants": {
-    "Valverde": [
-      {
-        "Name" : "O Ricardo",
-        "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit",
-        "Images": [
-          {
-            "Path": "assets/images/food.jpeg",
-            "Description": ""
-          }
-        ],
-        "Recomendations": [
-          {
-            "Icon": "xpto",
-            "Text": "bla bla bla"
-          }
-        ]
-      },
-      {
-        "Name" : "Laranjinha",
-        "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit",
-        "Images": [
-          {
-            "Path": "assets/images/food.jpeg",
-            "Description": ""
-          }
-        ],
-        "Recomendations": [
-          {
-            "Icon": "xpto",
-            "Text": "bla bla bla"
-          }
-        ]
-      },
-      {
-        "Name" : "Café Mónica",
-        "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit",
-        "Images": [
-          {
-            "Path": "assets/images/food.jpeg",
-            "Description": ""
-          }
-        ],
-        "Recomendations": [
-          {
-            "Icon": "xpto",
-            "Text": "bla bla bla"
-          }
-        ]
-      },
-      {
-        "Name" : "Café O Estoura",
-        "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit",
-        "Images": [
-          {
-            "Path": "assets/images/food.jpeg",
-            "Description": ""
-          }
-        ],
-        "Recomendations": [
-          {
-            "Icon": "xpto",
-            "Text": "bla bla bla"
-          }
-        ]
-      },
-      {
-        "Name" : "Sabores da vila",
-        "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit",
-        "Images": [
-          {
-            "Path": "assets/images/food.jpeg",
-            "Description": ""
-          }
-        ],
-        "Recomendations": [
-          {
-            "Icon": "xpto",
-            "Text": "bla bla bla"
-          }
-        ]
-      }
-    ],
-    "Evora": [
-
-    ]
-  }
+  "Restaurants": [
+    {
+      "Name" : "O Ricardo",
+      "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit",
+      "Images": [
+        {
+          "Path": "assets/images/food.jpeg",
+          "Description": ""
+        }
+      ],
+      "Recomendations": [
+        {
+          "IconPath": "assets/images/svg/calendar-check-line.svg",
+          "Text": "Reserve com antecência"
+        },
+        {
+          "IconPath": "assets/images/svg/euro.svg",
+          "Text": "Boa qualidade/preço"
+        }
+      ],
+      "Link" : "https://goo.gl/maps/BmriywaZwXvxdm9MA"
+    },
+    {
+      "Name" : "Laranjinha",
+      "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit",
+      "Images": [
+        {
+          "Path": "assets/images/food.jpeg",
+          "Description": ""
+        }
+      ],
+      "Recomendations": [
+        {
+          "Icon": "xpto",
+          "Text": "bla bla bla"
+        }
+      ]
+    },
+    {
+      "Name" : "Café Mónica",
+      "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit",
+      "Images": [
+        {
+          "Path": "assets/images/food.jpeg",
+          "Description": ""
+        }
+      ],
+      "Recomendations": [
+        {
+          "Icon": "xpto",
+          "Text": "bla bla bla"
+        }
+      ]
+    },
+    {
+      "Name" : "Café O Estoura",
+      "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit",
+      "Images": [
+        {
+          "Path": "assets/images/food.jpeg",
+          "Description": ""
+        }
+      ],
+      "Recomendations": [
+        {
+          "Icon": "xpto",
+          "Text": "bla bla bla"
+        }
+      ]
+    },
+    {
+      "Name" : "Sabores da vila",
+      "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit",
+      "Images": [
+        {
+          "Path": "assets/images/food.jpeg",
+          "Description": ""
+        }
+      ],
+      "Recomendations": [
+        {
+          "Icon": "xpto",
+          "Text": "bla bla bla"
+        }
+      ]
+    }
+  ]
 }

@@ -198,6 +198,13 @@ rect {
   }
 }
 
+.mt-32 {
+  margin-top: 32px;
+  @media (max-width: 768px) {
+    margin-top: 16px;
+  }
+}
+
 .mt-96 {
   margin-top: 96px;
   @media (max-width: 768px) {

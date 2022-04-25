@@ -5,9 +5,10 @@ export class Restaurant {
     Description: string;
     Images: Array<Image>;
     Recomendations: Array<Recomendation>
+    Link: string;
   }
   
   export class Recomendation {
-    Icon: string;
+    IconPath: string;
     Text: string;
   }

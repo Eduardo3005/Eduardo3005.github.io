@@ -25,7 +25,8 @@ SwiperCore.use([Navigation, Pagination, Keyboard]);
 })
 export class RestaurantsComponent extends BaseComponent {
 
-  restaurants: Array<Restaurant> = []
+  restaurants: Array<Restaurant> = [];
+  currentRestaurant: Restaurant;
 
   @ViewChild('openModal') openModal: ElementRef;
  
@@ -46,4 +47,42 @@ export class RestaurantsComponent extends BaseComponent {
       this.restaurants = res;
     });
   }
+
+  openImage(index: number): void {
+
+      this.currentRestaurant = this.restaurants[index];
+      setTimeout(() => {
+        var swiper = this.createSwiperXXL(index);
+
+        swiper.slideTo?.(index);
+
+        return swiper;
+      }, 1);
+
+      this.openModal.nativeElement.click();
+    
+  }
+
+  createSwiperXXL(index: number): Swiper {
+    return new Swiper('.mySwiper-xxl', {
+      slidesPerView: 1,
+      spaceBetween: 10,
+      slidesPerGroup: 1,
+      keyboard: {
+        enabled: true,
+        onlyInViewport: false,
+      },
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+        dynamicBullets: true,
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+      initialSlide: index,
+    });
+  }
+
 }

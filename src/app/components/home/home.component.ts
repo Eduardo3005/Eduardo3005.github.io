@@ -9,7 +9,6 @@ import { Store } from '@ngrx/store';
 import { TranslateService } from '@ngx-translate/core';
 import { AppState } from '../../state/app-state';
 import { House } from '../../models/house';
-import { Place } from '../../models/place';
 import { FirebaseProvider } from '../../services/firebase-logger.service';
 import SwiperCore, {
   Keyboard,
@@ -29,7 +28,6 @@ SwiperCore.use([Navigation, Pagination, Keyboard]);
 export class HomeComponent extends BaseComponent implements OnInit, OnDestroy {
   private readonly MODAL_OPENED_ONCE_KEY = 'pl-o-o';
   houses: Array<House> = [];
-  places: Array<Place> = [];
   slideShow: Array<String> = [];
 
   @ViewChild('openModal') openModal: ElementRef;
@@ -66,11 +64,9 @@ export class HomeComponent extends BaseComponent implements OnInit, OnDestroy {
 
   protected init(): void {
     this.houses = [];
-    this.places = [];
     this.slideShow = [];
     this.getSlideShow();
     this.getHouses();
-    this.getPlaces();
 
     setTimeout(() => {
       this.initSwiper();
@@ -99,10 +95,6 @@ export class HomeComponent extends BaseComponent implements OnInit, OnDestroy {
         this.houses.push(house);
       });
     });
-  }
-
-  getPlaces() {
-    this.places = this.imagesPathFiles.Home.Places.List;
   }
 
   initSwiper(): Swiper {

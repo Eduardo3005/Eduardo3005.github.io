@@ -1,426 +1,439 @@
 {
-  "Home": {
-    "Title": "Início",
-    "Language": "PT",
-    "EnglishLanguage": "Inglês",
-    "HousesHeader": {
-      "Title": "Alugar no páteo lima"
-    },
-    "Resume": {
-      "Title": "Um lugar com história",
-      "P1": "Com localização privilegiada à entrada principal de Valverde e à ribeira com o mesmo nome, o Páteo Lima goza da proximidade da cidade património mundial de Évora, de importantes conjuntos megalíticos, ruínas romanas e medievais e até de uma quinta episcopal quinhentista, rodeada pela magnífica paisagem alentejana do sopé da serra de Monfurado.",
-      "P2": "Constituído por um conjunto de três casas de tipologia T1, T2 e T3, que foram buscar os nomes à forma como eram habitualmente designadas pela família, esta unidade de Turismo Rural resulta da reconversão de um antigo ponto comercial que, na sua época áurea, contava principalmente com mercearia, taberna, padaria e talho, alimentados pela produção agropecuária da própria quinta."
-    },
-    "Places": {
-      "Title": "O que fazer",
-      "List": [
-        {
-          "ImagePath": "assets/images/footer/quinta.jpg",
-          "Title": "Atividades na quinta",
-          "Tooltip": "Os hóspedes podem observar e participar nas tarefas habituais de alimentação dos animais, mediante orientações, bem como em todas as atividades que vão decorrendo na horta, onde podem apanhar frutos e vegetais para consumir, mediante disponibilidade. Também podem tratar das refeições usando o grelhador e confraternizar na zona de piqueniques, ou então relaxar e apanhar sol nos baloiços e nas espreguiçadeiras, ler um livro, organizar jogos ou refrescar na piscina."
-        },
-        {
-          "ImagePath": "assets/images/footer/ruinas.jpeg",
-          "Title": "Atividades de exterior",
-          "Tooltip": "As redondezas são propícias a caminhadas. Um visita demorada a Évora, situada a 10 kms, também será imperdível. Quem quiser viajar um pouco mais, poderá ainda deixar-se surpreender por muitas e variadas paragens que se podem fazer nas proximidades, podendo mesmo ir dar um mergulho nas praias fluviais da Amieira ou do Alqueva (a cerca de 70 kms)."
-        },
-        {
-          "ImagePath": "assets/images/footer/alentejo.jpg",
-          "Title": "Atividades de bem estar psicológico",
-          "Tooltip": "Dada a formação de base da promotora em Psicologia (cédula profissional nº 3904), os hóspedes podem, mediante custo adicional, usufruir de sessões de relaxamento, de apoio psicológico ou de aconselhamento, enquadrados em ambiente natural (disponíveis apenas em língua portuguesa)."
-        },
-        {
-          "ImagePath": "assets/images/footer/migas.jpg",
-          "Title": "Workshops de culinária",
-          "Tooltip": "Feita de saberes e sabores locais, a gastronomia alentejana tira proveito de tudo o que a terra lhe oferece. Nestes workhops, mediante marcação e custo adicional, os hóspedes podem fazer uma incursão sobre a arte de transformar alguns dos produtos mais típicos da região para darem às suas refeições “aquele gostinho” tão especial (disponível apenas em língua portuguesa)."
-        }
-      ]
-    },
-    "OpeningModal": {
-      "ImagePath": "",
-      "Title": "Abre brevemente",
-      "Tooltip": "Enquanto isso aproveite para conhecer o espaço, as atividades disponíveis e pontos de interesse dos arredores."
-    },
-    "CofinaningBarPath": "assets/images/svg/cofinaningBar.svg",
-    "VideoTitle": "Veja o nosso vídeo"
+  "Home":{
+     "Title":"Início",
+     "Language":"PT",
+     "EnglishLanguage":"Inglês",
+     "HousesHeader":{
+        "Title":"Alugar no páteo lima"
+     },
+     "Resume":{
+        "Title":"Um lugar com história",
+        "P1":"Com localização privilegiada à entrada principal de Valverde e à ribeira com o mesmo nome, o Páteo Lima goza da proximidade da cidade património mundial de Évora, de importantes conjuntos megalíticos, ruínas romanas e medievais e até de uma quinta episcopal quinhentista, rodeada pela magnífica paisagem alentejana do sopé da serra de Monfurado.",
+        "P2":"Constituído por um conjunto de três casas de tipologia T1, T2 e T3, que foram buscar os nomes à forma como eram habitualmente designadas pela família, esta unidade de Turismo Rural resulta da reconversão de um antigo ponto comercial que, na sua época áurea, contava principalmente com mercearia, taberna, padaria e talho, alimentados pela produção agropecuária da própria quinta."
+     },
+     "Places":{
+        "Title":"O que fazer",
+        "List":[
+           {
+              "ImagePath":"assets/images/footer/quinta.jpg",
+              "Title":"Atividades na quinta",
+              "Tooltip":"Os hóspedes podem observar e participar nas tarefas habituais de alimentação dos animais, mediante orientações, bem como em todas as atividades que vão decorrendo na horta, onde podem apanhar frutos e vegetais para consumir, mediante disponibilidade. Também podem tratar das refeições usando o grelhador e confraternizar na zona de piqueniques, ou então relaxar e apanhar sol nos baloiços e nas espreguiçadeiras, ler um livro, organizar jogos ou refrescar na piscina."
+           },
+           {
+              "ImagePath":"assets/images/footer/ruinas.jpeg",
+              "Title":"Atividades de exterior",
+              "Tooltip":"As redondezas são propícias a caminhadas. Um visita demorada a Évora, situada a 10 kms, também será imperdível. Quem quiser viajar um pouco mais, poderá ainda deixar-se surpreender por muitas e variadas paragens que se podem fazer nas proximidades, podendo mesmo ir dar um mergulho nas praias fluviais da Amieira ou do Alqueva (a cerca de 70 kms)."
+           },
+           {
+              "ImagePath":"assets/images/footer/alentejo.jpg",
+              "Title":"Atividades de bem estar psicológico",
+              "Tooltip":"Dada a formação de base da promotora em Psicologia (cédula profissional nº 3904), os hóspedes podem, mediante custo adicional, usufruir de sessões de relaxamento, de apoio psicológico ou de aconselhamento, enquadrados em ambiente natural (disponíveis apenas em língua portuguesa)."
+           },
+           {
+              "ImagePath":"assets/images/footer/migas.jpg",
+              "Title":"Workshops de culinária",
+              "Tooltip":"Feita de saberes e sabores locais, a gastronomia alentejana tira proveito de tudo o que a terra lhe oferece. Nestes workhops, mediante marcação e custo adicional, os hóspedes podem fazer uma incursão sobre a arte de transformar alguns dos produtos mais típicos da região para darem às suas refeições “aquele gostinho” tão especial (disponível apenas em língua portuguesa)."
+           }
+        ]
+     },
+     "OpeningModal":{
+        "ImagePath":"",
+        "Title":"Abre brevemente",
+        "Tooltip":"Enquanto isso aproveite para conhecer o espaço, as atividades disponíveis e pontos de interesse dos arredores."
+     },
+     "CofinaningBarPath":"assets/images/svg/cofinaningBar.svg",
+     "VideoTitle":"Veja o nosso vídeo"
   },
-  "History": {
-    "Title": "Quem somos",
-    "SecondTitle": "A promotora",
-    "ThirdTitle": "O espaço",
-    "FourthTitle": "A recepção",
-    "P1": "A aquisição da propriedade pela família remonta a 1874, por iniciativa do tetravô da promotora – Custódio Joaquim – que começou a dar forma a um negócio que se foi expandindo ao longo de sucessivas gerações nesta localidade, outrora designada por Valle Verde. Porém o apelido Lima só viria a impor-se já na segunda década do século XX, quando o marido de sua neta Iria do Carmo assumiu o comando da família, que antes era conhecida por Ferreira. O avô da promotora – Custódio Ferreira Lima – foi o primeiro elemento agregador das duas famílias.",
-    "P2": "Para além do espírito empreendedor, tanto os Ferreira como os Lima comungavam de um elevado sentido de organização e de zelo pelos documentos, o que tem permitido aos seus mais recentes descendentes ir reconstruindo não só a história familiar, mas também da própria povoação e dos modos de vida que foram marcando o seu último século e meio. ",
-    "P3": "Este não era, pois, um mero lugar de “venda”; ele era também um lugar de encontro de gentes, onde se tecia a vida da aldeia e se interagia com o mundo, nele se imprimindo hábitos e maneiras de viver. A passagem de viajantes sempre foi frequente, delas havendo variadas notas e fotos enviadas de paragens longínquas por quem fez questão de dar conta da experiência por aqui vivida. Contudo, o afastamento dos mais novos, à procura de uma vida melhor, e a evolução do mercado levou-o, pouco a pouco, ao declínio.",
-    "P4": "O nascimento do Páteo Lima vem revitalizar o espaço e atribuir-lhe uma nova função, para que possa voltar a ser vivido, proporcionando novos momentos de partilha entre residentes e forasteiros e a possibilidade de reescrever a história que, um dia, será contada a outros netos. Tem como marca diferenciadora a acessibilidade a pessoas com mobilidade condicionada.",
-    "P5": "Benedita Lima nasceu em Évora, em 1963, tendo vivido na quinta até aos 18 anos. Nessa altura rumou a Lisboa, para se tornar Psicóloga, por lá tendo ficado, mas o apelo da “terra” trouxe-a de volta às origens. Não veio sozinha; trouxe consigo uma nova geração dos Lima, disposta a dar continuidade ao sonho dos seus antepassados.",
-    "P6": "Tendo dedicado a maior parte do tempo da sua vida profissional à promoção da inclusão de pessoas em fragilidade social, em especial, de pessoas com deficiência, e defendendo o modelo da vida independente, que preconiza o direito à participação social ativa de todos os cidadãos, cada um à sua medida, esforça-se por contribuir para o efeito em todos os projetos em que se envolve, ideia que também presidiu à criação desta unidade de turismo rural, que se pretende inclusiva. ",
-    "P7": "Por altura da morte do avô Custódio, quase simultânea à da bisavó Iria, para além da parte comercial, a quinta contava com uma zona de produção agropecuária e com várias habitações por onde se distribuíam a família e alguns rendeiros. Contudo, após sucessivas partilhas, o espaço do Páteo Lima conta agora apenas com parte do quintal original e com 4 casas totalmente remodeladas: casa da venda, casa dos vidros, casa da cocheira e casa da padaria, sendo nesta última que reside a proprietária e onde funcionam os serviços de apoio à unidade, incluindo a receção e o “quarto do forno”, que também pode ser cedido para alojamento. ",
-    "P8": "Apesar da irregularidade natural do terreno, o espaço que dá acesso às casas foi transformado num pátio comum acessível a pessoas com mobilidade condicionada, com possibilidade de acesso a veículos automóveis, que podem ficar estacionados nas traseiras da habitação principal. A configuração do pátio favorece o convívio entre hóspedes, proprietários e população local, mas os visitantes também podem usufruir do resto da quinta, onde podem contar com um grelhador e zona para piqueniques, piscina tubular, terraço para banhos de sol, balouços e atividades na horta.",
-    "P9": "Situa-se nas traseiras da Casa da Padaria. Como o nome indica, era aqui que se produzia o pão que depois era vendido na loja ou distribuído pelos montes dos arredores, na altura habitados por grandes ranchos de trabalhadores que se deslocavam do Norte para proverem o seu sustento na apanha da azeitona, do tomate ou do arroz. Contigua à habitação da antiga matriarca da família, foi ampliada e transformada na casa dos atuais proprietários.",
-    "P10": "A sala de receção fica na antiga “casa do forno”, local por onde passavam as fornadas de pão ainda escaldante sempre a exalar um cheirinho de criar “água na boca”.  Para além do acolhimento, neste espaço os hóspedes podem demorar-se a apreciar alguns elementos que fazem parte da história do lugar."
+  "History":{
+     "Title":"Quem somos",
+     "SecondTitle":"A promotora",
+     "ThirdTitle":"O espaço",
+     "FourthTitle":"A recepção",
+     "P1":"A aquisição da propriedade pela família remonta a 1874, por iniciativa do tetravô da promotora – Custódio Joaquim – que começou a dar forma a um negócio que se foi expandindo ao longo de sucessivas gerações nesta localidade, outrora designada por Valle Verde. Porém o apelido Lima só viria a impor-se já na segunda década do século XX, quando o marido de sua neta Iria do Carmo assumiu o comando da família, que antes era conhecida por Ferreira. O avô da promotora – Custódio Ferreira Lima – foi o primeiro elemento agregador das duas famílias.",
+     "P2":"Para além do espírito empreendedor, tanto os Ferreira como os Lima comungavam de um elevado sentido de organização e de zelo pelos documentos, o que tem permitido aos seus mais recentes descendentes ir reconstruindo não só a história familiar, mas também da própria povoação e dos modos de vida que foram marcando o seu último século e meio. ",
+     "P3":"Este não era, pois, um mero lugar de “venda”; ele era também um lugar de encontro de gentes, onde se tecia a vida da aldeia e se interagia com o mundo, nele se imprimindo hábitos e maneiras de viver. A passagem de viajantes sempre foi frequente, delas havendo variadas notas e fotos enviadas de paragens longínquas por quem fez questão de dar conta da experiência por aqui vivida. Contudo, o afastamento dos mais novos, à procura de uma vida melhor, e a evolução do mercado levou-o, pouco a pouco, ao declínio.",
+     "P4":"O nascimento do Páteo Lima vem revitalizar o espaço e atribuir-lhe uma nova função, para que possa voltar a ser vivido, proporcionando novos momentos de partilha entre residentes e forasteiros e a possibilidade de reescrever a história que, um dia, será contada a outros netos. Tem como marca diferenciadora a acessibilidade a pessoas com mobilidade condicionada.",
+     "P5":"Benedita Lima nasceu em Évora, em 1963, tendo vivido na quinta até aos 18 anos. Nessa altura rumou a Lisboa, para se tornar Psicóloga, por lá tendo ficado, mas o apelo da “terra” trouxe-a de volta às origens. Não veio sozinha; trouxe consigo uma nova geração dos Lima, disposta a dar continuidade ao sonho dos seus antepassados.",
+     "P6":"Tendo dedicado a maior parte do tempo da sua vida profissional à promoção da inclusão de pessoas em fragilidade social, em especial, de pessoas com deficiência, e defendendo o modelo da vida independente, que preconiza o direito à participação social ativa de todos os cidadãos, cada um à sua medida, esforça-se por contribuir para o efeito em todos os projetos em que se envolve, ideia que também presidiu à criação desta unidade de turismo rural, que se pretende inclusiva. ",
+     "P7":"Por altura da morte do avô Custódio, quase simultânea à da bisavó Iria, para além da parte comercial, a quinta contava com uma zona de produção agropecuária e com várias habitações por onde se distribuíam a família e alguns rendeiros. Contudo, após sucessivas partilhas, o espaço do Páteo Lima conta agora apenas com parte do quintal original e com 4 casas totalmente remodeladas: casa da venda, casa dos vidros, casa da cocheira e casa da padaria, sendo nesta última que reside a proprietária e onde funcionam os serviços de apoio à unidade, incluindo a receção e o “quarto do forno”, que também pode ser cedido para alojamento. ",
+     "P8":"Apesar da irregularidade natural do terreno, o espaço que dá acesso às casas foi transformado num pátio comum acessível a pessoas com mobilidade condicionada, com possibilidade de acesso a veículos automóveis, que podem ficar estacionados nas traseiras da habitação principal. A configuração do pátio favorece o convívio entre hóspedes, proprietários e população local, mas os visitantes também podem usufruir do resto da quinta, onde podem contar com um grelhador e zona para piqueniques, piscina tubular, terraço para banhos de sol, balouços e atividades na horta.",
+     "P9":"Situa-se nas traseiras da Casa da Padaria. Como o nome indica, era aqui que se produzia o pão que depois era vendido na loja ou distribuído pelos montes dos arredores, na altura habitados por grandes ranchos de trabalhadores que se deslocavam do Norte para proverem o seu sustento na apanha da azeitona, do tomate ou do arroz. Contigua à habitação da antiga matriarca da família, foi ampliada e transformada na casa dos atuais proprietários.",
+     "P10":"A sala de receção fica na antiga “casa do forno”, local por onde passavam as fornadas de pão ainda escaldante sempre a exalar um cheirinho de criar “água na boca”.  Para além do acolhimento, neste espaço os hóspedes podem demorar-se a apreciar alguns elementos que fazem parte da história do lugar."
   },
-  "NavBar": {
-    "Title": "Páteo Lima",
-    "History": "Quem somos",
-    "Houses": "Casas",
-    "Places": "O que fazer",
-    "Contacts": "Contactos",
-    "Language": "Idioma"
+  "NavBar":{
+     "Title":"Páteo Lima",
+     "History":"Quem somos",
+     "Houses":"Casas",
+     "Places":"O que fazer",
+     "Contacts":"Contactos",
+     "Language":"Idioma"
   },
-  "Common": {
-    "ReadMore": "Ler mais",
-    "SeeMore": "Ver mais",
-    "SeeMore2": "Contacte-nos",
-    "KnowMoreAboutActivities": "Saiba mais sobre as nossas atividades",
-    "KnowMoreAboutActivities2": "Saiba mais sobre o que ver e fazer",
-    "KnowMoreAboutUs": "Saiba mais sobre nós",
-    "Prices": "Preços",
-    "PersonalizedServices": "Cuidados personalizados",
-    "WelfareActivities": "Actividades de bem estar psicológico",
-    "Accommondations": "Comodidades",
-    "Services": "Serviços",
-    "AdditionalServices": "Com custo adicional",
-    "Outside": "Exterior",
-    "PhotoGallery": "Galeria de fotos"
+  "Common":{
+     "ReadMore":"Ler mais",
+     "SeeMore":"Ver mais",
+     "SeeMore2":"Contacte-nos",
+     "KnowMoreAboutActivities":"Saiba mais sobre as nossas atividades",
+     "KnowMoreAboutActivities2":"Saiba mais sobre o que ver e fazer",
+     "KnowMoreAboutUs":"Saiba mais sobre nós",
+     "Prices":"Preços",
+     "PersonalizedServices":"Cuidados personalizados",
+     "WelfareActivities":"Actividades de bem estar psicológico",
+     "Accommondations":"Comodidades",
+     "Services":"Serviços",
+     "AdditionalServices":"Com custo adicional",
+     "Outside":"Exterior",
+     "PhotoGallery":"Galeria de fotos"
   },
-  "Footer": {
-    "ContactsTitle": "Contactos",
-    "AddressTitle": "Morada",
-    "LogoTitle": "Logotipo",
-    "CofinancingTitle": "Cofinanciamento",
-    "Link": "Ficha técnica do projecto",
-    "Email": "pateolima@gmail.com",
-    "Phone": "+351 938285665",
-    "FixedPhone": "+351 266011449",
-    "PhoneLabel": "Tel. ",
-    "FixedPhoneLabel": "Tlf. ",
-    "TermsAndConditions": "Termos e Condições",
-    "PrivacyPolicies": "Política de privacidade e Cookie Law",
-    "ComplaintBook" : "Livro de reclamações",
-    "ReservationsText": "Para efetuar reservas contacte-nos por e-mail, telefone ou aceda à plataforma de reservas Booking.com"
+  "Footer":{
+     "ContactsTitle":"Contactos",
+     "AddressTitle":"Morada",
+     "LogoTitle":"Logotipo",
+     "CofinancingTitle":"Cofinanciamento",
+     "Link":"Ficha técnica do projecto",
+     "Email":"pateolima@gmail.com",
+     "Phone":"+351 938285665",
+     "FixedPhone":"+351 266011449",
+     "PhoneLabel":"Tel. ",
+     "FixedPhoneLabel":"Tlf. ",
+     "TermsAndConditions":"Termos e Condições",
+     "PrivacyPolicies":"Política de privacidade e Cookie Law",
+     "ComplaintBook":"Livro de reclamações",
+     "ReservationsText":"Para efetuar reservas contacte-nos por e-mail, telefone ou aceda à plataforma de reservas Booking.com"
   },
-  "Contacts": {
-    "Title": "Reservas",
-    "GoogleMapsIconPath": "assets/images/svg/google_maps_icon.svg",
-    "GoogleMapsLink": "https://goo.gl/maps/XpbY5Vo4npLuVnns6",
-    "GoogleMapsButtonText": "Como chegar",
-    "BookingButtonText": "Booking.com",
-    "BookingLink": "https://www.booking.com/hotel/pt/pateo-lima.pt-pt.html",
-    "Address": "Rua General Humberto Delgado,",
-    "SecondAddress": " nº3, Valverde",
-    "PostalCode": "7000-093 Nossa Senhora da Tourega"
+  "Contacts":{
+     "Title":"Reservas",
+     "GoogleMapsIconPath":"assets/images/svg/google_maps_icon.svg",
+     "GoogleMapsLink":"https://goo.gl/maps/XpbY5Vo4npLuVnns6",
+     "GoogleMapsButtonText":"Como chegar",
+     "BookingButtonText":"Booking.com",
+     "BookingLink":"https://www.booking.com/hotel/pt/pateo-lima.pt-pt.html",
+     "Address":"Rua General Humberto Delgado,",
+     "SecondAddress":" nº3, Valverde",
+     "PostalCode":"7000-093 Nossa Senhora da Tourega"
   },
-  "Houses": [
-    {
-      "Tipology": "T1",
-      "Name": "Casa dos vidros",
-      "Description": "Assim chamada porque a porta de entrada era envidraçada. A sua ampla chaminé dava vida a enchidos e torresmos, mas também a amenas cavaqueiras familiares enquanto se esperava a saída do último cliente. Foi transformada num generoso e agradável T1.",
-      "FullDescription": "Assim chamada porque a porta de entrada era envidraçada, permitindo observar tudo o que se passava no Páteo. Era aqui que residiam os proprietários, que tinham acesso direto à venda através de uma porta que a ligava à residência. A sua ampla chaminé, onde o lume era uma presença constante, dava vida a enchidos e torresmos, mas também a amenas cavaqueiras familiares enquanto se esperava a saída do último cliente. Foi transformada num generoso e agradável T1, com uma aconchegante salamandra para as noites mais frias, que admite a lotação máxima de 4 pessoas, distribuídas por 1 quarto duplo e pelo sofá cama da sala. Dispõe de kitchenette equipada com placa, forno, micro-ondas, combinado, máquina de lavar loiça, torradeira, chaleira, máquina de café, ferro de engomar, louça e talheres adequados ao número de ocupantes. No wc, acessível a cadeira de rodas, encontram-se o secador de cabelo e os produtos para o banho. A casa dispõe ainda de ar condicionado em todo o espaço, TV e internet gratuitas. ",
-      "Options": [
-        {
-          "Name": "2 pessoas",
-          "Price": "100€ p/ noite"
-        },
-        {
-          "Name": "4 pessoas",
-          "Price": "165€ p/ noite"
-        }
-      ],
-      "Accommodations": [
-        {
-          "Name": "T1 com 1 quarto duplo"
-        },
-        {
-          "Name": "Lotação máxima: 4 pessoas"
-        },
-        {
-          "Name": "Quarto 1: 1 cama dupla"
-        }
-      ]
-    },
-    {
-      "Tipology": "T2",
-      "Name": "Casa da venda",
-      "Description": "Era aqui que se situava a 'venda', onde se podiam encontrar produtos tão variados como as mercearias e os vinhos, a carne e o peixe, mas também os comprimidos para as dores e o petróleo para os candeeiros que alumiavam as longas e frias noites de inverno. Hoje tornou-se numa confortável habitação de tipologia T2.",
-      "FullDescription": "Sempre deu rosto à propriedade e à própria aldeia, pois está virada de frente para a ponte, sendo a primeira fachada que o olhar alcança quando se atravessa a ribeira; era aqui que se situava a “venda”, onde se podiam encontrar produtos tão variados como as mercearias e os vinhos, o pão e a roupa, mas também os comprimidos para as dores e o petróleo para os candeeiros que alumiavam as longas e frias noites de inverno. Hoje tornou-se numa confortável habitação de tipologia T2, solarenga e luminosa durante as manhãs e fresca nas tardes quentes de verão, pois todas as portas do antigo espaço comercial foram transformadas em generosas janelas de sacada viradas para o nascer do sol. Admite a lotação máxima de 6 pessoas, distribuídas por 2 quartos duplos e um sofá cama na sala. Dispõe de kitchenette equipada com placa, forno, micro-ondas, combinado, máquina de lavar loiça, torradeira, chaleira, máquina de café, ferro de engomar, louça e talheres adequados ao número de ocupantes. No wc, acessível a cadeira de rodas, encontram-se o secador de cabelo e os produtos para o banho. A casa dispõe ainda de ar condicionado em todo o espaço, TV e internet gratuitas.",
-      "Options": [
-        {
-          "Name": "4 pessoas",
-          "Price": "185€ p/ noite"
-        },
-        {
-          "Name": "6 pessoas",
-          "Price": "250€ p/ noite"
-        }
-      ],
-      "Accommodations": [
-        {
-          "Name": "T2 com 2 quartos duplos"
-        },
-        {
-          "Name": "Lotação máxima: 6 pessoas"
-        },
-        {
-          "Name": "Quarto 1: 1 cama dupla"
-        },
-        {
-          "Name": "Quarto 2: 1 cama dupla"
-        }
-      ]
-    },
-    {
-      "Tipology": "T3",
-      "Name": "Casa da cocheira",
-      "Description": "Teve muitas e variadas funções: de queijaria a armazém, de loja a salão de baile, deu vida a trabalho e lazer da povoação, já que era aqui que alguns tinham o seu ganha-pão e muitos passavam os seus tempos livres à volta de um copo de tinto, de uma concertina ou de uma grafonola. Atualmente convertida num acolhedor T3, com um simpático e íntimo pátio interior.",
-      "FullDescription": "Foi buscar o nome à sua designação original, embora se tenha passado a chamar “garagem” depois da chegada de uma “moderna” furgoneta. Mas este espaço teve ainda muitas outras funções: de queijaria a armazém, de loja a salão de baile, deu vida a trabalho e lazer da povoação, já que era aqui que alguns tinham o seu ganha-pão e muitos passavam os seus tempos livres à volta de um copo de tinto, de uma concertina ou de uma grafonola, que animavam as noites quentes de verão. Atualmente convertida num acolhedor T3, com um simpático e íntimo pátio interior, dispõe de lotação máxima para 8 pessoas, distribuídas por 1 quarto de casal, 2 quartos duplos e sofá cama na sala. Dispõe de kitchenette equipada com placa, forno, micro-ondas, combinado, máquina de lavar loiça, torradeira, chaleira, máquina de café, ferro de engomar, louça e talheres adequados ao número de ocupantes. Nos 2 wc´s, acessíveis a cadeira de rodas, encontram-se secadores de cabelo e os produtos para o banho. A casa dispõe ainda de ar condicionado em todo o espaço, TV e internet gratuitas. Animais permitidos no alojamento, mediante inscrição e sujeito a regulamento específico. ",
-      "Options": [
-        {
-          "Name": "6 pessoas",
-          "Price": "270€ p/ noite"
-        },
-        {
-          "Name": "8 pessoas",
-          "Price": "335€ p/ noite"
-        }
-      ],
-      "Accommodations": [
-        {
-          "Name": "T3 com 3 quarto duplos"
-        },
-        {
-          "Name": "Lotação máxima: 8 pessoas"
-        },
-        {
-          "Name": "Quarto 1: 1 cama dupla"
-        },
-        {
-          "Name": "Quarto 2: 1 cama dupla"
-        },
-        {
-          "Name": "Quarto 3: 1 cama de casal"
-        }
-      ]
-    },
-    {
-      "Tipology": "Eventos",
-      "Name": "Casas e/ou exterior",
-      "Description": "Mediante orçamento, o Páteo Lima disponibiliza o aluguer total ou parcial do espaço. O espaço exterior reune as características ideais para eventos familiares, aniversários...",
-      "ImagePath": "assets/images/breakfast.jpg"
-    }
+  "Houses":[
+     {
+        "Tipology":"T1",
+        "Name":"Casa dos vidros",
+        "Description":"Assim chamada porque a porta de entrada era envidraçada. A sua ampla chaminé dava vida a enchidos e torresmos, mas também a amenas cavaqueiras familiares enquanto se esperava a saída do último cliente. Foi transformada num generoso e agradável T1.",
+        "FullDescription":"Assim chamada porque a porta de entrada era envidraçada, permitindo observar tudo o que se passava no Páteo. Era aqui que residiam os proprietários, que tinham acesso direto à venda através de uma porta que a ligava à residência. A sua ampla chaminé, onde o lume era uma presença constante, dava vida a enchidos e torresmos, mas também a amenas cavaqueiras familiares enquanto se esperava a saída do último cliente. Foi transformada num generoso e agradável T1, com uma aconchegante salamandra para as noites mais frias, que admite a lotação máxima de 4 pessoas, distribuídas por 1 quarto duplo e pelo sofá cama da sala. Dispõe de kitchenette equipada com placa, forno, micro-ondas, combinado, máquina de lavar loiça, torradeira, chaleira, máquina de café, ferro de engomar, louça e talheres adequados ao número de ocupantes. No wc, acessível a cadeira de rodas, encontram-se o secador de cabelo e os produtos para o banho. A casa dispõe ainda de ar condicionado em todo o espaço, TV e internet gratuitas. ",
+        "Options":[
+           {
+              "Name":"2 pessoas",
+              "Price":"100€ p/ noite"
+           },
+           {
+              "Name":"4 pessoas",
+              "Price":"165€ p/ noite"
+           }
+        ],
+        "Accommodations":[
+           {
+              "Name":"T1 com 1 quarto duplo"
+           },
+           {
+              "Name":"Lotação máxima: 4 pessoas"
+           },
+           {
+              "Name":"Quarto 1: 1 cama dupla"
+           }
+        ]
+     },
+     {
+        "Tipology":"T2",
+        "Name":"Casa da venda",
+        "Description":"Era aqui que se situava a 'venda', onde se podiam encontrar produtos tão variados como as mercearias e os vinhos, a carne e o peixe, mas também os comprimidos para as dores e o petróleo para os candeeiros que alumiavam as longas e frias noites de inverno. Hoje tornou-se numa confortável habitação de tipologia T2.",
+        "FullDescription":"Sempre deu rosto à propriedade e à própria aldeia, pois está virada de frente para a ponte, sendo a primeira fachada que o olhar alcança quando se atravessa a ribeira; era aqui que se situava a “venda”, onde se podiam encontrar produtos tão variados como as mercearias e os vinhos, o pão e a roupa, mas também os comprimidos para as dores e o petróleo para os candeeiros que alumiavam as longas e frias noites de inverno. Hoje tornou-se numa confortável habitação de tipologia T2, solarenga e luminosa durante as manhãs e fresca nas tardes quentes de verão, pois todas as portas do antigo espaço comercial foram transformadas em generosas janelas de sacada viradas para o nascer do sol. Admite a lotação máxima de 6 pessoas, distribuídas por 2 quartos duplos e um sofá cama na sala. Dispõe de kitchenette equipada com placa, forno, micro-ondas, combinado, máquina de lavar loiça, torradeira, chaleira, máquina de café, ferro de engomar, louça e talheres adequados ao número de ocupantes. No wc, acessível a cadeira de rodas, encontram-se o secador de cabelo e os produtos para o banho. A casa dispõe ainda de ar condicionado em todo o espaço, TV e internet gratuitas.",
+        "Options":[
+           {
+              "Name":"4 pessoas",
+              "Price":"185€ p/ noite"
+           },
+           {
+              "Name":"6 pessoas",
+              "Price":"250€ p/ noite"
+           }
+        ],
+        "Accommodations":[
+           {
+              "Name":"T2 com 2 quartos duplos"
+           },
+           {
+              "Name":"Lotação máxima: 6 pessoas"
+           },
+           {
+              "Name":"Quarto 1: 1 cama dupla"
+           },
+           {
+              "Name":"Quarto 2: 1 cama dupla"
+           }
+        ]
+     },
+     {
+        "Tipology":"T3",
+        "Name":"Casa da cocheira",
+        "Description":"Teve muitas e variadas funções: de queijaria a armazém, de loja a salão de baile, deu vida a trabalho e lazer da povoação, já que era aqui que alguns tinham o seu ganha-pão e muitos passavam os seus tempos livres à volta de um copo de tinto, de uma concertina ou de uma grafonola. Atualmente convertida num acolhedor T3, com um simpático e íntimo pátio interior.",
+        "FullDescription":"Foi buscar o nome à sua designação original, embora se tenha passado a chamar “garagem” depois da chegada de uma “moderna” furgoneta. Mas este espaço teve ainda muitas outras funções: de queijaria a armazém, de loja a salão de baile, deu vida a trabalho e lazer da povoação, já que era aqui que alguns tinham o seu ganha-pão e muitos passavam os seus tempos livres à volta de um copo de tinto, de uma concertina ou de uma grafonola, que animavam as noites quentes de verão. Atualmente convertida num acolhedor T3, com um simpático e íntimo pátio interior, dispõe de lotação máxima para 8 pessoas, distribuídas por 1 quarto de casal, 2 quartos duplos e sofá cama na sala. Dispõe de kitchenette equipada com placa, forno, micro-ondas, combinado, máquina de lavar loiça, torradeira, chaleira, máquina de café, ferro de engomar, louça e talheres adequados ao número de ocupantes. Nos 2 wc´s, acessíveis a cadeira de rodas, encontram-se secadores de cabelo e os produtos para o banho. A casa dispõe ainda de ar condicionado em todo o espaço, TV e internet gratuitas. Animais permitidos no alojamento, mediante inscrição e sujeito a regulamento específico. ",
+        "Options":[
+           {
+              "Name":"6 pessoas",
+              "Price":"270€ p/ noite"
+           },
+           {
+              "Name":"8 pessoas",
+              "Price":"335€ p/ noite"
+           }
+        ],
+        "Accommodations":[
+           {
+              "Name":"T3 com 3 quarto duplos"
+           },
+           {
+              "Name":"Lotação máxima: 8 pessoas"
+           },
+           {
+              "Name":"Quarto 1: 1 cama dupla"
+           },
+           {
+              "Name":"Quarto 2: 1 cama dupla"
+           },
+           {
+              "Name":"Quarto 3: 1 cama de casal"
+           }
+        ]
+     },
+     {
+        "Tipology":"Eventos",
+        "Name":"Casas e/ou exterior",
+        "Description":"Mediante orçamento, o Páteo Lima disponibiliza o aluguer total ou parcial do espaço. O espaço exterior reune as características ideais para eventos familiares, aniversários...",
+        "ImagePath":"assets/images/breakfast.jpg"
+     }
   ],
-  "Farm": {
-    "Title": "Na quinta",
-    "Description": "A quinta é um espaço comum que pode ser desfrutado por todos os hóspedes. Equipada com espreguiçadeiras, balouços, mesas de piquenique, é um local para relaxar, ler um livro, apanhar sol ou participar nas tarefas habituais de alimentação dos animais, mediante de orientações, bem como em todas as atividades que vão decorrendo na horta."
+  "Farm":{
+     "Title":"Na quinta",
+     "Description":"A quinta é um espaço comum que pode ser desfrutado por todos os hóspedes. Equipada com espreguiçadeiras, balouços, mesas de piquenique, é um local para relaxar, ler um livro, apanhar sol ou participar nas tarefas habituais de alimentação dos animais, mediante de orientações, bem como em todas as atividades que vão decorrendo na horta."
   },
-  "PersonalizedServices": [
-    {
-      "Name": "Apoio na higiene pessoal",
-      "Price": "15€"
-    },
-    {
-      "Name": "Confecção e apoio de refeições",
-      "Price": "Desde 25€"
-    },
-    {
-      "Name": "Acompanhamento personalizado",
-      "Price": "Desde 25€"
-    }
+  "PersonalizedServices":[
+     {
+        "Name":"Apoio na higiene pessoal",
+        "Price":"15€"
+     },
+     {
+        "Name":"Confecção e apoio de refeições",
+        "Price":"Desde 25€"
+     },
+     {
+        "Name":"Acompanhamento personalizado",
+        "Price":"Desde 25€"
+     }
   ],
-  "WelfareActivities": [
-    {
-      "Name": "Apoio / aconselhamento individual",
-      "Price": "50€"
-    },
-    {
-      "Name": "Sessão de relaxamento individual",
-      "Price": "20€"
-    },
-    {
-      "Name": "Relaxamento em grupo",
-      "Price": "Desde 30€"
-    }
+  "WelfareActivities":[
+     {
+        "Name":"Apoio / aconselhamento individual",
+        "Price":"50€"
+     },
+     {
+        "Name":"Sessão de relaxamento individual",
+        "Price":"20€"
+     },
+     {
+        "Name":"Relaxamento em grupo",
+        "Price":"Desde 30€"
+     }
   ],
-  "Services": [
-    {
-      "Name": "Pequeno almoço: De tipo continental e com produtos da região, está incluído na diária e pode ser servido na própria casa ou tomado num dos cafés/restaurantes da aldeia."
-    },
-    {
-      "Name": "Higiene e limpeza: Diária; em estadias prolongadas as roupas de cama são mudadas semanalmente e as toalhas a cada 3 dias e/ou a pedido dos hóspedes."
-    }
+  "Services":[
+     {
+        "Name":"Pequeno almoço: De tipo continental e com produtos da região, está incluído na diária e pode ser servido na própria casa ou tomado num dos cafés/restaurantes da aldeia."
+     },
+     {
+        "Name":"Higiene e limpeza: Diária; em estadias prolongadas as roupas de cama são mudadas semanalmente e as toalhas a cada 3 dias e/ou a pedido dos hóspedes."
+     }
   ],
-  "AdditionalServices": [
-    {
-      "Name": "Bicicletas"
-    },
-    {
-      "Name": "Canas de pesca"
-    },
-    {
-      "Name": "Tratamento de roupa"
-    },
-    {
-      "Name": "Cuidados personalizados para quem necessitar de apoio na higiene, alimentação, confeção das refeições, etc."
-    },
-    {
-      "Name": "Workshops de culinária"
-    },
-    {
-      "Name": "Estadia de animais"
-    },
-    {
-      "Name": "Eventos: Possibilidade de reserva da totalidade ou parte do espaço para eventos especiais, mediante orçamento específico."
-    }
+  "AdditionalServices":[
+     {
+        "Name":"Bicicletas"
+     },
+     {
+        "Name":"Canas de pesca"
+     },
+     {
+        "Name":"Tratamento de roupa"
+     },
+     {
+        "Name":"Cuidados personalizados para quem necessitar de apoio na higiene, alimentação, confeção das refeições, etc."
+     },
+     {
+        "Name":"Workshops de culinária"
+     },
+     {
+        "Name":"Estadia de animais"
+     },
+     {
+        "Name":"Eventos: Possibilidade de reserva da totalidade ou parte do espaço para eventos especiais, mediante orçamento específico."
+     }
   ],
-  "OutdoorAccommodations": [
-    {
-      "Name": "Piscina tubular e terraço: Acessíveis mediante disponibilidade e grau de mobilidade"
-    },
-    {
-      "Name": "Espreguiçadeiras"
-    },
-    {
-      "Name": "Grelhador: Pode ser utilizado a qualquer momento, mediante disponibilidade"
-    },
-    {
-      "Name": "Zona de piqueniques: De utilização livre, mediante disponibilidade"
-    },
-    {
-      "Name": "Estacionamento gratuito"
-    }
+  "OutdoorAccommodations":[
+     {
+        "Name":"Piscina tubular e terraço: Acessíveis mediante disponibilidade e grau de mobilidade"
+     },
+     {
+        "Name":"Espreguiçadeiras"
+     },
+     {
+        "Name":"Grelhador: Pode ser utilizado a qualquer momento, mediante disponibilidade"
+     },
+     {
+        "Name":"Zona de piqueniques: De utilização livre, mediante disponibilidade"
+     },
+     {
+        "Name":"Estacionamento gratuito"
+     }
   ],
-  "CommonAccommodations": [
-    {
-      "Name": "Sala com sofá-cama"
-    },
-    {
-      "Name": "Berço de viagem para bebés"
-    },
-    {
-      "Name": "Kitchenette equipada com placa, forno, micro-ondas, combinado, máquina de lavar loiça, torradeira, chaleira, máquina de café, louça e talheres"
-    },
-    {
-      "Name": "Ferro de engomar"
-    },
-    {
-      "Name": "WC acessível a cadeiras de rodas, equipado com secador de cabelo e produtos para o banho"
-    },
-    {
-      "Name": "Ar condicionado nos quartos e sala"
-    },
-    {
-      "Name": "TV"
-    },
-    {
-      "Name": "Acesso Wi-Fi gratuito em toda a unidade"
-    }
+  "CommonAccommodations":[
+     {
+        "Name":"Sala com sofá-cama"
+     },
+     {
+        "Name":"Berço de viagem para bebés"
+     },
+     {
+        "Name":"Kitchenette equipada com placa, forno, micro-ondas, combinado, máquina de lavar loiça, torradeira, chaleira, máquina de café, louça e talheres"
+     },
+     {
+        "Name":"Ferro de engomar"
+     },
+     {
+        "Name":"WC acessível a cadeiras de rodas, equipado com secador de cabelo e produtos para o banho"
+     },
+     {
+        "Name":"Ar condicionado nos quartos e sala"
+     },
+     {
+        "Name":"TV"
+     },
+     {
+        "Name":"Acesso Wi-Fi gratuito em toda a unidade"
+     }
   ],
-  "Restaurants": [
-    {
-      "Name" : "O Ricardo",
-      "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit",
-      "Images": [
-        {
-          "Path": "assets/images/food.jpeg",
-          "Description": ""
-        }
-      ],
-      "Recomendations": [
-        {
-          "IconPath": "assets/images/svg/calendar-check-line.svg",
-          "Text": "Reserve com antecência"
-        },
-        {
-          "IconPath": "assets/images/svg/euro.svg",
-          "Text": "Boa qualidade/preço"
-        }
-      ],
-      "Link" : "https://goo.gl/maps/BmriywaZwXvxdm9MA",
-      "MainImage": "assets/images/food.jpeg"
-    },
-    {
-      "Name" : "Laranjinha",
-      "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit",
-      "Images": [
-        {
-          "Path": "assets/images/food.jpeg",
-          "Description": ""
-        }
-      ],
-      "Recomendations": [
-        {
-          "IconPath": "assets/images/svg/calendar-check-line.svg",
-          "Text": "Reserve com antecência"
-        },
-        {
-          "IconPath": "assets/images/svg/euro.svg",
-          "Text": "Boa qualidade/preço"
-        }
-      ],
-      "Link" : "https://goo.gl/maps/BmriywaZwXvxdm9MA"
-    },
-    {
-      "Name" : "Café Mónica",
-      "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit",
-      "Images": [
-        {
-          "Path": "assets/images/food.jpeg",
-          "Description": ""
-        }
-      ],
-      "Recomendations": [
-        {
-          "IconPath": "assets/images/svg/calendar-check-line.svg",
-          "Text": "Reserve com antecência"
-        },
-        {
-          "IconPath": "assets/images/svg/euro.svg",
-          "Text": "Boa qualidade/preço"
-        }
-      ],
-      "Link" : "https://goo.gl/maps/BmriywaZwXvxdm9MA"
-    },
-    {
-      "Name" : "Café O Estoura",
-      "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit",
-      "Images": [
-        {
-          "Path": "assets/images/food.jpeg",
-          "Description": ""
-        }
-      ],
-      "Recomendations": [
-        {
-          "IconPath": "assets/images/svg/calendar-check-line.svg",
-          "Text": "Reserve com antecência"
-        },
-        {
-          "IconPath": "assets/images/svg/euro.svg",
-          "Text": "Boa qualidade/preço"
-        }
-      ],
-      "Link" : "https://goo.gl/maps/BmriywaZwXvxdm9MA"
-    },
-    {
-      "Name" : "Sabores da vila",
-      "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit",
-      "Images": [
-        {
-          "Path": "assets/images/food.jpeg",
-          "Description": ""
-        }
-      ],
-      "Recomendations": [
-        {
-          "IconPath": "assets/images/svg/calendar-check-line.svg",
-          "Text": "Reserve com antecência"
-        },
-        {
-          "IconPath": "assets/images/svg/euro.svg",
-          "Text": "Boa qualidade/preço"
-        }
-      ],
-      "Link" : "https://goo.gl/maps/BmriywaZwXvxdm9MA"
-    }
+  "Restaurants":[
+     {
+        "Name":"O Ricardo",
+        "Description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit",
+        "Images": [
+          {
+            "Path": "assets/images/food.jpeg",
+            "Description": ""
+          }
+        ],
+        "Recomendations":[
+           {
+              "IconPath":"assets/images/svg/calendar-check-line.svg",
+              "Text":"Reserve com antecência"
+           },
+           {
+              "IconPath":"assets/images/svg/euro.svg",
+              "Text":"Boa qualidade/preço"
+           }
+        ],
+        "Link":"https://goo.gl/maps/BmriywaZwXvxdm9MA",
+        "MainImage":"assets/images/food.jpeg"
+     },
+     {
+        "Name":"Laranjinha",
+        "Description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit",
+        "Images": [
+          {
+            "Path": "assets/images/food.jpeg",
+            "Description": ""
+          }
+        ],
+        "Recomendations":[
+           {
+              "IconPath":"assets/images/svg/euro.svg",
+              "Text":"Boa qualidade/preço"
+           }
+        ],
+        "Link":"https://goo.gl/maps/xzbGhVFgiPbt56xA6"
+     },
+     {
+        "Name":"Café Mónica",
+        "Description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit",
+        "Images": [
+          {
+            "Path": "assets/images/food.jpeg",
+            "Description": ""
+          }
+        ],
+        "Recomendations":[
+           {
+              "IconPath":"assets/images/svg/euro.svg",
+              "Text":"Boa qualidade/preço"
+           }
+        ],
+        "Link":"https://goo.gl/maps/CSHg99vSGoXG3s4p6"
+     },
+     {
+        "Name":"Café O Estoura",
+        "Description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit",
+        "Images": [
+          {
+            "Path": "assets/images/food.jpeg",
+            "Description": ""
+          }
+        ],
+        "Recomendations":[
+           {
+              "IconPath":"assets/images/svg/calendar-check-line.svg",
+              "Text":"Reserve com antecência"
+           },
+           {
+              "IconPath":"assets/images/svg/euro.svg",
+              "Text":"Boa qualidade/preço"
+           }
+        ],
+        "Link":"https://goo.gl/maps/pPp1CPvHGVtG75tEA"
+     },
+     {
+        "Name":"Barbas",
+        "Description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit",
+        "Images": [
+          {
+            "Path": "assets/images/food.jpeg",
+            "Description": ""
+          }
+        ],
+        "Recomendations":[
+           {
+              "IconPath":"assets/images/svg/calendar-check-line.svg",
+              "Text":"Refeição no local"
+           },
+           {
+              "IconPath":"assets/images/svg/calendar-check-line.svg",
+              "Text":"Take away"
+           },
+           {
+              "IconPath":"assets/images/svg/euro.svg",
+              "Text":"Boa qualidade/preço"
+           }
+        ],
+        "Link":"https://goo.gl/maps/fxHSfwXARYFTWWWs7"
+     },
+     {
+        "Name":"Sabores da vila",
+        "Description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit",
+        "Images": [
+          {
+            "Path": "assets/images/food.jpeg",
+            "Description": ""
+          }
+        ],
+        "Recomendations":[
+           {
+              "IconPath":"assets/images/svg/euro.svg",
+              "Text":"Boa qualidade/preço"
+           }
+        ],
+        "Link":"https://goo.gl/maps/LvvJz6Qf3xFEDD6d9"
+     }
   ]
 }

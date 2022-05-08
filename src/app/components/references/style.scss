@@ -7,9 +7,9 @@ h3 {
 
 .masonry {
   /* Masonry container */
-  -webkit-column-count: 3;
-  -moz-column-count: 3;
-  column-count: 3;
+  -webkit-column-count: 4;
+  -moz-column-count: 4;
+  column-count: 4;
   -webkit-column-gap: 1em;
   -moz-column-gap: 1em;
   column-gap: 1em;
@@ -19,34 +19,55 @@ h3 {
   -webkit-column-gap: 1.5em;
   column-gap: 1.5em;
   font-size: 0.85em;
-  width: 60%;
+  width: 80%;
   justify-content: center;
   margin: 0 auto;
-  
 
   @media only screen and (max-width: 320px) {
     -moz-column-count: 1;
     -webkit-column-count: 1;
     column-count: 1;
-    width: 90%;
   }
 
   @media only screen and (min-width: 321px) and (max-width: 767px) {
     -moz-column-count: 1;
     -webkit-column-count: 1;
     column-count: 1;
-    width: 90%;
   }
   @media only screen and (min-width: 768px) and (max-width: 1200px) {
     -moz-column-count: 3;
     -webkit-column-count: 3;
     column-count: 3;
-    width: 90%;
   }
- 
+  @media only screen and (min-width: 1201px) {
+    -moz-column-count: 5;
+    -webkit-column-count: 5;
+    column-count: 5;
+  }
 }
-.item-masonry {
- 
+
+.container {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: masonry;
+
+  @media only screen and (max-width: 320px) {
+    -moz-column-count: 1;
+    -webkit-column-count: 1;
+    column-count: 1;
+  }
+
+  @media only screen and (min-width: 321px) and (max-width: 767px) {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  @media only screen and (min-width: 768px) and (max-width: 1200px) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  
+}
+  .item-masonry {
+  display: inline-block;
   background: #fff;
   padding: 0.5em;
   margin: 0 0 1.5em;
@@ -58,15 +79,20 @@ h3 {
   box-shadow: 2px 2px 4px 2px #ccc;
   cursor: pointer;
 
-  @media (max-width: 1650px) {
-    display: inline-grid;
+  img {
+    margin: 0 auto;
+    height: 200px;
+
+    @media only screen and (max-width: 768px) {
+      height: 90%;
+    }
+
+    justify-content: center;
+    vertical-align: unset !important ;
   }
 
-  .img {
-    margin: 0 auto;
-    width: 200px;
-    justify-content: center;
-    margin-bottom: 16px !important;
+  .text{
+    margin-top: 8px;
   }
 
   @media (max-width: 1024px) {
@@ -119,6 +145,10 @@ h3 {
         background-repeat: no-repeat;
         margin-top: 32px !important;
         height: 700px;
+
+        @media only screen and (max-width: 768px)  {
+          display: none;
+        }
       }
     
       .first-column{

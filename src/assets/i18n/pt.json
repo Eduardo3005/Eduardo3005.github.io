@@ -315,15 +315,30 @@
         "Name":"Acesso Wi-Fi gratuito em toda a unidade"
      }
   ],
+  "References":{
+     "Restaurants":{
+        "Title":"Onde Comer",
+        "Tooltip":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit"
+     },
+     "Farm":{
+        "Title":"O que fazer na quinta",
+        "Tooltip":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit"
+     },
+     "Places":{
+        "Title":"O que visitar nos arredores",
+        "Tooltip":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit"
+     },
+     "RecomendationsTitle":"Recomendações"
+  },
   "Restaurants":[
      {
         "Name":"O Ricardo",
         "Description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit",
-        "Images": [
-          {
-            "Path": "assets/images/food.jpeg",
-            "Description": ""
-          }
+        "Images":[
+           {
+              "Path":"assets/images/footer/migas.jpg",
+              "Description":""
+           }
         ],
         "Recomendations":[
            {
@@ -335,17 +350,16 @@
               "Text":"Boa qualidade/preço"
            }
         ],
-        "Link":"https://goo.gl/maps/BmriywaZwXvxdm9MA",
-        "MainImage":"assets/images/food.jpeg"
+        "Link":"https://goo.gl/maps/BmriywaZwXvxdm9MA"
      },
      {
         "Name":"Laranjinha",
         "Description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit",
-        "Images": [
-          {
-            "Path": "assets/images/food.jpeg",
-            "Description": ""
-          }
+        "Images":[
+           {
+              "Path":"assets/images/footer/migas.jpg",
+              "Description":""
+           }
         ],
         "Recomendations":[
            {
@@ -358,11 +372,11 @@
      {
         "Name":"Café Mónica",
         "Description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit",
-        "Images": [
-          {
-            "Path": "assets/images/food.jpeg",
-            "Description": ""
-          }
+        "Images":[
+           {
+              "Path":"assets/images/footer/migas.jpg",
+              "Description":""
+           }
         ],
         "Recomendations":[
            {
@@ -375,11 +389,11 @@
      {
         "Name":"Café O Estoura",
         "Description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit",
-        "Images": [
-          {
-            "Path": "assets/images/food.jpeg",
-            "Description": ""
-          }
+        "Images":[
+           {
+              "Path":"assets/images/footer/migas.jpg",
+              "Description":""
+           }
         ],
         "Recomendations":[
            {
@@ -396,11 +410,11 @@
      {
         "Name":"Barbas",
         "Description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit",
-        "Images": [
-          {
-            "Path": "assets/images/food.jpeg",
-            "Description": ""
-          }
+        "Images":[
+           {
+              "Path":"assets/images/footer/migas.jpg",
+              "Description":""
+           }
         ],
         "Recomendations":[
            {
@@ -421,11 +435,11 @@
      {
         "Name":"Sabores da vila",
         "Description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit",
-        "Images": [
-          {
-            "Path": "assets/images/food.jpeg",
-            "Description": ""
-          }
+        "Images":[
+           {
+              "Path":"assets/images/footer/migas.jpg",
+              "Description":""
+           }
         ],
         "Recomendations":[
            {
@@ -435,5 +449,163 @@
         ],
         "Link":"https://goo.gl/maps/LvvJz6Qf3xFEDD6d9"
      }
+  ],
+  "FarmActivities":[
+     {
+        "Name":"O Ricardo",
+        "Description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit",
+        "Images":[
+           {
+              "Path":"assets/images/footer/migas.jpg",
+              "Description":""
+           }
+        ],
+        "Recomendations":[
+           {
+              "IconPath":"assets/images/svg/calendar-check-line.svg",
+              "Text":"Reserve com antecência"
+           },
+           {
+              "IconPath":"assets/images/svg/euro.svg",
+              "Text":"Boa qualidade/preço"
+           }
+        ],
+        "Link":"https://goo.gl/maps/BmriywaZwXvxdm9MA",
+        "MainImage":"assets/images/footer/migas.jpg"
+     }
+  ],
+  "Places":[
+     {
+        "Name":"Grande Anta do Zambujeiro",
+        "Description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit",
+        "Images":[
+           {
+              "Path":"assets/images/valverde/image_1.jpg",
+              "Description":""
+           }
+        ],
+        "Recomendations":[
+           {
+              "IconPath":"assets/images/svg/calendar-check-line.svg",
+              "Text":"Reserve com antecência" 
+           },
+           {
+              "IconPath":"assets/images/svg/euro.svg",
+              "Text":"Boa qualidade/preço"
+           }
+        ],
+        "Link":"https://goo.gl/maps/BmriywaZwXvxdm9MA",
+        "MainImage":"assets/images/valverde/image_1.jpg"
+     },
+     {
+      "Name":"Cromeleques dos Almendres",
+      "Description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit",
+      "Images":[
+         {
+            "Path":"assets/images/valverde/image_4.jpg",
+            "Description":""
+         }
+      ],
+      "Recomendations":[
+         {
+            "IconPath":"assets/images/svg/calendar-check-line.svg",
+            "Text":"Reserve com antecência" 
+         },
+         {
+            "IconPath":"assets/images/svg/euro.svg",
+            "Text":"Boa qualidade/preço"
+         }
+      ],
+      "Link":"https://goo.gl/maps/BmriywaZwXvxdm9MA",
+      "MainImage":"assets/images/valverde/image_4.jpg"
+   },
+   {
+    "Name":"Vila Romana de Nossa Senhora da Tourega",
+    "Description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit",
+    "Images":[
+       {
+          "Path":"assets/images/valverde/image_14.jpg",
+          "Description":""
+       }
+    ],
+    "Recomendations":[
+       {
+          "IconPath":"assets/images/svg/calendar-check-line.svg",
+          "Text":"Reserve com antecência" 
+       },
+       {
+          "IconPath":"assets/images/svg/euro.svg",
+          "Text":"Boa qualidade/preço"
+       }
+    ],
+    "Link":"https://goo.gl/maps/BmriywaZwXvxdm9MA",
+    "MainImage":"assets/images/valverde/image_14.jpg"
+ },
+ {
+  "Name":"Quinta do Paço de Valverde",
+  "Description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit",
+  "Images":[
+     {
+        "Path":"assets/images/valverde/image_2.jpg",
+        "Description":""
+     }
+  ],
+  "Recomendations":[
+     {
+        "IconPath":"assets/images/svg/calendar-check-line.svg",
+        "Text":"Reserve com antecência" 
+     },
+     {
+        "IconPath":"assets/images/svg/euro.svg",
+        "Text":"Boa qualidade/preço"
+     }
+  ],
+  "Link":"https://goo.gl/maps/BmriywaZwXvxdm9MA",
+  "MainImage":"assets/images/valverde/image_2.jpg"
+},
+{
+  "Name":"Gruta do Escoural",
+  "Description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit",
+  "Images":[
+     {
+        "Path":"assets/images/valverde/image_18.jpg",
+        "Description":""
+     }
+  ],
+  "Recomendations":[
+     {
+        "IconPath":"assets/images/svg/calendar-check-line.svg",
+        "Text":"Reserve com antecência" 
+     },
+     {
+        "IconPath":"assets/images/svg/euro.svg",
+        "Text":"Boa qualidade/preço"
+     }
+  ],
+  "Link":"https://goo.gl/maps/BmriywaZwXvxdm9MA",
+  "MainImage":"assets/images/valverde/image_18.jpg"
+},
+{
+  "Name":"Castelo do Giraldo",
+  "Description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit",
+  "Images":[
+     {
+        "Path":"assets/images/valverde/image_19.jpg",
+        "Description":""
+     }
+  ],
+  "Recomendations":[
+     {
+        "IconPath":"assets/images/svg/calendar-check-line.svg",
+        "Text":"Reserve com antecência" 
+     },
+     {
+        "IconPath":"assets/images/svg/euro.svg",
+        "Text":"Boa qualidade/preço"
+     }
+  ],
+  "Link":"https://goo.gl/maps/BmriywaZwXvxdm9MA",
+  "MainImage":"assets/images/valverde/image_18.jpg"
+}
   ]
 }

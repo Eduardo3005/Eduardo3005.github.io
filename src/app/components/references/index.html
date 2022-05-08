@@ -1,21 +1,18 @@
 <div class="card text-center">
   <div class="card-body">
-    <h2 class="card-title mt-160 mb-96">Onde Comer</h2>
-    <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit</p>
+    <h2 class="card-title mt-160 mb-96">{{title}}</h2>
+    <p class="text">{{tooltip}}</p>
   </div>
 </div>
 
-<div class="card mb-160">
-  <div class="card-body">
-    <div class="masonry">
-      <ng-container *ngFor="let restaurant of restaurants; let i = index">
-        <div class="item-masonry">
-          <img src="{{restaurant.Images[0].Path}}" alt="{{restaurant.Images[0].Description}}" (click)="openImage(i)">
-          <p class="text"><b>{{restaurant.Name}}</b></p>
-        </div>
-      </ng-container>
+
+<div class="container">
+  <ng-container *ngFor="let reference of references; ;let i = index">
+    <div class="item-masonry">
+      <img src="{{reference.Images[0].Path}}" alt="{{reference.Images[0].Description}}" (click)="openImage(i)">
+      <p class="text text-center"><b>{{reference.Name}}</b></p>
     </div>
-  </div>
+  </ng-container>
 </div>
 
 <button id="openModal" #openModal [hidden]="true" data-toggle="modal" data-target="#openingModal"></button>
@@ -32,30 +29,30 @@
 
         <div class="swiper-container swiper-container-xxl mySwiper-xxl">
           <div class="swiper-wrapper">
-            <ng-container *ngFor="let restaurant of restaurants; let i = index">
+            <ng-container *ngFor="let reference of references; let i = index">
               <div class="swiper-slide">
                 <div >
                   <div class="row mb-32">
                     <div class="col-md-7 first-column">
-                      <h2>{{restaurant.Name}}</h2>
-                      <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit</p>
+                      <h2>{{reference.Name}}</h2>
+                      <p class="text">{{reference.Description}}</p>
                     </div>
                     <div class="col-md-5 second-column">
                       <h2 class ="mb-32 mt-32">Recomendações</h2>
-                      <ng-container *ngFor="let recomendation of restaurant.Recomendations; let i = index">
+                      <ng-container *ngFor="let recomendation of reference.Recomendations; let i = index">
                         <div class="recomentation-container">
                           <img src = "{{recomendation.IconPath}}"/>
                           <p>{{recomendation.Text}}</p>
                         </div>
                       </ng-container>
                       
-                      <a *ngIf="restaurant.Link != null" href="{{restaurant.Link | translate}}" target="_blank" left="0"
+                      <a *ngIf="reference.Link != null" href="{{reference.Link | translate}}" target="_blank" left="0"
                       class="btn btn-outline-secondary mb-32 bookingLink">Localização</a>
                     </div>
                   </div>
                   
-                 <div class="row" *ngIf="restaurant.MainImage != null">
-                  <div class="col-md-12 main-image" style="background-image: url({{restaurant.MainImage}})" >
+                 <div class="row" *ngIf="reference.MainImage != null">
+                  <div class="col-md-12 main-image" style="background-image: url({{reference.MainImage}})" >
                   </div>
                 </div>
                   

@@ -9,7 +9,7 @@
 <div class="container">
   <ng-container *ngFor="let reference of references; ;let i = index">
     <div class="item-masonry">
-      <img src="{{reference.Images[0].Path}}" alt="{{reference.Images[0].Description}}" (click)="openImage(i)">
+      <img src="{{reference.MainImage.Path}}" alt="{{reference.MainImage.Description}}" (click)="openImage(i)">
       <p class="text text-center"><b>{{reference.Name}}</b></p>
     </div>
   </ng-container>
@@ -45,19 +45,19 @@
                           <p>{{recomendation.Text}}</p>
                         </div>
                       </ng-container>
-                      
+
                       <a *ngIf="reference.Link != null" href="{{reference.Link | translate}}" target="_blank" left="0"
                       class="btn btn-outline-secondary mb-32 bookingLink">Localização</a>
                     </div>
                   </div>
-                  
+
                  <div class="row" *ngIf="reference.MainImage != null">
                   <div class="col-md-12 main-image" style="background-image: url({{reference.MainImage}})" >
                   </div>
                 </div>
-                  
 
-              
+
+
                 </div>
               </div>
             </ng-container>
@@ -66,7 +66,7 @@
           <div class="swiper-button-prev"></div>
           <div class="swiper-pagination"></div>
         </div>
-      
+
 
       </div>
     </div>

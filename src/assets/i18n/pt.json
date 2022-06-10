@@ -333,7 +333,7 @@
   "Restaurants":[
      {
         "Name":"O Ricardo",
-        "Description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit",
+        "Description":"Aqui vai encontrar um belo exemplo de comida tradicional alentejana. Para os apreciadores de vinho também podem experimentar um vinho caseiro chamado 'Bom Jesus de Valverde'. Nunca esquecer o queijo seco tipicamente alentejano e os torresmos! Indicado para famílias e grupos.",
         "MainImage":{
            "Path":"assets/images/footer/migas.jpg",
            "Description":""
@@ -346,13 +346,18 @@
            {
               "IconPath":"assets/images/svg/euro.svg",
               "Text":"Boa qualidade/preço"
-           }
+           },
+           {
+            "IconPath":"assets/images/svg/map-pin-line.svg",
+            "Text":"Valverde"
+            }
+
         ],
         "Link":"https://goo.gl/maps/BmriywaZwXvxdm9MA"
      },
      {
         "Name":"Laranjinha",
-        "Description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit",
+        "Description":"Snackbar e restaurante bastante acolhedor e com pratos muito saborosos e bem apresentados. As saladas são autênticas obras de arte! Indicado para famílias e grupos.",
         "MainImage":{
            "Path":"assets/images/footer/migas.jpg",
            "Description":""
@@ -361,13 +366,17 @@
            {
               "IconPath":"assets/images/svg/euro.svg",
               "Text":"Boa qualidade/preço"
-           }
+           },
+           {
+            "IconPath":"assets/images/svg/map-pin-line.svg",
+            "Text":"Valverde"
+            }
         ],
         "Link":"https://goo.gl/maps/xzbGhVFgiPbt56xA6"
      },
      {
         "Name":"Café Mónica",
-        "Description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit",
+        "Description":"Café onde poderão desfrutar do vosso pequeno almoço. Podem pedir o que quiserem! O que interessa é saírem satisfeitos :) Também podem ser confecionados pratos tipicamente alentejanos mediante de marcação. ",
         "MainImage":{
            "Path":"assets/images/footer/migas.jpg",
            "Description":""
@@ -375,14 +384,18 @@
         "Recomendations":[
            {
               "IconPath":"assets/images/svg/euro.svg",
-              "Text":"Boa qualidade/preço"
-           }
+              "Text":"Incluído na estadia"
+           },
+           {
+            "IconPath":"assets/images/svg/map-pin-line.svg",
+            "Text":"Valverde"
+            }
         ],
         "Link":"https://goo.gl/maps/CSHg99vSGoXG3s4p6"
      },
      {
         "Name":"Café O Estoura",
-        "Description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit",
+        "Description":"Café ideal para beber petiscar ou beber algo fresco ao fim do dia. É um sempre um ponto de passagem antes do regresso a casa depois de um longo dia de trabalho.",
         "MainImage":{
            "Path":"assets/images/footer/migas.jpg",
            "Description":""
@@ -390,18 +403,22 @@
         "Recomendations":[
            {
               "IconPath":"assets/images/svg/calendar-check-line.svg",
-              "Text":"Reserve com antecência"
+              "Text":"Confirmar horário de funcionamento"
            },
            {
               "IconPath":"assets/images/svg/euro.svg",
               "Text":"Boa qualidade/preço"
-           }
+           },
+           {
+            "IconPath":"assets/images/svg/map-pin-line.svg",
+            "Text":"Valverde"
+            }
         ],
         "Link":"https://goo.gl/maps/pPp1CPvHGVtG75tEA"
      },
      {
         "Name":"Barbas",
-        "Description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit",
+        "Description":"Snackbar com pratos do dia tipicamente alentejanos muito saborosos. Podem encomendar pratos que estejam no menu do dia.",
         "MainImage":{
            "Path":"assets/images/footer/migas.jpg",
            "Description":""
@@ -416,15 +433,30 @@
               "Text":"Take away"
            },
            {
-              "IconPath":"assets/images/svg/euro.svg",
-              "Text":"Boa qualidade/preço"
-           }
+            "IconPath":"assets/images/svg/map-pin-line.svg",
+            "Text":"Valverde"
+            }
         ],
         "Link":"https://goo.gl/maps/fxHSfwXARYFTWWWs7"
      },
      {
-        "Name":"Sabores da vila",
-        "Description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit",
+      "Name":"Grupo Desportivo e Cultural da Tourega",
+      "Description":"No ponto mais alto da aldeia podem encontrar o grupo desportivo. O grupo iniciou a sua actividade em 1981, pela vontade de alguns jovens de Valverde em jogar futebol. Tem também um snackbar.",
+      "MainImage":{
+         "Path":"assets/images/footer/migas.jpg",
+         "Description":""
+      },
+      "Recomendations":[
+         {
+          "IconPath":"assets/images/svg/map-pin-line.svg",
+          "Text":"Valverde"
+          }
+      ],
+      "Link":"https://goo.gl/maps/mV8aGYHt6H33cpfY8"
+   },
+     {
+        "Name":"Sabores da Vila",
+        "Description":"Aqui vai encontrar também outro belo exemplo de comida tradicional alentejana. Fica um pouco mais longe mas vale a pena a viagem. Aproveitam para conhecer a linda vila das Alcaçovas. Ponto de obrigatório na travessia da N2.",
         "MainImage":{
            "Path":"assets/images/footer/migas.jpg",
            "Description":""
@@ -433,10 +465,41 @@
            {
               "IconPath":"assets/images/svg/euro.svg",
               "Text":"Boa qualidade/preço"
-           }
+           },
+           {
+            "IconPath":"assets/images/svg/calendar-check-line.svg",
+            "Text":"Take away"
+          },
+           {
+            "IconPath":"assets/images/svg/map-pin-line.svg",
+            "Text":"Alcaçovas"
+            }
         ],
         "Link":"https://goo.gl/maps/LvvJz6Qf3xFEDD6d9"
-     }
+     },
+     {
+      "Name":"Café Snack-Bar Barreiros",
+      "Description":"Localizado na aldeia vizinha, podem encontrar também pratos tradicionais alentejanos. Muito perto do Centro Interpretativo dos Almendres, ponto obrigatório na região.",
+      "MainImage":{
+         "Path":"assets/images/footer/migas.jpg",
+         "Description":""
+      },
+      "Recomendations":[
+        {
+          "IconPath":"assets/images/svg/calendar-check-line.svg",
+          "Text":"Refeição no local"
+       },
+         {
+          "IconPath":"assets/images/svg/calendar-check-line.svg",
+          "Text":"Take away"
+        },
+         {
+          "IconPath":"assets/images/svg/map-pin-line.svg",
+          "Text":"Guadalupe"
+          }
+      ],
+      "Link":"https://goo.gl/maps/xCj8eqJRQ9xAg6qj6"
+   }
   ],
   "FarmActivities":[
      {

@@ -130,28 +130,15 @@ h3 {
     background-color: white !important;
     align-items: baseline ;
     font-size: 18px;
-    height: 700px;
     width: 80%;
     cursor: pointer;
     background-color: $green-light;
-    overflow-y: scroll;
     background-size: cover;
 
     .row{
       width: 90%;
-      height: 300px;
+
       display: -webkit-inline-box;
-
-      .main-image {
-        background-size: cover;
-        background-repeat: no-repeat;
-        margin-top: 32px !important;
-        height: 700px;
-
-        @media only screen and (max-width: 768px)  {
-          display: none;
-        }
-      }
 
       .first-column{
         padding: 16px !important;

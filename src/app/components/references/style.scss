@@ -2,7 +2,7 @@
 
 
 h3 {
-    margin-left: 0 !important;
+  margin-left: 0 !important;
 }
 
 .masonry {
@@ -34,11 +34,13 @@ h3 {
     -webkit-column-count: 1;
     column-count: 1;
   }
+
   @media only screen and (min-width: 768px) and (max-width: 1200px) {
     -moz-column-count: 3;
     -webkit-column-count: 3;
     column-count: 3;
   }
+
   @media only screen and (min-width: 1201px) {
     -moz-column-count: 5;
     -webkit-column-count: 5;
@@ -61,12 +63,14 @@ h3 {
   @media only screen and (min-width: 321px) and (max-width: 767px) {
     grid-template-columns: repeat(1, 1fr);
   }
+
   @media only screen and (min-width: 768px) and (max-width: 1200px) {
     grid-template-columns: repeat(3, 1fr);
   }
 
 }
-  .item-masonry {
+
+.item-masonry {
   display: inline-block;
   background: #fff;
   padding: 0.5em;
@@ -79,19 +83,24 @@ h3 {
   box-shadow: 2px 2px 4px 2px #ccc;
   cursor: pointer;
 
+
   img {
     margin: 0 auto;
     height: 200px;
     background-size: cover !important;
 
-    @media only screen and (max-width: 768px) {
+    @media only screen and (max-width: 767px) {
       height: 90%;
+    }
+
+    @media only screen and (min-width: 768px) and (max-width: 1025px) {
+      height: 80%;
     }
 
     justify-content: center;
   }
 
-  .text{
+  .text {
     margin-top: 8px;
 
   }
@@ -109,9 +118,11 @@ h3 {
     font-family: "Sarabun-Bold", sans-serif !important;
     align-items: center;
     padding-bottom: 0px !important;
+
   }
 
 }
+
 .item-masonry img {
   max-width: 100%;
   user-select: none;
@@ -128,26 +139,40 @@ h3 {
 
   .swiper-slide {
     background-color: white !important;
-    align-items: baseline ;
+    align-items: baseline;
     font-size: 18px;
-    width: 80%;
+    width: 90%;
+
+    @media (max-width: 768px) {
+      font-size: 16px;
+      height: fit-content !important;
+    }
+
     cursor: pointer;
-    .row{
+
+    .row {
       width: 90%;
 
       display: -webkit-inline-box;
 
-      .first-column{
+      .first-column {
         padding: 16px !important;
         display: grid;
         align-items: center;
 
-        p{
+        p {
           padding: 16px !important;
+
+          @media (max-width: 768px) {
+
+            padding: 0px !important;
+            padding-top: 16px !important;
+            text-align: left;
+          }
         }
       }
 
-      .second-column{
+      .second-column {
 
         padding: 16px;
         background-color: $green-light;
@@ -168,12 +193,12 @@ h3 {
           align-items: left;
           flex-direction: row;
 
-          img{
+          img {
             padding: 16px;
             padding-left: 0;
           }
 
-          p{
+          p {
             text-align: left;
             color: white;
             margin-bottom: 0;
@@ -240,5 +265,3 @@ h3 {
     }
   }
 }
-
-

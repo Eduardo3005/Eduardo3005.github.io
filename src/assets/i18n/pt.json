@@ -328,7 +328,8 @@
         "Title":"O que visitar nos arredores",
         "Tooltip":"As redondezas são propícias a caminhadas pelo campo e por diversos trilhos de grau de dificuldade reduzido. Pode-se simplesmente caminhar à beira da bonita ribeira de Valverde, explorando antigos moinhos e os seus belos recantos; se o tempo o permitir, pode-se mesmo dar um mergulho no Pego da Curva ou na Barragem da Tourega. Aqui, ou noutra das barragens das proximidades, também se podem passar bons momentos à pesca de achegãs, carpas e chichitos. Os amantes da caça podem embrenhar-se nas zonas cinegéticas locais."
      },
-     "RecomendationsTitle":"Recomendações"
+     "RecomendationsTitle":"Recomendações",
+     "LocalizationTitleBtn" : "Localização"
   },
   "Restaurants":[
      {
@@ -395,7 +396,7 @@
      },
      {
         "Name":"Café O Estoura",
-        "Description":"Café ideal para beber petiscar ou beber algo fresco ao fim do dia. É um sempre um ponto de passagem antes do regresso a casa depois de um longo dia de trabalho.",
+        "Description":"Café ideal para petiscar ou beber algo fresco ao fim do dia. É sempre um ponto de passagem antes do regresso a casa depois de um longo dia de trabalho.",
         "MainImage":{
            "Path":"assets/images/footer/migas.jpg",
            "Description":""
@@ -504,7 +505,7 @@
   "FarmActivities":[
      {
         "Name":"Apanha da fruta da época",
-        "Description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit",
+        "Description":"O quintal é diferente todo ano. Em Janeiro as laranjas e os limões, em Maio as amoras, em Junho os figos e as maçãs, em Julho os pêssegos, as ameixas, em Outubro as romãs e Novembro as azeitonas. Cada época tem os seus sabores e as suas cores. Podem desfrutar da apanha dos nossos frutos :)",
         "MainImage":{
            "Path":"assets/images/quinta/quinta_8.jpg",
            "Description":""
@@ -518,35 +519,43 @@
      },
      {
         "Name":"Contacto com animais de quinta",
-        "Description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit",
+        "Description":"Galinhas, galos, patos, coelhos, pássaros e cães fazem também parte da nossa quinta.",
         "MainImage":{
            "Path":"assets/images/quinta/quinta_4.jpg",
            "Description":""
         },
         "Recomendations":[
            {
-              "IconPath":"assets/images/svg/calendar-check-line.svg",
-              "Text":"Variável consoante a altura do ano"
+              "IconPath":"assets/images/svg/family.svg",
+              "Text":"Acompanhados por um responsável da quinta"
            }
         ]
      },
      {
         "Name":"Piscina exterior",
-        "Description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit",
+        "Description":"No Alentejo o calor nao falta e muitas vezes até é de mais. Portanto nada melhor como dar um mergulho na nossa piscina :)",
         "MainImage":{
            "Path":"assets/images/quinta/piscina_2.jpg",
            "Description":""
         },
         "Recomendations":[
            {
+              "IconPath":"assets/images/svg/family.svg",
+              "Text":"Crianças acompanhadas por um adulto"
+           },
+           {
+            "IconPath":"assets/images/svg/sun-line.svg",
+            "Text":"Dependentes das condições meteorológicas"
+            },
+            {
               "IconPath":"assets/images/svg/calendar-check-line.svg",
-              "Text":"Variável consoante a altura do ano"
+              "Text":"Funcionamento sazonal"
            }
         ]
      },
      {
         "Name":"Mesas de piquenique",
-        "Description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit",
+        "Description":"Lugar de convívio, de almoçaradas e jantaradas com a família e amigos. Este espaço pode ser utilizado também para eventos.",
         "MainImage":{
            "Path":"assets/images/quinta/quinta_2.jpg",
            "Description":""
@@ -554,27 +563,35 @@
         "Recomendations":[
            {
               "IconPath":"assets/images/svg/calendar-check-line.svg",
-              "Text":"Variável consoante a altura do ano"
+              "Text":"Eventos mediante de disponibilidade"
            }
         ]
      },
      {
         "Name":"Atividades de bem estar psicológico",
-        "Description":"Dada a formação de base da promotora em Psicologia (cédula profissional nº 3904), os hóspedes podem, mediante custo adicional, usufruir de sessões de relaxamento, de apoio psicológico ou de aconselhamento, enquadrados em ambiente natural (disponíveis apenas em língua portuguesa). Estes tipos de atividades podem ser úteis para quem esteja a passar por experiências de desconforto emocional ou sofrimento psicológico, para quem sinta dificuldades em lidar com algumas situações do quotidiano, tais como as relacionadas com processos de decisão, mudanças, relacionamentos interpessoais, etc., ou simplesmente pretenda conhecer-se melhor a si próprio e queira aprender a ultrapassar mais eficazmente situações de stresse. Como se pretende tirar partido da natureza, estas atividades estão dependentes das condições meteorológicas e da capacidade de locomoção dos clientes, podendo ser adaptadas às circunstâncias, mas implicando sempre um pré-agendamento.",
+        "Description":"Dada a formação de base da promotora em Psicologia (cédula profissional nº 3904), os hóspedes podem usufruir de sessões de relaxamento, de apoio psicológico ou de aconselhamento, enquadrados em ambiente natural (disponíveis apenas em língua portuguesa). Estes tipos de atividades podem ser úteis para quem esteja a passar por experiências de desconforto emocional ou sofrimento psicológico, para quem sinta dificuldades em lidar com algumas situações do quotidiano, tais como as relacionadas com processos de decisão, mudanças, relacionamentos interpessoais, etc., ou simplesmente pretenda conhecer-se melhor a si próprio e queira aprender a ultrapassar mais eficazmente situações de stresse. Como se pretende tirar partido da natureza, estas atividades podem ser adaptadas às circunstâncias, mas implicando sempre um pré-agendamento.",
         "MainImage":{
            "Path":"assets/images/flower.jpg",
            "Description":""
         },
         "Recomendations":[
-           {
-              "IconPath":"assets/images/svg/calendar-check-line.svg",
-              "Text":"Variável consoante a altura do ano"
-           }
+          {
+            "IconPath":"assets/images/svg/calendar-check-line.svg",
+            "Text":"Mediante de marcação e custo adicional"
+         },
+         {
+          "IconPath":"assets/images/svg/sun-line.svg",
+          "Text":"Dependentes das condições meteorológicas"
+       },
+       {
+        "IconPath":"assets/images/svg/wheelchair-line.svg",
+        "Text":"Dependentes da capacidade de locomoção dos clientes"
+     }
         ]
      },
      {
         "Name":"Workshops de culinária alentejana",
-        "Description":"Feita de saberes e sabores locais, a gastronomia alentejana tira proveito de tudo o que a terra lhe oferece. Nestes workhops, mediante marcação e custo adicional, os hóspedes podem fazer uma incursão sobre a arte de transformar alguns dos produtos mais típicos da região para darem às suas refeições “aquele gostinho” tão especial (disponível apenas em língua portuguesa).  De acordo com a época do ano, os clientes podem escolher o prato que pretendem confecionar de um leque de refeições tradicionais onde não falta a famosa açorda, as migas de carne ou de espargos, a sopa da panela ou de cação, a sopa de beldroegas ou de tomate e o gaspacho alentejano. Os mais gulosos também podem aventurar-se a preparar alguns doces e sobremesas tradicionais.  Para o efeito é necessário adquirir previamente os ingredientes para preparar as refeições, o que pode ser feito na mercearia da aldeia ou na cidade de Évora, mas alguns haverá que se podem simplesmente ir recolher ao quintal.",
+        "Description":"Feita de saberes e sabores locais, a gastronomia alentejana tira proveito de tudo o que a terra lhe oferece. Nestes workhops os hóspedes podem fazer uma incursão sobre a arte de transformar alguns dos produtos mais típicos da região para darem às suas refeições “aquele gostinho” tão especial (disponível apenas em língua portuguesa).  De acordo com a época do ano, os clientes podem escolher o prato que pretendem confecionar de um leque de refeições tradicionais onde não falta a famosa açorda, as migas de carne ou de espargos, a sopa da panela ou de cação, a sopa de beldroegas ou de tomate e o gaspacho alentejano. Os mais gulosos também podem aventurar-se a preparar alguns doces e sobremesas tradicionais.  Para o efeito é necessário adquirir previamente os ingredientes para preparar as refeições, o que pode ser feito na mercearia da aldeia ou na cidade de Évora, mas alguns haverá que se podem simplesmente ir recolher ao quintal.",
         "MainImage":{
            "Path":"assets/images/footer/migas.jpg",
            "Description":""
@@ -582,8 +599,12 @@
         "Recomendations":[
            {
               "IconPath":"assets/images/svg/calendar-check-line.svg",
-              "Text":"Variável consoante a altura do ano"
-           }
+              "Text":"Mediante de marcação e custo adicional"
+           },
+           {
+            "IconPath":"assets/images/svg/calendar-check-line.svg",
+            "Text":"Indicação de alergias"
+         }
         ]
      }
   ],

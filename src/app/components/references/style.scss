@@ -132,9 +132,6 @@ h3 {
     font-size: 18px;
     width: 80%;
     cursor: pointer;
-    background-color: $green-light;
-    background-size: cover;
-
     .row{
       width: 90%;
 
@@ -168,14 +165,16 @@ h3 {
 
         .recomentation-container {
           display: flex;
-          align-items: center;
+          align-items: left;
           flex-direction: row;
 
           img{
             padding: 16px;
+            padding-left: 0;
           }
 
           p{
+            text-align: left;
             color: white;
             margin-bottom: 0;
           }

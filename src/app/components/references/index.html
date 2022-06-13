@@ -33,15 +33,16 @@
               <div class="swiper-slide">
                 <div >
                   <div class="row mb-32">
-                    <div class="col-md-7 first-column">
+                    <div [ngClass]="reference.Recommendations == 0 ? 'col-md-12 first-column ' : 'col-md-7 first-column'">
                       <h2>{{reference.Name}}</h2>
                       <p class="text">{{reference.Description}}</p>
                     </div>
-                    <div class="col-md-5 second-column">
-                      <h2 class ="mb-32 mt-32">{{"References.RecomendationsTitle" | translate}}</h2>
-                      <ng-container *ngFor="let recomendation of reference.Recomendations; let i = index">
+
+                    <div *ngIf = "reference.Recommendations != 0" class="col-md-5 second-column" >
+                      <h2 class ="mb-32 mt-32">{{"References.RecommendationsTitle" | translate}}</h2>
+                      <ng-container *ngFor="let recommendation of reference.Recommendations; let i = index">
                         <div class="recomentation-container">
-                          <p><img src = "{{recomendation.IconPath}}"/> {{recomendation.Text}}</p>
+                          <p><img src = "{{recommendation.IconPath}}"/> {{recommendation.Text}}</p>
                         </div>
                       </ng-container>
 

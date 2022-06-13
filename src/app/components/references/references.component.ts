@@ -25,7 +25,7 @@ export class ReferencesComponent extends BaseComponent {
   tooltip: string;
 
   @ViewChild('openModal') openModal: ElementRef;
- 
+
   constructor(
     readonly store: Store<AppState>,
     readonly translate: TranslateService,
@@ -39,7 +39,7 @@ export class ReferencesComponent extends BaseComponent {
 
   protected init(): void {
     const { params } = this.route.snapshot;
-    
+
     this.getReferences(params.type);
   }
 
@@ -56,29 +56,30 @@ export class ReferencesComponent extends BaseComponent {
 
   getReferencesList(path: string){
     this.translate.get(path).subscribe((res: Array<Reference>) => {
+      debugger;
       this.references = res;
     });
   }
 
   getReferences(type: string) {
-   
-    switch(type) { 
-      case "restaurants": { 
+
+    switch(type) {
+      case "restaurants": {
         this.getTitleAndTooltip('References.Restaurants');
         this.getReferencesList('Restaurants')
-        break; 
-      } 
-      case "farm": { 
+        break;
+      }
+      case "farm": {
         this.getTitleAndTooltip('References.Farm');
         this.getReferencesList('FarmActivities')
-        break; 
-      } 
-      case "places": { 
+        break;
+      }
+      case "places": {
         this.getTitleAndTooltip('References.Places');
         this.getReferencesList('Places')
-        break; 
-     }  
-   } 
+        break;
+     }
+   }
   }
 
   openImage(index: number): void {
@@ -93,6 +94,6 @@ export class ReferencesComponent extends BaseComponent {
       }, 1);
 
       this.openModal.nativeElement.click();
-    
+
   }
 }

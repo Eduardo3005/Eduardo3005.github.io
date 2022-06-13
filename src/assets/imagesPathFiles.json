@@ -25,22 +25,22 @@
         {
           "ImagePath": "assets/images/footer/quinta.jpg",
           "Title": "Atividades na quinta",
-          "Tooltip": "Os hóspedes podem participar nas tarefas habituais de alimentação dos animais, mediante orientações, bem como em todas as atividades que vão decorrendo na horta, tais como, sementeira, rega, apanha de frutos e vegetais, que podem ser consumidos pelos próprios, mediante disponibilidade."
+          "Tooltip": "Os hóspedes podem participar nas tarefas habituais de alimentação dos animais, mediante orientações, bem como em todas as atividades que vão decorrendo na horta, onde se podem apanhar frutos e vegetais para consumir, mediante disponibilidade. Aqui também é possível tratar das refeições, usando os grelhadores, e confraternizar na zona de piqueniques, bem como apanhar sol, relaxar nos baloiços e espreguiçadeiras, ler um livro, organizar jogos ou, simplesmente, refrescar na piscina."
         },
         {
           "ImagePath": "assets/images/footer/ruinas.jpeg",
           "Title": "Atividades de exterior",
-          "Tooltip": "As redondezas são propícias a caminhadas. Um visita demorada a Évora, situada a 10 kms, também será imperdível. Quem quiser viajar um pouco mais, poderá ainda deixar-se surpreender por muitas e variadas paragens que se podem fazer nas proximidades, podendo mesmo ir dar um mergulho nas praias fluviais da Amieira ou do Alqueva (a cerca de 70 kms)."
+          "Tooltip": "As redondezas são propícias para partir à descoberta da Natureza e da História. Antas, cromeleques, grutas, ruínas romanas e medievais são facilmente acessíveis, assim como a imperdível cidade de Évora, a apenas 10 Kms. Na serra ou na planície, na ribeira ou na barragem, descobrem-se recantos pitorescos para descontrair, pescar ou até caçar. Quem quiser viajar um pouco mais, pode aproveitar para conhecer melhor o Alentejo ou até dar um mergulho nas praias fluviais da Amieira ou do Alqueva."
         },
         {
           "ImagePath": "assets/images/footer/alentejo.jpg",
           "Title": "Atividades de bem estar psicológico",
-          "Tooltip": "Dada a formação de base da promotora em Psicologia (cédula profissional nº 3904), os hóspedes podem, mediante custo adicional, usufruir de sessões de relaxamento, de apoio psicológico ou de aconselhamento, enquadrados em ambiente natural (disponíveis apenas em língua portuguesa)."
+          "Tooltip": "Quem esteja a passar por alguma experiência de desconforto emocional, a sentir dificuldades em lidar com situações do quotidiano, ou simplesmente, pretenda conhecer-se melhor a si próprio e queira aprender a ultrapassar mais eficazmente situações de stresse, pode tirar partido da experiência da promotora em psicologia, aproveitando para usufruir de sessões de relaxamento, de aconselhamento ou de apoio psicológico enquadrados pela natureza."
         },
         {
           "ImagePath": "assets/images/footer/migas.jpg",
           "Title": "Workshops de culinária",
-          "Tooltip": "Feita de saberes e sabores locais, a gastronomia alentejana tira proveito de tudo o que a terra lhe oferece. Nestes workhops, mediante marcação e custo adicional, os hóspedes podem fazer uma incursão sobre a arte de transformar alguns dos produtos mais típicos da região para darem às suas refeições “aquele gostinho” tão especial (disponível apenas em língua portuguesa)."
+          "Tooltip": "Feita de saberes e sabores locais, a gastronomia alentejana tira proveito de tudo o que a terra lhe oferece. Nestes workhops os hóspedes têm oportunidade de fazer uma incursão sobre a arte de transformar produtos simples em refeições saborosas, tais como a famosa açorda, as migas de carne ou de espargos, o gaspacho alentejano ou as sopas de cação, de beldroegas ou de tomate. Os mais gulosos também podem aventurar-se a preparar alguns doces e sobremesas tradicionais."
         }
       ]
     },

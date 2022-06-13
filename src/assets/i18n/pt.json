@@ -12,29 +12,7 @@
       "P2": "Constituído por um conjunto de três casas de tipologia T1, T2 e T3, que foram buscar os nomes à forma como eram habitualmente designadas pela família, esta unidade de Turismo Rural resulta da reconversão de um antigo ponto comercial que, na sua época áurea, contava principalmente com mercearia, taberna, padaria e talho, alimentados pela produção agropecuária da própria quinta."
     },
     "Places": {
-      "Title": "O que fazer",
-      "List": [
-        {
-          "ImagePath": "assets/images/footer/quinta.jpg",
-          "Title": "Atividades na quinta",
-          "Tooltip": "Os hóspedes podem observar e participar nas tarefas habituais de alimentação dos animais, mediante orientações, bem como em todas as atividades que vão decorrendo na horta, onde podem apanhar frutos e vegetais para consumir, mediante disponibilidade. Também podem tratar das refeições usando o grelhador e confraternizar na zona de piqueniques, ou então relaxar e apanhar sol nos baloiços e nas espreguiçadeiras, ler um livro, organizar jogos ou refrescar na piscina."
-        },
-        {
-          "ImagePath": "assets/images/footer/ruinas.jpeg",
-          "Title": "Atividades de exterior",
-          "Tooltip": "As redondezas são propícias a caminhadas. Um visita demorada a Évora, situada a 10 kms, também será imperdível. Quem quiser viajar um pouco mais, poderá ainda deixar-se surpreender por muitas e variadas paragens que se podem fazer nas proximidades, podendo mesmo ir dar um mergulho nas praias fluviais da Amieira ou do Alqueva (a cerca de 70 kms)."
-        },
-        {
-          "ImagePath": "assets/images/footer/alentejo.jpg",
-          "Title": "Atividades de bem estar psicológico",
-          "Tooltip": "Dada a formação de base da promotora em Psicologia (cédula profissional nº 3904), os hóspedes podem, mediante custo adicional, usufruir de sessões de relaxamento, de apoio psicológico ou de aconselhamento, enquadrados em ambiente natural (disponíveis apenas em língua portuguesa)."
-        },
-        {
-          "ImagePath": "assets/images/footer/migas.jpg",
-          "Title": "Workshops de culinária",
-          "Tooltip": "Feita de saberes e sabores locais, a gastronomia alentejana tira proveito de tudo o que a terra lhe oferece. Nestes workhops, mediante marcação e custo adicional, os hóspedes podem fazer uma incursão sobre a arte de transformar alguns dos produtos mais típicos da região para darem às suas refeições “aquele gostinho” tão especial (disponível apenas em língua portuguesa)."
-        }
-      ]
+      "Title": "O que fazer"
     },
     "OpeningModal": {
       "ImagePath": "",
@@ -66,7 +44,9 @@
     "Houses": "Casas",
     "Places": "O que fazer",
     "Contacts": "Contactos",
-    "Language": "Idioma"
+    "Language": "Idioma",
+    "Pateo" : "No páteo",
+    "Surroundings" : "Nos arredores"
   },
   "Common": {
     "ReadMore": "Ler mais",
@@ -321,14 +301,14 @@
       "Tooltip": "No Alentejo, é sabido, come-se bem. A razão é simples, basta juntar ingredientes das terras da região com sábias mãos alentejanas. Temos na aldeia e arredores algumas opções para poder saborear os pratos típicos alentejanos, ou então apenas beber uma boa cerveja :)"
     },
     "Farm": {
-      "Title": "O que fazer na quinta",
+      "Title": "O que fazer no páteo",
       "Tooltip": "Os hóspedes podem observar e participar nas tarefas habituais de alimentação dos animais, mediante orientações, bem como em todas as atividades que vão decorrendo na horta, onde podem apanhar frutos e vegetais para consumir, mediante disponibilidade. Também podem tratar das refeições usando o grelhador e confraternizar na zona de piqueniques. Este é também um lugar para relaxar e apanhar sol nos baloiços e nas espreguiçadeiras, ler um livro, organizar jogos ou refrescar na piscina."
     },
     "Places": {
       "Title": "O que visitar nos arredores",
       "Tooltip": "As redondezas são propícias a caminhadas pelo campo e por diversos trilhos de grau de dificuldade reduzido. Pode-se simplesmente caminhar à beira da bonita ribeira de Valverde, explorando antigos moinhos e os seus belos recantos; se o tempo o permitir, pode-se mesmo dar um mergulho no Pego da Curva ou na Barragem da Tourega. Aqui, ou noutra das barragens das proximidades, também se podem passar bons momentos à pesca de achegãs, carpas e chichitos. Os amantes da caça podem embrenhar-se nas zonas cinegéticas locais."
     },
-    "RecomendationsTitle": "Recomendações",
+    "RecommendationsTitle": "Recomendações",
     "LocalizationTitleBtn": "Localização"
   },
   "Restaurants": [
@@ -339,7 +319,7 @@
         "Path": "assets/images/footer/migas.jpg",
         "Description": ""
       },
-      "Recomendations": [
+      "Recommendations": [
         {
           "IconPath": "assets/images/svg/calendar-check-line.svg",
           "Text": "Reserve com antecência"
@@ -347,10 +327,6 @@
         {
           "IconPath": "assets/images/svg/euro.svg",
           "Text": "Boa qualidade/preço"
-        },
-        {
-          "IconPath": "assets/images/svg/map-pin-line.svg",
-          "Text": "Valverde"
         }
       ],
       "Link": "https://goo.gl/maps/BmriywaZwXvxdm9MA"
@@ -359,17 +335,25 @@
       "Name": "Laranjinha",
       "Description": "Snackbar e restaurante bastante acolhedor e com pratos muito saborosos e bem apresentados. As saladas são autênticas obras de arte! Indicado para famílias e grupos.",
       "MainImage": {
-        "Path": "assets/images/footer/migas.jpg",
+        "Path": "assets/images/restaurants/laranjinha.jpg",
         "Description": ""
       },
-      "Recomendations": [
+      "Recommendations": [
+        {
+          "IconPath": "assets/images/svg/calendar-check-line.svg",
+          "Text": "Take away por marcação"
+        },
+        {
+          "IconPath": "assets/images/svg/calendar-check-line.svg",
+          "Text": "Almoço"
+        },
+        {
+          "IconPath": "assets/images/svg/calendar-check-line.svg",
+          "Text": "Segunda a Sábado"
+        },
         {
           "IconPath": "assets/images/svg/euro.svg",
           "Text": "Boa qualidade/preço"
-        },
-        {
-          "IconPath": "assets/images/svg/map-pin-line.svg",
-          "Text": "Valverde"
         }
       ],
       "Link": "https://goo.gl/maps/xzbGhVFgiPbt56xA6"
@@ -378,17 +362,25 @@
       "Name": "Café Mónica",
       "Description": "Café onde poderão desfrutar do vosso pequeno almoço. Podem pedir o que quiserem! O que interessa é saírem satisfeitos :) Também podem ser confecionados pratos tipicamente alentejanos mediante de marcação. ",
       "MainImage": {
-        "Path": "assets/images/footer/migas.jpg",
+        "Path": "assets/images/restaurants/monica.jpg",
         "Description": ""
       },
-      "Recomendations": [
+      "Recommendations": [
         {
           "IconPath": "assets/images/svg/euro.svg",
-          "Text": "Incluído na estadia"
+          "Text": "Pequeno almoço incluído na estadia"
         },
         {
-          "IconPath": "assets/images/svg/map-pin-line.svg",
-          "Text": "Valverde"
+          "IconPath": "assets/images/svg/calendar-check-line.svg",
+          "Text": "Take away"
+        },
+        {
+          "IconPath": "assets/images/svg/calendar-check-line.svg",
+          "Text": "Refeições por marcação"
+        },
+        {
+          "IconPath": "assets/images/svg/calendar-check-line.svg",
+          "Text": "Segunda a Domingo"
         }
       ],
       "Link": "https://goo.gl/maps/CSHg99vSGoXG3s4p6"
@@ -397,33 +389,41 @@
       "Name": "Café O Estoura",
       "Description": "Café ideal para petiscar ou beber algo fresco ao fim do dia. É sempre um ponto de passagem antes do regresso a casa depois de um longo dia de trabalho.",
       "MainImage": {
-        "Path": "assets/images/footer/migas.jpg",
+        "Path": "assets/images/restaurants/estoura.jpg",
         "Description": ""
       },
-      "Recomendations": [
+      "Recommendations": [
         {
           "IconPath": "assets/images/svg/calendar-check-line.svg",
-          "Text": "Confirmar horário de funcionamento"
+          "Text": "Segunda à sexta: 18h-02h"
+        },
+        {
+          "IconPath": "assets/images/svg/calendar-check-line.svg",
+          "Text": " Fim-de-semana: 10h-02h"
         },
         {
           "IconPath": "assets/images/svg/euro.svg",
           "Text": "Boa qualidade/preço"
         },
         {
-          "IconPath": "assets/images/svg/map-pin-line.svg",
-          "Text": "Valverde"
+          "IconPath": "assets/images/svg/calendar-check-line.svg",
+          "Text": "Refeição no local"
+        },
+        {
+          "IconPath": "assets/images/svg/calendar-check-line.svg",
+          "Text": "Take away"
         }
       ],
       "Link": "https://goo.gl/maps/pPp1CPvHGVtG75tEA"
     },
     {
       "Name": "Barbas",
-      "Description": "Snackbar com pratos do dia tipicamente alentejanos muito saborosos. Podem encomendar pratos que estejam no menu do dia.",
+      "Description": "Snackbar com pratos caseiros incluindo pratos tipicamente alentejanos. O menu é diferente todos os dias e podem encomendar qualquer prato indicado. O jantar é por encomenda.",
       "MainImage": {
-        "Path": "assets/images/footer/migas.jpg",
+        "Path": "assets/images/restaurants/barbas.jpg",
         "Description": ""
       },
-      "Recomendations": [
+      "Recommendations": [
         {
           "IconPath": "assets/images/svg/calendar-check-line.svg",
           "Text": "Refeição no local"
@@ -433,35 +433,36 @@
           "Text": "Take away"
         },
         {
-          "IconPath": "assets/images/svg/map-pin-line.svg",
-          "Text": "Valverde"
+          "IconPath": "assets/images/svg/calendar-check-line.svg",
+          "Text": "Fechados à 4ª feira"
+        },
+        {
+          "IconPath": "assets/images/svg/euro.svg",
+          "Text": "Boa qualidade/preço"
         }
       ],
       "Link": "https://goo.gl/maps/fxHSfwXARYFTWWWs7"
     },
     {
       "Name": "Grupo Desportivo e Cultural da Tourega",
-      "Description": "No ponto mais alto da aldeia podem encontrar o grupo desportivo. O grupo iniciou a sua actividade em 1981, pela vontade de alguns jovens de Valverde em jogar futebol. Tem também um snackbar.",
+      "Description": "No ponto mais alto da aldeia podem encontrar o grupo desportivo. O grupo iniciou a sua actividade em 1981, pela vontade de alguns jovens de Valverde em jogar futebol. Inclui um snackbar e têm uma mesa de snooker e matraquilhos.",
       "MainImage": {
-        "Path": "assets/images/footer/migas.jpg",
+        "Path": "assets/images/restaurants/grupo_desportivo.jpg",
         "Description": ""
       },
-      "Recomendations": [
-        {
-          "IconPath": "assets/images/svg/map-pin-line.svg",
-          "Text": "Valverde"
-        }
+      "Recommendations": [
+
       ],
       "Link": "https://goo.gl/maps/mV8aGYHt6H33cpfY8"
     },
     {
       "Name": "Sabores da Vila",
-      "Description": "Aqui vai encontrar também outro belo exemplo de comida tradicional alentejana. Fica um pouco mais longe mas vale a pena a viagem. Aproveitam para conhecer a linda vila das Alcaçovas. Ponto de obrigatório na travessia da N2.",
+      "Description": "Aqui vai encontrar também outro belo exemplo de comida tradicional alentejana. Fica um pouco mais longe mas vale a pena a viagem. Aproveitam para conhecer a linda vila das Alcáçovas. Ponto de obrigatório na travessia da N2.",
       "MainImage": {
         "Path": "assets/images/footer/migas.jpg",
         "Description": ""
       },
-      "Recomendations": [
+      "Recommendations": [
         {
           "IconPath": "assets/images/svg/euro.svg",
           "Text": "Boa qualidade/preço"
@@ -472,7 +473,7 @@
         },
         {
           "IconPath": "assets/images/svg/map-pin-line.svg",
-          "Text": "Alcaçovas"
+          "Text": "Alcáçovas"
         }
       ],
       "Link": "https://goo.gl/maps/LvvJz6Qf3xFEDD6d9"
@@ -484,7 +485,7 @@
         "Path": "assets/images/footer/migas.jpg",
         "Description": ""
       },
-      "Recomendations": [
+      "Recommendations": [
         {
           "IconPath": "assets/images/svg/calendar-check-line.svg",
           "Text": "Refeição no local"
@@ -503,32 +504,22 @@
   ],
   "FarmActivities": [
     {
-      "Name": "Apanha da fruta da época",
-      "Description": "O quintal é diferente todo ano. Em Janeiro as laranjas e os limões, em Maio as amoras e os morangos, em Junho os figos e as maçãs, em Julho os pêssegos, as ameixas, em Outubro as romãs e Novembro as azeitonas. Cada época tem os seus sabores e as suas cores. Podem desfrutar da apanha dos nossos frutos :)",
+      "Name": "Horta",
+      "Description": "A quinta é diferente todo ano e cada época tem os seus sabores e as suas cores: no inverno protegem-se as plantas das geadas e prepara-se a terra para depois cultivar; na primavera cuida-se das árvores e monda-se a horta de onde saem as hortaliças para a sopa; no verão há que regar para a fruta e as saladas não faltarem; no outono temos uvas, romãs e a apanha da azeitona… Também há sempre flores para cuidar… A ajuda dos visitantes miúdos e graúdos é bem-vinda, tanto para trabalhar, como para consumir; basta mostrarem disponibilidade.",
       "MainImage": {
         "Path": "assets/images/quinta/quinta_8.jpg",
         "Description": ""
       },
-      "Recomendations": [
-        {
-          "IconPath": "assets/images/svg/calendar-check-line.svg",
-          "Text": "Variável consoante a altura do ano"
-        }
-      ]
+      "Recommendations": []
     },
     {
-      "Name": "Contacto com animais de quinta",
-      "Description": "Galinhas, galos, patos, coelhos, pássaros e cães fazem também parte da nossa quinta. Podemos também ter borreginhos, portanto a bicharada pode variar durante o ano e há sempre a possibilidade de aumentar :)",
+      "Name": "Animais",
+      "Description": "Quem chega ao Páteo é sempre bem recebido pelos anfitriões de 4 patas. Portanto, há que estar preparado para umas boas lambidelas e alegres brincadeiras; mas se não estiver, não faz mal, basta avisar para eles não aparecerem… A passarada é presença constante no quintal e no galinheiro também não faltam habitantes muito bem guardados por um pachorrento rafeiro alentejano e seus ajudantes caninos. Todos os dias é preciso cuidar da bicharada e, com sorte, até se podem encontrar uns borreguitos para amamentar a biberão. ",
       "MainImage": {
         "Path": "assets/images/quinta/quinta_4.jpg",
         "Description": ""
       },
-      "Recomendations": [
-        {
-          "IconPath": "assets/images/svg/family.svg",
-          "Text": "Acompanhados por um responsável da quinta"
-        }
-      ]
+      "Recommendations": []
     },
     {
       "Name": "Piscina exterior",
@@ -537,7 +528,7 @@
         "Path": "assets/images/quinta/piscina_2.jpg",
         "Description": ""
       },
-      "Recomendations": [
+      "Recommendations": [
         {
           "IconPath": "assets/images/svg/family.svg",
           "Text": "Crianças acompanhadas por um adulto"
@@ -559,7 +550,7 @@
         "Path": "assets/images/quinta/quinta_2.jpg",
         "Description": ""
       },
-      "Recomendations": [
+      "Recommendations": [
         {
           "IconPath": "assets/images/svg/calendar-check-line.svg",
           "Text": "Eventos mediante de disponibilidade"
@@ -568,12 +559,12 @@
     },
     {
       "Name": "Atividades de bem estar psicológico",
-      "Description": "Dada a formação de base da promotora em Psicologia (cédula profissional nº 3904), os hóspedes podem usufruir de sessões de relaxamento, de apoio psicológico ou de aconselhamento, enquadrados em ambiente natural (disponíveis apenas em língua portuguesa). Estes tipos de atividades podem ser úteis para quem esteja a passar por experiências de desconforto emocional ou sofrimento psicológico, para quem sinta dificuldades em lidar com algumas situações do quotidiano, tais como as relacionadas com processos de decisão, mudanças, relacionamentos interpessoais, etc., ou simplesmente pretenda conhecer-se melhor a si próprio e queira aprender a ultrapassar mais eficazmente situações de stresse. Como se pretende tirar partido da natureza, estas atividades podem ser adaptadas às circunstâncias, mas implicando sempre um pré-agendamento.",
+      "Description": "Tratam-se de ofertas específicas da área da Psicologia, dinamizadas nas redondezas da aldeia para se poder tirar partido da natureza, pelo que incluem pequenas caminhadas. Quando as condições climatéricas ou a mobilidade dos participantes não o permitirem podem ser desenvolvidas na própria quinta. As sessões de relaxamento são dirigidas a grupos, com um máximo de 8 pessoas, mas as de apoio e aconselhamento psicológico são de natureza individual, sempre sujeitas a marcação e disponibilidade da psicóloga (cédula profissional nº 3904).",
       "MainImage": {
         "Path": "assets/images/flower.jpg",
         "Description": ""
       },
-      "Recomendations": [
+      "Recommendations": [
         {
           "IconPath": "assets/images/svg/calendar-check-line.svg",
           "Text": "Mediante de marcação e custo adicional"
@@ -594,12 +585,12 @@
     },
     {
       "Name": "Workshops de culinária alentejana",
-      "Description": "Feita de saberes e sabores locais, a gastronomia alentejana tira proveito de tudo o que a terra lhe oferece. Nestes workhops os hóspedes podem fazer uma incursão sobre a arte de transformar alguns dos produtos mais típicos da região para darem às suas refeições “aquele gostinho” tão especial (disponível apenas em língua portuguesa).  De acordo com a época do ano, os clientes podem escolher o prato que pretendem confecionar de um leque de refeições tradicionais onde não falta a famosa açorda, as migas de carne ou de espargos, a sopa da panela ou de cação, a sopa de beldroegas ou de tomate e o gaspacho alentejano. Os mais gulosos também podem aventurar-se a preparar alguns doces e sobremesas tradicionais.  Para o efeito é necessário adquirir previamente os ingredientes para preparar as refeições, o que pode ser feito na mercearia da aldeia ou na cidade de Évora, mas alguns haverá que se podem simplesmente ir recolher ao quintal.",
+      "Description": "Trata-se de uma oferta a dinamizar diretamente na casa de cada um. Para o efeito, deve-se escolher antecipadamente uma das receitas disponíveis e adquirir os ingredientes necessários à sua confeção, que tanto se podem encontrar na própria quinta – e, nesse caso, basta ir à horta colhê-los – como numa das lojas das redondezas. Depois é só marcar a sessão, mediante a disponibilidade da nossa “Chefe” de cozinha, seguir os seus conselhos e desfrutar de uma saborosa refeição tipicamente alentejana.",
       "MainImage": {
         "Path": "assets/images/footer/migas.jpg",
         "Description": ""
       },
-      "Recomendations": [
+      "Recommendations": [
         {
           "IconPath": "assets/images/svg/calendar-check-line.svg",
           "Text": "Mediante de marcação e custo adicional"
@@ -627,7 +618,7 @@
         "Path": "assets/images/valverde/image_1.jpg",
         "Description": ""
       },
-      "Recomendations": [
+      "Recommendations": [
         {
           "IconPath": "assets/images/svg/t-shirt-2-line.svg",
           "Text": "Roupa confortável"
@@ -646,7 +637,7 @@
         "Path": "assets/images/valverde/image_4.jpg",
         "Description": ""
       },
-      "Recomendations": [
+      "Recommendations": [
         {
           "IconPath": "assets/images/svg/t-shirt-2-line.svg",
           "Text": "Roupa confortável"
@@ -669,7 +660,7 @@
         "Path": "assets/images/valverde/image_14.jpg",
         "Description": ""
       },
-      "Recomendations": [
+      "Recommendations": [
         {
           "IconPath": "assets/images/svg/t-shirt-2-line.svg",
           "Text": "Roupa confortável"
@@ -697,7 +688,7 @@
         "Path": "assets/images/valverde/image_2.jpg",
         "Description": ""
       },
-      "Recomendations": [
+      "Recommendations": [
         {
           "IconPath": "assets/images/svg/t-shirt-2-line.svg",
           "Text": "Roupa confortável"
@@ -716,7 +707,7 @@
         "Path": "assets/images/valverde/image_18.jpg",
         "Description": ""
       },
-      "Recomendations": [
+      "Recommendations": [
         {
           "IconPath": "assets/images/svg/calendar-check-line.svg",
           "Text": "Reserve com antecência"
@@ -739,7 +730,7 @@
         "Path": "assets/images/valverde/image_19.jpg",
         "Description": ""
       },
-      "Recomendations": [
+      "Recommendations": [
         {
           "IconPath": "assets/images/svg/t-shirt-2-line.svg",
           "Text": "Roupa confortável"
@@ -762,7 +753,7 @@
         "Path": "assets/images/valverde/image_11.jpg",
         "Description": ""
       },
-      "Recomendations": [
+      "Recommendations": [
         {
           "IconPath": "assets/images/svg/t-shirt-2-line.svg",
           "Text": "Roupa confortável"
@@ -785,7 +776,7 @@
         "Path": "assets/images/valverde/image_20.jpg",
         "Description": ""
       },
-      "Recomendations": [
+      "Recommendations": [
         {
           "IconPath": "assets/images/svg/t-shirt-2-line.svg",
           "Text": "Roupa confortável"

@@ -1,390 +1,390 @@
 {
-  "Home": {
-    "SlideShow": [
-      "assets/images/valverde/image.jpg",
-      "assets/images/valverde/image_2.jpg",
-      "assets/images/valverde/image_3.jpg",
-      "assets/images/valverde/image_1.jpg",
-      "assets/images/valverde/image_4.jpg",
-      "assets/images/valverde/image_5.jpg",
-      "assets/images/valverde/image_6.jpg",
-      "assets/images/valverde/image_7.jpg",
-      "assets/images/valverde/image_8.jpg",
-      "assets/images/valverde/image_9.jpg",
-      "assets/images/valverde/image_10.jpg",
-      "assets/images/valverde/image_11.jpg",
-      "assets/images/valverde/image_12.jpg",
-      "assets/images/valverde/image_13.jpg",
-      "assets/images/valverde/image_14.jpg",
-      "assets/images/valverde/image_15.jpg",
-      "assets/images/valverde/image_16.jpg",
-      "assets/images/valverde/image_17.jpg"
-    ],
-    "Places": {
-      "List": [
-        {
-          "ImagePath": "assets/images/footer/quinta.jpg",
-          "Title": "Activities in the farm",
-          "Tooltip": "Guests can participate in the usual tasks of feeding the animals, through guidance, as well as in all the activities that take place in the garden, such as sowing, watering, picking fruits and vegetables, which can be consumed by the guests, subject to availability."
-        },
-        {
-          "ImagePath": "assets/images/footer/ruinas.jpeg",
-          "Title": "Activities abroad",
-          "Tooltip": "The surroundings are suitable for walking. A lengthy visit to Évora, located 10 km away, will also be unmissable. Those who want to travel a little further can still be surprised by the many and varied stops that can be made nearby, and can even go for a dip in the river beaches of Amieira or Alqueva (about 70 km away)."
-        },
-        {
-          "ImagePath": "assets/images/footer/alentejo.jpg",
-          "Title": "Psychological well-being activities",
-          "Tooltip": "Given the promoter's basic training in Psychology (professional nº 3904), guests can, at an additional cost, enjoy relaxation sessions, psychological support or counseling, in a natural environment (available only in Portuguese)."
-        },
-        {
-          "ImagePath": "assets/images/footer/migas.jpg",
-          "Title": "Alentejana Cuisine workshops",
-          "Tooltip": "Made up of local knowledge and flavors, cuisine Alentejana takes advantage of everything the land has to offer. In these workshops, by appointment and at an additional cost, guests can explore the art of transforming some of the region's most typical products to give their meals a special taste (available only in Portuguese)."
-        }
-      ]
-    },
-    "CofinaningBarPath": "assets/images/svg/cofinaningBar.svg"
+  "Home":{
+     "SlideShow":[
+        "assets/images/valverde/image.jpg",
+        "assets/images/valverde/image_2.jpg",
+        "assets/images/valverde/image_3.jpg",
+        "assets/images/valverde/image_1.jpg",
+        "assets/images/valverde/image_4.jpg",
+        "assets/images/valverde/image_5.jpg",
+        "assets/images/valverde/image_6.jpg",
+        "assets/images/valverde/image_7.jpg",
+        "assets/images/valverde/image_8.jpg",
+        "assets/images/valverde/image_9.jpg",
+        "assets/images/valverde/image_10.jpg",
+        "assets/images/valverde/image_11.jpg",
+        "assets/images/valverde/image_12.jpg",
+        "assets/images/valverde/image_13.jpg",
+        "assets/images/valverde/image_14.jpg",
+        "assets/images/valverde/image_15.jpg",
+        "assets/images/valverde/image_16.jpg",
+        "assets/images/valverde/image_17.jpg"
+     ],
+     "Places":{
+        "List":[
+           {
+              "ImagePath":"assets/images/footer/quinta.jpg",
+              "Title":"Activities in the farm",
+              "Tooltip":"Guests can participate in the usual tasks of feeding the animals, following guidelines, as well as in all the activities that take place in the garden, where fruits and vegetables can be picked to consume, subject to availability. Here it is also possible to prepare meals, using the grills, and socialize in the picnic area, as well as sunbathe, relax on the swings and sun loungers, read a book, organize games or simply cool off in the pool."
+           },
+           {
+              "ImagePath":"assets/images/footer/ruinas.jpeg",
+              "Title":"Activities abroad",
+              "Tooltip":"The surroundings are ideal for exploring Nature and History. Dolmens, cromlechs, caves, Roman and medieval ruins are easily accessible, as is the unmissable city of Évora, just 10 km away. In the mountains or plains, on the stream or on the dam, there are picturesque spots to relax, fish or even hunt. Those who want to travel a little further can take the opportunity to get to know the Alentejo better or even take a dip in the river beaches of Amieira or Alqueva."
+           },
+           {
+              "ImagePath":"assets/images/footer/alentejo.jpg",
+              "Title":"Psychological well-being activities",
+              "Tooltip":"Anyone who is going through some experience of emotional discomfort, experiencing difficulties in dealing with everyday situations, or simply wants to get to know himself better and wants to learn to overcome stressful situations more effectively, can take advantage of the promoter's experience. in psychology, taking the opportunity to enjoy relaxation, counseling or psychological support sessions framed by nature."
+           },
+           {
+              "ImagePath":"assets/images/footer/migas.jpg",
+              "Title":"Alentejana Cuisine workshops",
+              "Tooltip":"Made of local knowledge and flavors, Alentejo cuisine takes advantage of everything the land has to offer. In these workshops, guests have the opportunity to explore the art of transforming simple products into tasty meals, such as the famous açorda, meat or asparagus migas, Alentejo gazpacho or dogfish, purslane or tomato soups. Those with a sweet tooth can also venture out to prepare some traditional sweets and desserts."
+           }
+        ]
+     },
+     "CofinaningBarPath":"assets/images/svg/cofinaningBar.svg"
   },
-  "History": {
-    "Images": [
-      "assets/images/quinta/piscina.jpeg",
-      "assets/images/quinta/quinta.jpeg",
-      "assets/images/quinta/horta_1.jpg",
-      "assets/images/quinta/quinta_7.jpg",
-      "assets/images/quinta/piscina_2.jpg",
-      "assets/images/quinta/terraço.jpeg",
-      "assets/images/quinta/quinta_2.jpg",
-      "assets/images/quinta/piscina_3.jpg",
-      "assets/images/t2_frente_3.jpeg",
-      "assets/images/quinta/eventos_2.jpeg",
-      "assets/images/quinta/quinta_3.jpg",
-      "assets/images/quinta/quinta_4.jpg",
-      "assets/images/quinta/quinta_5.jpg",
-      "assets/images/quinta/quinta_6.jpg",
-      "assets/images/quinta/horta_2.jpg",
-      "assets/images/quinta/horta_3.jpg",
-      "assets/images/pateo_2.jpeg",
-      "assets/images/quinta/porta_forno.jpeg"
-    ],
-    "HistoryImages": [
-      {
-        "Path": "assets/images/history/history_foto_1.jpg",
-        "Description": "Stamp from the beginning of the 20st Century on behalf of José Joaquim Ferreira, great-grandfather of the promoter."
-      },
-      {
-        "Path": "assets/images/history/history_foto_2.jpg",
-        "Description": "Regular customer at the end of the 20st Century"
-      },
-      {
-        "Path": "assets/images/history/history_foto_3.jpg",
-        "Description": "Example of registration of a sale of products in 1936 (wine and brandy)"
-      },
-      {
-        "Path": "assets/images/history/history_foto_4.jpg",
-        "Description": "Custódio Ferreira Lima, grandfather of the promoter"
-      },
-      {
-        "Path": "assets/images/history/history_foto_6.jpg",
-        "Description": "Family photo in the courtyard in the sixties of the 20st Century"
-      },
-      {
-        "Path": "assets/images/history/history_foto_7.jpg",
-        "Description": "Facade of the space and Valverde river at the beginning of the 20st century."
-      },
-      {
-        "Path": "assets/images/history/history_foto_8.jpg",
-        "Description": "Note sent by Spanish visitors in 1994"
-      },
-      {
-        "Path": "assets/images/history/history_foto_9.jpg",
-        "Description": "Pig slaughter in front of the stable (unknown year)"
-      },
-      {
-        "Path": "assets/images/history/history_foto_10.jpg",
-        "Description": "Registration of property in the Land Description Book"
-      },
-      {
-        "Path": "assets/images/history/history_foto_11.jpg",
-        "Description": "The father of the promoter, José Guilherme Lima, pooring a glass of bagasse (beginning of the 21st Century)"
-      },
-      {
-        "Path": "assets/images/history/history_foto_12.jpg",
-        "Description": "RTP visit, at the time of the report “Ninho de Cegonhas”, on 23-03-2010"
-      },
-      {
-        "Path": "assets/images/history/history_foto_5.jpg",
-        "Description": "Example of debt registration in 1939"
-      }
-    ]
+  "History":{
+     "Images":[
+        "assets/images/quinta/piscina.jpeg",
+        "assets/images/quinta/quinta.jpeg",
+        "assets/images/quinta/horta_1.jpg",
+        "assets/images/quinta/quinta_7.jpg",
+        "assets/images/quinta/piscina_2.jpg",
+        "assets/images/quinta/terraço.jpeg",
+        "assets/images/quinta/quinta_2.jpg",
+        "assets/images/quinta/piscina_3.jpg",
+        "assets/images/t2_frente_3.jpeg",
+        "assets/images/quinta/eventos_2.jpeg",
+        "assets/images/quinta/quinta_3.jpg",
+        "assets/images/quinta/quinta_4.jpg",
+        "assets/images/quinta/quinta_5.jpg",
+        "assets/images/quinta/quinta_6.jpg",
+        "assets/images/quinta/horta_2.jpg",
+        "assets/images/quinta/horta_3.jpg",
+        "assets/images/pateo_2.jpeg",
+        "assets/images/quinta/porta_forno.jpeg"
+     ],
+     "HistoryImages":[
+        {
+           "Path":"assets/images/history/history_foto_1.jpg",
+           "Description":"Stamp from the beginning of the 20st Century on behalf of José Joaquim Ferreira, great-grandfather of the promoter."
+        },
+        {
+           "Path":"assets/images/history/history_foto_2.jpg",
+           "Description":"Regular customer at the end of the 20st Century"
+        },
+        {
+           "Path":"assets/images/history/history_foto_3.jpg",
+           "Description":"Example of registration of a sale of products in 1936 (wine and brandy)"
+        },
+        {
+           "Path":"assets/images/history/history_foto_4.jpg",
+           "Description":"Custódio Ferreira Lima, grandfather of the promoter"
+        },
+        {
+           "Path":"assets/images/history/history_foto_6.jpg",
+           "Description":"Family photo in the courtyard in the sixties of the 20st Century"
+        },
+        {
+           "Path":"assets/images/history/history_foto_7.jpg",
+           "Description":"Facade of the space and Valverde river at the beginning of the 20st century."
+        },
+        {
+           "Path":"assets/images/history/history_foto_8.jpg",
+           "Description":"Note sent by Spanish visitors in 1994"
+        },
+        {
+           "Path":"assets/images/history/history_foto_9.jpg",
+           "Description":"Pig slaughter in front of the stable (unknown year)"
+        },
+        {
+           "Path":"assets/images/history/history_foto_10.jpg",
+           "Description":"Registration of property in the Land Description Book"
+        },
+        {
+           "Path":"assets/images/history/history_foto_11.jpg",
+           "Description":"The father of the promoter, José Guilherme Lima, pooring a glass of bagasse (beginning of the 21st Century)"
+        },
+        {
+           "Path":"assets/images/history/history_foto_12.jpg",
+           "Description":"RTP visit, at the time of the report “Ninho de Cegonhas”, on 23-03-2010"
+        },
+        {
+           "Path":"assets/images/history/history_foto_5.jpg",
+           "Description":"Example of debt registration in 1939"
+        }
+     ]
   },
-  "Houses": [
-    {
-      "Tipology": "T1",
-      "ImagePath": "assets/images/t1/exterior.jpeg",
-      "Images": [
-        {
-          "Path": "assets/images/t1/exterior.jpeg",
-          "Description": ""
-        },
-        {
-          "Path": "assets/images/t1/sala.jpg",
-          "Description": ""
-        },
-        {
-          "Path": "assets/images/t1/sala_2.jpg",
-          "Description": ""
-        },
-        {
-          "Path": "assets/images/t1/sala_3.jpg",
-          "Description": ""
-        },
-        {
-          "Path": "assets/images/t1/sala_4.jpg",
-          "Description": ""
-        },
-        {
-          "Path": "assets/images/t1/cozinha.jpg",
-          "Description": ""
-        },
-        {
-          "Path": "assets/images/t1/cozinha_2.jpg",
-          "Description": ""
-        },
-        {
-          "Path": "assets/images/t1/q1.jpg",
-          "Description": ""
-        },
-        {
-          "Path": "assets/images/t1/q1_2.jpg",
-          "Description": ""
-        },
-        {
-          "Path": "assets/images/t1/q1_3.jpg",
-          "Description": ""
-        },
-        {
-          "Path": "assets/images/t1/q1_4.jpg",
-          "Description": ""
-        },
-        {
-          "Path": "assets/images/t1/wc.jpg",
-          "Description": ""
-        },
-        {
-          "Path": "assets/images/t1/exterior_2.jpg",
-          "Description": ""
-        },
-        {
-          "Path": "assets/images/t1/exterior_3.jpg",
-          "Description": ""
-        },
-        {
-          "Path": "assets/images/t1/casa_vidros.jpeg",
-          "Description": ""
-        }
-      ]
-    },
-    {
-      "Tipology": "T2",
-      "ImagePath": "assets/images/t2/exterior_3.jpeg",
-      "Images": [
-        {
-          "Path": "assets/images/t2/exterior_3.jpeg",
-          "Description": ""
-        },
-        {
-          "Path": "assets/images/t2/sala.jpg",
-          "Description": ""
-        },
-        {
-          "Path": "assets/images/t2/sala_2.jpg",
-          "Description": ""
-        },
-        {
-          "Path": "assets/images/t2/sala_3.jpg",
-          "Description": ""
-        },
-        {
-          "Path": "assets/images/t2/sala_4.jpg",
-          "Description": ""
-        },
-        {
-          "Path": "assets/images/t2/sala_5.jpg",
-          "Description": ""
-        },
-        {
-          "Path": "assets/images/t2/cozinha.jpg",
-          "Description": ""
-        },
-        {
-          "Path": "assets/images/t2/pormenor.jpg",
-          "Description": ""
-        },
-        {
-          "Path": "assets/images/t2/pormenor_2.jpg",
-          "Description": ""
-        },
-        {
-          "Path": "assets/images/t2/q1.jpg",
-          "Description": ""
-        },
-        {
-          "Path": "assets/images/t2/q1_2.jpg",
-          "Description": ""
-        },
-        {
-          "Path": "assets/images/t2/q1_3.jpg",
-          "Description": ""
-        },
-        {
-          "Path": "assets/images/t2/q2.jpg",
-          "Description": ""
-        },
-        {
-          "Path": "assets/images/t2/q2_2.jpg",
-          "Description": ""
-        },
-        {
-          "Path": "assets/images/t2/wc.jpg",
-          "Description": ""
-        },
-        {
-          "Path": "assets/images/t2/corredor.jpg",
-          "Description": ""
-        },
-        {
-          "Path": "assets/images/t2/corredor_2.jpg",
-          "Description": ""
-        },
-        {
-          "Path": "assets/images/t2/exterior_2.jpg",
-          "Description": ""
-        },
-        {
-          "Path": "assets/images/t2/casa_venda.jpeg",
-          "Description": ""
-        }
-      ]
-    },
-    {
-      "Tipology": "T3",
-      "ImagePath": "assets/images/t3/exterior.jpeg",
-      "Images": [
-        {
-          "Path": "assets/images/t3/exterior.jpeg",
-          "Description": ""
-        },
-        {
-          "Path": "assets/images/t3/sala.jpg",
-          "Description": ""
-        },
-        {
-          "Path": "assets/images/t3/sala_2.jpg",
-          "Description": ""
-        },
-        {
-          "Path": "assets/images/t3/sala_3.jpg",
-          "Description": ""
-        },
-        {
-          "Path": "assets/images/t3/sala_4.jpg",
-          "Description": ""
-        },
-        {
-          "Path": "assets/images/t3/sala_5.jpg",
-          "Description": ""
-        },
-        {
-          "Path": "assets/images/t3/cozinha.jpg",
-          "Description": ""
-        },
-        {
-          "Path": "assets/images/t3/q1.jpg",
-          "Description": ""
-        },
-        {
-          "Path": "assets/images/t3/q1_2.jpg",
-          "Description": ""
-        },
-        {
-          "Path": "assets/images/t3/q1_3.jpg",
-          "Description": ""
-        },
-        {
-          "Path": "assets/images/t3/q2.jpg",
-          "Description": ""
-        },
-        {
-          "Path": "assets/images/t3/q2_2.jpg",
-          "Description": ""
-        },
-        {
-          "Path": "assets/images/t3/q2_3.jpg",
-          "Description": ""
-        },
-        {
-          "Path": "assets/images/t3/q3.jpg",
-          "Description": ""
-        },
-        {
-          "Path": "assets/images/t3/q3_2.jpg",
-          "Description": ""
-        },
-        {
-          "Path": "assets/images/t3/pormenor.jpg",
-          "Description": ""
-        },
-        {
-          "Path": "assets/images/t3/pormenor_2.jpg",
-          "Description": ""
-        },
-        {
-          "Path": "assets/images/t3/wc.jpg",
-          "Description": ""
-        },
-        {
-          "Path": "assets/images/t3/wc_2.jpg",
-          "Description": ""
-        },
-        {
-          "Path": "assets/images/t3/wc_3.jpg",
-          "Description": ""
-        },
-        {
-          "Path": "assets/images/t3/exterior_2.jpg",
-          "Description": ""
-        },
-        {
-          "Path": "assets/images/t3/exterior_3.jpg",
-          "Description": ""
-        },
-        {
-          "Path": "assets/images/t3/exterior_4.jpg",
-          "Description": ""
-        },
-        {
-          "Path": "assets/images/t3/terraço.jpg",
-          "Description": ""
-        },
-        {
-          "Path": "assets/images/t3/terraço_2.jpg",
-          "Description": ""
-        },
-        {
-          "Path": "assets/images/t3/casa_cocheira.jpeg",
-          "Description": ""
-        }
-      ]
-    },
-    {
-      "Tipology": "Events",
-      "ImagePath": "assets/images/quinta/eventos.jpeg"
-    }
+  "Houses":[
+     {
+        "Tipology":"T1",
+        "ImagePath":"assets/images/t1/exterior.jpeg",
+        "Images":[
+           {
+              "Path":"assets/images/t1/exterior.jpeg",
+              "Description":""
+           },
+           {
+              "Path":"assets/images/t1/sala.jpg",
+              "Description":""
+           },
+           {
+              "Path":"assets/images/t1/sala_2.jpg",
+              "Description":""
+           },
+           {
+              "Path":"assets/images/t1/sala_3.jpg",
+              "Description":""
+           },
+           {
+              "Path":"assets/images/t1/sala_4.jpg",
+              "Description":""
+           },
+           {
+              "Path":"assets/images/t1/cozinha.jpg",
+              "Description":""
+           },
+           {
+              "Path":"assets/images/t1/cozinha_2.jpg",
+              "Description":""
+           },
+           {
+              "Path":"assets/images/t1/q1.jpg",
+              "Description":""
+           },
+           {
+              "Path":"assets/images/t1/q1_2.jpg",
+              "Description":""
+           },
+           {
+              "Path":"assets/images/t1/q1_3.jpg",
+              "Description":""
+           },
+           {
+              "Path":"assets/images/t1/q1_4.jpg",
+              "Description":""
+           },
+           {
+              "Path":"assets/images/t1/wc.jpg",
+              "Description":""
+           },
+           {
+              "Path":"assets/images/t1/exterior_2.jpg",
+              "Description":""
+           },
+           {
+              "Path":"assets/images/t1/exterior_3.jpg",
+              "Description":""
+           },
+           {
+              "Path":"assets/images/t1/casa_vidros.jpeg",
+              "Description":""
+           }
+        ]
+     },
+     {
+        "Tipology":"T2",
+        "ImagePath":"assets/images/t2/exterior_3.jpeg",
+        "Images":[
+           {
+              "Path":"assets/images/t2/exterior_3.jpeg",
+              "Description":""
+           },
+           {
+              "Path":"assets/images/t2/sala.jpg",
+              "Description":""
+           },
+           {
+              "Path":"assets/images/t2/sala_2.jpg",
+              "Description":""
+           },
+           {
+              "Path":"assets/images/t2/sala_3.jpg",
+              "Description":""
+           },
+           {
+              "Path":"assets/images/t2/sala_4.jpg",
+              "Description":""
+           },
+           {
+              "Path":"assets/images/t2/sala_5.jpg",
+              "Description":""
+           },
+           {
+              "Path":"assets/images/t2/cozinha.jpg",
+              "Description":""
+           },
+           {
+              "Path":"assets/images/t2/pormenor.jpg",
+              "Description":""
+           },
+           {
+              "Path":"assets/images/t2/pormenor_2.jpg",
+              "Description":""
+           },
+           {
+              "Path":"assets/images/t2/q1.jpg",
+              "Description":""
+           },
+           {
+              "Path":"assets/images/t2/q1_2.jpg",
+              "Description":""
+           },
+           {
+              "Path":"assets/images/t2/q1_3.jpg",
+              "Description":""
+           },
+           {
+              "Path":"assets/images/t2/q2.jpg",
+              "Description":""
+           },
+           {
+              "Path":"assets/images/t2/q2_2.jpg",
+              "Description":""
+           },
+           {
+              "Path":"assets/images/t2/wc.jpg",
+              "Description":""
+           },
+           {
+              "Path":"assets/images/t2/corredor.jpg",
+              "Description":""
+           },
+           {
+              "Path":"assets/images/t2/corredor_2.jpg",
+              "Description":""
+           },
+           {
+              "Path":"assets/images/t2/exterior_2.jpg",
+              "Description":""
+           },
+           {
+              "Path":"assets/images/t2/casa_venda.jpeg",
+              "Description":""
+           }
+        ]
+     },
+     {
+        "Tipology":"T3",
+        "ImagePath":"assets/images/t3/exterior.jpeg",
+        "Images":[
+           {
+              "Path":"assets/images/t3/exterior.jpeg",
+              "Description":""
+           },
+           {
+              "Path":"assets/images/t3/sala.jpg",
+              "Description":""
+           },
+           {
+              "Path":"assets/images/t3/sala_2.jpg",
+              "Description":""
+           },
+           {
+              "Path":"assets/images/t3/sala_3.jpg",
+              "Description":""
+           },
+           {
+              "Path":"assets/images/t3/sala_4.jpg",
+              "Description":""
+           },
+           {
+              "Path":"assets/images/t3/sala_5.jpg",
+              "Description":""
+           },
+           {
+              "Path":"assets/images/t3/cozinha.jpg",
+              "Description":""
+           },
+           {
+              "Path":"assets/images/t3/q1.jpg",
+              "Description":""
+           },
+           {
+              "Path":"assets/images/t3/q1_2.jpg",
+              "Description":""
+           },
+           {
+              "Path":"assets/images/t3/q1_3.jpg",
+              "Description":""
+           },
+           {
+              "Path":"assets/images/t3/q2.jpg",
+              "Description":""
+           },
+           {
+              "Path":"assets/images/t3/q2_2.jpg",
+              "Description":""
+           },
+           {
+              "Path":"assets/images/t3/q2_3.jpg",
+              "Description":""
+           },
+           {
+              "Path":"assets/images/t3/q3.jpg",
+              "Description":""
+           },
+           {
+              "Path":"assets/images/t3/q3_2.jpg",
+              "Description":""
+           },
+           {
+              "Path":"assets/images/t3/pormenor.jpg",
+              "Description":""
+           },
+           {
+              "Path":"assets/images/t3/pormenor_2.jpg",
+              "Description":""
+           },
+           {
+              "Path":"assets/images/t3/wc.jpg",
+              "Description":""
+           },
+           {
+              "Path":"assets/images/t3/wc_2.jpg",
+              "Description":""
+           },
+           {
+              "Path":"assets/images/t3/wc_3.jpg",
+              "Description":""
+           },
+           {
+              "Path":"assets/images/t3/exterior_2.jpg",
+              "Description":""
+           },
+           {
+              "Path":"assets/images/t3/exterior_3.jpg",
+              "Description":""
+           },
+           {
+              "Path":"assets/images/t3/exterior_4.jpg",
+              "Description":""
+           },
+           {
+              "Path":"assets/images/t3/terraço.jpg",
+              "Description":""
+           },
+           {
+              "Path":"assets/images/t3/terraço_2.jpg",
+              "Description":""
+           },
+           {
+              "Path":"assets/images/t3/casa_cocheira.jpeg",
+              "Description":""
+           }
+        ]
+     },
+     {
+        "Tipology":"Events",
+        "ImagePath":"assets/images/quinta/eventos.jpeg"
+     }
   ],
-  "Files": {
-    "PrivacyPoliciesFilePath" : "assets/files/politicas_privacidade_cookies_en.pdf",
-    "ProjectTechnicalSheetPath": "assets/files/ficha_projeto_en.pdf",
-    "TermsAndConditionsPath": "assets/files/informacoes_termos_e_condicoes_en.pdf"
+  "Files":{
+     "PrivacyPoliciesFilePath":"assets/files/politicas_privacidade_cookies_en.pdf",
+     "ProjectTechnicalSheetPath":"assets/files/ficha_projeto_en.pdf",
+     "TermsAndConditionsPath":"assets/files/informacoes_termos_e_condicoes_en.pdf"
   }
 }

@@ -27,9 +27,6 @@
     color: white;
     width: 100% !important;
     margin-left: 0;
-
-
-
   }
 
   .card-title {
@@ -249,7 +246,7 @@
 .modal-dialog {
   max-width: 1200px;
   max-height: 800px;
-  
+
   .modal-content {
 
     @media (max-width: 1366px) {
@@ -274,7 +271,7 @@
       padding: 0;
       text-align: center;
       justify-content: center;
-     
+
 
       @media (max-width: 768px) {
         height: 540px;

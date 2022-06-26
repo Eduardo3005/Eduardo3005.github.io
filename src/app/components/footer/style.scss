@@ -157,7 +157,7 @@ h3 {
     font-size: 13px;
     letter-spacing: 1px;
     color: white;
-  
+
     svg {
       top: 50%;
       -webkit-transform: translateY(-50%);
@@ -216,5 +216,15 @@ h3 {
  float:left;
   @media (max-width:768px) {
     float: none;
+  }
+}
+
+
+.btn-outline-secondary {
+
+  &:hover {
+    color: $green-dark;
+    background-color: white;
+
   }
 }

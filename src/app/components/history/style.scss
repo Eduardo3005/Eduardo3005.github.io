@@ -141,6 +141,15 @@
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-shadow: 2px 2px 4px 0 #ccc;
+  cursor: pointer;
+
+  &:hover, &:focus, &:active {
+    background-color: $green-light !important;
+
+    .text{
+      color: $white;
+    }
+  }
 
   .img {
     margin: 0 auto;
@@ -162,6 +171,10 @@
     .description {
       display: block;
       margin-top: 16px;
+
+      .text{
+        padding: 8px;
+      }
     }
 
   }
@@ -200,6 +213,12 @@
   -ms-flex-align: center;
   -webkit-align-items: center;
   align-items: center;
+  -webkit-transition: 0.5s ease all;
+
+  &:hover, &:focus, &:active {
+    box-shadow: 0 5px 20px rgba(77, 110, 103, 0.9);
+
+  }
 }
 
 .swiper-container-xxl {
@@ -256,16 +275,6 @@
     }
 
     border-radius: 0;
-
-    .modal-header {
-      border-bottom: none;
-      height: 0;
-
-      .close {
-        font-size: 32px;
-        font-weight: 0;
-      }
-    }
 
     .modal-body {
       padding: 0;

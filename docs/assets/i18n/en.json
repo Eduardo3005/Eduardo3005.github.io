@@ -74,6 +74,7 @@
      "Email":"pateolima@gmail.com",
      "Phone":"+351 938285665",
      "FixedPhone":"+351 266011449",
+     "PhoneWarning":"Call cost according to the customer's tariff",
      "PhoneLabel":"Phone ",
      "FixedPhoneLabel":"Landline ",
      "TermsAndConditions":"Terms and Conditons",
